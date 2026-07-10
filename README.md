@@ -8,16 +8,12 @@ The coursework is made up of an initial introductory set of exercises which don'
 These will have branches
 
     main
-    introduction
-        |---------introduction-solution
-    dicegame
-        |---------dicegame-solution
-    traffic-lights
-        |---------traffic-lights-solution
-    vending-machine
-        |---------vending-machine-solution
-    stopwatch
-        |---------stopwatch-solution
+    introduction ------  introduction-solution---------|---------------------|--------------------------|
+     |                            |                    |                     |                          |
+     |----- dicegame ----- dicegame-solution           |                     |                          |
+     |---- traffic-lights ----------------------- traffic-lights-solution    |                          |
+     |---- vending-machine ----------------------------------------------- vending-machine-solution     |
+     |------ stopwatch ------------------------------------------------------------------ stopwatch-solution
 
 The coursework for a specific year should be a merge of the introduction and the case study into a new branch
 
@@ -29,10 +25,11 @@ The coursework for a specific year should be a merge of the introduction and the
     2020: stopwatch (new version - BCD counters)
     2021: traffic-lights
     2022: dicegame
+    2023: vending-machine
 
 ## Future plans
 
-    2023: vending-machine
     2024: stopwatch
     2025: traffic-lights
     2026: dicegame
+    2027: vending-machine
