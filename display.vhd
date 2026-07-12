@@ -1,18 +1,6 @@
---------------------------------------------------------------------------------
--- Title:        : 7 Segment Display Driver Template
--- Project       : EE2DSD Practical Work
--- Author        : John A.R. Williams
--- Copyright     : 2019 Dr. J.A.R. Williams, Aston University
---------------------------------------------------------------------------------
--- Purpose       : Drive 4 digit 7 segment display from BCD input
---               : including decimal point.
---               : For students to complete
---------------------------------------------------------------------------------
--- Revisions     :
--- Date       Version      Author           Description
--- 2016-06-01   1.0   John A.R. Williams    Created
--- 2019-04-02   2.0   John A.R. Williams    Use clk and clk_en
---------------------------------------------------------------------------------
+-- 7 Segment Display Driver Template
+-- SPDX-FileCopyrightText: 2016-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

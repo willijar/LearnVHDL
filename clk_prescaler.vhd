@@ -1,5 +1,6 @@
--- Template to implement a clock prescaler
--- The template is Copyright 2017-2023 Aston University
+-- Tutorial template for creating a clock prescaler
+-- SPDX-FileCopyrightText: 2016-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 
 library IEEE;
 use IEEE.std_logic_1164.all;
@@ -29,8 +30,8 @@ begin
    -- it should output a single clock enable pulse with the width of
    -- the system clock period  every n input system clock pulses
    -- Hint: use the rising_edge macro to detect clk edges
-   -- increment count_i up to the required end-count and then reset to 0
-   -- set clk_div to 1 only while count_i is at the terminal count
+   -- increment count up to the required end-count and then reset to 0
+   -- set clk_div to 1 only while count is at the terminal count
    -- value, otherwise it should be 0
   end process;
 end behavioural;

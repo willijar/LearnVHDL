@@ -1,4 +1,7 @@
 version: '3'
+# Taskfile support for developing VHDL using AMD Vivado Tools on Windows or Linux
+# SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 requires:
   vars: 

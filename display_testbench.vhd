@@ -1,18 +1,6 @@
---------------------------------------------------------------------------------
--- Title:        : Testbench for 7 segment display driver implementations
--- Project       : EE2IDD Practical Work
--- Author        : John A.R. Williams
--- Copyright     : 2019 Dr. J.A.R. Williams, Aston University
---------------------------------------------------------------------------------
--- Purpose       : Provides some basic checking of implementations for 7 
---               : segment displays.
---------------------------------------------------------------------------------
--- Revisions     :
--- Date       Version Author                Description
--- 2019-04-04 1.0     John A.R. Williams    Created
--- 2019-04-16 1.1     John A.R. Williams    Changed variable name to remove
---                                          hidden signal warning
---------------------------------------------------------------------------------
+-- Testbench for 7 segment display driver implementations
+-- SPDX-FileCopyrightText: 2016-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 
 library ieee;
 use ieee.std_logic_1164.all;

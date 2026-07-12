@@ -1,5 +1,6 @@
--- A three process finite state machine design in VHDL as per Xilinx
--- recommendations
+-- Hardware display demo 
+-- SPDX-FileCopyrightText: 2016-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 
 library IEEE;
 use IEEE.std_logic_1164.all;

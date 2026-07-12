@@ -1,9 +1,7 @@
---------------------------------------------------------------------------------
--- Title       : Finite State Machine Template
--- Project     : EE2DDS Practical Work
--- Author      : John A.R. Williams
--- Copyright   : 2017--2023 Dr. J.A.R. Williams, Aston University
---------------------------------------------------------------------------------
+-- Finite State Machine Template
+-- SPDX-FileCopyrightText: 2016-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
+
 -- Description :
 -- A three process finite state machine design template in VHDL as per Xilinx
 -- recommendations
@@ -21,7 +19,6 @@
 -- 
 -- see https://www.xilinx.com/support/answers/60799.html
 -- for more info and attributes
---------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.std_logic_1164.all;
