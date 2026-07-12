@@ -1,16 +1,10 @@
 --------------------------------------------------------------------------------
 -- Title:        : Package with component declarations
--- Project       : EE2IDD Practical Work
--- Author        : John A.R. Williams
--- Copyright 2017-2023 Aston University
+-- Project       : Introductior VHDL Practical Work
+-- SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 --------------------------------------------------------------------------------
 -- Purpose       : Package with component declarations for EE2IDD coursework 
---               : 
---------------------------------------------------------------------------------
--- Revisions     :
--- Date       Version Author                Description
--- 2019-04-06 1.0     John A.R. Williams    Created
---------------------------------------------------------------------------------
 
 library IEEE;
 use IEEE.std_logic_1164.all;

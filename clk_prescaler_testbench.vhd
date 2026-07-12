@@ -1,5 +1,6 @@
--- Testbench to test the clock prescaler.
--- Copyright 2017-2023 Aston University
+-- Testbench for clk_prescaler
+-- SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-License-Identifier: GPL-3.0-or-later
 
 library IEEE;
 use IEEE.std_logic_1164.all;

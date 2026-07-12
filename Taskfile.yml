@@ -1,11 +1,15 @@
 version: '3'
+# Taskfile for Introduction to VHDL Tasks
+# SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 includes:
   VHDL:
     taskfile: ./VHDLTasks.yml
     vars:
-      #VIVADOPATH: C:\AMDDesignTools\2026.1\Vivado\bin # Windows default
-      #VIVADOPATH: /opt/Xilinx/Vivado/2023.1/bin # Linux default
+      #Set VIVADOPATH to installation directory for Vivado binaries e.g.
+      #VIVADOPATH: C:\AMDDesignTools\2026.1\Vivado\bin # Windows default - version 2026.1
+      #VIVADOPATH: /opt/Xilinx/Vivado/2023.1/bin       # Linux default - version 2023.1
       VIVADOPATH: '{{if eq OS "windows"}}C:\AMDDesignTools\2026.1\Vivado\bin{{else}}/opt/Xilinx/Vivado/2023.1/bin{{end}}'
 
       PARTNUMBER: xc7a35tcpg236-1 # BASYS 3 FPGA Part Number
@@ -20,13 +24,6 @@ includes:
           fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
   
 tasks:
-
-  test: 
-    vars:
-      PATH: '{{if eq OS "linux"}}Pooh{{else}}Bear{{end}}'
-    cmds: 
-      - echo {{if eq OS "windows"}}Yes{{end}}
-      - echo {{.PATH}}
 
   full_adder_testbench:
     cmds: 
