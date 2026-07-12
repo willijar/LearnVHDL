@@ -1,9 +1,9 @@
-log/
-auto/
-work/
 tmp/
-*.bin
-*.aux
-*.out
-*.log
 *~
+*.ghw
+*.log
+xsim.dir
+.task
+.Xil
+*.jou
+*.pb

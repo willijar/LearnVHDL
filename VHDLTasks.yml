@@ -1,0 +1,235 @@
+version: '3'
+
+requires:
+  vars: 
+    - VIVADOPATH # Full path to directory where Vivado tools are
+    - PARTNUMBER # FPGA Part NUmber
+    - DEPENDS # MAP of dependencies indexed by top level entity name
+vars: 
+  TMPDIR: '{{.TMPDIR | default "tmp"}}'
+  LOGDIR: '{{.LOGDIR | default "log"}}'
+  TCL_TMP: '{{.TMPDIR}}/.vivado.tcl' # Name of temporary tcl file used for some Vivado commands
+
+tasks:
+  vivado-run:
+    desc: run a Vivado executable (depending on platform)
+    internal: true
+    requires:
+      vars:
+        - args
+        - exec
+    cmds: 
+      - cmd: 'cmd.exe /c "{{.VIVADOPATH}}\{{.exec}}.bat {{.args}}"'
+        platforms: [windows]
+      - cmd: '{{.VIVADOPATH}}/{{.exec}} {{.args}}'
+        platforms: [linux]
+
+  vivado-gui:
+    desc: Launch Vivado GUI
+    siilent: true
+    cmds: 
+      - task: vivado-run
+        vars:
+          exec: vivado 
+          args: ""
+
+  vivado-clean:
+    desc: Clean up temporary/intermediate vivado files
+    silent: true
+    cmds:
+      - rm -fr {{.TCL_TMP}} clockInfo.txt *.jou *.log *.pb .Xil xsim.dir
+      
+  clean-all:
+    desc: Remove all simulation and bit files
+    cmds:
+      - task: vivado-clean
+      - rm -fr *.wcfg *.ghw *.wdb *.bit log/* tmp/*
+
+  analyze:*:
+    desc: Analyze given VHDL file
+    vars:
+      filename: '{{index .MATCH 0}}'
+      basename: '{{trimSuffix (ext .filename) .filename}}'
+    sources:
+      - '{{.filename}}'
+    generates:
+      - 'xsim.dir/work/{{.basename}}.vdb'
+    method: timestamp
+    cmds: 
+      - task: vivado-run
+        vars: 
+          exec: xvhdl
+          args: "-nolog -2008 {{.filename}}"
+
+  elaborate:*:
+    desc: Elaborate compiled VHDL - requires top level entity name
+    vars:
+      top: '{{index .MATCH 0}}'
+    deps: ['analyze:{{.top}}.vhd']
+    sources:
+      - '{{.top}}.vhd' # assume file baseame is same as top level entity
+    generates:
+      - 'xsim.dir/{{.top}}/*' # generated snapshot files
+    method: timestamp
+    cmds: 
+      - task: vivado-run
+        vars: 
+          exec: xelab
+          args: "{{.top}} -debug all -nolog -snapshot {{.top}}"
+
+  sim:*:*:
+    desc: Run a simulation for named entity and produce a waveform file for given subentity 
+    vars:
+      top: '{{index .MATCH 0}}'
+      uut: '{{index .MATCH 1}}'
+      tcl: |-
+          add_wave {{.uut}}
+          run all
+          save_wave_config {{.top}}.wcfg
+          quit
+
+    deps: ['elaborate:{{.top}}']
+    sources:
+      - xsim.dir/{{.top}}/*.*
+    generates:
+      - '{{.top}}.wcfg'
+      - '{{.top}}.wdb'
+    method: timestamp
+    cmds:
+      - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
+        silent: true
+      - defer: {task: vivado-clean}
+      - task: vivado-run
+        vars: 
+          exec: xsim
+          args: "{{.top}} -nolog -t {{.TCL_TMP}}"
+
+  sim:*:
+    desc: Run a simulation for named top level, producing top level entity waveform
+    vars:
+      top: '{{index .MATCH 0}}'
+    cmds:
+      - task: "sim:{{.top}}:{{.top}}"
+
+  view:*:
+    desc: View a simulation waveform
+    vars:
+      name: '{{index .MATCH 0}}'
+    deps: ['sim:{{.name}}']
+    cmds:
+      - task: vivado-run
+        vars:
+          exec: xsim
+          args: "-g -view {{.name}}.wcfg {{.name}}.wdb"
+
+  build:*:*:
+    desc: Elaborate and run a simulation, analyzing dependend source files if needed. If second argument is true also view waveform
+    vars:
+      top: '{{index .MATCH 0}}'
+      view: '{{index .MATCH 1}}'
+      sources: '{{index .DEPENDS .top}}'
+    cmds:
+      - for: {var: sources}
+        task: analyze:{{.ITEM}}
+      - task: elaborate:{{.top}}
+      - task: sim:{{.top}}
+      - task: view:{{.top}}
+        if: '{{eq .view "true"}}'
+
+  build:*:
+    desc: Elaborate and run a simulation, analyzing dependend source files if needed. 
+    cmds:
+      - task: "build:{{index .MATCH 0}}:false"
+
+  synthesize:*:
+    desc: Synthesize a bit file from given top level entity name and list of VHDL sources
+    #Note - if you get Common 17-1293 error may need to ensure directory is not ReadOnly
+    vars:
+      top: '{{index .MATCH 0}}'
+      bitfile: '{{.top}}.bit'
+      sources: '{{index .DEPENDS .bitfile}}'
+      tcl: |-
+          #step 1 read in source and constraint files
+          read_vhdl -vhdl2008 { {{.sources | replace "," " "}} }
+          read_xdc {{.top}}.xdc
+          #step 2 synthesise design
+          synth_design -top {{.top}} -part {{.PARTNUMBER}}
+          #step 3 run placement and logic optimisation
+          opt_design
+          power_opt_design
+          place_design
+          phys_opt_design
+          #step 4 run router, report actual utilisation and timing and drcs
+          route_design
+          report_utilization -file {{.LOGDIR}}/{{.top}}_utilisation.rpt
+          report_drc -file {{.LOGDIR}}/{{.top}}_drc.rpt
+          report_power -file {{.LOGDIR}}/{{.top}}_power.rpt
+          report_datasheet -file {{.LOGDIR}}/{{.top}}_datasheet.rpt
+          report_timing -file {{.LOGDIR}}/{{.top}}_timing.rpt
+          report_timing_summary -file {{.LOGDIR}}/{{.top}}_timing_summary.rpt
+          #step 5 output bitstream
+          #set_property BITSTREAM.CONFIG.USERID $(USERID) [current_design]
+          write_bitstream -force {{.top}}.bit
+          quit
+
+    sources: 
+      - "{{.top}}.xdc"
+      - "{{.top}}.vhd"
+    generates:
+      - '{{.bitfile}}'
+    method: timestamp
+    cmds:
+      - for: {var: sources}
+        task: analyze:{{.ITEM}}
+      - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
+        silent: true
+      #- defer: {task: vivado-clean}
+      - task: vivado-run
+        vars: 
+          exec: vivado
+          args: "-mode batch -nojournal -quiet -tempDir {{.TMPDIR}} -log {{.LOGDIR}}/{{.top}}_synth.log -source {{.TCL_TMP}}"
+
+  program:*:
+    desc: Program default board with specified bit file
+    interactive: true
+    vars:
+      bitfile: '{{index .MATCH 0}}'
+      tcl: |-
+        open_hw_manager
+        connect_hw_server
+        open_hw_target
+        current_hw_device [lindex [get_hw_devices] 0]
+        refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+        set_property PROGRAM.FILE {{.bitfile}} [lindex [get_hw_devices] 0]
+        program_hw_devices [lindex [get_hw_devices] 0]
+        close_hw_target
+        disconnect_hw_server
+        close_hw_manager
+        quit
+        
+    preconditions:
+      - test -f  {{.bitfile}}
+    cmds:
+      - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
+        silent: true
+      - defer: {task: vivado-clean}
+      - task: vivado-run
+        vars: 
+          exec: vivado
+          args: "-mode batch -nojournal -tempDir {{.TMPDIR}} -log {{.LOGDIR}}/{{.top}}_program.log -source {{.TCL_TMP}}"
+
+  simulate-all-testbenches:
+      desc: run all testbench simulations
+      cmds:
+        - for: {var: DEPENDS}
+          task: "build:{{.KEY}}"
+          if: '{{.KEY | hasSuffix "_testbench"}}'
+
+  synthesize-all:
+    desc: synthesize all bit files
+    cmds:
+      - for: {var: DEPENDS}
+        task: "synthesize:{{substr 0 (int (sub (len .KEY) 4)) .KEY}}"
+        if: '{{.KEY | hasSuffix ".bit"}}'
+
+
