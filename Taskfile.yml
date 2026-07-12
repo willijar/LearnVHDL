@@ -11,19 +11,7 @@ includes:
       PARTNUMBER: xc7a35tcpg236-1 # BASYS 3 FPGA Part Number
       DEPENDS: # MAP of dependencies for simulations and bit files
         map:
-          and_gate_testbench: and_gate.vhd and_gate_testbench.vhd
-          full_adder_testbench: full_adder.vhd full_adder_testbench.vhd
-          clk_prescaler_testbench: clk_prescaler.vhd clk_prescaler_testbench.vhd
-          debounce_testbench: debounce.vhd clk_prescaler.vhd debounce_testbench.vhd
-          counter_testbench: counter.vhd counter_testbench.vhd
-          fourcounter_testbench: clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
-          timer_testbench: counter.vhd timer.vhd timer_testbench.vhd
-          stopwatch_ssm_testbench: stopwatch_ssm.vhd stopwatch_ssm_testbench.vhd
-          and_gate.bit: and_gate.vhd
-          full_adder.bit: full_adder.vhd
-          fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
-          display_testbench: display.vhd display_testbench.vhd
-          stopwatch.bit: stopwatch.vhd clk_prescaler.vhd counter.vhd display.vhd debounce.vhd stopwatch_ssm.vhd timer.vhd
+
   
 tasks:
 
@@ -33,75 +21,3 @@ tasks:
     cmds: 
       - echo {{if eq OS "windows"}}Yes{{end}}
       - echo {{.PATH}}
-
-  and_gate_testbench:
-    cmds: 
-      - task: VHDL:build:and_gate_testbench:true
-
-  full_adder_testbench:
-    cmds: 
-      - task: VHDL:build:full_adder_testbench:true
-
-  clk_prescaler_testbench:
-     cmds: 
-      - task: VHDL:build:clk_prescaler_testbench:true
-
-  debounce_testbench:
-    cmds: 
-      - task: VHDL:build:debounce_testbench:true
-
-  counter_testbench:
-    cmds: 
-      - task: VHDL:build:counter_testbench:true
-
-  timer_testbench:
-    cmds: 
-      - task: VHDL:build:timer_testbench:true
-  
-  stopwatch_ssm_testbench:
-    cmds: 
-      - task: VHDL:build:stopwatch_ssm_testbench:true
-
-  display_testbench:
-    cmds: 
-      - task: VHDL:build:display_testbench:true
-
-  fourcounter_testbench:
-    cmds: 
-      - task: VHDL:build:fourcounter_testbench:true
-  
-  and_gate.bit:
-    cmds: 
-      - task: VHDL:synthesize:and_gate
-
-  full_adder.bit:
-    cmds: 
-      - task: VHDL:synthesize:full_adder
-          
-  fourcounter.bit:
-    cmds:
-      - task: VHDL:synthesize:fourcounter
-
-  stopwatch.bit:
-      cmds:
-      - task: VHDL:synthesize:stopwatch
-
-  program_and_gate:
-    cmds:
-      - task: and.gate.bit
-      - task: VHDL:program:and_gate.bit
-
-  program_full_adder:
-    cmds:
-      - task: full_adder.bit
-      - task: VHDL:program:full_adder.bit
-
-  program_stopwatch:
-    cmds:
-      - task: stopwatch.bit
-      - task: VHDL:program:stopwatch.bit
-
-  program_fourcounter:
-    cmds:
-      - task: fourcounter.bit
-      - task: VHDL:program:fourcounter.bit
