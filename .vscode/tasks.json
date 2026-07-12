@@ -1,0 +1,102 @@
+{ 
+  "version": "2.0.0",
+  "tasks": [
+    {
+     "label": "Analyze",
+     "type": "shell",
+     "command": "task VHDL:analyze:${relativeFile}",
+     "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": {
+        "owner": "vhdl",
+        "fileLocation": "absolute",
+        "source": "task",
+        "pattern": {
+          "regexp": "^(ERROR|WARNING):\\s*\\[(.+)\\]\\s*(.*)\\s+\\[(.*):(\\d+)\\]$",
+          "file": 4,
+          "line": 5,
+          "severity": 1,
+          "code": 2,
+          "message": 3
+        }
+      }
+    },
+    {
+     "label": "Simulate",
+     "type": "shell",
+     "command": "task VHDL:build:${fileBasenameNoExtension}:true",
+     "group": {
+        "kind": "build",
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": {
+        "owner": "vhdl",
+        "fileLocation": "absolute",
+        "source": "task",
+        "pattern": {
+          "regexp": "^(ERROR|WARNING):\\s*\\[(.+)\\]\\s*(.*)\\s+\\[(.*):(\\d+)\\]$",
+          "file": 4,
+          "line": 5,
+          "severity": 1,
+          "code": 2,
+          "message": 3
+        }
+      }
+    },
+    {
+     "label": "Synthesize Bit File",
+     "type": "shell",
+     "command": "task VHDL:synthesize:${fileBasenameNoExtension}",
+     "group": {
+        "kind": "build",
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": {
+        "owner": "vhdl",
+        "fileLocation": "absolute",
+        "source": "task",
+        "pattern": {
+          "regexp": "^(ERROR|WARNING):\\s*\\[(.+)\\]\\s*(.*)\\s+\\[(.*):(\\d+)\\]$",
+          "file": 4,
+          "line": 5,
+          "severity": 1,
+          "code": 2,
+          "message": 3
+        }
+      }
+    },
+    {
+     "label": "Program FPGA",
+     "type": "shell",
+     "command": "task VHDL:program:${fileBasenameNoExtension}.bit",
+     "group": {
+        "kind": "build",
+      },
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": {
+        "owner": "vhdl",
+        "fileLocation": "absolute",
+        "source": "task",
+        "pattern": {
+          "regexp": "^(ERROR|WARNING):\\s*\\[(.+)\\]\\s*(.*)\\s+\\[(.*):(\\d+)\\]$",
+          "file": 4,
+          "line": 5,
+          "severity": 1,
+          "code": 2,
+          "message": 3
+        }
+      }
+    }
+  ]
+}
