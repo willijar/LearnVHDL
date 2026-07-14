@@ -22,31 +22,24 @@ tasks:
         - args
         - exec
     cmds: 
+      - mkdir -p {{.LOGDIR}}
       - cmd: 'cmd.exe /c "{{.VIVADOPATH}}\{{.exec}}.bat {{.args}}"'
         platforms: [windows]
       - cmd: '{{.VIVADOPATH}}/{{.exec}} {{.args}}'
         platforms: [linux]
-
-  vivado-gui:
-    desc: Launch Vivado GUI
-    siilent: true
-    cmds: 
-      - task: vivado-run
-        vars:
-          exec: vivado 
-          args: ""
+      - task: vivado-clean
 
   vivado-clean:
     desc: Clean up temporary/intermediate vivado files
     silent: true
     cmds:
-      - rm -fr {{.TCL_TMP}} clockInfo.txt *.jou *.log *.pb .Xil xsim.dir
+      - rm -fr {{.TCL_TMP}} clockInfo.txt *.jou *.log *.pb .Xil
       
   clean-all:
-    desc: Remove all simulation and bit files
+    desc: Remove all intermediate, simulation and bit files
     cmds:
       - task: vivado-clean
-      - rm -fr *.wcfg *.ghw *.wdb *.bit log/* tmp/*
+      - rm -fr *.wcfg *.ghw *.wdb *.bit xsim.dir {{.LOGDIR}} {{.TMPDIR}}
 
   analyze:*:
     desc: Analyze given VHDL file
@@ -99,9 +92,10 @@ tasks:
       - '{{.top}}.wdb'
     method: timestamp
     cmds:
+      - mkdir -p {{.TMPDIR}}
       - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
         silent: true
-      - defer: {task: vivado-clean}
+      - rm -f '{{.top}}.wcfg'
       - task: vivado-run
         vars: 
           exec: xsim
@@ -175,6 +169,9 @@ tasks:
           write_bitstream -force {{.top}}.bit
           quit
 
+    preconditions:
+      - sh: test -f  "{{.top}}.xdc"
+        msg: "Constraints file '{{.top}}.xdc' missing."
     sources: 
       - "{{.top}}.xdc"
       - "{{.top}}.vhd"
@@ -184,9 +181,9 @@ tasks:
     cmds:
       - for: {var: sources}
         task: analyze:{{.ITEM}}
+      - mkdir -p {{.TMPDIR}}
       - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
         silent: true
-      #- defer: {task: vivado-clean}
       - task: vivado-run
         vars: 
           exec: vivado
@@ -213,9 +210,9 @@ tasks:
     preconditions:
       - test -f  {{.bitfile}}
     cmds:
+      - mkdir -p {{.TMPDIR}}
       - cmd: echo "{{.tcl}}" > {{.TCL_TMP}}
         silent: true
-      - defer: {task: vivado-clean}
       - task: vivado-run
         vars: 
           exec: vivado
