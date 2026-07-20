@@ -30,13 +30,6 @@ includes:
   
 tasks:
 
-  test: 
-    vars:
-      PATH: '{{if eq OS "linux"}}Pooh{{else}}Bear{{end}}'
-    cmds: 
-      - echo {{if eq OS "windows"}}Yes{{end}}
-      - echo {{.PATH}}
-
   and_gate_testbench:
     cmds: 
       - task: VHDL:build:and_gate_testbench:true

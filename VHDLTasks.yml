@@ -145,6 +145,8 @@ tasks:
       top: '{{index .MATCH 0}}'
       bitfile: '{{.top}}.bit'
       sources: '{{index .DEPENDS .bitfile}}'
+      USERID: 
+        sh: 'task get-userid'
       tcl: |-
           #step 1 read in source and constraint files
           read_vhdl -vhdl2008 { {{.sources | replace "," " "}} }
@@ -165,7 +167,7 @@ tasks:
           report_timing -file {{.LOGDIR}}/{{.top}}_timing.rpt
           report_timing_summary -file {{.LOGDIR}}/{{.top}}_timing_summary.rpt
           #step 5 output bitstream
-          #set_property BITSTREAM.CONFIG.USERID $(USERID) [current_design]
+          set_property BITSTREAM.CONFIG.USERID {{.USERID}} [current_design]
           write_bitstream -force {{.top}}.bit
           quit
 
@@ -232,4 +234,20 @@ tasks:
         task: "synthesize:{{substr 0 (int (sub (len .KEY) 4)) .KEY}}"
         if: '{{.KEY | hasSuffix ".bit"}}'
 
+  get-userid:
+    desc: return first 8 char hexadecimal hash of the username
+    silent: true
+    cmds:
+      - cmd: echo -n {{.USERNAME}} | md5sum | cut -c1-8
+        platforms: [linux]
+      - cmd: 'pwsh .\\userid.ps1'
+        platforms: [windows]
 
+  get-seed:
+    desc: return a random number seed unique derived from username
+    silent: true
+    cmds:
+    - cmd: printf "%d" 0x`echo -n {{.USERNAME}} | md5sum` | cut -c1-5
+      platforms: [linux]
+    - cmd: 'pwsh .\\userid.ps1 /seed'
+      platforms: [windows]
