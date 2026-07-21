@@ -14,6 +14,7 @@ vars:
   TCL_TMP: '{{.TMPDIR}}/.vivado.tcl' # Name of temporary tcl file used for some Vivado commands
 
 tasks:
+
   vivado-run:
     desc: run a Vivado executable (depending on platform)
     internal: true
@@ -146,7 +147,7 @@ tasks:
       bitfile: '{{.top}}.bit'
       sources: '{{index .DEPENDS .bitfile}}'
       USERID: 
-        sh: 'task get-userid'
+        sh: "task get-userid --taskfile {{.TASKFILE}}"
       tcl: |-
           #step 1 read in source and constraint files
           read_vhdl -vhdl2008 { {{.sources | replace "," " "}} }
