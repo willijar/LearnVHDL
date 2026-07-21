@@ -81,6 +81,7 @@ tasks:
       uut: '{{index .MATCH 1}}'
       tcl: |-
           add_wave {{.uut}}
+          log_wave -recursive *
           run all
           save_wave_config {{.top}}.wcfg
           quit
