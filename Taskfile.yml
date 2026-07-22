@@ -19,14 +19,14 @@ includes:
           clk_prescaler_testbench: clk_prescaler.vhd clk_prescaler_testbench.vhd
           debounce_testbench: debounce.vhd clk_prescaler.vhd debounce_testbench.vhd
           counter_testbench: counter.vhd counter_testbench.vhd
-          fourcounter_testbench: clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
+          fourcounter_testbench: IDD.vhd clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
           timer_testbench: counter.vhd timer.vhd timer_testbench.vhd
           stopwatch_ssm_testbench: stopwatch_ssm.vhd stopwatch_ssm_testbench.vhd
           and_gate.bit: and_gate.vhd
           full_adder.bit: full_adder.vhd
           fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
           display_testbench: display.vhd display_testbench.vhd
-          stopwatch.bit: stopwatch.vhd clk_prescaler.vhd counter.vhd display.vhd debounce.vhd stopwatch_ssm.vhd timer.vhd
+          stopwatch.bit: IDD.vhd stopwatch.vhd clk_prescaler.vhd counter.vhd display.vhd debounce.vhd stopwatch_ssm.vhd timer.vhd
   
 tasks:
 
