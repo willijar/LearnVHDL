@@ -24,8 +24,15 @@ full_adder.bit: full_adder.vhd
 clk_prescaler_testbench: clk_prescaler.vhd clk_prescaler_testbench.vhd
 debounce_testbench: debounce.vhd clk_prescaler.vhd debounce_testbench.vhd
 counter_testbench: counter.vhd counter_testbench.vhd
-fourcounter.bit: EE2IDD.vhd debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
+fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
 fourcounter_testbench: clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
+
+#Assert level which will terminate testbenches (currently ghdl only)
+#change to "error" if you want to terminate at first error
+ASSERT_LEVEL:=failure
+
+#uncomment line below to use Vivado XSIM simulator instead of ghdl
+USE_XSIM:=TRUE
 
 include casestudy.mk
 
@@ -42,7 +49,7 @@ VIVADO = $(shell (find /tools/Xilinx/ -name vivado -type f -executable || find /
 # FPGA partnumber for Basys 3 board
 PARTNUMBER=xc7a35tcpg236-1 
 GHDLFLAGS=--std=08 --workdir=$(TMPDIR)/
-GHDLRUNFLAGS=--ieee-asserts=disable-at-0 --stop-time=10us
+GHDLRUNFLAGS:=--ieee-asserts=disable-at-0 --stop-time=360sec --assert-level=$(ASSERT_LEVEL)
 USERID=$(shell echo -n $$USER | md5sum | cut -c1-8)
 
 TESTBENCHES=$(wildcard *_testbench.vhd)
@@ -83,17 +90,36 @@ $(TMPDIR)/%.o: %.vhd
 	@mkdir -p $(TMPDIR)
 	ghdl -a $(GHDLFLAGS) $<
 
+#TCL for xsim to display signals from UUT instantiation and run simulation to end
+define XSIM_TCL
+add_wave {{$*_testbench}} 
+run all
+save_wave_config {$*_testbench.wcfg}
+quit
+endef
+export XSIM_TCL
+
 %_testbench:
+ifndef USE_XSIM
 	@mkdir -p $(TMPDIR)
-	@for f in $?; do ghdl -a $(GHDLFLAGS) "$$f" ; done
-	@ghdl -m $(GHDLFLAGS) $@
-	@ghdl -r $(GHDLFLAGS) $@ $(GHDLRUNFLAGS) --wave=$@.ghw
+	for f in $?; do ghdl -a $(GHDLFLAGS) "$$f" ; done
+	ghdl -r  $(GHDLFLAGS)  $@ $(GHDLRUNFLAGS) --wave=$@.ghw
+else
+	$(dir $(VIVADO))xvhdl --nolog --2008 $(filter %.vhd,$^)
+	$(dir $(VIVADO))xelab $*_testbench --debug all --nolog --snapshot $*
+	echo "$$XSIM_TCL" > xsim.tcl
+	$(dir $(VIVADO))xsim  $* -t xsim.tcl -nolog
+endif
 
 %_testbench.ghw: %_testbench
 	@./$*_testbench --wave=$@
 
 %.view: %
-	@gtkwave $*.ghw --output=/dev/null&
+ifndef USE_XSIM
+	gtkwave $*.ghw --output=/dev/null&
+else
+	$(dir $(VIVADO))/xsim -g -view $*.wcfg $*.wdb
+endif
 
 .PHONY: clean
 clean:
@@ -128,6 +154,7 @@ export SYNTHESIS_TCL
 
 %.bit: 
 	@mkdir -p $(TMPDIR) $(LOGDIR)
+#	@echo "$$SYNTHESIS_TCL"
 	@echo "$$SYNTHESIS_TCL" | $(VIVADO) -log $(LOGDIR)/$*_synth.log -nojournal -tempDir $(TMPDIR) -mode tcl
 	@rm -fr *.jou *webtalk.* .Xil
 
