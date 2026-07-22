@@ -1,16 +1,16 @@
 --------------------------------------------------------------------------------
 -- Title:        : Package with component declarations
--- Project       : Introductior VHDL Practical Work
+-- Project       : Introduction VHDL Practical Work
 -- SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
 -- SPDX-License-Identifier: GPL-3.0-or-later
 --------------------------------------------------------------------------------
--- Purpose       : Package with component declarations for EE2IDD coursework 
+-- Purpose       : Package with component declarations for introductory coursework 
 
 library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-package EE2IDD is
+package IDD is
 
   -- Synchronous binary counter with asynchronous reset and terminal count.
   component counter is

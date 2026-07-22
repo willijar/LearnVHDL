@@ -24,8 +24,8 @@ full_adder.bit: full_adder.vhd
 clk_prescaler_testbench: clk_prescaler.vhd clk_prescaler_testbench.vhd
 debounce_testbench: debounce.vhd clk_prescaler.vhd debounce_testbench.vhd
 counter_testbench: counter.vhd counter_testbench.vhd
-fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
-fourcounter_testbench: clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
+fourcounter.bit: IDD.vhd debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
+fourcounter_testbench: IDD.vhd clk_prescaler.vhd debounce.vhd counter.vhd fourcounter.vhd fourcounter_testbench.vhd
 
 #Assert level which will terminate testbenches (currently ghdl only)
 #change to "error" if you want to terminate at first error
