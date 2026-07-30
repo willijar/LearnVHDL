@@ -1,11 +1,11 @@
 # Introduction to VHDL Design and Synthesis
 
 This repository provides the starting template for students
-to complete the practical exercises for my
-the Introduction to VHDL Design and Synthesis course.
+to complete the practical exercises for
+an Introduction to VHDL Design and Synthesis course.
 
-The primary aim of the practical exercies is to enable you to
-design and implement digitals circuit using VHDL.
+The primary aim of the practical exercises is to enable you to
+design and implement digital circuits using VHDL.
 
 You will do this by implementing and testing separate components as
 you go along and then combining them at the end to produce a finished
@@ -15,16 +15,16 @@ you will be expected to be able to find things out for yourself.
 
 As part of this process your will gain familiarity with:
 
-* using a text editor (Visual Studio COde) to edit and save your source files;
+* using a text editor (Visual Studio Code) to edit and save your source files;
 * the VHDL tool chain;
-* writing a simple test-benche and using testbenches and simulations to test your digital
+* writing a simple test-bench and using test benches and simulations to test your digital
   designs;
-* using synthesis tools to generate bit files to program FPGAs.
+* using synthesis tools to generate bit files to program an FPGA.
 
 The exercises require that you have installed [AMD Vivado Design Suite](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html)
 and [Microsoft Visual Studio Code](https://code.visualstudio.com/download) and that you are
 using the [Basys3 Artix-7 FPGA Board](https://www.digikey.co.uk/en/product-highlight/d/digilent/basys3-artix-7-fpga-board).
-Other boards using AMD FPGAs and  with equialent features can be used however you will need to modify the constraints (xdc) files to map the device pins to the VHDL signals, and change the partnumber specified in the file "Taskfile.yml".
+Other boards using an AMD FPGA and with equivalent features can be used however you will need to modify the constraints (xdc) files to map the device pins to the VHDL signals, and change the part number specified in the file "Taskfile.yml".
 
 You may use a recent Windows or Linux system supported by the Vivado design suite.
 
@@ -33,7 +33,7 @@ development environment (IDE) which you may previously have used for
 software development are:
 
 * the command line tools are ubiquitous and widely used;
-* the tools are generally more mature - tried,tested and proven;
+* the tools are generally more mature - tried, tested and proven;
 * it is faster and more robust;
 * you can use many of the same tools across different types of
   projects - you don't have to learn a different set of editor
@@ -48,14 +48,14 @@ software as well as hardware.
 Both a Taskfile and a more traditional Makefile (Linux only) are provided to automate the analyzing, testing and synthesis of your designs and to hide many of the complex details of the Vivado tool-chain can be hidden allowing a focus on VHDL design in this course.
 
 The more modern Taskfile provides better integration with VS Code via the Task extension which provides a list of the key tasks in the Explorer window,
-and supports both Linux and Windows consistently and is now preferred, however makefiles are potentially more powerful and flexible.
+and supports both Linux and Windows consistently and is now preferred, however Make is potentially more powerful and flexible.
 
 While the Vivado GUI IDE supports more advanced features such as live
 debugging, and optimizing and visualizing timing and power handling
-these are not needed  in this introductory course. The proprietary Vivado
-gui is not well-designed and is very complex to learn to use.
+these are not needed in this introductory course. The proprietary Vivado
+GUI is not designed for beginners and is very complex to learn to use.
 
-I recommend commiting and pushing your work onto github
+I recommend committing and pushing your work onto GitHub
 regularly, at least at the end of every practical session but also
 every time you have completed one of the tasks.
 
