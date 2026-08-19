@@ -84,7 +84,7 @@ tasks:
 
   program_and_gate:
     cmds:
-      - task: and.gate.bit
+      - task: and_gate.bit
       - task: VHDL:program:and_gate.bit
 
   program_full_adder:
