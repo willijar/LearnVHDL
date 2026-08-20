@@ -21,26 +21,28 @@ end display;
 architecture behavioral of display is
   signal digit : STD_LOGIC_VECTOR(3 downto 0);
   signal anodes_i : STD_LOGIC_VECTOR (3 downto 0) := "1110";
-  
 begin
-
   -- lookup table mapping digits to segments
   digit_to_segment_proc: process(digit)
   begin
     case digit is   -- Cathodes   GFEDCBA
       when "0000" => segments <= "1000000";
       -- complete for other digits.
-      when others => segments <= "1111111"; -- all off if >12
+      when others => segments <= "1111111"; -- all off if >9
     end case;
   end process;
 
-  -- multiplexing process scan across anodes and digits
+  -- multiplexing process scan across anodes
   mux_proc: process(clk)
   begin
     if rising_edge(clk) and clk_en='1' then
-      -- go through the BCD digits in turn setting the anode, 
-      -- the digit signal to be displayed and the decimal point if necessary.
+      -- shift along selected anode per enabled clock cycle
     end if;
   end process;
   
+  -- set digit based on current anode enable signal
+ display_proc: process(anodes_i)
+  begin
+    -- Set the digit to be displayed and the decimal point if necessary.
+  end process;
 end behavioral;
