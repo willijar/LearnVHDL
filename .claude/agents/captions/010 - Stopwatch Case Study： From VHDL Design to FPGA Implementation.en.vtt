@@ -1,0 +1,3304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.639 --> 00:00:04.150 align:start position:0%
+ 
+So<00:00:02.800><c> in</c><00:00:03.040><c> this</c><00:00:03.200><c> video,</c><00:00:03.520><c> I'm</c><00:00:03.840><c> going</c><00:00:03.919><c> to</c><00:00:04.000><c> go</c>
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+So in this video, I'm going to go
+ 
+
+00:00:04.160 --> 00:00:06.309 align:start position:0%
+So in this video, I'm going to go
+through<00:00:04.319><c> the</c><00:00:04.560><c> second</c><00:00:04.880><c> set</c><00:00:05.120><c> of</c><00:00:05.359><c> exercises</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+through the second set of exercises
+ 
+
+00:00:06.319 --> 00:00:08.549 align:start position:0%
+through the second set of exercises
+associated<00:00:06.960><c> with</c><00:00:07.120><c> this</c><00:00:07.359><c> introductory</c><00:00:07.839><c> VHDL</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+associated with this introductory VHDL
+ 
+
+00:00:08.559 --> 00:00:11.030 align:start position:0%
+associated with this introductory VHDL
+course.<00:00:09.760><c> And</c><00:00:10.000><c> this</c><00:00:10.240><c> is</c><00:00:10.320><c> where</c><00:00:10.480><c> you</c><00:00:10.719><c> you're</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+course. And this is where you you're
+ 
+
+00:00:11.040 --> 00:00:13.190 align:start position:0%
+course. And this is where you you're
+going<00:00:11.200><c> to</c><00:00:11.360><c> implement</c><00:00:11.759><c> a</c><00:00:12.000><c> stopwatch.</c><00:00:12.800><c> So</c><00:00:12.960><c> a</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+going to implement a stopwatch. So a
+ 
+
+00:00:13.200 --> 00:00:15.030 align:start position:0%
+going to implement a stopwatch. So a
+more<00:00:13.360><c> complex</c><00:00:13.840><c> design</c><00:00:14.160><c> made</c><00:00:14.400><c> up</c><00:00:14.559><c> of</c><00:00:14.719><c> multiple</c>
+
+00:00:15.030 --> 00:00:15.040 align:start position:0%
+more complex design made up of multiple
+ 
+
+00:00:15.040 --> 00:00:17.830 align:start position:0%
+more complex design made up of multiple
+units.<00:00:16.080><c> Um,</c><00:00:16.640><c> and</c><00:00:16.960><c> you're</c><00:00:17.199><c> going</c><00:00:17.279><c> to</c><00:00:17.440><c> carry</c><00:00:17.680><c> it</c>
+
+00:00:17.830 --> 00:00:17.840 align:start position:0%
+units. Um, and you're going to carry it
+ 
+
+00:00:17.840 --> 00:00:19.830 align:start position:0%
+units. Um, and you're going to carry it
+the<00:00:18.000><c> whole</c><00:00:18.160><c> way</c><00:00:18.320><c> through</c><00:00:18.560><c> to</c><00:00:18.800><c> hardware</c><00:00:19.680><c> uh</c>
+
+00:00:19.830 --> 00:00:19.840 align:start position:0%
+the whole way through to hardware uh
+ 
+
+00:00:19.840 --> 00:00:22.950 align:start position:0%
+the whole way through to hardware uh
+running<00:00:20.080><c> on</c><00:00:20.240><c> the</c><00:00:20.400><c> basis</c><00:00:20.800><c> 3</c><00:00:21.119><c> FPGA</c><00:00:21.760><c> board.</c><00:00:22.720><c> So</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+running on the basis 3 FPGA board. So
+ 
+
+00:00:22.960 --> 00:00:25.349 align:start position:0%
+running on the basis 3 FPGA board. So
+it's<00:00:23.119><c> a</c><00:00:23.359><c> basic</c><00:00:23.600><c> stopwatch</c><00:00:24.160><c> functionality.</c><00:00:25.119><c> It</c>
+
+00:00:25.349 --> 00:00:25.359 align:start position:0%
+it's a basic stopwatch functionality. It
+ 
+
+00:00:25.359 --> 00:00:28.070 align:start position:0%
+it's a basic stopwatch functionality. It
+will<00:00:25.519><c> have</c><00:00:25.680><c> three</c><00:00:25.920><c> buttons</c><00:00:26.320><c> coming</c><00:00:26.560><c> in.</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+will have three buttons coming in.
+ 
+
+00:00:28.080 --> 00:00:29.750 align:start position:0%
+will have three buttons coming in.
+uh<00:00:28.400><c> sorry,</c><00:00:28.820><c> [clears throat]</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+uh sorry, [clears throat]
+ 
+
+00:00:29.760 --> 00:00:32.870 align:start position:0%
+uh sorry, [clears throat]
+one<00:00:30.160><c> to</c><00:00:30.480><c> start</c><00:00:30.720><c> and</c><00:00:30.880><c> stop</c><00:00:31.119><c> the</c><00:00:31.359><c> time.</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+one to start and stop the time.
+ 
+
+00:00:32.880 --> 00:00:35.270 align:start position:0%
+one to start and stop the time.
+Um<00:00:34.060><c> [clears throat]</c><00:00:34.160><c> one</c><00:00:34.399><c> to</c><00:00:34.640><c> reset</c><00:00:35.120><c> the</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+Um [clears throat] one to reset the
+ 
+
+00:00:35.280 --> 00:00:37.590 align:start position:0%
+Um [clears throat] one to reset the
+timer<00:00:35.600><c> back</c><00:00:35.840><c> to</c><00:00:36.000><c> zero.</c><00:00:36.800><c> And</c><00:00:36.960><c> we're</c><00:00:37.200><c> also</c><00:00:37.440><c> going</c>
+
+00:00:37.590 --> 00:00:37.600 align:start position:0%
+timer back to zero. And we're also going
+ 
+
+00:00:37.600 --> 00:00:40.150 align:start position:0%
+timer back to zero. And we're also going
+to<00:00:37.680><c> implement</c><00:00:38.480><c> uh</c><00:00:38.559><c> the</c><00:00:38.800><c> lap</c><00:00:39.120><c> a</c><00:00:39.280><c> lap</c><00:00:39.600><c> button</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+to implement uh the lap a lap button
+ 
+
+00:00:40.160 --> 00:00:41.830 align:start position:0%
+to implement uh the lap a lap button
+which<00:00:40.399><c> will</c><00:00:40.640><c> basically</c><00:00:41.040><c> freeze</c><00:00:41.520><c> what's</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+which will basically freeze what's
+ 
+
+00:00:41.840 --> 00:00:43.510 align:start position:0%
+which will basically freeze what's
+displayed<00:00:42.399><c> but</c><00:00:42.640><c> the</c><00:00:42.800><c> timer</c><00:00:43.120><c> will</c><00:00:43.360><c> keep</c>
+
+00:00:43.510 --> 00:00:43.520 align:start position:0%
+displayed but the timer will keep
+ 
+
+00:00:43.520 --> 00:00:45.270 align:start position:0%
+displayed but the timer will keep
+running.<00:00:43.840><c> So</c><00:00:44.000><c> we</c><00:00:44.160><c> can</c><00:00:44.320><c> display</c><00:00:44.559><c> lap</c><00:00:44.879><c> times</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+running. So we can display lap times
+ 
+
+00:00:45.280 --> 00:00:47.270 align:start position:0%
+running. So we can display lap times
+every<00:00:45.600><c> time</c><00:00:45.680><c> you</c><00:00:45.920><c> press</c><00:00:46.160><c> that</c><00:00:46.399><c> button.</c><00:00:47.039><c> It</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+every time you press that button. It
+ 
+
+00:00:47.280 --> 00:00:49.430 align:start position:0%
+every time you press that button. It
+updates<00:00:47.600><c> the</c><00:00:47.840><c> display</c><00:00:48.079><c> to</c><00:00:48.320><c> the</c><00:00:48.480><c> current</c><00:00:48.719><c> time.</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+updates the display to the current time.
+ 
+
+00:00:49.440 --> 00:00:51.830 align:start position:0%
+updates the display to the current time.
+Now<00:00:49.760><c> since</c><00:00:49.920><c> we've</c><00:00:50.239><c> got</c><00:00:50.399><c> four</c><00:00:50.640><c> digits,</c><00:00:51.680><c> um</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+Now since we've got four digits, um
+ 
+
+00:00:51.840 --> 00:00:54.389 align:start position:0%
+Now since we've got four digits, um
+we're<00:00:52.079><c> going</c><00:00:52.160><c> to</c><00:00:52.320><c> count</c><00:00:52.559><c> up</c><00:00:52.719><c> to</c><00:00:52.960><c> 99.99</c>
+
+00:00:54.389 --> 00:00:54.399 align:start position:0%
+we're going to count up to 99.99
+ 
+
+00:00:54.399 --> 00:00:56.229 align:start position:0%
+we're going to count up to 99.99
+seconds.<00:00:55.120><c> So</c><00:00:55.360><c> we're</c><00:00:55.520><c> going</c><00:00:55.600><c> to</c><00:00:55.680><c> work</c><00:00:55.840><c> to</c><00:00:56.000><c> a</c>
+
+00:00:56.229 --> 00:00:56.239 align:start position:0%
+seconds. So we're going to work to a
+ 
+
+00:00:56.239 --> 00:00:58.950 align:start position:0%
+seconds. So we're going to work to a
+100th<00:00:56.640><c> of</c><00:00:56.800><c> a</c><00:00:56.960><c> second</c><00:00:57.280><c> resolution.</c>
+
+00:00:58.950 --> 00:00:58.960 align:start position:0%
+100th of a second resolution.
+ 
+
+00:00:58.960 --> 00:01:00.869 align:start position:0%
+100th of a second resolution.
+Uh<00:00:59.359><c> I've</c><00:00:59.600><c> also</c><00:01:00.239><c> I've</c><00:01:00.480><c> given</c><00:01:00.719><c> this</c>
+
+00:01:00.869 --> 00:01:00.879 align:start position:0%
+Uh I've also I've given this
+ 
+
+00:01:00.879 --> 00:01:02.549 align:start position:0%
+Uh I've also I've given this
+specification<00:01:01.440><c> in</c><00:01:01.680><c> the</c><00:01:01.760><c> workbook</c><00:01:02.160><c> which</c><00:01:02.320><c> I'm</c>
+
+00:01:02.549 --> 00:01:02.559 align:start position:0%
+specification in the workbook which I'm
+ 
+
+00:01:02.559 --> 00:01:04.310 align:start position:0%
+specification in the workbook which I'm
+showing<00:01:02.879><c> here</c><00:01:03.440><c> and</c><00:01:03.680><c> if</c><00:01:03.840><c> more</c><00:01:04.000><c> than</c><00:01:04.159><c> one</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+showing here and if more than one
+ 
+
+00:01:04.320 --> 00:01:06.149 align:start position:0%
+showing here and if more than one
+buttons<00:01:04.720><c> pressed</c><00:01:05.040><c> basically</c><00:01:05.439><c> you</c><00:01:05.680><c> can</c><00:01:05.920><c> ignore</c>
+
+00:01:06.149 --> 00:01:06.159 align:start position:0%
+buttons pressed basically you can ignore
+ 
+
+00:01:06.159 --> 00:01:08.630 align:start position:0%
+buttons pressed basically you can ignore
+them.<00:01:06.640><c> Um</c><00:01:06.880><c> it's</c><00:01:07.280><c> ignored.</c><00:01:07.920><c> So</c><00:01:08.080><c> the</c><00:01:08.320><c> basic</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+them. Um it's ignored. So the basic
+ 
+
+00:01:08.640 --> 00:01:10.149 align:start position:0%
+them. Um it's ignored. So the basic
+structure<00:01:08.960><c> you're</c><00:01:09.200><c> going</c><00:01:09.280><c> to</c><00:01:09.439><c> implement</c><00:01:09.840><c> is</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+structure you're going to implement is
+ 
+
+00:01:10.159 --> 00:01:11.830 align:start position:0%
+structure you're going to implement is
+shown<00:01:10.479><c> here.</c><00:01:10.799><c> We</c><00:01:10.960><c> have</c><00:01:11.040><c> our</c><00:01:11.280><c> three</c><00:01:11.520><c> buttons</c>
+
+00:01:11.830 --> 00:01:11.840 align:start position:0%
+shown here. We have our three buttons
+ 
+
+00:01:11.840 --> 00:01:13.590 align:start position:0%
+shown here. We have our three buttons
+coming<00:01:12.080><c> in</c><00:01:12.320><c> and</c><00:01:12.479><c> they're</c><00:01:12.640><c> debounced</c><00:01:13.200><c> as</c><00:01:13.439><c> we've</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+coming in and they're debounced as we've
+ 
+
+00:01:13.600 --> 00:01:16.550 align:start position:0%
+coming in and they're debounced as we've
+done<00:01:13.840><c> before</c><00:01:14.240><c> using</c><00:01:14.720><c> the</c><00:01:14.960><c> debounce</c><00:01:15.760><c> entity.</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+done before using the debounce entity.
+ 
+
+00:01:16.560 --> 00:01:19.670 align:start position:0%
+done before using the debounce entity.
+Uh<00:01:16.880><c> for</c><00:01:17.040><c> that</c><00:01:17.280><c> we</c><00:01:17.520><c> have</c><00:01:17.600><c> a</c><00:01:17.840><c> 1</c><00:01:18.080><c> kHz</c><00:01:19.119><c> uh</c><00:01:19.360><c> clock</c>
+
+00:01:19.670 --> 00:01:19.680 align:start position:0%
+Uh for that we have a 1 kHz uh clock
+ 
+
+00:01:19.680 --> 00:01:21.990 align:start position:0%
+Uh for that we have a 1 kHz uh clock
+enable.<00:01:20.240><c> So</c><00:01:20.400><c> we</c><00:01:20.560><c> need</c><00:01:20.640><c> a</c><00:01:20.799><c> clock</c><00:01:21.040><c> prescaler</c><00:01:21.759><c> to</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+enable. So we need a clock prescaler to
+ 
+
+00:01:22.000 --> 00:01:24.870 align:start position:0%
+enable. So we need a clock prescaler to
+generate<00:01:22.320><c> a</c><00:01:22.479><c> 1</c><00:01:22.640><c> kHz</c><00:01:23.600><c> clock</c><00:01:23.920><c> enabled</c><00:01:24.320><c> signal</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+generate a 1 kHz clock enabled signal
+ 
+
+00:01:24.880 --> 00:01:27.350 align:start position:0%
+generate a 1 kHz clock enabled signal
+that's<00:01:25.200><c> used</c><00:01:25.360><c> for</c><00:01:25.600><c> debouncing.</c><00:01:26.560><c> It</c><00:01:26.799><c> also</c><00:01:27.119><c> is</c>
+
+00:01:27.350 --> 00:01:27.360 align:start position:0%
+that's used for debouncing. It also is
+ 
+
+00:01:27.360 --> 00:01:29.749 align:start position:0%
+that's used for debouncing. It also is
+used<00:01:27.600><c> to</c><00:01:27.840><c> to</c><00:01:28.640><c> uh</c><00:01:28.799><c> implement</c><00:01:29.200><c> the</c><00:01:29.439><c> display</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+used to to uh implement the display
+ 
+
+00:01:29.759 --> 00:01:31.350 align:start position:0%
+used to to uh implement the display
+multiplexing<00:01:30.560><c> which</c><00:01:30.720><c> which</c><00:01:30.960><c> we'll</c><00:01:31.119><c> I'll</c>
+
+00:01:31.350 --> 00:01:31.360 align:start position:0%
+multiplexing which which we'll I'll
+ 
+
+00:01:31.360 --> 00:01:33.910 align:start position:0%
+multiplexing which which we'll I'll
+discuss<00:01:31.759><c> later.</c><00:01:33.040><c> And</c><00:01:33.280><c> since</c><00:01:33.439><c> we're</c><00:01:33.680><c> counting</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+discuss later. And since we're counting
+ 
+
+00:01:33.920 --> 00:01:35.510 align:start position:0%
+discuss later. And since we're counting
+at<00:01:34.079><c> a</c><00:01:34.159><c> hundredth</c><00:01:34.479><c> of</c><00:01:34.640><c> a</c><00:01:34.799><c> second,</c><00:01:35.040><c> we</c><00:01:35.280><c> need</c><00:01:35.360><c> a</c>
+
+00:01:35.510 --> 00:01:35.520 align:start position:0%
+at a hundredth of a second, we need a
+ 
+
+00:01:35.520 --> 00:01:38.149 align:start position:0%
+at a hundredth of a second, we need a
+second<00:01:36.000><c> clock</c><00:01:36.320><c> enable</c><00:01:36.880><c> that</c><00:01:37.119><c> outputs</c><00:01:37.600><c> at</c><00:01:37.840><c> 100</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+second clock enable that outputs at 100
+ 
+
+00:01:38.159 --> 00:01:41.749 align:start position:0%
+second clock enable that outputs at 100
+hertz<00:01:38.560><c> to</c><00:01:38.720><c> give</c><00:01:38.880><c> us</c><00:01:39.040><c> our</c><00:01:39.200><c> 100th</c><00:01:40.400><c> 100th</c><00:01:41.439><c> of</c><00:01:41.600><c> a</c>
+
+00:01:41.749 --> 00:01:41.759 align:start position:0%
+hertz to give us our 100th 100th of a
+ 
+
+00:01:41.759 --> 00:01:43.910 align:start position:0%
+hertz to give us our 100th 100th of a
+second<00:01:42.000><c> resolution.</c>
+
+00:01:43.910 --> 00:01:43.920 align:start position:0%
+second resolution.
+ 
+
+00:01:43.920 --> 00:01:45.910 align:start position:0%
+second resolution.
+Uh<00:01:44.240><c> with</c><00:01:44.400><c> this</c><00:01:44.720><c> we</c><00:01:44.960><c> then</c><00:01:45.200><c> have</c><00:01:45.439><c> three</c><00:01:45.680><c> new</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+Uh with this we then have three new
+ 
+
+00:01:45.920 --> 00:01:47.350 align:start position:0%
+Uh with this we then have three new
+entities<00:01:46.320><c> that</c><00:01:46.560><c> we're</c><00:01:46.720><c> going</c><00:01:46.799><c> to</c><00:01:46.880><c> implement.</c>
+
+00:01:47.350 --> 00:01:47.360 align:start position:0%
+entities that we're going to implement.
+ 
+
+00:01:47.360 --> 00:01:49.109 align:start position:0%
+entities that we're going to implement.
+We<00:01:47.520><c> have</c><00:01:47.600><c> a</c><00:01:47.759><c> state</c><00:01:48.079><c> machine</c><00:01:48.399><c> that</c><00:01:48.720><c> takes</c><00:01:48.960><c> the</c>
+
+00:01:49.109 --> 00:01:49.119 align:start position:0%
+We have a state machine that takes the
+ 
+
+00:01:49.119 --> 00:01:52.469 align:start position:0%
+We have a state machine that takes the
+input<00:01:49.520><c> buttons</c><00:01:50.560><c> and</c><00:01:51.200><c> uh</c><00:01:51.280><c> and</c><00:01:51.520><c> a</c><00:01:51.680><c> clock</c><00:01:52.000><c> the</c>
+
+00:01:52.469 --> 00:01:52.479 align:start position:0%
+input buttons and uh and a clock the
+ 
+
+00:01:52.479 --> 00:01:54.710 align:start position:0%
+input buttons and uh and a clock the
+system<00:01:52.799><c> clock</c><00:01:53.280><c> and</c><00:01:53.600><c> generates</c><00:01:54.079><c> signals</c><00:01:54.479><c> to</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+system clock and generates signals to
+ 
+
+00:01:54.720 --> 00:01:57.670 align:start position:0%
+system clock and generates signals to
+control<00:01:55.040><c> the</c><00:01:55.200><c> timer</c><00:01:55.600><c> entity.</c><00:01:56.799><c> Uh</c><00:01:57.119><c> the</c><00:01:57.280><c> timer</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+control the timer entity. Uh the timer
+ 
+
+00:01:57.680 --> 00:02:00.069 align:start position:0%
+control the timer entity. Uh the timer
+entity<00:01:58.479><c> uh</c><00:01:58.640><c> driven</c><00:01:58.960><c> by</c><00:01:59.040><c> a</c><00:01:59.280><c> clock</c><00:01:59.520><c> and</c><00:01:59.680><c> this</c><00:01:59.840><c> 100</c>
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+entity uh driven by a clock and this 100
+ 
+
+00:02:00.079 --> 00:02:03.429 align:start position:0%
+entity uh driven by a clock and this 100
+Hz<00:02:00.399><c> clock</c><00:02:00.640><c> enable</c><00:02:01.360><c> has</c><00:02:01.680><c> three</c><00:02:01.920><c> inputs</c><00:02:03.040><c> uh</c><00:02:03.200><c> to</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+Hz clock enable has three inputs uh to
+ 
+
+00:02:03.439 --> 00:02:05.270 align:start position:0%
+Hz clock enable has three inputs uh to
+control<00:02:03.759><c> it</c><00:02:03.920><c> that</c><00:02:04.159><c> reset,</c><00:02:04.640><c> pause</c><00:02:04.960><c> the</c><00:02:05.119><c> time</c>
+
+00:02:05.270 --> 00:02:05.280 align:start position:0%
+control it that reset, pause the time
+ 
+
+00:02:05.280 --> 00:02:07.590 align:start position:0%
+control it that reset, pause the time
+and<00:02:05.520><c> latch</c><00:02:05.759><c> the</c><00:02:06.000><c> time.</c>
+
+00:02:07.590 --> 00:02:07.600 align:start position:0%
+and latch the time.
+ 
+
+00:02:07.600 --> 00:02:09.589 align:start position:0%
+and latch the time.
+And<00:02:07.759><c> the</c><00:02:07.920><c> output</c><00:02:08.239><c> of</c><00:02:08.399><c> this</c><00:02:08.640><c> is</c><00:02:08.879><c> is</c><00:02:09.200><c> basically</c>
+
+00:02:09.589 --> 00:02:09.599 align:start position:0%
+And the output of this is is basically
+ 
+
+00:02:09.599 --> 00:02:12.309 align:start position:0%
+And the output of this is is basically
+going<00:02:09.759><c> to</c><00:02:09.840><c> be</c><00:02:10.160><c> 16</c><00:02:10.560><c> bits.</c><00:02:11.280><c> It's</c><00:02:11.440><c> a</c><00:02:11.599><c> binary</c><00:02:12.000><c> coded</c>
+
+00:02:12.309 --> 00:02:12.319 align:start position:0%
+going to be 16 bits. It's a binary coded
+ 
+
+00:02:12.319 --> 00:02:15.190 align:start position:0%
+going to be 16 bits. It's a binary coded
+decimal<00:02:12.800><c> signal.</c><00:02:13.440><c> Um</c><00:02:14.480><c> so</c><00:02:14.480><c> so</c><00:02:14.879><c> it's</c><00:02:15.040><c> going</c><00:02:15.120><c> to</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+decimal signal. Um so so it's going to
+ 
+
+00:02:15.200 --> 00:02:16.949 align:start position:0%
+decimal signal. Um so so it's going to
+it's<00:02:15.440><c> going</c><00:02:15.520><c> to</c><00:02:15.680><c> make</c><00:02:15.840><c> use</c><00:02:16.160><c> of</c><00:02:16.319><c> the</c><00:02:16.560><c> counters</c>
+
+00:02:16.949 --> 00:02:16.959 align:start position:0%
+it's going to make use of the counters
+ 
+
+00:02:16.959 --> 00:02:18.630 align:start position:0%
+it's going to make use of the counters
+we've<00:02:17.120><c> used</c><00:02:17.360><c> earlier</c><00:02:17.680><c> to</c><00:02:17.840><c> count</c><00:02:18.000><c> up</c><00:02:18.239><c> in</c>
+
+00:02:18.630 --> 00:02:18.640 align:start position:0%
+we've used earlier to count up in
+ 
+
+00:02:18.640 --> 00:02:21.350 align:start position:0%
+we've used earlier to count up in
+decimal<00:02:19.200><c> binary</c><00:02:19.599><c> coded</c><00:02:20.000><c> decimal</c><00:02:21.040><c> and</c><00:02:21.200><c> then</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+decimal binary coded decimal and then
+ 
+
+00:02:21.360 --> 00:02:23.750 align:start position:0%
+decimal binary coded decimal and then
+finally<00:02:21.760><c> we</c><00:02:21.920><c> have</c><00:02:22.000><c> the</c><00:02:22.319><c> display</c><00:02:22.800><c> unit</c><00:02:23.280><c> where</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+finally we have the display unit where
+ 
+
+00:02:23.760 --> 00:02:26.150 align:start position:0%
+finally we have the display unit where
+which<00:02:24.080><c> generates</c><00:02:24.720><c> the</c><00:02:25.120><c> segment</c><00:02:25.599><c> ano</c><00:02:26.000><c> and</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+which generates the segment ano and
+ 
+
+00:02:26.160 --> 00:02:29.350 align:start position:0%
+which generates the segment ano and
+anode<00:02:26.959><c> u</c><00:02:27.280><c> control</c><00:02:27.680><c> signals</c>
+
+00:02:29.350 --> 00:02:29.360 align:start position:0%
+anode u control signals
+ 
+
+00:02:29.360 --> 00:02:32.229 align:start position:0%
+anode u control signals
+uh<00:02:29.760><c> for</c><00:02:30.080><c> the</c><00:02:30.400><c> seven</c><00:02:30.720><c> segment</c><00:02:31.440><c> uh</c><00:02:31.599><c> display</c><00:02:32.000><c> on</c>
+
+00:02:32.229 --> 00:02:32.239 align:start position:0%
+uh for the seven segment uh display on
+ 
+
+00:02:32.239 --> 00:02:34.630 align:start position:0%
+uh for the seven segment uh display on
+the<00:02:32.400><c> unit.</c>
+
+00:02:34.630 --> 00:02:34.640 align:start position:0%
+the unit.
+ 
+
+00:02:34.640 --> 00:02:37.110 align:start position:0%
+the unit.
+So<00:02:34.800><c> we</c><00:02:35.040><c> go</c><00:02:35.120><c> through</c><00:02:35.280><c> each</c><00:02:35.519><c> of</c><00:02:35.599><c> those</c><00:02:35.840><c> in</c><00:02:36.000><c> turn.</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+So we go through each of those in turn.
+ 
+
+00:02:37.120 --> 00:02:39.110 align:start position:0%
+So we go through each of those in turn.
+seven<00:02:37.440><c> segment</c><00:02:37.840><c> displays.</c><00:02:38.640><c> Uh</c><00:02:38.879><c> it's</c>
+
+00:02:39.110 --> 00:02:39.120 align:start position:0%
+seven segment displays. Uh it's
+ 
+
+00:02:39.120 --> 00:02:42.309 align:start position:0%
+seven segment displays. Uh it's
+described<00:02:39.599><c> in</c><00:02:39.920><c> the</c><00:02:40.480><c> um</c><00:02:41.200><c> workbook,</c><00:02:42.000><c> but</c>
+
+00:02:42.309 --> 00:02:42.319 align:start position:0%
+described in the um workbook, but
+ 
+
+00:02:42.319 --> 00:02:46.550 align:start position:0%
+described in the um workbook, but
+basically<00:02:42.959><c> we</c><00:02:43.280><c> have</c><00:02:44.720><c> uh</c><00:02:44.959><c> we</c><00:02:45.200><c> have</c><00:02:45.440><c> separate</c><00:02:46.319><c> we</c>
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+basically we have uh we have separate we
+ 
+
+00:02:46.560 --> 00:02:49.509 align:start position:0%
+basically we have uh we have separate we
+have<00:02:47.040><c> we</c><00:02:47.280><c> have</c><00:02:47.440><c> separate</c><00:02:47.840><c> cathodes</c><00:02:48.480><c> for</c><00:02:48.879><c> a</c><00:02:49.040><c> for</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+have we have separate cathodes for a for
+ 
+
+00:02:49.519 --> 00:02:52.949 align:start position:0%
+have we have separate cathodes for a for
+the<00:02:50.480><c> individual</c><00:02:50.959><c> LEDs.</c><00:02:51.599><c> The</c><00:02:51.760><c> individual</c><00:02:52.160><c> LEDs</c>
+
+00:02:52.949 --> 00:02:52.959 align:start position:0%
+the individual LEDs. The individual LEDs
+ 
+
+00:02:52.959 --> 00:02:55.990 align:start position:0%
+the individual LEDs. The individual LEDs
+are<00:02:53.280><c> shown</c><00:02:53.519><c> here.</c><00:02:54.000><c> A</c><00:02:54.239><c> B</c><00:02:54.480><c> C</c><00:02:54.720><c> D</c><00:02:55.040><c> so</c><00:02:55.200><c> on</c><00:02:55.440><c> up</c><00:02:55.599><c> to</c><00:02:55.760><c> G.</c>
+
+00:02:55.990 --> 00:02:56.000 align:start position:0%
+are shown here. A B C D so on up to G.
+ 
+
+00:02:56.000 --> 00:02:57.990 align:start position:0%
+are shown here. A B C D so on up to G.
+We've<00:02:56.239><c> got</c><00:02:56.400><c> seven</c><00:02:56.640><c> of</c><00:02:56.800><c> them.</c><00:02:57.440><c> We</c><00:02:57.680><c> have</c><00:02:57.760><c> a</c>
+
+00:02:57.990 --> 00:02:58.000 align:start position:0%
+We've got seven of them. We have a
+ 
+
+00:02:58.000 --> 00:02:59.750 align:start position:0%
+We've got seven of them. We have a
+separate<00:02:58.319><c> decimal</c><00:02:58.800><c> point</c><00:02:59.040><c> as</c><00:02:59.280><c> well.</c><00:02:59.599><c> So</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+separate decimal point as well. So
+ 
+
+00:02:59.760 --> 00:03:02.229 align:start position:0%
+separate decimal point as well. So
+there's<00:02:59.920><c> actually</c><00:03:00.080><c> an</c><00:03:00.239><c> eighth</c><00:03:00.560><c> LED.</c><00:03:01.920><c> uh</c><00:03:02.000><c> and</c>
+
+00:03:02.229 --> 00:03:02.239 align:start position:0%
+there's actually an eighth LED. uh and
+ 
+
+00:03:02.239 --> 00:03:05.430 align:start position:0%
+there's actually an eighth LED. uh and
+of<00:03:02.480><c> course</c><00:03:02.800><c> what</c><00:03:03.040><c> we</c><00:03:03.519><c> so</c><00:03:03.680><c> we</c><00:03:03.920><c> have</c><00:03:04.239><c> those</c><00:03:05.280><c> uh</c>
+
+00:03:05.430 --> 00:03:05.440 align:start position:0%
+of course what we so we have those uh
+ 
+
+00:03:05.440 --> 00:03:07.190 align:start position:0%
+of course what we so we have those uh
+signals<00:03:05.760><c> that</c><00:03:06.000><c> we</c><00:03:06.080><c> have</c><00:03:06.319><c> and</c><00:03:06.560><c> basically</c><00:03:06.959><c> eight</c>
+
+00:03:07.190 --> 00:03:07.200 align:start position:0%
+signals that we have and basically eight
+ 
+
+00:03:07.200 --> 00:03:09.190 align:start position:0%
+signals that we have and basically eight
+signals<00:03:07.599><c> there</c><00:03:08.000><c> and</c><00:03:08.159><c> then</c><00:03:08.319><c> we</c><00:03:08.560><c> also</c><00:03:08.800><c> have</c><00:03:08.959><c> an</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+signals there and then we also have an
+ 
+
+00:03:09.200 --> 00:03:13.190 align:start position:0%
+signals there and then we also have an
+anode<00:03:09.920><c> which</c><00:03:10.239><c> selects</c><00:03:10.879><c> which</c><00:03:11.360><c> of</c><00:03:11.680><c> the</c><00:03:12.560><c> uh</c><00:03:12.879><c> four</c>
+
+00:03:13.190 --> 00:03:13.200 align:start position:0%
+anode which selects which of the uh four
+ 
+
+00:03:13.200 --> 00:03:15.430 align:start position:0%
+anode which selects which of the uh four
+digits<00:03:13.599><c> is</c><00:03:13.840><c> displayed.</c>
+
+00:03:15.430 --> 00:03:15.440 align:start position:0%
+digits is displayed.
+ 
+
+00:03:15.440 --> 00:03:18.070 align:start position:0%
+digits is displayed.
+So<00:03:15.760><c> that's</c><00:03:16.159><c> the</c><00:03:16.319><c> basic</c><00:03:16.720><c> idea</c><00:03:17.040><c> and</c><00:03:17.280><c> the</c><00:03:17.519><c> idea</c><00:03:17.840><c> is</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+So that's the basic idea and the idea is
+ 
+
+00:03:18.080 --> 00:03:21.030 align:start position:0%
+So that's the basic idea and the idea is
+that<00:03:18.319><c> you</c><00:03:18.560><c> switch</c><00:03:18.800><c> one</c><00:03:19.040><c> anode</c><00:03:19.519><c> on</c><00:03:19.760><c> at</c><00:03:19.920><c> a</c><00:03:20.159><c> time.</c>
+
+00:03:21.030 --> 00:03:21.040 align:start position:0%
+that you switch one anode on at a time.
+ 
+
+00:03:21.040 --> 00:03:23.830 align:start position:0%
+that you switch one anode on at a time.
+Um<00:03:21.599><c> anodes</c><00:03:22.560><c> uh</c><00:03:22.720><c> are</c><00:03:22.959><c> switched</c><00:03:23.280><c> on</c><00:03:23.440><c> when</c><00:03:23.680><c> they</c>
+
+00:03:23.830 --> 00:03:23.840 align:start position:0%
+Um anodes uh are switched on when they
+ 
+
+00:03:23.840 --> 00:03:25.910 align:start position:0%
+Um anodes uh are switched on when they
+go<00:03:23.920><c> to</c><00:03:24.080><c> zero</c><00:03:24.400><c> by</c><00:03:24.560><c> the</c><00:03:24.720><c> way</c><00:03:25.120><c> and</c><00:03:25.360><c> that's</c><00:03:25.599><c> that's</c>
+
+00:03:25.910 --> 00:03:25.920 align:start position:0%
+go to zero by the way and that's that's
+ 
+
+00:03:25.920 --> 00:03:28.949 align:start position:0%
+go to zero by the way and that's that's
+conventional.<00:03:26.720><c> So</c><00:03:26.959><c> the</c><00:03:27.200><c> idea</c><00:03:27.519><c> is</c><00:03:27.920><c> in</c><00:03:28.159><c> turn</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+conventional. So the idea is in turn
+ 
+
+00:03:28.959 --> 00:03:31.030 align:start position:0%
+conventional. So the idea is in turn
+each<00:03:29.200><c> of</c><00:03:29.280><c> the</c><00:03:29.519><c> anodes</c><00:03:29.920><c> will</c><00:03:30.159><c> select</c><00:03:30.720><c> a</c>
+
+00:03:31.030 --> 00:03:31.040 align:start position:0%
+each of the anodes will select a
+ 
+
+00:03:31.040 --> 00:03:34.229 align:start position:0%
+each of the anodes will select a
+particular<00:03:32.319><c> uh</c><00:03:32.560><c> digit</c><00:03:32.959><c> on</c><00:03:33.200><c> the</c><00:03:33.360><c> display</c><00:03:34.000><c> and</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+particular uh digit on the display and
+ 
+
+00:03:34.239 --> 00:03:36.309 align:start position:0%
+particular uh digit on the display and
+then<00:03:34.480><c> of</c><00:03:34.640><c> course</c><00:03:34.799><c> you</c><00:03:35.040><c> also</c><00:03:35.360><c> have</c><00:03:35.519><c> to</c><00:03:35.680><c> select</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+then of course you also have to select
+ 
+
+00:03:36.319 --> 00:03:38.630 align:start position:0%
+then of course you also have to select
+the<00:03:36.640><c> correct</c><00:03:37.680><c> digit</c><00:03:38.080><c> that</c><00:03:38.319><c> you</c><00:03:38.480><c> want</c>
+
+00:03:38.630 --> 00:03:38.640 align:start position:0%
+the correct digit that you want
+ 
+
+00:03:38.640 --> 00:03:40.949 align:start position:0%
+the correct digit that you want
+displayed<00:03:39.040><c> in</c><00:03:39.280><c> that</c><00:03:39.440><c> position.</c><00:03:39.920><c> So</c><00:03:40.319><c> anodes</c>
+
+00:03:40.949 --> 00:03:40.959 align:start position:0%
+displayed in that position. So anodes
+ 
+
+00:03:40.959 --> 00:03:43.670 align:start position:0%
+displayed in that position. So anodes
+control<00:03:41.280><c> the</c><00:03:41.519><c> position</c><00:03:42.720><c> uh</c><00:03:42.879><c> we</c><00:03:43.200><c> then</c><00:03:43.360><c> have</c><00:03:43.519><c> the</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+control the position uh we then have the
+ 
+
+00:03:43.680 --> 00:03:45.190 align:start position:0%
+control the position uh we then have the
+seven<00:03:43.920><c> segments</c><00:03:44.400><c> controlled</c><00:03:44.720><c> which</c><00:03:44.959><c> of</c><00:03:45.040><c> the</c>
+
+00:03:45.190 --> 00:03:45.200 align:start position:0%
+seven segments controlled which of the
+ 
+
+00:03:45.200 --> 00:03:48.229 align:start position:0%
+seven segments controlled which of the
+LEDs<00:03:45.920><c> and</c><00:03:46.080><c> we</c><00:03:46.319><c> need</c><00:03:46.400><c> to</c><00:03:46.560><c> do</c><00:03:46.799><c> to</c><00:03:47.040><c> map</c><00:03:47.280><c> those.</c><00:03:47.920><c> So</c>
+
+00:03:48.229 --> 00:03:48.239 align:start position:0%
+LEDs and we need to do to map those. So
+ 
+
+00:03:48.239 --> 00:03:50.550 align:start position:0%
+LEDs and we need to do to map those. So
+if<00:03:48.480><c> we</c><00:03:48.640><c> look</c><00:03:48.720><c> at</c><00:03:48.879><c> the</c><00:03:49.040><c> VHDL</c>
+
+00:03:50.550 --> 00:03:50.560 align:start position:0%
+if we look at the VHDL
+ 
+
+00:03:50.560 --> 00:03:54.630 align:start position:0%
+if we look at the VHDL
+and<00:03:50.959><c> um</c><00:03:51.120><c> I've</c><00:03:51.360><c> given</c><00:03:51.599><c> you</c><00:03:51.840><c> a</c><00:03:53.040><c> a</c><00:03:53.360><c> display</c>
+
+00:03:54.630 --> 00:03:54.640 align:start position:0%
+and um I've given you a a display
+ 
+
+00:03:54.640 --> 00:03:56.869 align:start position:0%
+and um I've given you a a display
+template,<00:03:55.440><c> it's</c><00:03:55.680><c> got</c><00:03:55.760><c> a</c><00:03:55.920><c> clock</c><00:03:56.159><c> coming</c><00:03:56.400><c> in</c>
+
+00:03:56.869 --> 00:03:56.879 align:start position:0%
+template, it's got a clock coming in
+ 
+
+00:03:56.879 --> 00:03:58.869 align:start position:0%
+template, it's got a clock coming in
+from<00:03:57.120><c> system</c><00:03:57.439><c> clock</c><00:03:58.000><c> enabled</c><00:03:58.319><c> which</c><00:03:58.560><c> will</c><00:03:58.720><c> run</c>
+
+00:03:58.869 --> 00:03:58.879 align:start position:0%
+from system clock enabled which will run
+ 
+
+00:03:58.879 --> 00:04:02.710 align:start position:0%
+from system clock enabled which will run
+at<00:03:59.040><c> a</c><00:03:59.519><c> 1</c><00:03:59.680><c> kHz.</c><00:04:00.799><c> That's</c><00:04:01.360><c> uh</c><00:04:01.599><c> perfectly</c><00:04:02.159><c> fine</c><00:04:02.480><c> for</c>
+
+00:04:02.710 --> 00:04:02.720 align:start position:0%
+at a 1 kHz. That's uh perfectly fine for
+ 
+
+00:04:02.720 --> 00:04:05.190 align:start position:0%
+at a 1 kHz. That's uh perfectly fine for
+this<00:04:02.879><c> this</c><00:04:03.280><c> particular</c><00:04:03.599><c> display.</c><00:04:04.640><c> We</c><00:04:04.879><c> have</c><00:04:04.959><c> an</c>
+
+00:04:05.190 --> 00:04:05.200 align:start position:0%
+this this particular display. We have an
+ 
+
+00:04:05.200 --> 00:04:08.390 align:start position:0%
+this this particular display. We have an
+incoming<00:04:05.920><c> binary</c><00:04:06.400><c> coded</c><00:04:06.799><c> decimal</c><00:04:07.519><c> which</c><00:04:07.760><c> I've</c>
+
+00:04:08.390 --> 00:04:08.400 align:start position:0%
+incoming binary coded decimal which I've
+ 
+
+00:04:08.400 --> 00:04:11.270 align:start position:0%
+incoming binary coded decimal which I've
+uh<00:04:08.640><c> said</c><00:04:08.879><c> is</c><00:04:09.439><c> six</c><00:04:09.920><c> 15</c><00:04:10.239><c> down</c><00:04:10.400><c> to</c><00:04:10.640><c> zero</c><00:04:10.959><c> standard</c>
+
+00:04:11.270 --> 00:04:11.280 align:start position:0%
+uh said is six 15 down to zero standard
+ 
+
+00:04:11.280 --> 00:04:13.910 align:start position:0%
+uh said is six 15 down to zero standard
+logic<00:04:11.599><c> vector.</c><00:04:12.560><c> Uh</c><00:04:12.799><c> I</c><00:04:13.040><c> haven't</c><00:04:13.280><c> created</c><00:04:13.519><c> a</c><00:04:13.760><c> new</c>
+
+00:04:13.910 --> 00:04:13.920 align:start position:0%
+logic vector. Uh I haven't created a new
+ 
+
+00:04:13.920 --> 00:04:15.670 align:start position:0%
+logic vector. Uh I haven't created a new
+type<00:04:14.159><c> for</c><00:04:14.319><c> this.</c><00:04:14.720><c> Um</c><00:04:15.040><c> it</c><00:04:15.200><c> wasn't</c><00:04:15.439><c> really</c>
+
+00:04:15.670 --> 00:04:15.680 align:start position:0%
+type for this. Um it wasn't really
+ 
+
+00:04:15.680 --> 00:04:18.629 align:start position:0%
+type for this. Um it wasn't really
+necessary.<00:04:16.560><c> So</c><00:04:16.799><c> that's</c><00:04:16.959><c> our</c><00:04:17.199><c> four</c><00:04:17.519><c> BCD</c><00:04:18.160><c> digits</c>
+
+00:04:18.629 --> 00:04:18.639 align:start position:0%
+necessary. So that's our four BCD digits
+ 
+
+00:04:18.639 --> 00:04:20.469 align:start position:0%
+necessary. So that's our four BCD digits
+really.
+
+00:04:20.469 --> 00:04:20.479 align:start position:0%
+really.
+ 
+
+00:04:20.479 --> 00:04:23.189 align:start position:0%
+really.
+We<00:04:20.799><c> also</c><00:04:21.199><c> have</c><00:04:21.519><c> a</c><00:04:21.759><c> decimal</c><00:04:22.160><c> point</c><00:04:22.479><c> on</c><00:04:22.800><c> which</c><00:04:23.040><c> is</c>
+
+00:04:23.189 --> 00:04:23.199 align:start position:0%
+We also have a decimal point on which is
+ 
+
+00:04:23.199 --> 00:04:26.150 align:start position:0%
+We also have a decimal point on which is
+four<00:04:23.440><c> bits</c><00:04:23.840><c> long</c><00:04:24.479><c> which</c><00:04:24.800><c> basically</c><00:04:25.280><c> selects</c>
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+four bits long which basically selects
+ 
+
+00:04:26.160 --> 00:04:29.189 align:start position:0%
+four bits long which basically selects
+uh<00:04:26.400><c> which</c><00:04:27.040><c> decimal</c><00:04:27.520><c> point</c><00:04:27.759><c> is</c><00:04:28.000><c> enabled</c><00:04:29.120><c> uh</c>
+
+00:04:29.189 --> 00:04:29.199 align:start position:0%
+uh which decimal point is enabled uh
+ 
+
+00:04:29.199 --> 00:04:31.430 align:start position:0%
+uh which decimal point is enabled uh
+because<00:04:29.520><c> we're</c><00:04:29.840><c> always</c><00:04:30.160><c> going</c><00:04:30.479><c> to</c><00:04:30.880><c> be</c><00:04:31.120><c> having</c>
+
+00:04:31.430 --> 00:04:31.440 align:start position:0%
+because we're always going to be having
+ 
+
+00:04:31.440 --> 00:04:35.270 align:start position:0%
+because we're always going to be having
+the<00:04:31.600><c> decimal</c><00:04:32.000><c> point</c><00:04:32.400><c> between</c><00:04:33.440><c> um</c><00:04:34.560><c> the</c><00:04:34.960><c> sec</c>
+
+00:04:35.270 --> 00:04:35.280 align:start position:0%
+the decimal point between um the sec
+ 
+
+00:04:35.280 --> 00:04:36.870 align:start position:0%
+the decimal point between um the sec
+well<00:04:35.520><c> in</c><00:04:35.680><c> the</c><00:04:35.840><c> center</c><00:04:36.080><c> of</c><00:04:36.240><c> of</c><00:04:36.479><c> the</c><00:04:36.639><c> four</c>
+
+00:04:36.870 --> 00:04:36.880 align:start position:0%
+well in the center of of the four
+ 
+
+00:04:36.880 --> 00:04:38.390 align:start position:0%
+well in the center of of the four
+digits.<00:04:37.360><c> We're</c><00:04:37.600><c> actually</c><00:04:37.840><c> not</c><00:04:38.000><c> going</c><00:04:38.080><c> to</c><00:04:38.240><c> be</c>
+
+00:04:38.390 --> 00:04:38.400 align:start position:0%
+digits. We're actually not going to be
+ 
+
+00:04:38.400 --> 00:04:41.270 align:start position:0%
+digits. We're actually not going to be
+changing<00:04:38.639><c> that</c><00:04:38.880><c> in</c><00:04:39.199><c> time.</c><00:04:40.400><c> Uh</c><00:04:40.720><c> we</c><00:04:40.880><c> have</c><00:04:40.960><c> an</c><00:04:41.120><c> out</c>
+
+00:04:41.270 --> 00:04:41.280 align:start position:0%
+changing that in time. Uh we have an out
+ 
+
+00:04:41.280 --> 00:04:43.350 align:start position:0%
+changing that in time. Uh we have an out
+we<00:04:41.520><c> have</c><00:04:41.600><c> outputs.</c><00:04:42.320><c> So</c><00:04:42.479><c> we</c><00:04:42.639><c> have</c><00:04:42.720><c> the</c><00:04:42.880><c> segments</c>
+
+00:04:43.350 --> 00:04:43.360 align:start position:0%
+we have outputs. So we have the segments
+ 
+
+00:04:43.360 --> 00:04:46.390 align:start position:0%
+we have outputs. So we have the segments
+output<00:04:43.919><c> that</c><00:04:44.240><c> is</c><00:04:44.960><c> seven</c><00:04:45.440><c> segments.</c><00:04:46.000><c> So</c><00:04:46.160><c> it's</c>
+
+00:04:46.390 --> 00:04:46.400 align:start position:0%
+output that is seven segments. So it's
+ 
+
+00:04:46.400 --> 00:04:49.350 align:start position:0%
+output that is seven segments. So it's
+six<00:04:46.639><c> down</c><00:04:46.880><c> to</c><00:04:47.040><c> zero</c><00:04:47.600><c> standard</c><00:04:47.919><c> logic</c><00:04:48.320><c> vector.</c>
+
+00:04:49.350 --> 00:04:49.360 align:start position:0%
+six down to zero standard logic vector.
+ 
+
+00:04:49.360 --> 00:04:51.189 align:start position:0%
+six down to zero standard logic vector.
+We<00:04:49.600><c> also</c><00:04:49.840><c> have</c><00:04:50.000><c> a</c><00:04:50.160><c> decimal</c><00:04:50.639><c> point</c><00:04:50.880><c> that's</c>
+
+00:04:51.189 --> 00:04:51.199 align:start position:0%
+We also have a decimal point that's
+ 
+
+00:04:51.199 --> 00:04:54.070 align:start position:0%
+We also have a decimal point that's
+switched<00:04:51.520><c> on</c><00:04:52.400><c> if</c><00:04:52.880><c> we</c><00:04:53.120><c> want</c><00:04:53.280><c> the</c><00:04:53.440><c> decimal</c><00:04:53.840><c> point</c>
+
+00:04:54.070 --> 00:04:54.080 align:start position:0%
+switched on if we want the decimal point
+ 
+
+00:04:54.080 --> 00:04:55.909 align:start position:0%
+switched on if we want the decimal point
+the<00:04:54.320><c> current</c><00:04:54.479><c> decimal</c><00:04:54.960><c> point</c><00:04:55.199><c> switched</c><00:04:55.520><c> on</c>
+
+00:04:55.909 --> 00:04:55.919 align:start position:0%
+the current decimal point switched on
+ 
+
+00:04:55.919 --> 00:04:58.150 align:start position:0%
+the current decimal point switched on
+depending<00:04:56.479><c> on</c><00:04:56.960><c> and</c><00:04:57.120><c> then</c><00:04:57.280><c> the</c><00:04:57.440><c> anodes</c><00:04:57.919><c> which</c>
+
+00:04:58.150 --> 00:04:58.160 align:start position:0%
+depending on and then the anodes which
+ 
+
+00:04:58.160 --> 00:05:01.430 align:start position:0%
+depending on and then the anodes which
+select<00:04:59.199><c> which</c><00:04:59.440><c> of</c><00:04:59.680><c> the</c><00:05:00.320><c> digits</c><00:05:00.800><c> and</c><00:05:01.040><c> decimal</c>
+
+00:05:01.430 --> 00:05:01.440 align:start position:0%
+select which of the digits and decimal
+ 
+
+00:05:01.440 --> 00:05:04.150 align:start position:0%
+select which of the digits and decimal
+point<00:05:01.680><c> are</c><00:05:01.840><c> switched</c><00:05:02.160><c> on.</c><00:05:03.520><c> So</c><00:05:03.680><c> those</c><00:05:03.919><c> are</c><00:05:04.000><c> the</c>
+
+00:05:04.150 --> 00:05:04.160 align:start position:0%
+point are switched on. So those are the
+ 
+
+00:05:04.160 --> 00:05:06.870 align:start position:0%
+point are switched on. So those are the
+signals<00:05:04.479><c> that</c><00:05:04.639><c> we</c><00:05:04.800><c> need</c><00:05:06.160><c> uh</c><00:05:06.240><c> to</c><00:05:06.479><c> implement</c>
+
+00:05:06.870 --> 00:05:06.880 align:start position:0%
+signals that we need uh to implement
+ 
+
+00:05:06.880 --> 00:05:12.550 align:start position:0%
+signals that we need uh to implement
+this.<00:05:07.759><c> Um</c><00:05:08.400><c> I've</c><00:05:08.800><c> got</c><00:05:09.600><c> uh</c><00:05:10.720><c> a</c><00:05:10.960><c> digit</c><00:05:11.680><c> signal</c>
+
+00:05:12.550 --> 00:05:12.560 align:start position:0%
+this. Um I've got uh a digit signal
+ 
+
+00:05:12.560 --> 00:05:14.310 align:start position:0%
+this. Um I've got uh a digit signal
+because<00:05:12.960><c> we're</c><00:05:13.199><c> going</c><00:05:13.280><c> to</c><00:05:13.440><c> select</c><00:05:13.759><c> one</c><00:05:14.000><c> digit</c>
+
+00:05:14.310 --> 00:05:14.320 align:start position:0%
+because we're going to select one digit
+ 
+
+00:05:14.320 --> 00:05:16.390 align:start position:0%
+because we're going to select one digit
+at<00:05:14.479><c> a</c><00:05:14.639><c> time.</c><00:05:14.880><c> So</c><00:05:15.120><c> I've</c><00:05:15.280><c> just</c><00:05:15.440><c> I've</c><00:05:15.759><c> created</c><00:05:16.080><c> a</c>
+
+00:05:16.390 --> 00:05:16.400 align:start position:0%
+at a time. So I've just I've created a
+ 
+
+00:05:16.400 --> 00:05:18.310 align:start position:0%
+at a time. So I've just I've created a
+signal<00:05:16.639><c> in</c><00:05:16.800><c> the</c><00:05:16.960><c> architecture</c><00:05:17.360><c> for</c><00:05:17.600><c> that.</c><00:05:18.080><c> And</c>
+
+00:05:18.310 --> 00:05:18.320 align:start position:0%
+signal in the architecture for that. And
+ 
+
+00:05:18.320 --> 00:05:20.469 align:start position:0%
+signal in the architecture for that. And
+I've<00:05:18.560><c> also</c><00:05:18.880><c> because</c><00:05:19.120><c> we</c><00:05:19.360><c> want</c><00:05:19.520><c> to</c><00:05:19.759><c> both</c><00:05:20.160><c> write</c>
+
+00:05:20.469 --> 00:05:20.479 align:start position:0%
+I've also because we want to both write
+ 
+
+00:05:20.479 --> 00:05:22.150 align:start position:0%
+I've also because we want to both write
+to<00:05:20.720><c> control</c><00:05:20.960><c> the</c><00:05:21.120><c> anodes</c><00:05:21.520><c> but</c><00:05:21.680><c> we</c><00:05:21.840><c> also</c><00:05:22.080><c> need</c>
+
+00:05:22.150 --> 00:05:22.160 align:start position:0%
+to control the anodes but we also need
+ 
+
+00:05:22.160 --> 00:05:24.469 align:start position:0%
+to control the anodes but we also need
+to<00:05:22.320><c> know</c><00:05:22.479><c> which</c><00:05:22.800><c> anode's</c><00:05:23.199><c> been</c><00:05:23.440><c> selected</c><00:05:24.240><c> to</c>
+
+00:05:24.469 --> 00:05:24.479 align:start position:0%
+to know which anode's been selected to
+ 
+
+00:05:24.479 --> 00:05:27.189 align:start position:0%
+to know which anode's been selected to
+choose<00:05:24.720><c> which</c><00:05:25.039><c> digit.</c><00:05:26.240><c> So</c><00:05:26.639><c> I've</c><00:05:26.880><c> given</c><00:05:27.039><c> you</c>
+
+00:05:27.189 --> 00:05:27.199 align:start position:0%
+choose which digit. So I've given you
+ 
+
+00:05:27.199 --> 00:05:28.950 align:start position:0%
+choose which digit. So I've given you
+this<00:05:27.360><c> template.</c><00:05:27.840><c> It's</c><00:05:28.000><c> got</c><00:05:28.160><c> some</c><00:05:28.400><c> suggestions</c>
+
+00:05:28.950 --> 00:05:28.960 align:start position:0%
+this template. It's got some suggestions
+ 
+
+00:05:28.960 --> 00:05:32.710 align:start position:0%
+this template. It's got some suggestions
+in<00:05:29.199><c> it.</c><00:05:29.680><c> I've</c><00:05:30.080><c> suggested</c><00:05:30.639><c> a</c><00:05:30.960><c> three</c><00:05:31.280><c> process</c><00:05:32.479><c> uh</c>
+
+00:05:32.710 --> 00:05:32.720 align:start position:0%
+in it. I've suggested a three process uh
+ 
+
+00:05:32.720 --> 00:05:34.950 align:start position:0%
+in it. I've suggested a three process uh
+architecture<00:05:33.360><c> for</c><00:05:33.600><c> this.</c><00:05:34.160><c> The</c><00:05:34.400><c> first</c><00:05:34.639><c> one</c><00:05:34.800><c> is</c>
+
+00:05:34.950 --> 00:05:34.960 align:start position:0%
+architecture for this. The first one is
+ 
+
+00:05:34.960 --> 00:05:37.909 align:start position:0%
+architecture for this. The first one is
+simply<00:05:35.199><c> a</c><00:05:35.360><c> lookup</c><00:05:35.759><c> table.</c><00:05:37.039><c> So</c><00:05:37.199><c> it's</c><00:05:37.520><c> basically</c>
+
+00:05:37.909 --> 00:05:37.919 align:start position:0%
+simply a lookup table. So it's basically
+ 
+
+00:05:37.919 --> 00:05:40.870 align:start position:0%
+simply a lookup table. So it's basically
+digit<00:05:38.320><c> to</c><00:05:38.560><c> segment.</c><00:05:39.360><c> It</c><00:05:39.600><c> takes</c><00:05:39.840><c> a</c><00:05:40.000><c> digit.</c><00:05:40.720><c> So</c>
+
+00:05:40.870 --> 00:05:40.880 align:start position:0%
+digit to segment. It takes a digit. So
+ 
+
+00:05:40.880 --> 00:05:44.070 align:start position:0%
+digit to segment. It takes a digit. So
+that<00:05:41.199><c> a</c><00:05:41.360><c> digit</c><00:05:41.680><c> is</c><00:05:42.000><c> four</c><00:05:42.240><c> bits,</c><00:05:43.120><c> right?</c><00:05:43.600><c> It's</c><00:05:43.840><c> a</c>
+
+00:05:44.070 --> 00:05:44.080 align:start position:0%
+that a digit is four bits, right? It's a
+ 
+
+00:05:44.080 --> 00:05:45.749 align:start position:0%
+that a digit is four bits, right? It's a
+basically<00:05:44.560><c> four</c><00:05:44.800><c> bits</c><00:05:45.120><c> that</c><00:05:45.280><c> goes</c><00:05:45.520><c> between</c>
+
+00:05:45.749 --> 00:05:45.759 align:start position:0%
+basically four bits that goes between
+ 
+
+00:05:45.759 --> 00:05:48.870 align:start position:0%
+basically four bits that goes between
+zero<00:05:46.000><c> and</c><00:05:46.240><c> nine</c><00:05:47.199><c> and</c><00:05:47.520><c> it</c><00:05:47.759><c> out</c><00:05:48.160><c> the</c><00:05:48.560><c> it</c>
+
+00:05:48.870 --> 00:05:48.880 align:start position:0%
+zero and nine and it out the it
+ 
+
+00:05:48.880 --> 00:05:51.990 align:start position:0%
+zero and nine and it out the it
+basically<00:05:49.360><c> sets</c><00:05:49.680><c> the</c><00:05:49.919><c> segments</c><00:05:50.400><c> output.</c><00:05:51.600><c> So</c>
+
+00:05:51.990 --> 00:05:52.000 align:start position:0%
+basically sets the segments output. So
+ 
+
+00:05:52.000 --> 00:05:54.550 align:start position:0%
+basically sets the segments output. So
+if<00:05:52.240><c> the</c><00:05:52.560><c> if</c><00:05:52.800><c> it's</c><00:05:52.960><c> all</c><00:05:53.120><c> zeros</c><00:05:53.759><c> it</c><00:05:54.000><c> sets</c><00:05:54.320><c> the</c>
+
+00:05:54.550 --> 00:05:54.560 align:start position:0%
+if the if it's all zeros it sets the
+ 
+
+00:05:54.560 --> 00:05:59.830 align:start position:0%
+if the if it's all zeros it sets the
+segments<00:05:55.199><c> as</c><00:05:56.080><c> one</c><00:05:56.639><c> 0</c><00:05:56.960><c> 0</c><00:05:57.600><c> 0.</c>
+
+00:05:59.830 --> 00:05:59.840 align:start position:0%
+segments as one 0 0 0.
+ 
+
+00:05:59.840 --> 00:06:02.230 align:start position:0%
+segments as one 0 0 0.
+Okay.<00:06:00.400><c> So</c><00:06:00.560><c> that</c><00:06:00.880><c> basically</c><00:06:01.280><c> is</c><00:06:01.600><c> turning</c><00:06:01.840><c> on</c>
+
+00:06:02.230 --> 00:06:02.240 align:start position:0%
+Okay. So that basically is turning on
+ 
+
+00:06:02.240 --> 00:06:04.309 align:start position:0%
+Okay. So that basically is turning on
+all<00:06:02.560><c> of</c><00:06:02.720><c> these</c><00:06:03.199><c> segments</c><00:06:03.680><c> except</c><00:06:04.080><c> the</c>
+
+00:06:04.309 --> 00:06:04.319 align:start position:0%
+all of these segments except the
+ 
+
+00:06:04.319 --> 00:06:06.390 align:start position:0%
+all of these segments except the
+horizontal<00:06:04.880><c> one</c><00:06:05.199><c> if</c><00:06:05.360><c> you</c><00:06:05.520><c> look</c><00:06:05.600><c> at</c><00:06:05.759><c> it.</c><00:06:06.160><c> So</c>
+
+00:06:06.390 --> 00:06:06.400 align:start position:0%
+horizontal one if you look at it. So
+ 
+
+00:06:06.400 --> 00:06:07.830 align:start position:0%
+horizontal one if you look at it. So
+I've<00:06:06.560><c> I've</c><00:06:06.880><c> actually</c><00:06:07.199><c> written</c><00:06:07.440><c> in</c><00:06:07.680><c> the</c>
+
+00:06:07.830 --> 00:06:07.840 align:start position:0%
+I've I've actually written in the
+ 
+
+00:06:07.840 --> 00:06:09.830 align:start position:0%
+I've I've actually written in the
+comments<00:06:08.160><c> here</c><00:06:08.560><c> so</c><00:06:08.720><c> you</c><00:06:08.960><c> can</c><00:06:09.039><c> do</c><00:06:09.120><c> the</c><00:06:09.360><c> mapping.</c>
+
+00:06:09.830 --> 00:06:09.840 align:start position:0%
+comments here so you can do the mapping.
+ 
+
+00:06:09.840 --> 00:06:11.189 align:start position:0%
+comments here so you can do the mapping.
+You<00:06:10.000><c> need</c><00:06:10.080><c> to</c><00:06:10.240><c> complete</c><00:06:10.479><c> that</c><00:06:10.639><c> for</c><00:06:10.800><c> all</c><00:06:10.960><c> of</c><00:06:11.039><c> the</c>
+
+00:06:11.189 --> 00:06:11.199 align:start position:0%
+You need to complete that for all of the
+ 
+
+00:06:11.199 --> 00:06:13.670 align:start position:0%
+You need to complete that for all of the
+other<00:06:11.360><c> digits.</c><00:06:12.160><c> I've</c><00:06:12.479><c> then</c><00:06:12.880><c> this</c><00:06:13.120><c> is</c><00:06:13.280><c> using</c><00:06:13.520><c> a</c>
+
+00:06:13.670 --> 00:06:13.680 align:start position:0%
+other digits. I've then this is using a
+ 
+
+00:06:13.680 --> 00:06:15.350 align:start position:0%
+other digits. I've then this is using a
+case<00:06:14.000><c> there's</c><00:06:14.240><c> other</c><00:06:14.479><c> ways</c><00:06:14.720><c> of</c><00:06:14.880><c> doing</c><00:06:14.960><c> it</c><00:06:15.199><c> of</c>
+
+00:06:15.350 --> 00:06:15.360 align:start position:0%
+case there's other ways of doing it of
+ 
+
+00:06:15.360 --> 00:06:17.749 align:start position:0%
+case there's other ways of doing it of
+course.<00:06:15.919><c> Uh</c><00:06:16.080><c> and</c><00:06:16.319><c> then</c><00:06:16.560><c> if</c><00:06:16.800><c> you</c><00:06:16.960><c> if</c><00:06:17.199><c> if</c><00:06:17.520><c> when</c>
+
+00:06:17.749 --> 00:06:17.759 align:start position:0%
+course. Uh and then if you if if when
+ 
+
+00:06:17.759 --> 00:06:19.350 align:start position:0%
+course. Uh and then if you if if when
+others<00:06:18.080><c> is</c><00:06:18.319><c> basically</c><00:06:18.639><c> turning</c><00:06:18.960><c> all</c><00:06:19.120><c> of</c><00:06:19.280><c> the</c>
+
+00:06:19.350 --> 00:06:19.360 align:start position:0%
+others is basically turning all of the
+ 
+
+00:06:19.360 --> 00:06:22.309 align:start position:0%
+others is basically turning all of the
+the<00:06:20.000><c> um</c><00:06:20.400><c> segments</c><00:06:20.880><c> off</c><00:06:21.360><c> right</c><00:06:21.600><c> if</c><00:06:21.759><c> it's</c><00:06:21.919><c> not</c><00:06:22.080><c> if</c>
+
+00:06:22.309 --> 00:06:22.319 align:start position:0%
+the um segments off right if it's not if
+ 
+
+00:06:22.319 --> 00:06:24.469 align:start position:0%
+the um segments off right if it's not if
+it's<00:06:22.479><c> not</c><00:06:22.720><c> correct</c><00:06:23.280><c> so</c><00:06:23.520><c> that's</c><00:06:23.840><c> process</c><00:06:24.240><c> you</c>
+
+00:06:24.469 --> 00:06:24.479 align:start position:0%
+it's not correct so that's process you
+ 
+
+00:06:24.479 --> 00:06:26.629 align:start position:0%
+it's not correct so that's process you
+need<00:06:24.560><c> to</c><00:06:24.720><c> complete</c><00:06:25.520><c> yes</c><00:06:25.759><c> you</c><00:06:26.000><c> can</c><00:06:26.160><c> look</c><00:06:26.400><c> the</c>
+
+00:06:26.629 --> 00:06:26.639 align:start position:0%
+need to complete yes you can look the
+ 
+
+00:06:26.639 --> 00:06:28.309 align:start position:0%
+need to complete yes you can look the
+answer<00:06:26.880><c> for</c><00:06:27.039><c> this</c><00:06:27.199><c> up</c><00:06:27.440><c> online</c><00:06:27.919><c> is</c><00:06:28.080><c> just</c><00:06:28.240><c> a</c>
+
+00:06:28.309 --> 00:06:28.319 align:start position:0%
+answer for this up online is just a
+ 
+
+00:06:28.319 --> 00:06:30.230 align:start position:0%
+answer for this up online is just a
+lookup<00:06:28.720><c> table.</c><00:06:29.280><c> So</c><00:06:29.440><c> this</c><00:06:29.600><c> is</c><00:06:29.680><c> an</c><00:06:29.840><c> example</c><00:06:30.080><c> of</c>
+
+00:06:30.230 --> 00:06:30.240 align:start position:0%
+lookup table. So this is an example of
+ 
+
+00:06:30.240 --> 00:06:32.070 align:start position:0%
+lookup table. So this is an example of
+how<00:06:30.400><c> you</c><00:06:30.560><c> create</c><00:06:30.720><c> a</c><00:06:30.880><c> lookup</c><00:06:31.280><c> table</c><00:06:31.520><c> in</c><00:06:31.759><c> in</c>
+
+00:06:32.070 --> 00:06:32.080 align:start position:0%
+how you create a lookup table in in
+ 
+
+00:06:32.080 --> 00:06:36.230 align:start position:0%
+how you create a lookup table in in
+VHDR.<00:06:33.360><c> The</c><00:06:34.720><c> second</c><00:06:35.120><c> process</c><00:06:35.520><c> I</c><00:06:35.759><c> have</c><00:06:35.919><c> here</c><00:06:36.080><c> is</c>
+
+00:06:36.230 --> 00:06:36.240 align:start position:0%
+VHDR. The second process I have here is
+ 
+
+00:06:36.240 --> 00:06:38.390 align:start position:0%
+VHDR. The second process I have here is
+the<00:06:36.400><c> one</c><00:06:36.560><c> that</c><00:06:36.880><c> controls</c><00:06:37.840><c> basically</c>
+
+00:06:38.390 --> 00:06:38.400 align:start position:0%
+the one that controls basically
+ 
+
+00:06:38.400 --> 00:06:40.150 align:start position:0%
+the one that controls basically
+multipplexing.<00:06:39.120><c> It</c><00:06:39.280><c> controls</c><00:06:39.600><c> which</c><00:06:39.840><c> anode</c>
+
+00:06:40.150 --> 00:06:40.160 align:start position:0%
+multipplexing. It controls which anode
+ 
+
+00:06:40.160 --> 00:06:44.550 align:start position:0%
+multipplexing. It controls which anode
+is<00:06:40.400><c> on.</c><00:06:41.680><c> So</c><00:06:41.840><c> the</c><00:06:42.080><c> idea</c><00:06:42.400><c> is</c><00:06:42.720><c> that</c><00:06:42.960><c> we</c><00:06:43.280><c> have</c><00:06:44.080><c> uh</c><00:06:44.240><c> we</c>
+
+00:06:44.550 --> 00:06:44.560 align:start position:0%
+is on. So the idea is that we have uh we
+ 
+
+00:06:44.560 --> 00:06:46.790 align:start position:0%
+is on. So the idea is that we have uh we
+will<00:06:44.960><c> set</c><00:06:45.199><c> the</c><00:06:45.520><c> anodess.</c><00:06:46.080><c> You'll</c><00:06:46.400><c> notice</c><00:06:46.560><c> here</c>
+
+00:06:46.790 --> 00:06:46.800 align:start position:0%
+will set the anodess. You'll notice here
+ 
+
+00:06:46.800 --> 00:06:48.950 align:start position:0%
+will set the anodess. You'll notice here
+I've<00:06:47.199><c> initialized</c><00:06:47.759><c> it.</c><00:06:48.160><c> So</c><00:06:48.319><c> it</c><00:06:48.560><c> sets</c><00:06:48.800><c> the</c>
+
+00:06:48.950 --> 00:06:48.960 align:start position:0%
+I've initialized it. So it sets the
+ 
+
+00:06:48.960 --> 00:06:52.070 align:start position:0%
+I've initialized it. So it sets the
+right<00:06:49.280><c> hand</c><00:06:49.520><c> anode</c><00:06:50.880><c> um</c><00:06:51.120><c> assuming</c><00:06:51.600><c> we</c><00:06:51.840><c> wire</c>
+
+00:06:52.070 --> 00:06:52.080 align:start position:0%
+right hand anode um assuming we wire
+ 
+
+00:06:52.080 --> 00:06:55.350 align:start position:0%
+right hand anode um assuming we wire
+them<00:06:52.240><c> that</c><00:06:52.479><c> way</c><00:06:53.360><c> on.</c><00:06:53.680><c> So</c><00:06:53.919><c> remember</c><00:06:54.240><c> that</c><00:06:55.039><c> this</c>
+
+00:06:55.350 --> 00:06:55.360 align:start position:0%
+them that way on. So remember that this
+ 
+
+00:06:55.360 --> 00:06:57.350 align:start position:0%
+them that way on. So remember that this
+when<00:06:55.520><c> you</c><00:06:55.680><c> set</c><00:06:55.759><c> a</c><00:06:56.000><c> zero</c><00:06:56.319><c> that's</c><00:06:56.720><c> switching</c><00:06:57.120><c> on</c>
+
+00:06:57.350 --> 00:06:57.360 align:start position:0%
+when you set a zero that's switching on
+ 
+
+00:06:57.360 --> 00:06:59.270 align:start position:0%
+when you set a zero that's switching on
+that<00:06:57.680><c> particular</c><00:06:58.319><c> anode</c><00:06:58.720><c> and</c><00:06:58.880><c> therefore</c>
+
+00:06:59.270 --> 00:06:59.280 align:start position:0%
+that particular anode and therefore
+ 
+
+00:06:59.280 --> 00:07:01.430 align:start position:0%
+that particular anode and therefore
+selecting<00:06:59.680><c> that</c><00:07:00.080><c> particular</c><00:07:00.479><c> digit.</c><00:07:01.120><c> So</c><00:07:01.280><c> this</c>
+
+00:07:01.430 --> 00:07:01.440 align:start position:0%
+selecting that particular digit. So this
+ 
+
+00:07:01.440 --> 00:07:02.870 align:start position:0%
+selecting that particular digit. So this
+is<00:07:01.599><c> selecting</c><00:07:01.919><c> the</c><00:07:02.080><c> least</c><00:07:02.319><c> significant</c>
+
+00:07:02.870 --> 00:07:02.880 align:start position:0%
+is selecting the least significant
+ 
+
+00:07:02.880 --> 00:07:04.870 align:start position:0%
+is selecting the least significant
+digit.
+
+00:07:04.870 --> 00:07:04.880 align:start position:0%
+digit.
+ 
+
+00:07:04.880 --> 00:07:07.670 align:start position:0%
+digit.
+Every<00:07:05.199><c> clock</c><00:07:05.599><c> cycle</c><00:07:06.000><c> it</c><00:07:06.240><c> has</c><00:07:06.400><c> to</c><00:07:06.960><c> select</c><00:07:07.440><c> the</c>
+
+00:07:07.670 --> 00:07:07.680 align:start position:0%
+Every clock cycle it has to select the
+ 
+
+00:07:07.680 --> 00:07:09.909 align:start position:0%
+Every clock cycle it has to select the
+next<00:07:07.840><c> digit</c><00:07:08.160><c> along.</c><00:07:08.639><c> So</c><00:07:09.199><c> shift</c><00:07:09.520><c> along</c>
+
+00:07:09.909 --> 00:07:09.919 align:start position:0%
+next digit along. So shift along
+ 
+
+00:07:09.919 --> 00:07:12.710 align:start position:0%
+next digit along. So shift along
+selected<00:07:10.319><c> anode</c><00:07:10.639><c> per</c><00:07:10.800><c> enabled</c><00:07:11.280><c> clock</c><00:07:11.520><c> cycle.</c>
+
+00:07:12.710 --> 00:07:12.720 align:start position:0%
+selected anode per enabled clock cycle.
+ 
+
+00:07:12.720 --> 00:07:14.950 align:start position:0%
+selected anode per enabled clock cycle.
+Right?<00:07:13.199><c> So</c><00:07:13.360><c> it's</c><00:07:13.599><c> got</c><00:07:13.759><c> the</c><00:07:14.160><c> master</c><00:07:14.479><c> clock</c><00:07:14.800><c> and</c>
+
+00:07:14.950 --> 00:07:14.960 align:start position:0%
+Right? So it's got the master clock and
+ 
+
+00:07:14.960 --> 00:07:16.550 align:start position:0%
+Right? So it's got the master clock and
+then<00:07:15.120><c> clock</c><00:07:15.440><c> enabled</c><00:07:15.840><c> because</c><00:07:16.080><c> we</c><00:07:16.240><c> only</c><00:07:16.479><c> want</c>
+
+00:07:16.550 --> 00:07:16.560 align:start position:0%
+then clock enabled because we only want
+ 
+
+00:07:16.560 --> 00:07:19.430 align:start position:0%
+then clock enabled because we only want
+to<00:07:16.639><c> do</c><00:07:16.800><c> this</c><00:07:16.960><c> at</c><00:07:17.120><c> 1</c><00:07:17.280><c> kHz.</c>
+
+00:07:19.430 --> 00:07:19.440 align:start position:0%
+to do this at 1 kHz.
+ 
+
+00:07:19.440 --> 00:07:21.909 align:start position:0%
+to do this at 1 kHz.
+And<00:07:19.599><c> then</c><00:07:20.160><c> the</c><00:07:20.560><c> third</c><00:07:20.880><c> process</c><00:07:21.199><c> we</c><00:07:21.520><c> need</c><00:07:21.680><c> is</c>
+
+00:07:21.909 --> 00:07:21.919 align:start position:0%
+And then the third process we need is
+ 
+
+00:07:21.919 --> 00:07:25.029 align:start position:0%
+And then the third process we need is
+based<00:07:22.319><c> on</c><00:07:22.560><c> that.</c><00:07:23.280><c> So</c><00:07:23.599><c> this</c><00:07:23.759><c> this</c><00:07:24.080><c> is</c><00:07:24.319><c> so</c><00:07:24.720><c> this</c>
+
+00:07:25.029 --> 00:07:25.039 align:start position:0%
+based on that. So this this is so this
+ 
+
+00:07:25.039 --> 00:07:27.430 align:start position:0%
+based on that. So this this is so this
+process<00:07:25.599><c> is</c><00:07:26.319><c> uh</c><00:07:26.479><c> sensitive</c><00:07:26.960><c> just</c><00:07:27.120><c> to</c><00:07:27.280><c> the</c>
+
+00:07:27.430 --> 00:07:27.440 align:start position:0%
+process is uh sensitive just to the
+ 
+
+00:07:27.440 --> 00:07:29.909 align:start position:0%
+process is uh sensitive just to the
+digit<00:07:28.240><c> and</c><00:07:28.479><c> it</c><00:07:28.720><c> simply</c><00:07:29.039><c> sets</c><00:07:29.280><c> the</c><00:07:29.440><c> segments</c>
+
+00:07:29.909 --> 00:07:29.919 align:start position:0%
+digit and it simply sets the segments
+ 
+
+00:07:29.919 --> 00:07:32.469 align:start position:0%
+digit and it simply sets the segments
+depending<00:07:30.240><c> on</c><00:07:30.400><c> what</c><00:07:30.639><c> digit</c><00:07:31.919><c> that</c><00:07:32.080><c> we</c><00:07:32.240><c> have</c>
+
+00:07:32.469 --> 00:07:32.479 align:start position:0%
+depending on what digit that we have
+ 
+
+00:07:32.479 --> 00:07:34.790 align:start position:0%
+depending on what digit that we have
+selected.<00:07:33.360><c> This</c><00:07:33.599><c> is</c><00:07:33.840><c> set</c><00:07:34.000><c> just</c><00:07:34.240><c> sensitive</c><00:07:34.639><c> to</c>
+
+00:07:34.790 --> 00:07:34.800 align:start position:0%
+selected. This is set just sensitive to
+ 
+
+00:07:34.800 --> 00:07:36.629 align:start position:0%
+selected. This is set just sensitive to
+the<00:07:34.960><c> clock</c><00:07:35.199><c> and</c><00:07:35.440><c> it</c><00:07:35.680><c> updates</c><00:07:36.000><c> the</c><00:07:36.240><c> internal</c>
+
+00:07:36.629 --> 00:07:36.639 align:start position:0%
+the clock and it updates the internal
+ 
+
+00:07:36.639 --> 00:07:38.710 align:start position:0%
+the clock and it updates the internal
+anode<00:07:37.120><c> eye.</c>
+
+00:07:38.710 --> 00:07:38.720 align:start position:0%
+anode eye.
+ 
+
+00:07:38.720 --> 00:07:44.230 align:start position:0%
+anode eye.
+Um<00:07:39.440><c> and</c><00:07:39.680><c> then</c><00:07:39.919><c> finally</c><00:07:40.960><c> uh</c><00:07:41.120><c> we</c><00:07:41.440><c> need</c><00:07:41.680><c> to</c><00:07:42.479><c> um</c>
+
+00:07:44.230 --> 00:07:44.240 align:start position:0%
+Um and then finally uh we need to um
+ 
+
+00:07:44.240 --> 00:07:47.029 align:start position:0%
+Um and then finally uh we need to um
+set<00:07:44.720><c> the</c><00:07:45.360><c> we</c><00:07:45.840><c> based</c><00:07:46.080><c> on</c><00:07:46.240><c> the</c><00:07:46.400><c> current</c><00:07:46.720><c> anodes</c>
+
+00:07:47.029 --> 00:07:47.039 align:start position:0%
+set the we based on the current anodes
+ 
+
+00:07:47.039 --> 00:07:49.110 align:start position:0%
+set the we based on the current anodes
+today<00:07:47.360><c> we</c><00:07:47.520><c> need</c><00:07:47.599><c> to</c><00:07:47.759><c> select</c><00:07:48.000><c> which</c><00:07:48.319><c> digit</c>
+
+00:07:49.110 --> 00:07:49.120 align:start position:0%
+today we need to select which digit
+ 
+
+00:07:49.120 --> 00:07:51.510 align:start position:0%
+today we need to select which digit
+which<00:07:49.280><c> of</c><00:07:49.440><c> the</c><00:07:49.599><c> input</c><00:07:50.000><c> digits</c><00:07:51.199><c> right</c>
+
+00:07:51.510 --> 00:07:51.520 align:start position:0%
+which of the input digits right
+ 
+
+00:07:51.520 --> 00:07:53.589 align:start position:0%
+which of the input digits right
+depending<00:07:51.840><c> on</c><00:07:51.919><c> what</c><00:07:52.160><c> anode</c><00:07:52.479><c> we've</c><00:07:52.720><c> set.</c><00:07:53.440><c> So</c>
+
+00:07:53.589 --> 00:07:53.599 align:start position:0%
+depending on what anode we've set. So
+ 
+
+00:07:53.599 --> 00:07:55.830 align:start position:0%
+depending on what anode we've set. So
+this<00:07:53.759><c> is</c><00:07:53.919><c> sensitive</c><00:07:54.319><c> to</c><00:07:54.479><c> the</c><00:07:54.639><c> anodes.</c><00:07:55.440><c> Oh</c><00:07:55.680><c> by</c>
+
+00:07:55.830 --> 00:07:55.840 align:start position:0%
+this is sensitive to the anodes. Oh by
+ 
+
+00:07:55.840 --> 00:07:57.510 align:start position:0%
+this is sensitive to the anodes. Oh by
+the<00:07:55.919><c> way</c><00:07:56.080><c> I</c><00:07:56.240><c> I</c><00:07:56.479><c> should</c><00:07:56.639><c> point</c><00:07:56.800><c> out</c><00:07:57.039><c> this</c><00:07:57.280><c> is</c><00:07:57.360><c> an</c>
+
+00:07:57.510 --> 00:07:57.520 align:start position:0%
+the way I I should point out this is an
+ 
+
+00:07:57.520 --> 00:07:59.110 align:start position:0%
+the way I I should point out this is an
+internal<00:07:57.919><c> signal</c><00:07:58.319><c> I'</c><00:07:58.479><c> I've</c><00:07:58.720><c> talked</c><00:07:58.960><c> because</c>
+
+00:07:59.110 --> 00:07:59.120 align:start position:0%
+internal signal I' I've talked because
+ 
+
+00:07:59.120 --> 00:08:00.869 align:start position:0%
+internal signal I' I've talked because
+we<00:07:59.280><c> have</c><00:07:59.360><c> to</c><00:07:59.440><c> update</c><00:07:59.759><c> it.</c><00:08:00.000><c> remember</c><00:08:00.400><c> that</c><00:08:00.639><c> you</c>
+
+00:08:00.869 --> 00:08:00.879 align:start position:0%
+we have to update it. remember that you
+ 
+
+00:08:00.879 --> 00:08:02.629 align:start position:0%
+we have to update it. remember that you
+have<00:08:01.039><c> to</c><00:08:01.199><c> connect</c><00:08:01.440><c> the</c><00:08:01.759><c> external</c><00:08:02.240><c> output</c>
+
+00:08:02.629 --> 00:08:02.639 align:start position:0%
+have to connect the external output
+ 
+
+00:08:02.639 --> 00:08:05.589 align:start position:0%
+have to connect the external output
+anodes<00:08:02.960><c> to</c><00:08:03.120><c> that</c><00:08:03.360><c> as</c><00:08:03.520><c> well.</c>
+
+00:08:05.589 --> 00:08:05.599 align:start position:0%
+anodes to that as well.
+ 
+
+00:08:05.599 --> 00:08:07.270 align:start position:0%
+anodes to that as well.
+So<00:08:05.840><c> do</c><00:08:06.080><c> remember</c><00:08:06.319><c> that.</c><00:08:06.639><c> So</c><00:08:06.800><c> you</c><00:08:06.960><c> need</c><00:08:07.120><c> to</c>
+
+00:08:07.270 --> 00:08:07.280 align:start position:0%
+So do remember that. So you need to
+ 
+
+00:08:07.280 --> 00:08:10.390 align:start position:0%
+So do remember that. So you need to
+implement<00:08:07.680><c> that</c><00:08:08.319><c> um</c><00:08:08.479><c> to</c><00:08:08.720><c> do</c><00:08:08.879><c> the</c><00:08:09.039><c> display.</c><00:08:10.080><c> The</c>
+
+00:08:10.390 --> 00:08:10.400 align:start position:0%
+implement that um to do the display. The
+ 
+
+00:08:10.400 --> 00:08:12.550 align:start position:0%
+implement that um to do the display. The
+second<00:08:10.720><c> unit</c><00:08:11.280><c> we</c><00:08:11.599><c> you</c><00:08:11.840><c> look</c><00:08:12.000><c> at</c><00:08:12.160><c> in</c><00:08:12.400><c> the</c>
+
+00:08:12.550 --> 00:08:12.560 align:start position:0%
+second unit we you look at in the
+ 
+
+00:08:12.560 --> 00:08:16.070 align:start position:0%
+second unit we you look at in the
+workbook<00:08:13.039><c> is</c><00:08:13.280><c> the</c><00:08:13.520><c> control</c><00:08:14.000><c> state</c><00:08:14.319><c> machine</c>
+
+00:08:16.070 --> 00:08:16.080 align:start position:0%
+workbook is the control state machine
+ 
+
+00:08:16.080 --> 00:08:21.990 align:start position:0%
+workbook is the control state machine
+and<00:08:16.960><c> uh</c><00:08:17.440><c> if</c><00:08:17.759><c> we</c><00:08:19.039><c> uh</c><00:08:19.840><c> look</c><00:08:20.000><c> at</c><00:08:20.160><c> the</c><00:08:20.400><c> script</c>
+
+00:08:21.990 --> 00:08:22.000 align:start position:0%
+and uh if we uh look at the script
+ 
+
+00:08:22.000 --> 00:08:23.749 align:start position:0%
+and uh if we uh look at the script
+um<00:08:22.160><c> here</c><00:08:22.319><c> we</c><00:08:22.479><c> have</c><00:08:22.560><c> this</c><00:08:22.800><c> it</c><00:08:23.199><c> gives</c><00:08:23.360><c> you</c><00:08:23.520><c> some</c>
+
+00:08:23.749 --> 00:08:23.759 align:start position:0%
+um here we have this it gives you some
+ 
+
+00:08:23.759 --> 00:08:26.150 align:start position:0%
+um here we have this it gives you some
+suggestions<00:08:24.240><c> of</c><00:08:24.479><c> how</c><00:08:24.639><c> to</c><00:08:24.800><c> do</c><00:08:24.960><c> this.</c><00:08:25.759><c> Uh</c>
+
+00:08:26.150 --> 00:08:26.160 align:start position:0%
+suggestions of how to do this. Uh
+ 
+
+00:08:26.160 --> 00:08:28.869 align:start position:0%
+suggestions of how to do this. Uh
+basically<00:08:26.720><c> we</c><00:08:27.120><c> have</c><00:08:27.759><c> three</c><00:08:28.080><c> control</c><00:08:28.479><c> signals</c>
+
+00:08:28.869 --> 00:08:28.879 align:start position:0%
+basically we have three control signals
+ 
+
+00:08:28.879 --> 00:08:30.710 align:start position:0%
+basically we have three control signals
+going<00:08:29.120><c> to</c><00:08:29.280><c> the</c><00:08:29.440><c> timer</c><00:08:29.840><c> and</c><00:08:30.080><c> we</c><00:08:30.240><c> have</c><00:08:30.319><c> our</c><00:08:30.560><c> three</c>
+
+00:08:30.710 --> 00:08:30.720 align:start position:0%
+going to the timer and we have our three
+ 
+
+00:08:30.720 --> 00:08:32.469 align:start position:0%
+going to the timer and we have our three
+buttons<00:08:31.120><c> coming</c><00:08:31.280><c> in.</c><00:08:31.520><c> We</c><00:08:31.680><c> have</c><00:08:31.840><c> a</c><00:08:31.919><c> a</c><00:08:32.240><c> button</c>
+
+00:08:32.469 --> 00:08:32.479 align:start position:0%
+buttons coming in. We have a a button
+ 
+
+00:08:32.479 --> 00:08:34.389 align:start position:0%
+buttons coming in. We have a a button
+that<00:08:32.719><c> starts</c><00:08:32.959><c> and</c><00:08:33.200><c> stops</c><00:08:33.440><c> the</c><00:08:33.599><c> timer,</c><00:08:33.919><c> a</c><00:08:34.080><c> reset</c>
+
+00:08:34.389 --> 00:08:34.399 align:start position:0%
+that starts and stops the timer, a reset
+ 
+
+00:08:34.399 --> 00:08:37.829 align:start position:0%
+that starts and stops the timer, a reset
+button<00:08:34.640><c> and</c><00:08:34.800><c> a</c><00:08:34.959><c> lap</c><00:08:35.200><c> time.</c><00:08:36.080><c> Um</c><00:08:36.800><c> the</c><00:08:37.360><c> outputs</c>
+
+00:08:37.829 --> 00:08:37.839 align:start position:0%
+button and a lap time. Um the outputs
+ 
+
+00:08:37.839 --> 00:08:40.790 align:start position:0%
+button and a lap time. Um the outputs
+from<00:08:38.000><c> this</c><00:08:38.479><c> have</c><00:08:38.719><c> to</c><00:08:39.440><c> basically</c><00:08:39.919><c> are</c><00:08:40.080><c> a</c><00:08:40.320><c> reset</c>
+
+00:08:40.790 --> 00:08:40.800 align:start position:0%
+from this have to basically are a reset
+ 
+
+00:08:40.800 --> 00:08:43.990 align:start position:0%
+from this have to basically are a reset
+that<00:08:41.120><c> sets</c><00:08:41.440><c> both</c><00:08:41.760><c> the</c><00:08:42.000><c> timer</c><00:08:42.560><c> and</c><00:08:42.880><c> the</c>
+
+00:08:43.990 --> 00:08:44.000 align:start position:0%
+that sets both the timer and the
+ 
+
+00:08:44.000 --> 00:08:48.389 align:start position:0%
+that sets both the timer and the
+displayed<00:08:45.200><c> timer</c><00:08:46.240><c> to</c><00:08:46.480><c> zero.</c><00:08:47.040><c> A</c><00:08:47.279><c> pause</c><00:08:47.519><c> button</c>
+
+00:08:48.389 --> 00:08:48.399 align:start position:0%
+displayed timer to zero. A pause button
+ 
+
+00:08:48.399 --> 00:08:51.269 align:start position:0%
+displayed timer to zero. A pause button
+uh<00:08:48.560><c> that</c><00:08:48.880><c> basically</c><00:08:49.600><c> says</c><00:08:50.320><c> uh</c><00:08:50.480><c> do</c><00:08:50.720><c> not</c><00:08:50.880><c> update</c>
+
+00:08:51.269 --> 00:08:51.279 align:start position:0%
+uh that basically says uh do not update
+ 
+
+00:08:51.279 --> 00:08:54.230 align:start position:0%
+uh that basically says uh do not update
+the<00:08:52.080><c> stops</c><00:08:52.399><c> the</c><00:08:52.640><c> timer.</c>
+
+00:08:54.230 --> 00:08:54.240 align:start position:0%
+the stops the timer.
+ 
+
+00:08:54.240 --> 00:08:57.269 align:start position:0%
+the stops the timer.
+Um,<00:08:55.680><c> and</c><00:08:55.839><c> then</c><00:08:56.080><c> we</c><00:08:56.240><c> have</c><00:08:56.320><c> a</c><00:08:56.480><c> latch</c><00:08:56.800><c> button</c><00:08:57.040><c> that</c>
+
+00:08:57.269 --> 00:08:57.279 align:start position:0%
+Um, and then we have a latch button that
+ 
+
+00:08:57.279 --> 00:08:59.590 align:start position:0%
+Um, and then we have a latch button that
+latches<00:08:57.680><c> it</c><00:08:57.839><c> across.</c><00:08:58.480><c> So,</c><00:08:58.640><c> I</c><00:08:58.880><c> I</c><00:08:59.040><c> guess</c><00:08:59.200><c> I</c><00:08:59.360><c> I</c>
+
+00:08:59.590 --> 00:08:59.600 align:start position:0%
+latches it across. So, I I guess I I
+ 
+
+00:08:59.600 --> 00:09:00.870 align:start position:0%
+latches it across. So, I I guess I I
+didn't<00:08:59.760><c> mention</c><00:08:59.920><c> that</c><00:09:00.080><c> at</c><00:09:00.320><c> the</c><00:09:00.480><c> start,</c><00:09:00.640><c> but</c>
+
+00:09:00.870 --> 00:09:00.880 align:start position:0%
+didn't mention that at the start, but
+ 
+
+00:09:00.880 --> 00:09:04.230 align:start position:0%
+didn't mention that at the start, but
+but<00:09:01.200><c> if</c><00:09:01.440><c> you</c><00:09:01.519><c> press</c><00:09:02.560><c> uh</c><00:09:02.800><c> stop</c><00:09:03.519><c> uh</c><00:09:03.600><c> the</c><00:09:03.760><c> the</c><00:09:04.000><c> stop</c>
+
+00:09:04.230 --> 00:09:04.240 align:start position:0%
+but if you press uh stop uh the the stop
+ 
+
+00:09:04.240 --> 00:09:07.030 align:start position:0%
+but if you press uh stop uh the the stop
+and<00:09:04.480><c> start</c><00:09:04.720><c> button,</c><00:09:05.440><c> um</c><00:09:05.519><c> it</c><00:09:06.320><c> if</c><00:09:06.480><c> it's</c><00:09:06.720><c> running,</c>
+
+00:09:07.030 --> 00:09:07.040 align:start position:0%
+and start button, um it if it's running,
+ 
+
+00:09:07.040 --> 00:09:11.269 align:start position:0%
+and start button, um it if it's running,
+it<00:09:07.279><c> pauses,</c><00:09:08.080><c> right?</c><00:09:08.640><c> So,</c>
+
+00:09:11.269 --> 00:09:11.279 align:start position:0%
+it pauses, right? So,
+ 
+
+00:09:11.279 --> 00:09:13.750 align:start position:0%
+it pauses, right? So,
+so<00:09:11.680><c> you</c><00:09:12.080><c> have</c><00:09:12.240><c> to</c><00:09:12.320><c> create</c><00:09:12.560><c> a</c><00:09:12.720><c> state</c><00:09:13.040><c> machine</c><00:09:13.680><c> um</c>
+
+00:09:13.750 --> 00:09:13.760 align:start position:0%
+so you have to create a state machine um
+ 
+
+00:09:13.760 --> 00:09:15.829 align:start position:0%
+so you have to create a state machine um
+using<00:09:13.920><c> the</c><00:09:14.160><c> state</c><00:09:14.480><c> machine</c><00:09:14.959><c> techniques</c><00:09:15.519><c> I've</c>
+
+00:09:15.829 --> 00:09:15.839 align:start position:0%
+using the state machine techniques I've
+ 
+
+00:09:15.839 --> 00:09:19.670 align:start position:0%
+using the state machine techniques I've
+discussed<00:09:16.240><c> in</c><00:09:16.480><c> the</c><00:09:16.800><c> other</c><00:09:17.120><c> videos.</c><00:09:18.560><c> uh</c><00:09:19.200><c> to</c><00:09:19.519><c> do</c>
+
+00:09:19.670 --> 00:09:19.680 align:start position:0%
+discussed in the other videos. uh to do
+ 
+
+00:09:19.680 --> 00:09:23.590 align:start position:0%
+discussed in the other videos. uh to do
+that<00:09:20.399><c> uh</c><00:09:20.959><c> at</c><00:09:21.600><c> um</c><00:09:22.399><c> finite</c><00:09:22.800><c> state</c><00:09:23.040><c> machine</c><00:09:23.360><c> I</c>
+
+00:09:23.590 --> 00:09:23.600 align:start position:0%
+that uh at um finite state machine I
+ 
+
+00:09:23.600 --> 00:09:27.829 align:start position:0%
+that uh at um finite state machine I
+have<00:09:23.760><c> provided</c><00:09:24.160><c> for</c><00:09:24.399><c> you</c><00:09:25.360><c> uh</c><00:09:25.519><c> a</c><00:09:25.760><c> template</c><00:09:26.800><c> so</c>
+
+00:09:27.829 --> 00:09:27.839 align:start position:0%
+have provided for you uh a template so
+ 
+
+00:09:27.839 --> 00:09:29.670 align:start position:0%
+have provided for you uh a template so
+um<00:09:27.920><c> what</c><00:09:28.160><c> you</c><00:09:28.320><c> need</c><00:09:28.399><c> to</c><00:09:28.560><c> do</c><00:09:28.720><c> is</c><00:09:28.880><c> take</c><00:09:29.120><c> this</c><00:09:29.360><c> this</c>
+
+00:09:29.670 --> 00:09:29.680 align:start position:0%
+um what you need to do is take this this
+ 
+
+00:09:29.680 --> 00:09:32.310 align:start position:0%
+um what you need to do is take this this
+file<00:09:30.080><c> FSM</c><00:09:30.640><c> template</c><00:09:31.519><c> this</c><00:09:31.760><c> is</c><00:09:31.839><c> a</c><00:09:32.080><c> three</c>
+
+00:09:32.310 --> 00:09:32.320 align:start position:0%
+file FSM template this is a three
+ 
+
+00:09:32.320 --> 00:09:34.389 align:start position:0%
+file FSM template this is a three
+process<00:09:32.720><c> finite</c><00:09:33.360><c> state</c><00:09:33.600><c> machine</c><00:09:33.920><c> model</c><00:09:34.160><c> it's</c>
+
+00:09:34.389 --> 00:09:34.399 align:start position:0%
+process finite state machine model it's
+ 
+
+00:09:34.399 --> 00:09:36.230 align:start position:0%
+process finite state machine model it's
+the<00:09:34.560><c> one</c><00:09:34.640><c> that</c><00:09:34.800><c> is</c><00:09:35.200><c> is</c><00:09:35.440><c> very</c><00:09:35.839><c> highly</c>
+
+00:09:36.230 --> 00:09:36.240 align:start position:0%
+the one that is is very highly
+ 
+
+00:09:36.240 --> 00:09:38.550 align:start position:0%
+the one that is is very highly
+recommended<00:09:36.880><c> very</c><00:09:37.120><c> strongly</c><00:09:37.519><c> recommended</c>
+
+00:09:38.550 --> 00:09:38.560 align:start position:0%
+recommended very strongly recommended
+ 
+
+00:09:38.560 --> 00:09:40.070 align:start position:0%
+recommended very strongly recommended
+and<00:09:38.800><c> certainly</c><00:09:39.040><c> I</c><00:09:39.279><c> find</c><00:09:39.440><c> this</c><00:09:39.680><c> the</c><00:09:39.920><c> best</c>
+
+00:09:40.070 --> 00:09:40.080 align:start position:0%
+and certainly I find this the best
+ 
+
+00:09:40.080 --> 00:09:41.910 align:start position:0%
+and certainly I find this the best
+approach<00:09:40.399><c> to</c><00:09:40.640><c> use</c><00:09:41.200><c> you</c><00:09:41.360><c> will</c><00:09:41.519><c> see</c><00:09:41.680><c> other</c>
+
+00:09:41.910 --> 00:09:41.920 align:start position:0%
+approach to use you will see other
+ 
+
+00:09:41.920 --> 00:09:44.389 align:start position:0%
+approach to use you will see other
+people<00:09:42.160><c> use</c><00:09:42.880><c> uh</c><00:09:43.120><c> two</c><00:09:43.440><c> process</c><00:09:43.839><c> I've</c><00:09:44.000><c> even</c><00:09:44.160><c> seen</c>
+
+00:09:44.389 --> 00:09:44.399 align:start position:0%
+people use uh two process I've even seen
+ 
+
+00:09:44.399 --> 00:09:46.310 align:start position:0%
+people use uh two process I've even seen
+one<00:09:44.640><c> process</c><00:09:45.200><c> please</c><00:09:45.440><c> don't</c><00:09:45.680><c> it's</c><00:09:45.920><c> very</c><00:09:46.160><c> hard</c>
+
+00:09:46.310 --> 00:09:46.320 align:start position:0%
+one process please don't it's very hard
+ 
+
+00:09:46.320 --> 00:09:48.230 align:start position:0%
+one process please don't it's very hard
+to<00:09:46.480><c> read</c><00:09:46.800><c> so</c><00:09:47.120><c> there</c><00:09:47.279><c> are</c><00:09:47.440><c> good</c><00:09:47.600><c> reasons</c><00:09:48.000><c> for</c>
+
+00:09:48.230 --> 00:09:48.240 align:start position:0%
+to read so there are good reasons for
+ 
+
+00:09:48.240 --> 00:09:50.870 align:start position:0%
+to read so there are good reasons for
+using<00:09:48.480><c> three</c><00:09:48.720><c> process.</c><00:09:49.200><c> It</c><00:09:49.360><c> is</c><00:09:49.519><c> what</c><00:09:50.000><c> uh</c><00:09:50.399><c> is</c><00:09:50.560><c> is</c>
+
+00:09:50.870 --> 00:09:50.880 align:start position:0%
+using three process. It is what uh is is
+ 
+
+00:09:50.880 --> 00:09:53.670 align:start position:0%
+using three process. It is what uh is is
+recommended<00:09:51.279><c> for</c><00:09:51.440><c> these</c><00:09:51.839><c> FPJs.</c><00:09:52.560><c> Anyway,</c><00:09:53.279><c> so</c><00:09:53.440><c> a</c>
+
+00:09:53.670 --> 00:09:53.680 align:start position:0%
+recommended for these FPJs. Anyway, so a
+ 
+
+00:09:53.680 --> 00:09:56.310 align:start position:0%
+recommended for these FPJs. Anyway, so a
+three<00:09:53.920><c> process</c><00:09:54.320><c> state</c><00:09:54.640><c> machine</c><00:09:55.440><c> has</c><00:09:56.000><c> a</c>
+
+00:09:56.310 --> 00:09:56.320 align:start position:0%
+three process state machine has a
+ 
+
+00:09:56.320 --> 00:09:59.190 align:start position:0%
+three process state machine has a
+process<00:09:56.880><c> which</c><00:09:57.279><c> is</c><00:09:57.519><c> driven</c><00:09:57.839><c> by</c><00:09:58.000><c> the</c><00:09:58.160><c> clock</c>
+
+00:09:59.190 --> 00:09:59.200 align:start position:0%
+process which is driven by the clock
+ 
+
+00:09:59.200 --> 00:10:02.949 align:start position:0%
+process which is driven by the clock
+that<00:09:59.839><c> basically</c><00:10:00.800><c> deals</c><00:10:01.120><c> with</c><00:10:01.279><c> reset</c><00:10:02.080><c> and</c><00:10:02.560><c> sets</c>
+
+00:10:02.949 --> 00:10:02.959 align:start position:0%
+that basically deals with reset and sets
+ 
+
+00:10:02.959 --> 00:10:04.710 align:start position:0%
+that basically deals with reset and sets
+the<00:10:03.200><c> current</c><00:10:03.440><c> state</c><00:10:03.760><c> to</c><00:10:04.000><c> whatever</c><00:10:04.320><c> the</c><00:10:04.480><c> next</c>
+
+00:10:04.710 --> 00:10:04.720 align:start position:0%
+the current state to whatever the next
+ 
+
+00:10:04.720 --> 00:10:06.870 align:start position:0%
+the current state to whatever the next
+state<00:10:04.959><c> is.</c><00:10:05.519><c> So</c><00:10:05.760><c> we</c><00:10:05.920><c> have</c><00:10:06.080><c> to</c><00:10:06.160><c> define</c><00:10:06.399><c> a</c><00:10:06.640><c> state</c>
+
+00:10:06.870 --> 00:10:06.880 align:start position:0%
+state is. So we have to define a state
+ 
+
+00:10:06.880 --> 00:10:11.030 align:start position:0%
+state is. So we have to define a state
+type.<00:10:07.760><c> Um</c><00:10:08.720><c> and</c><00:10:08.959><c> then</c><00:10:09.279><c> we</c><00:10:09.519><c> we</c><00:10:10.160><c> uh</c><00:10:10.399><c> and</c><00:10:10.640><c> then</c><00:10:10.800><c> for</c>
+
+00:10:11.030 --> 00:10:11.040 align:start position:0%
+type. Um and then we we uh and then for
+ 
+
+00:10:11.040 --> 00:10:12.630 align:start position:0%
+type. Um and then we we uh and then for
+that<00:10:11.200><c> we</c><00:10:11.360><c> have</c><00:10:11.440><c> the</c><00:10:11.680><c> current</c><00:10:11.920><c> state</c><00:10:12.160><c> and</c><00:10:12.399><c> the</c>
+
+00:10:12.630 --> 00:10:12.640 align:start position:0%
+that we have the current state and the
+ 
+
+00:10:12.640 --> 00:10:15.269 align:start position:0%
+that we have the current state and the
+next<00:10:12.880><c> state.</c><00:10:13.760><c> And</c><00:10:14.000><c> this</c><00:10:14.160><c> all</c><00:10:14.399><c> this</c><00:10:14.640><c> does</c><00:10:14.880><c> is</c><00:10:15.120><c> it</c>
+
+00:10:15.269 --> 00:10:15.279 align:start position:0%
+next state. And this all this does is it
+ 
+
+00:10:15.279 --> 00:10:17.990 align:start position:0%
+next state. And this all this does is it
+sets<00:10:15.760><c> uh</c><00:10:15.920><c> when</c><00:10:16.079><c> it's</c><00:10:16.240><c> reset</c><00:10:16.800><c> sets</c><00:10:17.040><c> the</c><00:10:17.600><c> current</c>
+
+00:10:17.990 --> 00:10:18.000 align:start position:0%
+sets uh when it's reset sets the current
+ 
+
+00:10:18.000 --> 00:10:19.590 align:start position:0%
+sets uh when it's reset sets the current
+the<00:10:18.240><c> state</c><00:10:18.399><c> to</c><00:10:18.640><c> whatever</c><00:10:18.959><c> you</c><00:10:19.120><c> decide</c><00:10:19.440><c> the</c>
+
+00:10:19.590 --> 00:10:19.600 align:start position:0%
+the state to whatever you decide the
+ 
+
+00:10:19.600 --> 00:10:21.430 align:start position:0%
+the state to whatever you decide the
+initial<00:10:19.920><c> state</c><00:10:20.160><c> should</c><00:10:20.320><c> be</c><00:10:20.399><c> in</c><00:10:20.560><c> reset.</c><00:10:21.200><c> It</c>
+
+00:10:21.430 --> 00:10:21.440 align:start position:0%
+initial state should be in reset. It
+ 
+
+00:10:21.440 --> 00:10:22.710 align:start position:0%
+initial state should be in reset. It
+doesn't<00:10:21.600><c> have</c><00:10:21.680><c> to</c><00:10:21.760><c> be</c><00:10:21.920><c> S0.</c><00:10:22.399><c> That's</c><00:10:22.560><c> an</c>
+
+00:10:22.710 --> 00:10:22.720 align:start position:0%
+doesn't have to be S0. That's an
+ 
+
+00:10:22.720 --> 00:10:24.470 align:start position:0%
+doesn't have to be S0. That's an
+example.
+
+00:10:24.470 --> 00:10:24.480 align:start position:0%
+example.
+ 
+
+00:10:24.480 --> 00:10:26.790 align:start position:0%
+example.
+And<00:10:24.640><c> then</c><00:10:25.120><c> on</c><00:10:25.360><c> every</c><00:10:25.519><c> clock</c><00:10:25.839><c> in</c><00:10:26.079><c> every</c><00:10:26.640><c> uh</c>
+
+00:10:26.790 --> 00:10:26.800 align:start position:0%
+And then on every clock in every uh
+ 
+
+00:10:26.800 --> 00:10:29.269 align:start position:0%
+And then on every clock in every uh
+rising<00:10:27.120><c> edge</c><00:10:27.360><c> of</c><00:10:27.519><c> clock</c><00:10:27.760><c> it</c><00:10:28.000><c> sets</c><00:10:28.240><c> the</c><00:10:28.880><c> current</c>
+
+00:10:29.269 --> 00:10:29.279 align:start position:0%
+rising edge of clock it sets the current
+ 
+
+00:10:29.279 --> 00:10:31.110 align:start position:0%
+rising edge of clock it sets the current
+state<00:10:29.680><c> to</c><00:10:30.000><c> whatever</c><00:10:30.320><c> the</c><00:10:30.480><c> next</c><00:10:30.720><c> state</c>
+
+00:10:31.110 --> 00:10:31.120 align:start position:0%
+state to whatever the next state
+ 
+
+00:10:31.120 --> 00:10:34.310 align:start position:0%
+state to whatever the next state
+internal<00:10:31.680><c> value</c><00:10:32.000><c> is.</c><00:10:33.200><c> U</c><00:10:33.519><c> it</c><00:10:33.760><c> then</c><00:10:33.920><c> has</c><00:10:34.079><c> two</c>
+
+00:10:34.310 --> 00:10:34.320 align:start position:0%
+internal value is. U it then has two
+ 
+
+00:10:34.320 --> 00:10:36.150 align:start position:0%
+internal value is. U it then has two
+other<00:10:34.560><c> processes.</c><00:10:35.279><c> So</c><00:10:35.440><c> this</c><00:10:35.600><c> is</c><00:10:35.680><c> a</c><00:10:35.839><c> clocked</c>
+
+00:10:36.150 --> 00:10:36.160 align:start position:0%
+other processes. So this is a clocked
+ 
+
+00:10:36.160 --> 00:10:39.350 align:start position:0%
+other processes. So this is a clocked
+process.<00:10:36.560><c> The</c><00:10:36.800><c> other</c><00:10:36.959><c> processes</c><00:10:38.399><c> uh</c><00:10:38.640><c> are</c>
+
+00:10:39.350 --> 00:10:39.360 align:start position:0%
+process. The other processes uh are
+ 
+
+00:10:39.360 --> 00:10:41.829 align:start position:0%
+process. The other processes uh are
+essentially<00:10:40.160><c> combinational</c><00:10:41.360><c> logic</c>
+
+00:10:41.829 --> 00:10:41.839 align:start position:0%
+essentially combinational logic
+ 
+
+00:10:41.839 --> 00:10:44.069 align:start position:0%
+essentially combinational logic
+processes<00:10:42.399><c> only</c><00:10:42.880><c> and</c><00:10:43.120><c> they</c><00:10:43.440><c> correspond</c><00:10:43.920><c> to</c>
+
+00:10:44.069 --> 00:10:44.079 align:start position:0%
+processes only and they correspond to
+ 
+
+00:10:44.079 --> 00:10:46.949 align:start position:0%
+processes only and they correspond to
+the<00:10:44.320><c> output</c><00:10:44.880><c> signal</c><00:10:45.279><c> decoding.</c>
+
+00:10:46.949 --> 00:10:46.959 align:start position:0%
+the output signal decoding.
+ 
+
+00:10:46.959 --> 00:10:51.990 align:start position:0%
+the output signal decoding.
+And<00:10:47.279><c> remember</c><00:10:47.600><c> that</c><00:10:47.760><c> that</c><00:10:48.640><c> uh</c><00:10:49.200><c> this</c><00:10:49.600><c> is</c><00:10:50.399><c> a</c><00:10:51.680><c> for</c>
+
+00:10:51.990 --> 00:10:52.000 align:start position:0%
+And remember that that uh this is a for
+ 
+
+00:10:52.000 --> 00:10:54.230 align:start position:0%
+And remember that that uh this is a for
+for<00:10:52.240><c> a</c><00:10:52.399><c> mirror</c><00:10:52.720><c> model</c><00:10:53.040><c> the</c><00:10:53.200><c> output</c><00:10:53.600><c> is</c><00:10:53.839><c> just</c><00:10:54.000><c> a</c>
+
+00:10:54.230 --> 00:10:54.240 align:start position:0%
+for a mirror model the output is just a
+ 
+
+00:10:54.240 --> 00:10:55.910 align:start position:0%
+for a mirror model the output is just a
+function<00:10:54.480><c> of</c><00:10:54.640><c> state</c><00:10:55.200><c> and</c><00:10:55.440><c> then</c><00:10:55.600><c> for</c><00:10:55.760><c> this</c>
+
+00:10:55.910 --> 00:10:55.920 align:start position:0%
+function of state and then for this
+ 
+
+00:10:55.920 --> 00:10:58.150 align:start position:0%
+function of state and then for this
+stopwatch<00:10:56.399><c> you</c><00:10:56.560><c> can</c><00:10:56.640><c> use</c><00:10:56.800><c> a</c><00:10:56.959><c> mirror</c><00:10:57.279><c> model.</c><00:10:58.000><c> So</c>
+
+00:10:58.150 --> 00:10:58.160 align:start position:0%
+stopwatch you can use a mirror model. So
+ 
+
+00:10:58.160 --> 00:11:01.829 align:start position:0%
+stopwatch you can use a mirror model. So
+this<00:10:58.480><c> basically</c><00:10:59.279><c> determines</c><00:11:00.240><c> the</c><00:11:00.480><c> next</c><00:11:00.800><c> state</c>
+
+00:11:01.829 --> 00:11:01.839 align:start position:0%
+this basically determines the next state
+ 
+
+00:11:01.839 --> 00:11:04.949 align:start position:0%
+this basically determines the next state
+based<00:11:02.320><c> sorry</c><00:11:02.640><c> it</c><00:11:02.800><c> determines</c><00:11:03.200><c> the</c><00:11:03.360><c> outputs</c>
+
+00:11:04.949 --> 00:11:04.959 align:start position:0%
+based sorry it determines the outputs
+ 
+
+00:11:04.959 --> 00:11:06.949 align:start position:0%
+based sorry it determines the outputs
+whatever<00:11:05.279><c> the</c><00:11:05.440><c> output</c><00:11:05.839><c> signals</c><00:11:06.240><c> you've</c><00:11:06.720><c> you</c>
+
+00:11:06.949 --> 00:11:06.959 align:start position:0%
+whatever the output signals you've you
+ 
+
+00:11:06.959 --> 00:11:09.110 align:start position:0%
+whatever the output signals you've you
+need<00:11:07.120><c> are</c><00:11:07.600><c> based</c><00:11:07.920><c> on</c><00:11:08.079><c> the</c><00:11:08.240><c> current</c><00:11:08.560><c> state</c><00:11:08.959><c> and</c>
+
+00:11:09.110 --> 00:11:09.120 align:start position:0%
+need are based on the current state and
+ 
+
+00:11:09.120 --> 00:11:11.350 align:start position:0%
+need are based on the current state and
+that's<00:11:09.360><c> all</c><00:11:09.519><c> it</c><00:11:09.760><c> does</c><00:11:10.480><c> pure</c><00:11:10.800><c> combination</c><00:11:11.200><c> of</c>
+
+00:11:11.350 --> 00:11:11.360 align:start position:0%
+that's all it does pure combination of
+ 
+
+00:11:11.360 --> 00:11:14.069 align:start position:0%
+that's all it does pure combination of
+logic<00:11:12.160><c> and</c><00:11:12.399><c> then</c><00:11:12.560><c> we</c><00:11:12.880><c> have</c><00:11:13.120><c> the</c><00:11:13.440><c> next</c><00:11:13.760><c> state</c>
+
+00:11:14.069 --> 00:11:14.079 align:start position:0%
+logic and then we have the next state
+ 
+
+00:11:14.079 --> 00:11:16.790 align:start position:0%
+logic and then we have the next state
+decoding<00:11:15.040><c> that</c><00:11:15.360><c> depends</c><00:11:15.760><c> on</c><00:11:16.000><c> of</c><00:11:16.160><c> course</c><00:11:16.480><c> and</c>
+
+00:11:16.790 --> 00:11:16.800 align:start position:0%
+decoding that depends on of course and
+ 
+
+00:11:16.800 --> 00:11:19.750 align:start position:0%
+decoding that depends on of course and
+on<00:11:17.040><c> the</c><00:11:17.279><c> state</c><00:11:17.600><c> and</c><00:11:17.920><c> inputs</c><00:11:19.040><c> so</c><00:11:19.279><c> depending</c><00:11:19.600><c> on</c>
+
+00:11:19.750 --> 00:11:19.760 align:start position:0%
+on the state and inputs so depending on
+ 
+
+00:11:19.760 --> 00:11:22.230 align:start position:0%
+on the state and inputs so depending on
+the<00:11:20.000><c> current</c><00:11:20.240><c> state</c><00:11:20.480><c> and</c><00:11:20.800><c> the</c><00:11:20.959><c> inputs</c><00:11:22.000><c> it</c>
+
+00:11:22.230 --> 00:11:22.240 align:start position:0%
+the current state and the inputs it
+ 
+
+00:11:22.240 --> 00:11:24.790 align:start position:0%
+the current state and the inputs it
+decides<00:11:23.519><c> what</c><00:11:23.839><c> next</c><00:11:24.079><c> state</c><00:11:24.320><c> is</c><00:11:24.480><c> going</c><00:11:24.560><c> to</c><00:11:24.720><c> be</c>
+
+00:11:24.790 --> 00:11:24.800 align:start position:0%
+decides what next state is going to be
+ 
+
+00:11:24.800 --> 00:11:26.389 align:start position:0%
+decides what next state is going to be
+set.<00:11:25.040><c> So</c><00:11:25.200><c> that's</c><00:11:25.440><c> the</c><00:11:25.600><c> model</c><00:11:25.839><c> I'm</c><00:11:26.000><c> suggesting</c>
+
+00:11:26.389 --> 00:11:26.399 align:start position:0%
+set. So that's the model I'm suggesting
+ 
+
+00:11:26.399 --> 00:11:28.949 align:start position:0%
+set. So that's the model I'm suggesting
+I<00:11:26.640><c> use.</c><00:11:27.440><c> Very</c><00:11:27.680><c> much</c><00:11:27.920><c> recommend</c><00:11:28.399><c> that</c><00:11:28.720><c> rather</c>
+
+00:11:28.949 --> 00:11:28.959 align:start position:0%
+I use. Very much recommend that rather
+ 
+
+00:11:28.959 --> 00:11:31.190 align:start position:0%
+I use. Very much recommend that rather
+than<00:11:29.120><c> a</c><00:11:29.360><c> two</c><00:11:29.680><c> process.</c><00:11:30.480><c> One</c><00:11:30.720><c> of</c><00:11:30.880><c> the</c><00:11:31.040><c> big</c>
+
+00:11:31.190 --> 00:11:31.200 align:start position:0%
+than a two process. One of the big
+ 
+
+00:11:31.200 --> 00:11:33.670 align:start position:0%
+than a two process. One of the big
+advantages<00:11:31.760><c> of</c><00:11:32.000><c> use</c><00:11:32.160><c> of</c><00:11:32.480><c> using</c><00:11:32.720><c> this</c><00:11:33.120><c> is</c><00:11:33.440><c> when</c>
+
+00:11:33.670 --> 00:11:33.680 align:start position:0%
+advantages of use of using this is when
+ 
+
+00:11:33.680 --> 00:11:35.670 align:start position:0%
+advantages of use of using this is when
+you<00:11:33.839><c> come</c><00:11:34.000><c> to</c><00:11:34.160><c> run</c><00:11:34.320><c> the</c><00:11:34.480><c> the</c><00:11:34.880><c> test</c><00:11:35.120><c> bench</c><00:11:35.440><c> and</c>
+
+00:11:35.670 --> 00:11:35.680 align:start position:0%
+you come to run the the test bench and
+ 
+
+00:11:35.680 --> 00:11:38.470 align:start position:0%
+you come to run the the test bench and
+to<00:11:35.839><c> test</c><00:11:36.079><c> it</c><00:11:36.320><c> and</c><00:11:36.560><c> you</c><00:11:36.720><c> look</c><00:11:36.880><c> at</c><00:11:36.959><c> the</c><00:11:37.200><c> waveform</c>
+
+00:11:38.470 --> 00:11:38.480 align:start position:0%
+to test it and you look at the waveform
+ 
+
+00:11:38.480 --> 00:11:39.829 align:start position:0%
+to test it and you look at the waveform
+um<00:11:38.560><c> if</c><00:11:38.800><c> you</c><00:11:38.880><c> find</c><00:11:39.040><c> it's</c><00:11:39.360><c> not</c><00:11:39.519><c> working</c>
+
+00:11:39.829 --> 00:11:39.839 align:start position:0%
+um if you find it's not working
+ 
+
+00:11:39.839 --> 00:11:41.990 align:start position:0%
+um if you find it's not working
+correctly,<00:11:40.320><c> it's</c><00:11:40.640><c> really</c><00:11:40.880><c> easy</c><00:11:41.120><c> to</c><00:11:41.360><c> spot</c><00:11:41.760><c> to</c>
+
+00:11:41.990 --> 00:11:42.000 align:start position:0%
+correctly, it's really easy to spot to
+ 
+
+00:11:42.000 --> 00:11:43.670 align:start position:0%
+correctly, it's really easy to spot to
+work<00:11:42.240><c> out</c><00:11:42.560><c> where</c><00:11:42.880><c> you</c><00:11:43.040><c> need</c><00:11:43.120><c> to</c><00:11:43.200><c> look</c><00:11:43.360><c> in</c><00:11:43.519><c> the</c>
+
+00:11:43.670 --> 00:11:43.680 align:start position:0%
+work out where you need to look in the
+ 
+
+00:11:43.680 --> 00:11:46.389 align:start position:0%
+work out where you need to look in the
+VHDL.<00:11:44.720><c> So</c><00:11:44.959><c> if</c><00:11:45.120><c> you</c><00:11:45.279><c> look</c><00:11:45.440><c> on</c><00:11:45.760><c> the</c><00:11:46.160><c> uh</c>
+
+00:11:46.389 --> 00:11:46.399 align:start position:0%
+VHDL. So if you look on the uh
+ 
+
+00:11:46.399 --> 00:11:49.670 align:start position:0%
+VHDL. So if you look on the uh
+simulation<00:11:46.959><c> output</c><00:11:47.360><c> of</c><00:11:47.680><c> this</c><00:11:49.040><c> and</c><00:11:49.279><c> you</c><00:11:49.519><c> have</c><00:11:49.600><c> a</c>
+
+00:11:49.670 --> 00:11:49.680 align:start position:0%
+simulation output of this and you have a
+ 
+
+00:11:49.680 --> 00:11:51.350 align:start position:0%
+simulation output of this and you have a
+look<00:11:49.839><c> and</c><00:11:50.160><c> oh</c><00:11:50.320><c> it's</c><00:11:50.480><c> not</c><00:11:50.640><c> working</c><00:11:50.880><c> correctly.</c>
+
+00:11:51.350 --> 00:11:51.360 align:start position:0%
+look and oh it's not working correctly.
+ 
+
+00:11:51.360 --> 00:11:53.509 align:start position:0%
+look and oh it's not working correctly.
+What's<00:11:51.839><c> what</c><00:11:52.399><c> have</c><00:11:52.560><c> I</c><00:11:52.880><c> what</c><00:11:53.040><c> have</c><00:11:53.120><c> I</c><00:11:53.279><c> mapped</c>
+
+00:11:53.509 --> 00:11:53.519 align:start position:0%
+What's what have I what have I mapped
+ 
+
+00:11:53.519 --> 00:11:55.910 align:start position:0%
+What's what have I what have I mapped
+incorrectly?<00:11:54.480><c> I</c><00:11:54.800><c> actually</c><00:11:55.120><c> follow</c><00:11:55.440><c> on</c><00:11:55.760><c> my</c>
+
+00:11:55.910 --> 00:11:55.920 align:start position:0%
+incorrectly? I actually follow on my
+ 
+
+00:11:55.920 --> 00:11:57.910 align:start position:0%
+incorrectly? I actually follow on my
+diagram.<00:11:56.320><c> I</c><00:11:56.560><c> always</c><00:11:57.040><c> always</c><00:11:57.279><c> draw</c><00:11:57.519><c> a</c><00:11:57.680><c> state</c>
+
+00:11:57.910 --> 00:11:57.920 align:start position:0%
+diagram. I always always draw a state
+ 
+
+00:11:57.920 --> 00:11:59.990 align:start position:0%
+diagram. I always always draw a state
+machine<00:11:58.240><c> diagram,</c><00:11:59.120><c> right?</c><00:11:59.519><c> Which</c><00:11:59.680><c> is</c><00:11:59.760><c> what</c>
+
+00:11:59.990 --> 00:12:00.000 align:start position:0%
+machine diagram, right? Which is what
+ 
+
+00:12:00.000 --> 00:12:02.150 align:start position:0%
+machine diagram, right? Which is what
+the<00:12:00.480><c> workbook</c><00:12:00.959><c> asks</c><00:12:01.200><c> you</c><00:12:01.360><c> to</c><00:12:01.519><c> do</c><00:12:01.760><c> of</c><00:12:01.920><c> the</c>
+
+00:12:02.150 --> 00:12:02.160 align:start position:0%
+the workbook asks you to do of the
+ 
+
+00:12:02.160 --> 00:12:04.870 align:start position:0%
+the workbook asks you to do of the
+correct<00:12:02.640><c> type.</c><00:12:03.200><c> You</c><00:12:03.440><c> can</c><00:12:03.600><c> use</c><00:12:04.240><c> um</c><00:12:04.480><c> either</c><00:12:04.720><c> a</c>
+
+00:12:04.870 --> 00:12:04.880 align:start position:0%
+correct type. You can use um either a
+ 
+
+00:12:04.880 --> 00:12:06.550 align:start position:0%
+correct type. You can use um either a
+murmur<00:12:05.120><c> model</c><00:12:05.440><c> state</c><00:12:05.680><c> machine</c><00:12:05.920><c> for</c><00:12:06.160><c> this</c><00:12:06.399><c> or</c>
+
+00:12:06.550 --> 00:12:06.560 align:start position:0%
+murmur model state machine for this or
+ 
+
+00:12:06.560 --> 00:12:09.190 align:start position:0%
+murmur model state machine for this or
+or<00:12:07.680><c> state</c><00:12:07.839><c> machine.</c><00:12:08.079><c> I</c><00:12:08.240><c> don't</c><00:12:08.320><c> mind</c><00:12:08.560><c> which</c><00:12:08.959><c> I</c>
+
+00:12:09.190 --> 00:12:09.200 align:start position:0%
+or state machine. I don't mind which I
+ 
+
+00:12:09.200 --> 00:12:10.710 align:start position:0%
+or state machine. I don't mind which I
+actually<00:12:09.440><c> follow</c><00:12:09.760><c> it</c><00:12:09.839><c> by</c><00:12:10.000><c> finger</c><00:12:10.320><c> as</c><00:12:10.480><c> I</c><00:12:10.639><c> go</c>
+
+00:12:10.710 --> 00:12:10.720 align:start position:0%
+actually follow it by finger as I go
+ 
+
+00:12:10.720 --> 00:12:12.870 align:start position:0%
+actually follow it by finger as I go
+along<00:12:10.959><c> the</c><00:12:11.120><c> waveform.</c><00:12:11.920><c> And</c><00:12:12.160><c> when</c><00:12:12.320><c> I</c><00:12:12.480><c> find</c><00:12:12.639><c> a</c>
+
+00:12:12.870 --> 00:12:12.880 align:start position:0%
+along the waveform. And when I find a
+ 
+
+00:12:12.880 --> 00:12:14.949 align:start position:0%
+along the waveform. And when I find a
+difference,<00:12:13.680><c> the</c><00:12:13.920><c> difference</c><00:12:14.160><c> is</c><00:12:14.399><c> either</c>
+
+00:12:14.949 --> 00:12:14.959 align:start position:0%
+difference, the difference is either
+ 
+
+00:12:14.959 --> 00:12:17.829 align:start position:0%
+difference, the difference is either
+going<00:12:15.200><c> to</c><00:12:15.279><c> be</c><00:12:15.440><c> that</c><00:12:15.680><c> the</c><00:12:15.839><c> outputs</c><00:12:16.240><c> are</c><00:12:16.399><c> wrong</c>
+
+00:12:17.829 --> 00:12:17.839 align:start position:0%
+going to be that the outputs are wrong
+ 
+
+00:12:17.839 --> 00:12:19.750 align:start position:0%
+going to be that the outputs are wrong
+um<00:12:18.079><c> or</c><00:12:18.399><c> that</c><00:12:18.639><c> the</c><00:12:18.880><c> next</c><00:12:19.120><c> state</c><00:12:19.360><c> value</c><00:12:19.600><c> is</c>
+
+00:12:19.750 --> 00:12:19.760 align:start position:0%
+um or that the next state value is
+ 
+
+00:12:19.760 --> 00:12:20.949 align:start position:0%
+um or that the next state value is
+wrong.<00:12:20.000><c> Those</c><00:12:20.160><c> are</c><00:12:20.240><c> the</c><00:12:20.480><c> only</c><00:12:20.639><c> two</c><00:12:20.880><c> things</c>
+
+00:12:20.949 --> 00:12:20.959 align:start position:0%
+wrong. Those are the only two things
+ 
+
+00:12:20.959 --> 00:12:23.190 align:start position:0%
+wrong. Those are the only two things
+that<00:12:21.200><c> can</c><00:12:21.360><c> go</c><00:12:21.519><c> wrong.</c><00:12:22.240><c> And</c><00:12:22.399><c> so</c><00:12:22.560><c> if</c><00:12:22.720><c> the</c><00:12:22.880><c> outputs</c>
+
+00:12:23.190 --> 00:12:23.200 align:start position:0%
+that can go wrong. And so if the outputs
+ 
+
+00:12:23.200 --> 00:12:24.629 align:start position:0%
+that can go wrong. And so if the outputs
+are<00:12:23.360><c> wrong,</c><00:12:23.519><c> I</c><00:12:23.760><c> immediately</c><00:12:24.160><c> know</c><00:12:24.240><c> it's</c><00:12:24.480><c> the</c>
+
+00:12:24.629 --> 00:12:24.639 align:start position:0%
+are wrong, I immediately know it's the
+ 
+
+00:12:24.639 --> 00:12:27.750 align:start position:0%
+are wrong, I immediately know it's the
+output<00:12:25.040><c> process</c><00:12:26.320><c> um</c><00:12:26.800><c> on</c><00:12:27.040><c> this.</c><00:12:27.279><c> And</c><00:12:27.440><c> if</c><00:12:27.600><c> it's</c>
+
+00:12:27.750 --> 00:12:27.760 align:start position:0%
+output process um on this. And if it's
+ 
+
+00:12:27.760 --> 00:12:29.030 align:start position:0%
+output process um on this. And if it's
+the<00:12:27.920><c> next</c><00:12:28.079><c> state,</c><00:12:28.320><c> I</c><00:12:28.480><c> know</c><00:12:28.560><c> it's</c><00:12:28.720><c> the</c><00:12:28.880><c> next</c>
+
+00:12:29.030 --> 00:12:29.040 align:start position:0%
+the next state, I know it's the next
+ 
+
+00:12:29.040 --> 00:12:31.750 align:start position:0%
+the next state, I know it's the next
+state<00:12:29.279><c> process.</c><00:12:30.560><c> And</c><00:12:30.720><c> then</c><00:12:31.040><c> since</c><00:12:31.279><c> I</c><00:12:31.440><c> know</c><00:12:31.600><c> the</c>
+
+00:12:31.750 --> 00:12:31.760 align:start position:0%
+state process. And then since I know the
+ 
+
+00:12:31.760 --> 00:12:33.990 align:start position:0%
+state process. And then since I know the
+current<00:12:32.079><c> state,</c><00:12:32.560><c> I</c><00:12:32.800><c> can</c><00:12:32.959><c> go</c><00:12:33.120><c> into</c><00:12:33.360><c> these</c><00:12:33.680><c> case</c>
+
+00:12:33.990 --> 00:12:34.000 align:start position:0%
+current state, I can go into these case
+ 
+
+00:12:34.000 --> 00:12:35.590 align:start position:0%
+current state, I can go into these case
+statements<00:12:34.320><c> and</c><00:12:34.480><c> I</c><00:12:34.639><c> know</c><00:12:34.800><c> within</c><00:12:35.120><c> one</c><00:12:35.279><c> or</c><00:12:35.440><c> two</c>
+
+00:12:35.590 --> 00:12:35.600 align:start position:0%
+statements and I know within one or two
+ 
+
+00:12:35.600 --> 00:12:37.910 align:start position:0%
+statements and I know within one or two
+lines.<00:12:36.160><c> So</c><00:12:36.639><c> I</c><00:12:36.880><c> can</c><00:12:37.040><c> tell</c><00:12:37.200><c> within</c><00:12:37.519><c> one</c><00:12:37.600><c> or</c><00:12:37.760><c> two</c>
+
+00:12:37.910 --> 00:12:37.920 align:start position:0%
+lines. So I can tell within one or two
+ 
+
+00:12:37.920 --> 00:12:39.430 align:start position:0%
+lines. So I can tell within one or two
+lines<00:12:38.160><c> where</c><00:12:38.399><c> I've</c><00:12:38.560><c> made</c><00:12:38.720><c> the</c><00:12:38.880><c> mistake</c><00:12:39.120><c> in</c><00:12:39.279><c> my</c>
+
+00:12:39.430 --> 00:12:39.440 align:start position:0%
+lines where I've made the mistake in my
+ 
+
+00:12:39.440 --> 00:12:42.629 align:start position:0%
+lines where I've made the mistake in my
+VHDL.<00:12:40.240><c> So</c><00:12:40.399><c> I</c><00:12:40.560><c> I</c><00:12:40.800><c> very</c><00:12:41.040><c> much</c><00:12:41.279><c> recommend</c><00:12:42.160><c> using,</c>
+
+00:12:42.629 --> 00:12:42.639 align:start position:0%
+VHDL. So I I very much recommend using,
+ 
+
+00:12:42.639 --> 00:12:44.470 align:start position:0%
+VHDL. So I I very much recommend using,
+you<00:12:42.800><c> know,</c><00:12:43.120><c> this</c><00:12:43.279><c> is</c><00:12:43.440><c> much</c><00:12:43.680><c> easier</c><00:12:43.920><c> to</c><00:12:44.079><c> do.</c>
+
+00:12:44.470 --> 00:12:44.480 align:start position:0%
+you know, this is much easier to do.
+ 
+
+00:12:44.480 --> 00:12:46.949 align:start position:0%
+you know, this is much easier to do.
+It's<00:12:44.720><c> what's</c><00:12:45.120><c> also</c><00:12:45.360><c> what's</c><00:12:45.680><c> recommended</c><00:12:46.720><c> in</c>
+
+00:12:46.949 --> 00:12:46.959 align:start position:0%
+It's what's also what's recommended in
+ 
+
+00:12:46.959 --> 00:12:49.509 align:start position:0%
+It's what's also what's recommended in
+terms<00:12:47.200><c> of</c><00:12:48.079><c> making</c><00:12:48.399><c> sure</c><00:12:48.560><c> the</c><00:12:48.720><c> synthesis</c><00:12:49.279><c> works</c>
+
+00:12:49.509 --> 00:12:49.519 align:start position:0%
+terms of making sure the synthesis works
+ 
+
+00:12:49.519 --> 00:12:51.350 align:start position:0%
+terms of making sure the synthesis works
+correctly<00:12:49.920><c> as</c><00:12:50.079><c> well.</c><00:12:50.560><c> So</c><00:12:50.800><c> you'll</c><00:12:51.040><c> have</c><00:12:51.200><c> to</c>
+
+00:12:51.350 --> 00:12:51.360 align:start position:0%
+correctly as well. So you'll have to
+ 
+
+00:12:51.360 --> 00:12:53.430 align:start position:0%
+correctly as well. So you'll have to
+implement<00:12:51.680><c> the</c><00:12:51.920><c> state</c><00:12:52.240><c> machine</c><00:12:52.720><c> to</c><00:12:52.959><c> do</c><00:12:53.040><c> that.</c>
+
+00:12:53.430 --> 00:12:53.440 align:start position:0%
+implement the state machine to do that.
+ 
+
+00:12:53.440 --> 00:12:56.069 align:start position:0%
+implement the state machine to do that.
+copy<00:12:53.760><c> this</c><00:12:54.000><c> across</c><00:12:54.399><c> into</c><00:12:55.360><c> u</c><00:12:55.440><c> whatever</c><00:12:55.839><c> name</c>
+
+00:12:56.069 --> 00:12:56.079 align:start position:0%
+copy this across into u whatever name
+ 
+
+00:12:56.079 --> 00:12:59.190 align:start position:0%
+copy this across into u whatever name
+I've<00:12:56.320><c> called</c><00:12:56.560><c> it</c><00:12:57.040><c> uh</c><00:12:57.279><c> stopwatch</c><00:12:57.920><c> SSM</c>
+
+00:12:59.190 --> 00:12:59.200 align:start position:0%
+I've called it uh stopwatch SSM
+ 
+
+00:12:59.200 --> 00:13:03.030 align:start position:0%
+I've called it uh stopwatch SSM
+stopwatch<00:13:00.240><c> SSM</c>
+
+00:13:03.030 --> 00:13:03.040 align:start position:0%
+stopwatch SSM
+ 
+
+00:13:03.040 --> 00:13:05.350 align:start position:0%
+stopwatch SSM
+and<00:13:03.440><c> the</c><00:13:03.839><c> third</c><00:13:04.160><c> bit</c><00:13:04.320><c> of</c><00:13:04.480><c> logic</c><00:13:04.800><c> you</c><00:13:05.040><c> need</c><00:13:05.120><c> to</c>
+
+00:13:05.350 --> 00:13:05.360 align:start position:0%
+and the third bit of logic you need to
+ 
+
+00:13:05.360 --> 00:13:08.949 align:start position:0%
+and the third bit of logic you need to
+implement<00:13:05.920><c> is</c><00:13:06.240><c> the</c><00:13:06.560><c> timer</c>
+
+00:13:08.949 --> 00:13:08.959 align:start position:0%
+implement is the timer
+ 
+
+00:13:08.959 --> 00:13:11.990 align:start position:0%
+implement is the timer
+um<00:13:09.360><c> which</c><00:13:09.600><c> I</c><00:13:09.839><c> think</c><00:13:10.000><c> I've</c><00:13:10.639><c> have</c><00:13:10.800><c> I</c><00:13:10.959><c> given</c><00:13:11.200><c> you</c><00:13:11.760><c> I</c>
+
+00:13:11.990 --> 00:13:12.000 align:start position:0%
+um which I think I've have I given you I
+ 
+
+00:13:12.000 --> 00:13:13.750 align:start position:0%
+um which I think I've have I given you I
+haven't<00:13:12.240><c> given</c><00:13:12.399><c> you</c><00:13:12.560><c> a</c><00:13:12.720><c> template</c><00:13:13.040><c> for</c><00:13:13.279><c> that</c><00:13:13.519><c> or</c>
+
+00:13:13.750 --> 00:13:13.760 align:start position:0%
+haven't given you a template for that or
+ 
+
+00:13:13.760 --> 00:13:16.629 align:start position:0%
+haven't given you a template for that or
+have<00:13:13.920><c> I</c><00:13:14.160><c> no</c><00:13:14.399><c> I</c><00:13:14.560><c> haven't</c><00:13:15.279><c> so</c><00:13:15.920><c> uh</c><00:13:16.079><c> what</c><00:13:16.240><c> I</c><00:13:16.399><c> have</c>
+
+00:13:16.629 --> 00:13:16.639 align:start position:0%
+have I no I haven't so uh what I have
+ 
+
+00:13:16.639 --> 00:13:18.150 align:start position:0%
+have I no I haven't so uh what I have
+given<00:13:16.800><c> you</c><00:13:16.959><c> is</c><00:13:17.120><c> a</c><00:13:17.279><c> suggested</c><00:13:17.760><c> entity</c>
+
+00:13:18.150 --> 00:13:18.160 align:start position:0%
+given you is a suggested entity
+ 
+
+00:13:18.160 --> 00:13:21.750 align:start position:0%
+given you is a suggested entity
+definition<00:13:19.519><c> uh</c><00:13:19.600><c> in</c><00:13:19.839><c> the</c><00:13:20.000><c> file</c><00:13:21.279><c> uh</c><00:13:21.360><c> you'll</c><00:13:21.680><c> have</c>
+
+00:13:21.750 --> 00:13:21.760 align:start position:0%
+definition uh in the file uh you'll have
+ 
+
+00:13:21.760 --> 00:13:24.389 align:start position:0%
+definition uh in the file uh you'll have
+to<00:13:21.920><c> implement</c><00:13:22.240><c> the</c><00:13:22.399><c> rest</c><00:13:22.560><c> of</c><00:13:22.639><c> it</c><00:13:22.880><c> yourself.</c><00:13:23.600><c> Uh</c>
+
+00:13:24.389 --> 00:13:24.399 align:start position:0%
+to implement the rest of it yourself. Uh
+ 
+
+00:13:24.399 --> 00:13:25.829 align:start position:0%
+to implement the rest of it yourself. Uh
+so<00:13:24.639><c> this</c><00:13:24.880><c> what</c><00:13:25.040><c> has</c><00:13:25.120><c> this</c><00:13:25.279><c> got</c><00:13:25.519><c> coming</c><00:13:25.600><c> in?</c>
+
+00:13:25.829 --> 00:13:25.839 align:start position:0%
+so this what has this got coming in?
+ 
+
+00:13:25.839 --> 00:13:28.310 align:start position:0%
+so this what has this got coming in?
+It's<00:13:26.000><c> got</c><00:13:26.079><c> a</c><00:13:26.240><c> clock</c><00:13:26.399><c> enabled</c><00:13:26.800><c> which</c><00:13:27.120><c> runs</c><00:13:27.600><c> at</c>
+
+00:13:28.310 --> 00:13:28.320 align:start position:0%
+It's got a clock enabled which runs at
+ 
+
+00:13:28.320 --> 00:13:31.350 align:start position:0%
+It's got a clock enabled which runs at
+um<00:13:28.720><c> 100</c><00:13:29.040><c> hertz</c><00:13:29.360><c> because</c><00:13:29.519><c> that's</c><00:13:29.760><c> your</c><00:13:30.480><c> um</c><00:13:31.040><c> your</c>
+
+00:13:31.350 --> 00:13:31.360 align:start position:0%
+um 100 hertz because that's your um your
+ 
+
+00:13:31.360 --> 00:13:33.430 align:start position:0%
+um 100 hertz because that's your um your
+count<00:13:31.680><c> your</c><00:13:32.240><c> frequency</c><00:13:32.639><c> that</c><00:13:32.880><c> you</c><00:13:33.040><c> need</c>
+
+00:13:33.430 --> 00:13:33.440 align:start position:0%
+count your frequency that you need
+ 
+
+00:13:33.440 --> 00:13:36.150 align:start position:0%
+count your frequency that you need
+system<00:13:33.839><c> clock.</c><00:13:34.639><c> It</c><00:13:34.800><c> has</c><00:13:34.959><c> the</c><00:13:35.120><c> three</c><00:13:35.360><c> input</c>
+
+00:13:36.150 --> 00:13:36.160 align:start position:0%
+system clock. It has the three input
+ 
+
+00:13:36.160 --> 00:13:38.629 align:start position:0%
+system clock. It has the three input
+signals<00:13:36.639><c> from</c><00:13:36.880><c> the</c><00:13:37.200><c> state</c><00:13:37.519><c> machine</c><00:13:38.240><c> and</c><00:13:38.480><c> the</c>
+
+00:13:38.629 --> 00:13:38.639 align:start position:0%
+signals from the state machine and the
+ 
+
+00:13:38.639 --> 00:13:42.389 align:start position:0%
+signals from the state machine and the
+binary<00:13:39.040><c> coded</c><00:13:39.360><c> decimal</c><00:13:39.839><c> output.</c><00:13:40.959><c> Um</c><00:13:41.600><c> so</c><00:13:42.079><c> bear</c>
+
+00:13:42.389 --> 00:13:42.399 align:start position:0%
+binary coded decimal output. Um so bear
+ 
+
+00:13:42.399 --> 00:13:46.389 align:start position:0%
+binary coded decimal output. Um so bear
+in<00:13:42.560><c> mind</c><00:13:42.959><c> that</c><00:13:43.279><c> because</c><00:13:43.920><c> you</c><00:13:44.240><c> you</c><00:13:44.880><c> the</c><00:13:45.120><c> output</c>
+
+00:13:46.389 --> 00:13:46.399 align:start position:0%
+in mind that because you you the output
+ 
+
+00:13:46.399 --> 00:13:48.310 align:start position:0%
+in mind that because you you the output
+uh<00:13:46.560><c> sorry</c><00:13:47.120><c> because</c><00:13:47.440><c> the</c><00:13:47.680><c> output</c><00:13:48.000><c> can</c><00:13:48.240><c> be</c>
+
+00:13:48.310 --> 00:13:48.320 align:start position:0%
+uh sorry because the output can be
+ 
+
+00:13:48.320 --> 00:13:50.389 align:start position:0%
+uh sorry because the output can be
+latched<00:13:49.040><c> right</c><00:13:49.360><c> remember</c><00:13:49.600><c> it's</c><00:13:49.839><c> got</c><00:13:49.920><c> a</c><00:13:50.079><c> latch</c>
+
+00:13:50.389 --> 00:13:50.399 align:start position:0%
+latched right remember it's got a latch
+ 
+
+00:13:50.399 --> 00:13:52.230 align:start position:0%
+latched right remember it's got a latch
+control<00:13:50.720><c> which</c><00:13:51.040><c> basically</c><00:13:51.440><c> says</c><00:13:51.839><c> that</c><00:13:52.079><c> the</c>
+
+00:13:52.230 --> 00:13:52.240 align:start position:0%
+control which basically says that the
+ 
+
+00:13:52.240 --> 00:13:53.910 align:start position:0%
+control which basically says that the
+output<00:13:52.639><c> isn't</c><00:13:52.959><c> changing</c><00:13:53.360><c> even</c><00:13:53.519><c> if</c><00:13:53.760><c> the</c>
+
+00:13:53.910 --> 00:13:53.920 align:start position:0%
+output isn't changing even if the
+ 
+
+00:13:53.920 --> 00:13:56.310 align:start position:0%
+output isn't changing even if the
+internal<00:13:54.320><c> counter</c><00:13:54.639><c> is</c><00:13:55.200><c> you'll</c><00:13:55.519><c> need</c><00:13:56.000><c> two</c>
+
+00:13:56.310 --> 00:13:56.320 align:start position:0%
+internal counter is you'll need two
+ 
+
+00:13:56.320 --> 00:13:59.030 align:start position:0%
+internal counter is you'll need two
+registers.<00:13:57.440><c> One</c><00:13:57.680><c> is</c><00:13:57.920><c> of</c><00:13:58.079><c> course</c><00:13:58.240><c> the</c><00:13:58.399><c> output</c>
+
+00:13:59.030 --> 00:13:59.040 align:start position:0%
+registers. One is of course the output
+ 
+
+00:13:59.040 --> 00:14:01.189 align:start position:0%
+registers. One is of course the output
+binary<00:13:59.440><c> coded</c><00:13:59.760><c> decimal</c><00:14:00.639><c> um</c><00:14:00.800><c> which</c><00:14:00.959><c> is</c><00:14:01.120><c> going</c>
+
+00:14:01.189 --> 00:14:01.199 align:start position:0%
+binary coded decimal um which is going
+ 
+
+00:14:01.199 --> 00:14:03.750 align:start position:0%
+binary coded decimal um which is going
+to<00:14:01.279><c> be</c><00:14:01.360><c> a</c><00:14:01.600><c> register.</c><00:14:02.480><c> Um</c><00:14:02.959><c> and</c><00:14:03.120><c> then</c><00:14:03.440><c> you'll</c>
+
+00:14:03.750 --> 00:14:03.760 align:start position:0%
+to be a register. Um and then you'll
+ 
+
+00:14:03.760 --> 00:14:05.670 align:start position:0%
+to be a register. Um and then you'll
+also<00:14:03.920><c> need</c><00:14:04.079><c> an</c><00:14:04.240><c> internal</c><00:14:04.639><c> one</c><00:14:04.880><c> which</c><00:14:05.120><c> is</c><00:14:05.360><c> the</c>
+
+00:14:05.670 --> 00:14:05.680 align:start position:0%
+also need an internal one which is the
+ 
+
+00:14:05.680 --> 00:14:07.670 align:start position:0%
+also need an internal one which is the
+which<00:14:06.000><c> is</c><00:14:06.079><c> just</c><00:14:06.320><c> run</c><00:14:06.560><c> off</c><00:14:06.720><c> the</c><00:14:06.880><c> clock</c><00:14:07.440><c> when</c>
+
+00:14:07.670 --> 00:14:07.680 align:start position:0%
+which is just run off the clock when
+ 
+
+00:14:07.680 --> 00:14:10.389 align:start position:0%
+which is just run off the clock when
+it's<00:14:07.920><c> running.</c>
+
+00:14:10.389 --> 00:14:10.399 align:start position:0%
+it's running.
+ 
+
+00:14:10.399 --> 00:14:13.590 align:start position:0%
+it's running.
+So<00:14:10.720><c> pause</c><00:14:11.199><c> pauses</c><00:14:11.680><c> the</c><00:14:11.839><c> actual</c><00:14:12.160><c> timer.</c><00:14:13.040><c> Latch</c>
+
+00:14:13.590 --> 00:14:13.600 align:start position:0%
+So pause pauses the actual timer. Latch
+ 
+
+00:14:13.600 --> 00:14:15.670 align:start position:0%
+So pause pauses the actual timer. Latch
+if<00:14:13.760><c> it's</c><00:14:14.000><c> true</c><00:14:14.399><c> basically</c><00:14:14.880><c> copies</c><00:14:15.279><c> the</c><00:14:15.440><c> timer</c>
+
+00:14:15.670 --> 00:14:15.680 align:start position:0%
+if it's true basically copies the timer
+ 
+
+00:14:15.680 --> 00:14:18.230 align:start position:0%
+if it's true basically copies the timer
+to<00:14:15.920><c> the</c><00:14:16.079><c> output</c><00:14:16.959><c> and</c><00:14:17.360><c> reset</c><00:14:17.760><c> sets</c><00:14:18.000><c> everything</c>
+
+00:14:18.230 --> 00:14:18.240 align:start position:0%
+to the output and reset sets everything
+ 
+
+00:14:18.240 --> 00:14:20.310 align:start position:0%
+to the output and reset sets everything
+to<00:14:18.480><c> zero.</c><00:14:18.800><c> Those</c><00:14:18.959><c> are</c><00:14:19.120><c> the</c><00:14:19.279><c> three</c><00:14:19.440><c> inputs.</c><00:14:20.079><c> Uh</c>
+
+00:14:20.310 --> 00:14:20.320 align:start position:0%
+to zero. Those are the three inputs. Uh
+ 
+
+00:14:20.320 --> 00:14:22.629 align:start position:0%
+to zero. Those are the three inputs. Uh
+and<00:14:20.480><c> the</c><00:14:20.639><c> output</c><00:14:20.959><c> is</c><00:14:21.120><c> binary</c><00:14:21.519><c> coded</c><00:14:21.839><c> decimal.</c>
+
+00:14:22.629 --> 00:14:22.639 align:start position:0%
+and the output is binary coded decimal.
+ 
+
+00:14:22.639 --> 00:14:24.069 align:start position:0%
+and the output is binary coded decimal.
+You<00:14:22.800><c> will</c><00:14:23.040><c> make</c><00:14:23.199><c> use</c><00:14:23.360><c> of</c><00:14:23.519><c> the</c><00:14:23.760><c> counter</c>
+
+00:14:24.069 --> 00:14:24.079 align:start position:0%
+You will make use of the counter
+ 
+
+00:14:24.079 --> 00:14:26.710 align:start position:0%
+You will make use of the counter
+entities<00:14:24.560><c> you've</c><00:14:24.880><c> created</c><00:14:25.600><c> before.</c><00:14:26.320><c> And</c><00:14:26.560><c> then</c>
+
+00:14:26.710 --> 00:14:26.720 align:start position:0%
+entities you've created before. And then
+ 
+
+00:14:26.720 --> 00:14:28.790 align:start position:0%
+entities you've created before. And then
+finally<00:14:27.199><c> the</c><00:14:27.440><c> idea</c><00:14:27.760><c> is</c><00:14:28.000><c> you</c><00:14:28.160><c> put</c><00:14:28.320><c> all</c><00:14:28.480><c> of</c><00:14:28.639><c> this</c>
+
+00:14:28.790 --> 00:14:28.800 align:start position:0%
+finally the idea is you put all of this
+ 
+
+00:14:28.800 --> 00:14:30.389 align:start position:0%
+finally the idea is you put all of this
+together.
+
+00:14:30.389 --> 00:14:30.399 align:start position:0%
+together.
+ 
+
+00:14:30.399 --> 00:14:33.590 align:start position:0%
+together.
+You<00:14:30.720><c> create</c><00:14:31.120><c> a</c><00:14:31.440><c> a</c><00:14:31.600><c> constraints</c><00:14:32.160><c> file.</c><00:14:32.639><c> So</c><00:14:33.440><c> you</c>
+
+00:14:33.590 --> 00:14:33.600 align:start position:0%
+You create a a constraints file. So you
+ 
+
+00:14:33.600 --> 00:14:35.829 align:start position:0%
+You create a a constraints file. So you
+copy<00:14:34.000><c> the</c><00:14:34.480><c> template</c><00:14:34.959><c> constraints</c><00:14:35.440><c> file</c><00:14:35.680><c> that</c>
+
+00:14:35.829 --> 00:14:35.839 align:start position:0%
+copy the template constraints file that
+ 
+
+00:14:35.839 --> 00:14:39.829 align:start position:0%
+copy the template constraints file that
+I've<00:14:36.160><c> given</c><00:14:36.320><c> you.</c><00:14:37.120><c> You</c><00:14:37.360><c> will</c><00:14:37.519><c> map</c><00:14:38.240><c> uh</c><00:14:38.560><c> the</c>
+
+00:14:39.829 --> 00:14:39.839 align:start position:0%
+I've given you. You will map uh the
+ 
+
+00:14:39.839 --> 00:14:41.910 align:start position:0%
+I've given you. You will map uh the
+whatever<00:14:40.240><c> buttons</c><00:14:40.560><c> you</c><00:14:40.720><c> want</c><00:14:40.880><c> to</c><00:14:41.040><c> use</c><00:14:41.440><c> for</c>
+
+00:14:41.910 --> 00:14:41.920 align:start position:0%
+whatever buttons you want to use for
+ 
+
+00:14:41.920 --> 00:14:44.550 align:start position:0%
+whatever buttons you want to use for
+controlling<00:14:42.320><c> it</c><00:14:42.959><c> to</c><00:14:43.279><c> the</c><00:14:43.600><c> in</c><00:14:43.920><c> three</c><00:14:44.160><c> input</c>
+
+00:14:44.550 --> 00:14:44.560 align:start position:0%
+controlling it to the in three input
+ 
+
+00:14:44.560 --> 00:14:47.910 align:start position:0%
+controlling it to the in three input
+signals.<00:14:45.519><c> And</c><00:14:45.680><c> you</c><00:14:45.920><c> also</c><00:14:46.240><c> need</c><00:14:46.480><c> to</c><00:14:46.639><c> map</c><00:14:47.440><c> uh</c><00:14:47.600><c> the</c>
+
+00:14:47.910 --> 00:14:47.920 align:start position:0%
+signals. And you also need to map uh the
+ 
+
+00:14:47.920 --> 00:14:51.430 align:start position:0%
+signals. And you also need to map uh the
+seven<00:14:48.240><c> segment</c><00:14:48.720><c> display.</c><00:14:50.079><c> So</c><00:14:50.399><c> if</c><00:14:50.639><c> we</c><00:14:51.040><c> have</c><00:14:51.199><c> a</c>
+
+00:14:51.430 --> 00:14:51.440 align:start position:0%
+seven segment display. So if we have a
+ 
+
+00:14:51.440 --> 00:14:54.550 align:start position:0%
+seven segment display. So if we have a
+look<00:14:51.680><c> at</c><00:14:52.320><c> the</c><00:14:53.279><c> uh</c><00:14:53.440><c> let's</c><00:14:53.760><c> find</c><00:14:53.920><c> the</c><00:14:54.160><c> master</c>
+
+00:14:54.550 --> 00:14:54.560 align:start position:0%
+look at the uh let's find the master
+ 
+
+00:14:54.560 --> 00:14:58.870 align:start position:0%
+look at the uh let's find the master
+file.<00:14:55.040><c> Uh</c><00:14:55.279><c> here</c><00:14:55.440><c> we</c><00:14:55.600><c> go.</c><00:14:55.760><c> Basis</c><00:14:56.240><c> 3</c><00:14:56.480><c> master.</c>
+
+00:14:58.870 --> 00:14:58.880 align:start position:0%
+file. Uh here we go. Basis 3 master.
+ 
+
+00:14:58.880 --> 00:15:00.629 align:start position:0%
+file. Uh here we go. Basis 3 master.
+So<00:14:59.120><c> if</c><00:14:59.360><c> we</c><00:14:59.440><c> look</c><00:14:59.600><c> inside</c><00:14:59.920><c> the</c><00:15:00.240><c> constraints</c>
+
+00:15:00.629 --> 00:15:00.639 align:start position:0%
+So if we look inside the constraints
+ 
+
+00:15:00.639 --> 00:15:02.870 align:start position:0%
+So if we look inside the constraints
+file,<00:15:01.040><c> copy</c><00:15:01.360><c> this</c><00:15:01.600><c> constraints</c><00:15:02.079><c> file</c><00:15:02.399><c> to</c><00:15:02.639><c> the</c>
+
+00:15:02.870 --> 00:15:02.880 align:start position:0%
+file, copy this constraints file to the
+ 
+
+00:15:02.880 --> 00:15:06.629 align:start position:0%
+file, copy this constraints file to the
+appropriate<00:15:03.199><c> name</c><00:15:03.519><c> stopwatch</c><00:15:04.480><c> uh.xdc</c><00:15:04.959><c> XDC.</c>
+
+00:15:06.629 --> 00:15:06.639 align:start position:0%
+appropriate name stopwatch uh.xdc XDC.
+ 
+
+00:15:06.639 --> 00:15:08.470 align:start position:0%
+appropriate name stopwatch uh.xdc XDC.
+Um,
+
+00:15:08.470 --> 00:15:08.480 align:start position:0%
+Um,
+ 
+
+00:15:08.480 --> 00:15:13.590 align:start position:0%
+Um,
+and<00:15:09.600><c> uh,</c><00:15:10.240><c> if</c><00:15:10.480><c> you</c><00:15:10.639><c> look</c><00:15:10.880><c> down</c><00:15:11.120><c> this</c><00:15:12.480><c> uh,</c><00:15:13.199><c> you'll</c>
+
+00:15:13.590 --> 00:15:13.600 align:start position:0%
+and uh, if you look down this uh, you'll
+ 
+
+00:15:13.600 --> 00:15:15.110 align:start position:0%
+and uh, if you look down this uh, you'll
+you'll<00:15:13.920><c> need</c><00:15:14.000><c> to</c><00:15:14.160><c> set</c><00:15:14.560><c> what</c><00:15:14.720><c> do</c><00:15:14.800><c> we</c><00:15:14.959><c> need</c><00:15:15.040><c> to</c>
+
+00:15:15.110 --> 00:15:15.120 align:start position:0%
+you'll need to set what do we need to
+ 
+
+00:15:15.120 --> 00:15:16.470 align:start position:0%
+you'll need to set what do we need to
+set?<00:15:15.360><c> We</c><00:15:15.519><c> need</c><00:15:15.600><c> to</c><00:15:15.680><c> set</c><00:15:15.839><c> the</c><00:15:16.000><c> clock.</c><00:15:16.320><c> So,</c>
+
+00:15:16.470 --> 00:15:16.480 align:start position:0%
+set? We need to set the clock. So,
+ 
+
+00:15:16.480 --> 00:15:17.990 align:start position:0%
+set? We need to set the clock. So,
+you're<00:15:16.639><c> going</c><00:15:16.720><c> to</c><00:15:16.800><c> have</c><00:15:16.959><c> to</c><00:15:17.040><c> uncomment</c><00:15:17.600><c> this.</c>
+
+00:15:17.990 --> 00:15:18.000 align:start position:0%
+you're going to have to uncomment this.
+ 
+
+00:15:18.000 --> 00:15:20.470 align:start position:0%
+you're going to have to uncomment this.
+This<00:15:18.240><c> is</c><00:15:18.399><c> already</c><00:15:18.720><c> set</c><00:15:18.959><c> for</c><00:15:19.199><c> a</c><00:15:19.680><c> 100</c><00:15:19.920><c> megahertz</c>
+
+00:15:20.470 --> 00:15:20.480 align:start position:0%
+This is already set for a 100 megahertz
+ 
+
+00:15:20.480 --> 00:15:21.750 align:start position:0%
+This is already set for a 100 megahertz
+system<00:15:20.800><c> clock.</c><00:15:21.120><c> So,</c><00:15:21.279><c> you</c><00:15:21.440><c> just</c><00:15:21.519><c> need</c><00:15:21.680><c> to</c>
+
+00:15:21.750 --> 00:15:21.760 align:start position:0%
+system clock. So, you just need to
+ 
+
+00:15:21.760 --> 00:15:23.990 align:start position:0%
+system clock. So, you just need to
+uncomment<00:15:22.240><c> these</c><00:15:22.480><c> two</c><00:15:22.639><c> lines.</c><00:15:23.519><c> You</c><00:15:23.680><c> you're</c>
+
+00:15:23.990 --> 00:15:24.000 align:start position:0%
+uncomment these two lines. You you're
+ 
+
+00:15:24.000 --> 00:15:26.310 align:start position:0%
+uncomment these two lines. You you're
+going<00:15:24.079><c> to</c><00:15:24.240><c> set</c><00:15:24.480><c> buttons</c><00:15:25.040><c> to</c><00:15:25.440><c> control</c><00:15:26.079><c> control</c>
+
+00:15:26.310 --> 00:15:26.320 align:start position:0%
+going to set buttons to control control
+ 
+
+00:15:26.320 --> 00:15:28.069 align:start position:0%
+going to set buttons to control control
+it.<00:15:26.560><c> You'll</c><00:15:26.720><c> need</c><00:15:26.959><c> three</c><00:15:27.120><c> buttons.</c><00:15:27.839><c> You'll</c>
+
+00:15:28.069 --> 00:15:28.079 align:start position:0%
+it. You'll need three buttons. You'll
+ 
+
+00:15:28.079 --> 00:15:29.350 align:start position:0%
+it. You'll need three buttons. You'll
+have<00:15:28.160><c> to</c><00:15:28.320><c> decide</c><00:15:28.560><c> what</c><00:15:28.800><c> you're</c><00:15:28.959><c> going</c><00:15:29.040><c> to</c><00:15:29.120><c> call</c>
+
+00:15:29.350 --> 00:15:29.360 align:start position:0%
+have to decide what you're going to call
+ 
+
+00:15:29.360 --> 00:15:32.470 align:start position:0%
+have to decide what you're going to call
+them,<00:15:29.760><c> but</c><00:15:30.000><c> these</c><00:15:30.240><c> three</c><00:15:30.480><c> buttons</c><00:15:31.199><c> are</c><00:15:32.079><c> uh,</c><00:15:32.240><c> as</c>
+
+00:15:32.470 --> 00:15:32.480 align:start position:0%
+them, but these three buttons are uh, as
+ 
+
+00:15:32.480 --> 00:15:34.629 align:start position:0%
+them, but these three buttons are uh, as
+specified.<00:15:33.440><c> And</c><00:15:33.600><c> then</c><00:15:33.760><c> the</c><00:15:33.920><c> seven</c><00:15:34.160><c> segment</c>
+
+00:15:34.629 --> 00:15:34.639 align:start position:0%
+specified. And then the seven segment
+ 
+
+00:15:34.639 --> 00:15:37.350 align:start position:0%
+specified. And then the seven segment
+display<00:15:35.360><c> we</c><00:15:35.600><c> have</c><00:15:35.839><c> here</c><00:15:36.639><c> which</c><00:15:36.880><c> connects</c><00:15:37.199><c> to</c>
+
+00:15:37.350 --> 00:15:37.360 align:start position:0%
+display we have here which connects to
+ 
+
+00:15:37.360 --> 00:15:39.670 align:start position:0%
+display we have here which connects to
+the<00:15:37.519><c> display</c><00:15:37.920><c> driver.</c><00:15:38.639><c> We</c><00:15:38.880><c> have</c><00:15:39.040><c> the</c><00:15:39.279><c> signals</c>
+
+00:15:39.670 --> 00:15:39.680 align:start position:0%
+the display driver. We have the signals
+ 
+
+00:15:39.680 --> 00:15:41.509 align:start position:0%
+the display driver. We have the signals
+for<00:15:39.839><c> the</c><00:15:40.000><c> seven</c><00:15:40.240><c> segments.</c><00:15:40.880><c> We</c><00:15:41.040><c> have</c><00:15:41.279><c> the</c>
+
+00:15:41.509 --> 00:15:41.519 align:start position:0%
+for the seven segments. We have the
+ 
+
+00:15:41.519 --> 00:15:43.189 align:start position:0%
+for the seven segments. We have the
+decimal<00:15:41.920><c> point</c><00:15:42.240><c> whether</c><00:15:42.560><c> it's</c><00:15:42.800><c> and</c><00:15:42.959><c> then</c><00:15:43.120><c> we</c>
+
+00:15:43.189 --> 00:15:43.199 align:start position:0%
+decimal point whether it's and then we
+ 
+
+00:15:43.199 --> 00:15:44.870 align:start position:0%
+decimal point whether it's and then we
+have<00:15:43.279><c> the</c><00:15:43.440><c> anode</c><00:15:43.839><c> select</c><00:15:44.320><c> signal</c><00:15:44.720><c> the</c>
+
+00:15:44.870 --> 00:15:44.880 align:start position:0%
+have the anode select signal the
+ 
+
+00:15:44.880 --> 00:15:47.030 align:start position:0%
+have the anode select signal the
+multiplex<00:15:45.440><c> signal.</c><00:15:46.000><c> So</c><00:15:46.240><c> all</c><00:15:46.399><c> of</c><00:15:46.560><c> those</c><00:15:46.720><c> will</c>
+
+00:15:47.030 --> 00:15:47.040 align:start position:0%
+multiplex signal. So all of those will
+ 
+
+00:15:47.040 --> 00:15:49.910 align:start position:0%
+multiplex signal. So all of those will
+need<00:15:47.199><c> to</c><00:15:47.360><c> be</c><00:15:47.839><c> mapped</c><00:15:48.399><c> to</c><00:15:48.639><c> your</c><00:15:48.880><c> VHDL</c><00:15:49.600><c> signals</c>
+
+00:15:49.910 --> 00:15:49.920 align:start position:0%
+need to be mapped to your VHDL signals
+ 
+
+00:15:49.920 --> 00:15:53.670 align:start position:0%
+need to be mapped to your VHDL signals
+as<00:15:50.240><c> given.</c><00:15:51.600><c> Uh</c><00:15:52.079><c> then</c><00:15:52.320><c> hopefully</c><00:15:52.800><c> ideally</c><00:15:53.360><c> you</c>
+
+00:15:53.670 --> 00:15:53.680 align:start position:0%
+as given. Uh then hopefully ideally you
+ 
+
+00:15:53.680 --> 00:15:55.829 align:start position:0%
+as given. Uh then hopefully ideally you
+synthesize<00:15:54.240><c> that</c><00:15:54.639><c> program</c><00:15:55.040><c> the</c><00:15:55.279><c> device</c><00:15:55.600><c> and</c>
+
+00:15:55.829 --> 00:15:55.839 align:start position:0%
+synthesize that program the device and
+ 
+
+00:15:55.839 --> 00:15:57.590 align:start position:0%
+synthesize that program the device and
+you<00:15:56.000><c> should</c><00:15:56.160><c> see</c><00:15:56.320><c> a</c><00:15:56.480><c> working</c><00:15:56.800><c> stopwatch.</c><00:15:57.440><c> If</c>
+
+00:15:57.590 --> 00:15:57.600 align:start position:0%
+you should see a working stopwatch. If
+ 
+
+00:15:57.600 --> 00:15:59.509 align:start position:0%
+you should see a working stopwatch. If
+we<00:15:57.759><c> now</c><00:15:58.000><c> look</c><00:15:58.560><c> um</c><00:15:58.720><c> here</c><00:15:58.880><c> is</c><00:15:59.040><c> one</c><00:15:59.279><c> I've</c>
+
+00:15:59.509 --> 00:15:59.519 align:start position:0%
+we now look um here is one I've
+ 
+
+00:15:59.519 --> 00:16:03.269 align:start position:0%
+we now look um here is one I've
+programmed<00:16:00.000><c> earlier.</c><00:16:01.120><c> Uh</c><00:16:01.600><c> you</c><00:16:01.839><c> can</c><00:16:02.000><c> see</c><00:16:02.240><c> I've</c>
+
+00:16:03.269 --> 00:16:03.279 align:start position:0%
+programmed earlier. Uh you can see I've
+ 
+
+00:16:03.279 --> 00:16:05.269 align:start position:0%
+programmed earlier. Uh you can see I've
+uh<00:16:03.519><c> it's</c><00:16:03.759><c> got</c><00:16:03.920><c> it's</c><00:16:04.240><c> got</c><00:16:04.399><c> set</c><00:16:04.560><c> at</c><00:16:04.800><c> zero</c><00:16:05.040><c> to</c>
+
+00:16:05.269 --> 00:16:05.279 align:start position:0%
+uh it's got it's got set at zero to
+ 
+
+00:16:05.279 --> 00:16:08.069 align:start position:0%
+uh it's got it's got set at zero to
+start<00:16:05.519><c> with.</c><00:16:06.240><c> If</c><00:16:06.480><c> I</c><00:16:06.639><c> push</c><00:16:07.120><c> the</c><00:16:07.440><c> this</c><00:16:07.759><c> bottom</c>
+
+00:16:08.069 --> 00:16:08.079 align:start position:0%
+start with. If I push the this bottom
+ 
+
+00:16:08.079 --> 00:16:10.389 align:start position:0%
+start with. If I push the this bottom
+button,<00:16:08.399><c> this</c><00:16:08.560><c> is</c><00:16:08.720><c> the</c><00:16:08.959><c> start</c><00:16:09.360><c> and</c><00:16:09.680><c> stop.</c><00:16:10.160><c> I</c>
+
+00:16:10.389 --> 00:16:10.399 align:start position:0%
+button, this is the start and stop. I
+ 
+
+00:16:10.399 --> 00:16:13.590 align:start position:0%
+button, this is the start and stop. I
+can<00:16:10.639><c> pause</c><00:16:10.880><c> it.</c><00:16:12.079><c> I</c><00:16:12.320><c> can</c><00:16:12.480><c> have</c><00:16:12.560><c> it</c><00:16:12.800><c> continue.</c><00:16:13.440><c> So</c>
+
+00:16:13.590 --> 00:16:13.600 align:start position:0%
+can pause it. I can have it continue. So
+ 
+
+00:16:13.600 --> 00:16:16.470 align:start position:0%
+can pause it. I can have it continue. So
+that's<00:16:13.920><c> start</c><00:16:14.079><c> and</c><00:16:14.399><c> stop.</c><00:16:15.120><c> The</c><00:16:15.360><c> center</c><00:16:15.680><c> button</c>
+
+00:16:16.470 --> 00:16:16.480 align:start position:0%
+that's start and stop. The center button
+ 
+
+00:16:16.480 --> 00:16:19.350 align:start position:0%
+that's start and stop. The center button
+resets<00:16:16.959><c> it</c><00:16:17.120><c> back</c><00:16:17.440><c> to</c><00:16:17.680><c> zero.</c>
+
+00:16:19.350 --> 00:16:19.360 align:start position:0%
+resets it back to zero.
+ 
+
+00:16:19.360 --> 00:16:21.990 align:start position:0%
+resets it back to zero.
+Then<00:16:20.160><c> um</c><00:16:20.240><c> if</c><00:16:20.480><c> I</c><00:16:20.639><c> can</c><00:16:21.040><c> remember</c><00:16:21.519><c> right.</c><00:16:21.839><c> Oh,</c>
+
+00:16:21.990 --> 00:16:22.000 align:start position:0%
+Then um if I can remember right. Oh,
+ 
+
+00:16:22.000 --> 00:16:24.389 align:start position:0%
+Then um if I can remember right. Oh,
+it's<00:16:22.160><c> the</c><00:16:22.320><c> top</c><00:16:22.480><c> button.</c><00:16:23.440><c> So</c><00:16:23.600><c> the</c><00:16:23.839><c> top</c><00:16:24.079><c> button</c>
+
+00:16:24.389 --> 00:16:24.399 align:start position:0%
+it's the top button. So the top button
+ 
+
+00:16:24.399 --> 00:16:27.030 align:start position:0%
+it's the top button. So the top button
+has<00:16:25.360><c> is</c><00:16:25.759><c> basically</c><00:16:26.240><c> you</c><00:16:26.320><c> can</c><00:16:26.399><c> see</c><00:16:26.560><c> the</c><00:16:26.720><c> time</c><00:16:26.880><c> is</c>
+
+00:16:27.030 --> 00:16:27.040 align:start position:0%
+has is basically you can see the time is
+ 
+
+00:16:27.040 --> 00:16:29.670 align:start position:0%
+has is basically you can see the time is
+frozen<00:16:27.360><c> at</c><00:16:27.519><c> 6.13.</c><00:16:28.639><c> But</c><00:16:28.800><c> it</c><00:16:28.959><c> now</c><00:16:29.199><c> continues</c>
+
+00:16:29.670 --> 00:16:29.680 align:start position:0%
+frozen at 6.13. But it now continues
+ 
+
+00:16:29.680 --> 00:16:32.870 align:start position:0%
+frozen at 6.13. But it now continues
+again.<00:16:30.560><c> Goes</c><00:16:30.880><c> back</c><00:16:31.040><c> to</c><00:16:31.279><c> 10.54.</c>
+
+00:16:32.870 --> 00:16:32.880 align:start position:0%
+again. Goes back to 10.54.
+ 
+
+00:16:32.880 --> 00:16:35.269 align:start position:0%
+again. Goes back to 10.54.
+So<00:16:33.120><c> that</c><00:16:33.360><c> that's</c><00:16:33.600><c> showing</c><00:16:33.839><c> a</c><00:16:34.000><c> lap</c><00:16:34.320><c> time</c><00:16:35.040><c> and</c>
+
+00:16:35.269 --> 00:16:35.279 align:start position:0%
+So that that's showing a lap time and
+ 
+
+00:16:35.279 --> 00:16:37.350 align:start position:0%
+So that that's showing a lap time and
+then<00:16:35.440><c> I</c><00:16:35.680><c> can</c><00:16:36.079><c> have</c><00:16:36.240><c> it</c><00:16:36.480><c> continue</c><00:16:36.880><c> counting</c>
+
+00:16:37.350 --> 00:16:37.360 align:start position:0%
+then I can have it continue counting
+ 
+
+00:16:37.360 --> 00:16:40.069 align:start position:0%
+then I can have it continue counting
+again.<00:16:38.720><c> So</c><00:16:38.880><c> that's</c><00:16:39.120><c> the</c><00:16:39.279><c> functionality</c><00:16:39.759><c> we're</c>
+
+00:16:40.069 --> 00:16:40.079 align:start position:0%
+again. So that's the functionality we're
+ 
+
+00:16:40.079 --> 00:16:42.470 align:start position:0%
+again. So that's the functionality we're
+looking<00:16:40.240><c> for</c><00:16:41.199><c> um</c><00:16:41.519><c> at</c><00:16:41.759><c> the</c><00:16:41.920><c> end</c><00:16:42.079><c> of</c><00:16:42.240><c> this</c>
+
+00:16:42.470 --> 00:16:42.480 align:start position:0%
+looking for um at the end of this
+ 
+
+00:16:42.480 --> 00:16:44.790 align:start position:0%
+looking for um at the end of this
+exercise.
+
+00:16:44.790 --> 00:16:44.800 align:start position:0%
+exercise.
+ 
+
+00:16:44.800 --> 00:16:47.030 align:start position:0%
+exercise.
+These<00:16:45.199><c> videos</c><00:16:45.600><c> are</c><00:16:45.839><c> supported</c><00:16:46.160><c> by</c><00:16:46.399><c> Ardan</c><00:16:46.800><c> Oak</c>
+
+00:16:47.030 --> 00:16:47.040 align:start position:0%
+These videos are supported by Ardan Oak
+ 
+
+00:16:47.040 --> 00:16:49.189 align:start position:0%
+These videos are supported by Ardan Oak
+Consulting<00:16:47.519><c> Limited,</c><00:16:48.240><c> a</c><00:16:48.480><c> UK</c><00:16:48.880><c> based</c>
+
+00:16:49.189 --> 00:16:49.199 align:start position:0%
+Consulting Limited, a UK based
+ 
+
+00:16:49.199 --> 00:16:50.389 align:start position:0%
+Consulting Limited, a UK based
+management<00:16:49.600><c> training</c><00:16:49.839><c> and</c><00:16:50.079><c> business</c>
+
+00:16:50.389 --> 00:16:50.399 align:start position:0%
+management training and business
+ 
+
+00:16:50.399 --> 00:16:52.949 align:start position:0%
+management training and business
+coaching<00:16:50.800><c> firm.</c><00:16:51.839><c> It</c><00:16:52.079><c> provides</c><00:16:52.480><c> specialist</c>
+
+00:16:52.949 --> 00:16:52.959 align:start position:0%
+coaching firm. It provides specialist
+ 
+
+00:16:52.959 --> 00:16:54.230 align:start position:0%
+coaching firm. It provides specialist
+communication<00:16:53.440><c> and</c><00:16:53.600><c> management</c><00:16:54.000><c> skills</c>
+
+00:16:54.230 --> 00:16:54.240 align:start position:0%
+communication and management skills
+ 
+
+00:16:54.240 --> 00:16:55.749 align:start position:0%
+communication and management skills
+training<00:16:54.480><c> for</c><00:16:54.720><c> the</c><00:16:54.880><c> manufacturing</c><00:16:55.440><c> and</c>
+
+00:16:55.749 --> 00:16:55.759 align:start position:0%
+training for the manufacturing and
+ 
+
+00:16:55.759 --> 00:16:59.199 align:start position:0%
+training for the manufacturing and
+engineering<00:16:56.320><c> sectors.</c>
+

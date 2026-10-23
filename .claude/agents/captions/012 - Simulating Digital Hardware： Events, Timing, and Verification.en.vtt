@@ -1,0 +1,1872 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.960 --> 00:00:04.510 align:start position:0%
+ 
+So,<00:00:03.080><c> in</c><00:00:03.120><c> this</c><00:00:03.320><c> video,</c><00:00:03.680><c> I</c><00:00:03.760><c> just</c><00:00:04.000><c> want</c><00:00:04.120><c> to</c><00:00:04.240><c> cover</c>
+
+00:00:04.510 --> 00:00:04.520 align:start position:0%
+So, in this video, I just want to cover
+ 
+
+00:00:04.520 --> 00:00:07.750 align:start position:0%
+So, in this video, I just want to cover
+very<00:00:04.840><c> briefly</c><00:00:05.640><c> how</c><00:00:05.920><c> simulations</c><00:00:06.880><c> work</c><00:00:07.360><c> um</c><00:00:07.600><c> how</c>
+
+00:00:07.750 --> 00:00:07.760 align:start position:0%
+very briefly how simulations work um how
+ 
+
+00:00:07.760 --> 00:00:10.590 align:start position:0%
+very briefly how simulations work um how
+you<00:00:07.880><c> how</c><00:00:08.440><c> in</c><00:00:08.560><c> digital</c><00:00:09.000><c> systems.</c>
+
+00:00:10.590 --> 00:00:10.600 align:start position:0%
+you how in digital systems.
+ 
+
+00:00:10.600 --> 00:00:12.430 align:start position:0%
+you how in digital systems.
+So,<00:00:10.960><c> to</c><00:00:11.120><c> do</c><00:00:11.280><c> that,</c><00:00:11.640><c> we've</c><00:00:11.840><c> got</c><00:00:12.040><c> here</c><00:00:12.320><c> a</c>
+
+00:00:12.430 --> 00:00:12.440 align:start position:0%
+So, to do that, we've got here a
+ 
+
+00:00:12.440 --> 00:00:15.470 align:start position:0%
+So, to do that, we've got here a
+waveform<00:00:13.240><c> for</c><00:00:13.760><c> a</c><00:00:13.840><c> simple</c><00:00:14.320><c> half</c><00:00:14.720><c> adder</c><00:00:15.320><c> with</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+waveform for a simple half adder with
+ 
+
+00:00:15.480 --> 00:00:18.590 align:start position:0%
+waveform for a simple half adder with
+two<00:00:15.680><c> inputs</c><00:00:16.200><c> A</c><00:00:16.320><c> and</c><00:00:16.520><c> B</c><00:00:17.360><c> and</c><00:00:17.680><c> two</c><00:00:17.880><c> outputs</c><00:00:18.480><c> the</c>
+
+00:00:18.590 --> 00:00:18.600 align:start position:0%
+two inputs A and B and two outputs the
+ 
+
+00:00:18.600 --> 00:00:20.670 align:start position:0%
+two inputs A and B and two outputs the
+sum<00:00:18.880><c> and</c><00:00:19.040><c> carry</c><00:00:19.400><c> signal.</c>
+
+00:00:20.670 --> 00:00:20.680 align:start position:0%
+sum and carry signal.
+ 
+
+00:00:20.680 --> 00:00:23.150 align:start position:0%
+sum and carry signal.
+So,<00:00:21.120><c> we</c><00:00:21.400><c> well,</c><00:00:21.520><c> we</c><00:00:21.760><c> the</c><00:00:22.240><c> terminology</c><00:00:22.800><c> we</c><00:00:22.920><c> use,</c>
+
+00:00:23.150 --> 00:00:23.160 align:start position:0%
+So, we well, we the terminology we use,
+ 
+
+00:00:23.160 --> 00:00:24.910 align:start position:0%
+So, we well, we the terminology we use,
+the<00:00:23.280><c> attribute</c><00:00:23.760><c> is</c><00:00:24.000><c> first</c><00:00:24.240><c> of</c><00:00:24.360><c> all</c><00:00:24.480><c> events.</c>
+
+00:00:24.910 --> 00:00:24.920 align:start position:0%
+the attribute is first of all events.
+ 
+
+00:00:24.920 --> 00:00:27.230 align:start position:0%
+the attribute is first of all events.
+The<00:00:25.400><c> an</c><00:00:25.560><c> idea</c><00:00:25.760><c> of</c><00:00:25.880><c> an</c><00:00:25.960><c> event</c><00:00:26.480><c> is</c><00:00:26.640><c> a</c><00:00:26.720><c> change</c><00:00:27.120><c> in</c>
+
+00:00:27.230 --> 00:00:27.240 align:start position:0%
+The an idea of an event is a change in
+ 
+
+00:00:27.240 --> 00:00:29.350 align:start position:0%
+The an idea of an event is a change in
+some<00:00:27.480><c> value</c><00:00:27.880><c> in</c><00:00:28.000><c> a</c><00:00:28.040><c> circuit.</c>
+
+00:00:29.350 --> 00:00:29.360 align:start position:0%
+some value in a circuit.
+ 
+
+00:00:29.360 --> 00:00:31.430 align:start position:0%
+some value in a circuit.
+So,<00:00:29.560><c> for</c><00:00:29.720><c> example,</c><00:00:30.240><c> in</c><00:00:30.360><c> the</c><00:00:30.840><c> up</c><00:00:31.000><c> here,</c><00:00:31.240><c> we've</c>
+
+00:00:31.430 --> 00:00:31.440 align:start position:0%
+So, for example, in the up here, we've
+ 
+
+00:00:31.440 --> 00:00:33.790 align:start position:0%
+So, for example, in the up here, we've
+got<00:00:31.720><c> that</c><00:00:31.880><c> the</c><00:00:32.000><c> input</c><00:00:32.520><c> A,</c><00:00:32.840><c> the</c><00:00:32.960><c> event</c><00:00:33.440><c> is</c><00:00:33.640><c> that</c>
+
+00:00:33.790 --> 00:00:33.800 align:start position:0%
+got that the input A, the event is that
+ 
+
+00:00:33.800 --> 00:00:37.710 align:start position:0%
+got that the input A, the event is that
+it<00:00:33.960><c> changes</c><00:00:34.920><c> from</c><00:00:35.160><c> a</c><00:00:35.240><c> one</c><00:00:35.760><c> to</c><00:00:35.920><c> a</c><00:00:36.000><c> zero.</c><00:00:36.920><c> So,</c>
+
+00:00:37.710 --> 00:00:37.720 align:start position:0%
+it changes from a one to a zero. So,
+ 
+
+00:00:37.720 --> 00:00:41.430 align:start position:0%
+it changes from a one to a zero. So,
+okay.<00:00:38.640><c> Um</c><00:00:39.240><c> and</c><00:00:39.360><c> of</c><00:00:39.480><c> course,</c><00:00:40.080><c> inputs</c><00:00:40.880><c> events</c><00:00:41.280><c> on</c>
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+okay. Um and of course, inputs events on
+ 
+
+00:00:41.440 --> 00:00:44.590 align:start position:0%
+okay. Um and of course, inputs events on
+input<00:00:42.080><c> signals</c><00:00:42.840><c> may</c><00:00:43.040><c> then</c><00:00:43.280><c> produce</c><00:00:43.920><c> events</c><00:00:44.400><c> or</c>
+
+00:00:44.590 --> 00:00:44.600 align:start position:0%
+input signals may then produce events or
+ 
+
+00:00:44.600 --> 00:00:47.590 align:start position:0%
+input signals may then produce events or
+other<00:00:44.840><c> signals</c><00:00:45.720><c> subsequently.</c>
+
+00:00:47.590 --> 00:00:47.600 align:start position:0%
+other signals subsequently.
+ 
+
+00:00:47.600 --> 00:00:49.790 align:start position:0%
+other signals subsequently.
+But,<00:00:47.720><c> there's</c><00:00:47.880><c> a</c><00:00:47.920><c> propagation</c><00:00:48.560><c> delay.</c><00:00:48.960><c> So,</c>
+
+00:00:49.790 --> 00:00:49.800 align:start position:0%
+But, there's a propagation delay. So,
+ 
+
+00:00:49.800 --> 00:00:52.190 align:start position:0%
+But, there's a propagation delay. So,
+the<00:00:49.960><c> output</c><00:00:50.960><c> there's</c><00:00:51.240><c> a</c><00:00:51.280><c> period</c><00:00:51.520><c> of</c><00:00:51.640><c> time</c><00:00:52.000><c> to</c>
+
+00:00:52.190 --> 00:00:52.200 align:start position:0%
+the output there's a period of time to
+ 
+
+00:00:52.200 --> 00:00:54.430 align:start position:0%
+the output there's a period of time to
+in<00:00:52.360><c> the</c><00:00:52.600><c> input</c><00:00:52.960><c> signals</c><00:00:53.320><c> to</c><00:00:53.440><c> propagate</c><00:00:54.160><c> to</c>
+
+00:00:54.430 --> 00:00:54.440 align:start position:0%
+in the input signals to propagate to
+ 
+
+00:00:54.440 --> 00:00:56.590 align:start position:0%
+in the input signals to propagate to
+changing<00:00:54.920><c> the</c><00:00:55.120><c> output.</c><00:00:56.000><c> So,</c><00:00:56.120><c> we</c><00:00:56.200><c> have</c><00:00:56.320><c> to</c><00:00:56.440><c> take</c>
+
+00:00:56.590 --> 00:00:56.600 align:start position:0%
+changing the output. So, we have to take
+ 
+
+00:00:56.600 --> 00:00:58.190 align:start position:0%
+changing the output. So, we have to take
+account<00:00:56.880><c> of</c><00:00:56.960><c> propagation</c><00:00:57.640><c> delay</c><00:00:57.960><c> when</c><00:00:58.080><c> we're</c>
+
+00:00:58.190 --> 00:00:58.200 align:start position:0%
+account of propagation delay when we're
+ 
+
+00:00:58.200 --> 00:01:00.710 align:start position:0%
+account of propagation delay when we're
+doing<00:00:58.440><c> simulations.</c><00:00:59.800><c> Real</c><00:01:00.040><c> circuits</c><00:01:00.560><c> have</c>
+
+00:01:00.710 --> 00:01:00.720 align:start position:0%
+doing simulations. Real circuits have
+ 
+
+00:01:00.720 --> 00:01:02.430 align:start position:0%
+doing simulations. Real circuits have
+capacitance,<00:01:01.440><c> they</c><00:01:01.600><c> take</c><00:01:01.880><c> some</c><00:01:02.040><c> time</c><00:01:02.320><c> to</c>
+
+00:01:02.430 --> 00:01:02.440 align:start position:0%
+capacitance, they take some time to
+ 
+
+00:01:02.440 --> 00:01:04.030 align:start position:0%
+capacitance, they take some time to
+change
+
+00:01:04.030 --> 00:01:04.040 align:start position:0%
+change
+ 
+
+00:01:04.040 --> 00:01:06.590 align:start position:0%
+change
+um<00:01:04.600><c> to</c><00:01:04.720><c> switch</c><00:01:05.040><c> states.</c>
+
+00:01:06.590 --> 00:01:06.600 align:start position:0%
+um to switch states.
+ 
+
+00:01:06.600 --> 00:01:08.830 align:start position:0%
+um to switch states.
+So,<00:01:07.000><c> changes</c><00:01:07.320><c> in</c><00:01:07.400><c> inputs</c><00:01:07.800><c> to</c><00:01:07.960><c> a</c><00:01:08.040><c> gate</c><00:01:08.360><c> do</c><00:01:08.560><c> not</c>
+
+00:01:08.830 --> 00:01:08.840 align:start position:0%
+So, changes in inputs to a gate do not
+ 
+
+00:01:08.840 --> 00:01:10.510 align:start position:0%
+So, changes in inputs to a gate do not
+produce<00:01:09.200><c> immediate</c><00:01:09.760><c> changes</c><00:01:10.240><c> on</c><00:01:10.320><c> the</c>
+
+00:01:10.510 --> 00:01:10.520 align:start position:0%
+produce immediate changes on the
+ 
+
+00:01:10.520 --> 00:01:12.110 align:start position:0%
+produce immediate changes on the
+outputs.<00:01:11.000><c> They</c><00:01:11.120><c> take</c><00:01:11.400><c> some</c><00:01:11.600><c> time,</c><00:01:11.960><c> and</c><00:01:12.040><c> we</c>
+
+00:01:12.110 --> 00:01:12.120 align:start position:0%
+outputs. They take some time, and we
+ 
+
+00:01:12.120 --> 00:01:14.390 align:start position:0%
+outputs. They take some time, and we
+have<00:01:12.320><c> to</c><00:01:12.400><c> simulate</c><00:01:12.920><c> that.</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+have to simulate that.
+ 
+
+00:01:14.400 --> 00:01:15.830 align:start position:0%
+have to simulate that.
+Um<00:01:14.720><c> the</c><00:01:14.800><c> other</c><00:01:14.960><c> thing</c><00:01:15.080><c> we</c><00:01:15.200><c> have</c><00:01:15.320><c> to</c><00:01:15.400><c> be</c><00:01:15.520><c> aware</c>
+
+00:01:15.830 --> 00:01:15.840 align:start position:0%
+Um the other thing we have to be aware
+ 
+
+00:01:15.840 --> 00:01:18.550 align:start position:0%
+Um the other thing we have to be aware
+of<00:01:16.000><c> is</c><00:01:16.120><c> this</c><00:01:16.280><c> concurrency</c><00:01:16.920><c> of</c><00:01:17.080><c> operation</c><00:01:17.800><c> that</c>
+
+00:01:18.550 --> 00:01:18.560 align:start position:0%
+of is this concurrency of operation that
+ 
+
+00:01:18.560 --> 00:01:21.830 align:start position:0%
+of is this concurrency of operation that
+an<00:01:18.720><c> input</c><00:01:19.080><c> event</c><00:01:19.520><c> can</c><00:01:19.720><c> change</c><00:01:20.240><c> more</c><00:01:20.480><c> than</c><00:01:20.720><c> one</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+an input event can change more than one
+ 
+
+00:01:21.840 --> 00:01:23.270 align:start position:0%
+an input event can change more than one
+can<00:01:22.000><c> change</c><00:01:22.360><c> more</c><00:01:22.480><c> than</c><00:01:22.640><c> one</c><00:01:22.840><c> signal</c><00:01:23.160><c> at</c><00:01:23.240><c> a</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+can change more than one signal at a
+ 
+
+00:01:23.280 --> 00:01:24.310 align:start position:0%
+can change more than one signal at a
+time.
+
+00:01:24.310 --> 00:01:24.320 align:start position:0%
+time.
+ 
+
+00:01:24.320 --> 00:01:26.070 align:start position:0%
+time.
+So,<00:01:24.440><c> it</c><00:01:24.520><c> can</c><00:01:24.720><c> result</c><00:01:25.040><c> in</c><00:01:25.200><c> two</c><00:01:25.400><c> gates</c><00:01:25.680><c> changing</c>
+
+00:01:26.070 --> 00:01:26.080 align:start position:0%
+So, it can result in two gates changing
+ 
+
+00:01:26.080 --> 00:01:27.870 align:start position:0%
+So, it can result in two gates changing
+concurrently<00:01:26.720><c> or</c><00:01:26.880><c> more.</c>
+
+00:01:27.870 --> 00:01:27.880 align:start position:0%
+concurrently or more.
+ 
+
+00:01:27.880 --> 00:01:29.870 align:start position:0%
+concurrently or more.
+Um<00:01:28.080><c> in</c><00:01:28.200><c> this</c><00:01:28.360><c> case,</c><00:01:28.760><c> the</c><00:01:28.880><c> two</c><00:01:29.080><c> outputs</c><00:01:29.520><c> sum</c><00:01:29.720><c> and</c>
+
+00:01:29.870 --> 00:01:29.880 align:start position:0%
+Um in this case, the two outputs sum and
+ 
+
+00:01:29.880 --> 00:01:32.070 align:start position:0%
+Um in this case, the two outputs sum and
+carry<00:01:30.440><c> are</c><00:01:30.640><c> both</c><00:01:31.200><c> going</c><00:01:31.320><c> to</c><00:01:31.400><c> change</c><00:01:31.920><c> going</c><00:01:32.040><c> to</c>
+
+00:01:32.070 --> 00:01:32.080 align:start position:0%
+carry are both going to change going to
+ 
+
+00:01:32.080 --> 00:01:34.270 align:start position:0%
+carry are both going to change going to
+change<00:01:32.320><c> if</c><00:01:32.480><c> A</c><00:01:32.640><c> inputs</c><00:01:33.120><c> from</c><00:01:33.280><c> a</c><00:01:33.360><c> one</c><00:01:33.560><c> to</c><00:01:33.680><c> zero</c><00:01:34.160><c> in</c>
+
+00:01:34.270 --> 00:01:34.280 align:start position:0%
+change if A inputs from a one to zero in
+ 
+
+00:01:34.280 --> 00:01:36.670 align:start position:0%
+change if A inputs from a one to zero in
+this<00:01:34.400><c> particular</c><00:01:35.320><c> circuit.</c><00:01:36.080><c> So,</c><00:01:36.320><c> how</c><00:01:36.440><c> do</c><00:01:36.560><c> we</c>
+
+00:01:36.670 --> 00:01:36.680 align:start position:0%
+this particular circuit. So, how do we
+ 
+
+00:01:36.680 --> 00:01:38.910 align:start position:0%
+this particular circuit. So, how do we
+simulate<00:01:37.240><c> that?</c><00:01:37.680><c> Well,</c><00:01:37.960><c> we're</c><00:01:38.120><c> we're</c><00:01:38.680><c> we</c>
+
+00:01:38.910 --> 00:01:38.920 align:start position:0%
+simulate that? Well, we're we're we
+ 
+
+00:01:38.920 --> 00:01:41.310 align:start position:0%
+simulate that? Well, we're we're we
+simulate<00:01:39.520><c> it</c><00:01:39.640><c> by</c><00:01:39.800><c> modeling</c>
+
+00:01:41.310 --> 00:01:41.320 align:start position:0%
+simulate it by modeling
+ 
+
+00:01:41.320 --> 00:01:44.390 align:start position:0%
+simulate it by modeling
+the<00:01:41.480><c> system</c><00:01:42.480><c> as</c><00:01:42.960><c> a</c><00:01:43.680><c> in</c><00:01:43.840><c> terms</c><00:01:44.160><c> of</c><00:01:44.280><c> the</c>
+
+00:01:44.390 --> 00:01:44.400 align:start position:0%
+the system as a in terms of the
+ 
+
+00:01:44.400 --> 00:01:46.630 align:start position:0%
+the system as a in terms of the
+generation<00:01:45.040><c> of</c><00:01:45.200><c> events.</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+generation of events.
+ 
+
+00:01:46.640 --> 00:01:49.310 align:start position:0%
+generation of events.
+Uh<00:01:46.960><c> and</c><00:01:47.080><c> it's</c><00:01:47.240><c> what's</c><00:01:47.480><c> called</c><00:01:48.520><c> it's</c><00:01:48.920><c> basically</c>
+
+00:01:49.310 --> 00:01:49.320 align:start position:0%
+Uh and it's what's called it's basically
+ 
+
+00:01:49.320 --> 00:01:51.270 align:start position:0%
+Uh and it's what's called it's basically
+called<00:01:49.600><c> discrete</c><00:01:50.080><c> event</c><00:01:50.400><c> simulation.</c><00:01:51.080><c> That's</c>
+
+00:01:51.270 --> 00:01:51.280 align:start position:0%
+called discrete event simulation. That's
+ 
+
+00:01:51.280 --> 00:01:51.910 align:start position:0%
+called discrete event simulation. That's
+the
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+the
+ 
+
+00:01:51.920 --> 00:01:54.390 align:start position:0%
+the
+the<00:01:52.440><c> the</c><00:01:52.560><c> technique</c><00:01:53.040><c> we</c><00:01:53.200><c> use</c><00:01:53.880><c> to</c><00:01:54.040><c> accurately</c>
+
+00:01:54.390 --> 00:01:54.400 align:start position:0%
+the the technique we use to accurately
+ 
+
+00:01:54.400 --> 00:01:56.030 align:start position:0%
+the the technique we use to accurately
+model<00:01:54.640><c> the</c><00:01:54.720><c> generation</c><00:01:55.240><c> and</c><00:01:55.440><c> ordering</c><00:01:55.800><c> of</c><00:01:55.960><c> the</c>
+
+00:01:56.030 --> 00:01:56.040 align:start position:0%
+model the generation and ordering of the
+ 
+
+00:01:56.040 --> 00:01:57.230 align:start position:0%
+model the generation and ordering of the
+events.
+
+00:01:57.230 --> 00:01:57.240 align:start position:0%
+events.
+ 
+
+00:01:57.240 --> 00:01:59.430 align:start position:0%
+events.
+So,<00:01:57.360><c> the</c><00:01:57.560><c> the</c><00:01:57.760><c> idea</c><00:01:58.080><c> is</c><00:01:58.200><c> we</c><00:01:58.320><c> have</c><00:01:58.480><c> a</c><00:01:58.560><c> list</c><00:01:59.280><c> of</c>
+
+00:01:59.430 --> 00:01:59.440 align:start position:0%
+So, the the idea is we have a list of
+ 
+
+00:01:59.440 --> 00:02:02.350 align:start position:0%
+So, the the idea is we have a list of
+events<00:01:59.960><c> in</c><00:02:00.160><c> order</c><00:02:00.960><c> in</c><00:02:01.160><c> time.</c>
+
+00:02:02.350 --> 00:02:02.360 align:start position:0%
+events in order in time.
+ 
+
+00:02:02.360 --> 00:02:04.070 align:start position:0%
+events in order in time.
+So,<00:02:02.400><c> an</c><00:02:02.480><c> ordered</c><00:02:02.720><c> list</c><00:02:02.920><c> of</c><00:02:03.040><c> future</c><00:02:03.440><c> events</c><00:02:03.880><c> in</c>
+
+00:02:04.070 --> 00:02:04.080 align:start position:0%
+So, an ordered list of future events in
+ 
+
+00:02:04.080 --> 00:02:05.630 align:start position:0%
+So, an ordered list of future events in
+the<00:02:04.200><c> system.</c>
+
+00:02:05.630 --> 00:02:05.640 align:start position:0%
+the system.
+ 
+
+00:02:05.640 --> 00:02:07.150 align:start position:0%
+the system.
+Each<00:02:05.840><c> event</c><00:02:06.240><c> describes</c><00:02:06.760><c> a</c><00:02:06.840><c> signal</c>
+
+00:02:07.150 --> 00:02:07.160 align:start position:0%
+Each event describes a signal
+ 
+
+00:02:07.160 --> 00:02:09.109 align:start position:0%
+Each event describes a signal
+transition.<00:02:07.880><c> So,</c><00:02:08.000><c> here</c><00:02:08.560><c> So,</c><00:02:08.640><c> we</c><00:02:08.759><c> talk</c><00:02:08.920><c> about</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+transition. So, here So, we talk about
+ 
+
+00:02:09.119 --> 00:02:10.389 align:start position:0%
+transition. So, here So, we talk about
+the<00:02:09.240><c> head,</c><00:02:09.520><c> that's</c><00:02:09.759><c> going</c><00:02:09.880><c> to</c><00:02:09.960><c> be</c><00:02:10.000><c> the</c><00:02:10.119><c> next</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+the head, that's going to be the next
+ 
+
+00:02:10.399 --> 00:02:13.870 align:start position:0%
+the head, that's going to be the next
+event.<00:02:11.240><c> We've</c><00:02:11.400><c> got</c><00:02:11.560><c> a</c><00:02:11.600><c> transition</c><00:02:12.320><c> V1</c><00:02:12.840><c> to</c><00:02:13.000><c> V2,</c>
+
+00:02:13.870 --> 00:02:13.880 align:start position:0%
+event. We've got a transition V1 to V2,
+ 
+
+00:02:13.880 --> 00:02:15.590 align:start position:0%
+event. We've got a transition V1 to V2,
+and<00:02:14.000><c> we've</c><00:02:14.120><c> got</c><00:02:14.320><c> a</c><00:02:14.360><c> time</c><00:02:14.800><c> when</c><00:02:14.920><c> it</c><00:02:15.040><c> occurs,</c><00:02:15.520><c> in</c>
+
+00:02:15.590 --> 00:02:15.600 align:start position:0%
+and we've got a time when it occurs, in
+ 
+
+00:02:15.600 --> 00:02:17.870 align:start position:0%
+and we've got a time when it occurs, in
+this<00:02:15.800><c> case</c><00:02:16.120><c> 5</c><00:02:16.400><c> ns.</c><00:02:17.000><c> So,</c><00:02:17.120><c> each</c><00:02:17.320><c> event</c><00:02:17.720><c> is</c>
+
+00:02:17.870 --> 00:02:17.880 align:start position:0%
+this case 5 ns. So, each event is
+ 
+
+00:02:17.880 --> 00:02:20.430 align:start position:0%
+this case 5 ns. So, each event is
+described<00:02:18.440><c> by</c><00:02:18.560><c> a</c><00:02:18.640><c> signal</c><00:02:18.920><c> transition</c>
+
+00:02:20.430 --> 00:02:20.440 align:start position:0%
+described by a signal transition
+ 
+
+00:02:20.440 --> 00:02:22.590 align:start position:0%
+described by a signal transition
+and<00:02:20.640><c> the</c><00:02:20.720><c> time</c><00:02:21.000><c> it</c><00:02:21.120><c> takes</c><00:02:21.360><c> to</c><00:02:21.480><c> happen.</c><00:02:22.360><c> So,</c><00:02:22.480><c> it</c>
+
+00:02:22.590 --> 00:02:22.600 align:start position:0%
+and the time it takes to happen. So, it
+ 
+
+00:02:22.600 --> 00:02:26.150 align:start position:0%
+and the time it takes to happen. So, it
+takes<00:02:22.840><c> 5</c><00:02:23.080><c> ns</c><00:02:23.680><c> or</c><00:02:23.800><c> 10</c><00:02:24.040><c> ns</c><00:02:24.640><c> or</c><00:02:24.720><c> whatever.</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+takes 5 ns or 10 ns or whatever.
+ 
+
+00:02:26.160 --> 00:02:27.990 align:start position:0%
+takes 5 ns or 10 ns or whatever.
+And<00:02:26.240><c> there's</c><00:02:26.400><c> a</c><00:02:26.480><c> value</c><00:02:26.800><c> of</c><00:02:27.000><c> a</c><00:02:27.120><c> simulator</c><00:02:27.600><c> clock</c>
+
+00:02:27.990 --> 00:02:28.000 align:start position:0%
+And there's a value of a simulator clock
+ 
+
+00:02:28.000 --> 00:02:30.230 align:start position:0%
+And there's a value of a simulator clock
+which<00:02:28.200><c> goes</c><00:02:28.400><c> along</c><00:02:28.680><c> which</c><00:02:29.040><c> is</c><00:02:29.560><c> referred</c><00:02:29.920><c> to</c><00:02:30.080><c> as</c>
+
+00:02:30.230 --> 00:02:30.240 align:start position:0%
+which goes along which is referred to as
+ 
+
+00:02:30.240 --> 00:02:32.270 align:start position:0%
+which goes along which is referred to as
+the<00:02:30.360><c> time</c><00:02:30.640><c> step.</c>
+
+00:02:32.270 --> 00:02:32.280 align:start position:0%
+the time step.
+ 
+
+00:02:32.280 --> 00:02:34.830 align:start position:0%
+the time step.
+And<00:02:32.840><c> the</c><00:02:32.959><c> value</c><00:02:33.200><c> of</c><00:02:33.320><c> all</c><00:02:33.520><c> signals,</c><00:02:34.040><c> of</c><00:02:34.160><c> course,</c>
+
+00:02:34.830 --> 00:02:34.840 align:start position:0%
+And the value of all signals, of course,
+ 
+
+00:02:34.840 --> 00:02:37.510 align:start position:0%
+And the value of all signals, of course,
+at<00:02:35.000><c> the</c><00:02:35.080><c> current</c><00:02:35.440><c> time</c><00:02:35.800><c> represent</c><00:02:36.600><c> the</c><00:02:37.160><c> this</c>
+
+00:02:37.510 --> 00:02:37.520 align:start position:0%
+at the current time represent the this
+ 
+
+00:02:37.520 --> 00:02:39.150 align:start position:0%
+at the current time represent the this
+current<00:02:37.880><c> state.</c><00:02:38.200><c> So,</c><00:02:38.320><c> you</c><00:02:38.440><c> keep</c><00:02:38.920><c> keep</c><00:02:39.120><c> a</c>
+
+00:02:39.150 --> 00:02:39.160 align:start position:0%
+current state. So, you keep keep a
+ 
+
+00:02:39.160 --> 00:02:40.510 align:start position:0%
+current state. So, you keep keep a
+record<00:02:39.560><c> of</c><00:02:39.680><c> the</c><00:02:39.760><c> current</c><00:02:40.080><c> state</c><00:02:40.320><c> of</c><00:02:40.400><c> the</c>
+
+00:02:40.510 --> 00:02:40.520 align:start position:0%
+record of the current state of the
+ 
+
+00:02:40.520 --> 00:02:44.270 align:start position:0%
+record of the current state of the
+system,<00:02:41.400><c> and</c><00:02:41.560><c> you</c><00:02:41.680><c> have</c><00:02:41.920><c> this</c><00:02:42.560><c> list</c><00:02:43.400><c> of</c><00:02:43.880><c> future</c>
+
+00:02:44.270 --> 00:02:44.280 align:start position:0%
+system, and you have this list of future
+ 
+
+00:02:44.280 --> 00:02:45.830 align:start position:0%
+system, and you have this list of future
+events<00:02:44.760><c> which</c><00:02:44.959><c> will</c><00:02:45.080><c> then</c><00:02:45.280><c> change</c><00:02:45.600><c> that</c>
+
+00:02:45.830 --> 00:02:45.840 align:start position:0%
+events which will then change that
+ 
+
+00:02:45.840 --> 00:02:47.750 align:start position:0%
+events which will then change that
+state.
+
+00:02:47.750 --> 00:02:47.760 align:start position:0%
+state.
+ 
+
+00:02:47.760 --> 00:02:49.270 align:start position:0%
+state.
+So,<00:02:47.840><c> that's</c><00:02:48.080><c> the</c><00:02:48.160><c> basic</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+So, that's the basic
+ 
+
+00:02:49.280 --> 00:02:50.790 align:start position:0%
+So, that's the basic
+very<00:02:49.640><c> simple</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+very simple
+ 
+
+00:02:50.800 --> 00:02:54.110 align:start position:0%
+very simple
+approach.<00:02:51.920><c> Um</c><00:02:52.160><c> here</c><00:02:52.360><c> we</c><00:02:52.480><c> have</c><00:02:52.880><c> an</c><00:02:53.000><c> example.</c><00:02:53.920><c> Um</c>
+
+00:02:54.110 --> 00:02:54.120 align:start position:0%
+approach. Um here we have an example. Um
+ 
+
+00:02:54.120 --> 00:02:55.830 align:start position:0%
+approach. Um here we have an example. Um
+so,<00:02:54.480><c> first</c><00:02:54.720><c> thing</c><00:02:54.880><c> is</c><00:02:55.000><c> in</c><00:02:55.120><c> this</c><00:02:55.280><c> example,</c><00:02:55.760><c> I'm</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+so, first thing is in this example, I'm
+ 
+
+00:02:55.840 --> 00:02:57.830 align:start position:0%
+so, first thing is in this example, I'm
+going<00:02:56.040><c> to</c><00:02:56.200><c> assume</c><00:02:57.120><c> that</c><00:02:57.480><c> the</c><00:02:57.600><c> gate</c>
+
+00:02:57.830 --> 00:02:57.840 align:start position:0%
+going to assume that the gate
+ 
+
+00:02:57.840 --> 00:03:00.949 align:start position:0%
+going to assume that the gate
+propagation<00:02:58.400><c> is</c><00:02:58.520><c> 5</c><00:02:58.800><c> ns.</c>
+
+00:03:00.949 --> 00:03:00.959 align:start position:0%
+propagation is 5 ns.
+ 
+
+00:03:00.959 --> 00:03:02.082 align:start position:0%
+propagation is 5 ns.
+Um
+
+00:03:02.082 --> 00:03:02.092 align:start position:0%
+Um
+ 
+
+00:03:02.092 --> 00:03:02.509 align:start position:0%
+Um
+&gt;&gt; [clears throat]
+
+00:03:02.509 --> 00:03:02.519 align:start position:0%
+&gt;&gt; [clears throat]
+ 
+
+00:03:02.519 --> 00:03:04.910 align:start position:0%
+&gt;&gt; [clears throat]
+&gt;&gt; Ma-<00:03:03.080><c> Many</c><00:03:03.680><c> Many</c><00:03:03.920><c> things</c><00:03:04.200><c> can</c><00:03:04.360><c> happen</c><00:03:04.720><c> at</c><00:03:04.800><c> the</c>
+
+00:03:04.910 --> 00:03:04.920 align:start position:0%
+&gt;&gt; Ma- Many Many things can happen at the
+ 
+
+00:03:04.920 --> 00:03:08.190 align:start position:0%
+&gt;&gt; Ma- Many Many things can happen at the
+same<00:03:05.239><c> same</c><00:03:05.560><c> time</c><00:03:06.000><c> step.</c><00:03:07.120><c> In</c><00:03:07.200><c> reality,</c><00:03:07.880><c> the</c><00:03:08.080><c> the</c>
+
+00:03:08.190 --> 00:03:08.200 align:start position:0%
+same same time step. In reality, the the
+ 
+
+00:03:08.200 --> 00:03:09.630 align:start position:0%
+same same time step. In reality, the the
+simulator<00:03:08.800><c> will</c><00:03:08.959><c> actually</c><00:03:09.200><c> do</c><00:03:09.320><c> them</c><00:03:09.480><c> one</c>
+
+00:03:09.630 --> 00:03:09.640 align:start position:0%
+simulator will actually do them one
+ 
+
+00:03:09.640 --> 00:03:11.790 align:start position:0%
+simulator will actually do them one
+after<00:03:09.959><c> each</c><00:03:10.200><c> other.</c><00:03:10.800><c> Um</c><00:03:10.959><c> it</c><00:03:11.080><c> isn't</c><00:03:11.360><c> doing</c><00:03:11.640><c> them</c>
+
+00:03:11.790 --> 00:03:11.800 align:start position:0%
+after each other. Um it isn't doing them
+ 
+
+00:03:11.800 --> 00:03:13.990 align:start position:0%
+after each other. Um it isn't doing them
+concurrently,<00:03:12.320><c> it's</c><00:03:12.480><c> running</c><00:03:12.720><c> on</c><00:03:12.840><c> on</c><00:03:13.000><c> a</c><00:03:13.640><c> um</c><00:03:13.920><c> a</c>
+
+00:03:13.990 --> 00:03:14.000 align:start position:0%
+concurrently, it's running on on a um a
+ 
+
+00:03:14.000 --> 00:03:16.229 align:start position:0%
+concurrently, it's running on on a um a
+single<00:03:14.360><c> a</c><00:03:14.440><c> processor.</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+single a processor.
+ 
+
+00:03:16.239 --> 00:03:18.390 align:start position:0%
+single a processor.
+Um<00:03:17.000><c> the</c><00:03:17.120><c> order</c><00:03:17.320><c> in</c><00:03:17.400><c> which</c><00:03:17.600><c> they</c><00:03:17.760><c> occur,</c><00:03:18.120><c> by</c><00:03:18.280><c> the</c>
+
+00:03:18.390 --> 00:03:18.400 align:start position:0%
+Um the order in which they occur, by the
+ 
+
+00:03:18.400 --> 00:03:20.870 align:start position:0%
+Um the order in which they occur, by the
+way,<00:03:19.040><c> is</c><00:03:19.200><c> not</c><00:03:19.560><c> necessarily</c><00:03:20.120><c> predetermined,</c>
+
+00:03:20.870 --> 00:03:20.880 align:start position:0%
+way, is not necessarily predetermined,
+ 
+
+00:03:20.880 --> 00:03:22.670 align:start position:0%
+way, is not necessarily predetermined,
+either.<00:03:21.640><c> Um</c><00:03:21.800><c> it</c><00:03:21.880><c> depends</c><00:03:22.280><c> on</c><00:03:22.360><c> how</c><00:03:22.440><c> on</c><00:03:22.560><c> the</c>
+
+00:03:22.670 --> 00:03:22.680 align:start position:0%
+either. Um it depends on how on the
+ 
+
+00:03:22.680 --> 00:03:24.470 align:start position:0%
+either. Um it depends on how on the
+implementation.<00:03:23.600><c> So,</c><00:03:23.800><c> that</c><00:03:23.959><c> that</c><00:03:24.120><c> is</c><00:03:24.239><c> one</c><00:03:24.400><c> of</c>
+
+00:03:24.470 --> 00:03:24.480 align:start position:0%
+implementation. So, that that is one of
+ 
+
+00:03:24.480 --> 00:03:26.972 align:start position:0%
+implementation. So, that that is one of
+the<00:03:24.560><c> limitations</c><00:03:25.239><c> of</c><00:03:25.360><c> simulations.</c>
+
+00:03:26.972 --> 00:03:26.982 align:start position:0%
+the limitations of simulations.
+ 
+
+00:03:26.982 --> 00:03:27.750 align:start position:0%
+the limitations of simulations.
+&gt;&gt; [sighs and gasps]
+
+00:03:27.750 --> 00:03:27.760 align:start position:0%
+&gt;&gt; [sighs and gasps]
+ 
+
+00:03:27.760 --> 00:03:28.910 align:start position:0%
+&gt;&gt; [sighs and gasps]
+&gt;&gt; Um
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+&gt;&gt; Um
+ 
+
+00:03:28.920 --> 00:03:30.990 align:start position:0%
+&gt;&gt; Um
+So,<00:03:29.160><c> basically,</c><00:03:29.640><c> what</c><00:03:29.800><c> we</c><00:03:29.959><c> do</c><00:03:30.200><c> is</c><00:03:30.360><c> we</c><00:03:30.480><c> start</c><00:03:30.920><c> In</c>
+
+00:03:30.990 --> 00:03:31.000 align:start position:0%
+So, basically, what we do is we start In
+ 
+
+00:03:31.000 --> 00:03:33.229 align:start position:0%
+So, basically, what we do is we start In
+this<00:03:31.200><c> case,</c><00:03:31.519><c> we</c><00:03:31.640><c> start</c><00:03:32.320><c> uh</c><00:03:32.440><c> at</c><00:03:32.600><c> time</c><00:03:32.920><c> zero.</c>
+
+00:03:33.229 --> 00:03:33.239 align:start position:0%
+this case, we start uh at time zero.
+ 
+
+00:03:33.239 --> 00:03:34.750 align:start position:0%
+this case, we start uh at time zero.
+We've<00:03:33.440><c> got</c><00:03:33.640><c> our</c><00:03:33.720><c> two</c>
+
+00:03:34.750 --> 00:03:34.760 align:start position:0%
+We've got our two
+ 
+
+00:03:34.760 --> 00:03:37.270 align:start position:0%
+We've got our two
+uh<00:03:35.120><c> transitions</c><00:03:36.440><c> which</c><00:03:36.640><c> are</c><00:03:36.800><c> actually</c><00:03:37.120><c> that</c>
+
+00:03:37.270 --> 00:03:37.280 align:start position:0%
+uh transitions which are actually that
+ 
+
+00:03:37.280 --> 00:03:39.470 align:start position:0%
+uh transitions which are actually that
+the<00:03:37.480><c> outputs</c><00:03:37.959><c> start</c><00:03:38.560><c> in</c><00:03:38.680><c> some</c><00:03:38.920><c> undetermined</c>
+
+00:03:39.470 --> 00:03:39.480 align:start position:0%
+the outputs start in some undetermined
+ 
+
+00:03:39.480 --> 00:03:42.750 align:start position:0%
+the outputs start in some undetermined
+state<00:03:40.400><c> and</c><00:03:40.800><c> will</c><00:03:40.959><c> switch</c><00:03:41.400><c> to</c><00:03:42.000><c> a</c><00:03:42.200><c> a</c><00:03:42.239><c> determined</c>
+
+00:03:42.750 --> 00:03:42.760 align:start position:0%
+state and will switch to a a determined
+ 
+
+00:03:42.760 --> 00:03:45.509 align:start position:0%
+state and will switch to a a determined
+state,<00:03:43.400><c> right?</c><00:03:44.120><c> It</c><00:03:44.160><c> will</c><00:03:44.280><c> switch</c><00:03:44.600><c> state.</c><00:03:44.920><c> So,</c>
+
+00:03:45.509 --> 00:03:45.519 align:start position:0%
+state, right? It will switch state. So,
+ 
+
+00:03:45.519 --> 00:03:47.150 align:start position:0%
+state, right? It will switch state. So,
+that's<00:03:45.800><c> the</c><00:03:46.040><c> what</c><00:03:46.200><c> we</c><00:03:46.320><c> happen</c><00:03:46.720><c> happen</c><00:03:47.040><c> at</c>
+
+00:03:47.150 --> 00:03:47.160 align:start position:0%
+that's the what we happen happen at
+ 
+
+00:03:47.160 --> 00:03:48.830 align:start position:0%
+that's the what we happen happen at
+zero.<00:03:47.680><c> There's</c><00:03:47.800><c> the</c><00:03:47.880><c> five</c><00:03:48.360><c> All</c><00:03:48.400><c> right,</c><00:03:48.720><c> we</c>
+
+00:03:48.830 --> 00:03:48.840 align:start position:0%
+zero. There's the five All right, we
+ 
+
+00:03:48.840 --> 00:03:50.630 align:start position:0%
+zero. There's the five All right, we
+have<00:03:49.040><c> the</c><00:03:49.160><c> two</c><00:03:49.320><c> events</c><00:03:49.800><c> as</c><00:03:49.959><c> when</c><00:03:50.200><c> the</c><00:03:50.320><c> sum</c><00:03:50.560><c> and</c>
+
+00:03:50.630 --> 00:03:50.640 align:start position:0%
+have the two events as when the sum and
+ 
+
+00:03:50.640 --> 00:03:51.750 align:start position:0%
+have the two events as when the sum and
+carry
+
+00:03:51.750 --> 00:03:51.760 align:start position:0%
+carry
+ 
+
+00:03:51.760 --> 00:03:54.110 align:start position:0%
+carry
+will<00:03:52.000><c> change</c><00:03:52.520><c> state.</c>
+
+00:03:54.110 --> 00:03:54.120 align:start position:0%
+will change state.
+ 
+
+00:03:54.120 --> 00:03:56.390 align:start position:0%
+will change state.
+And<00:03:54.240><c> I've</c><00:03:54.320><c> just</c><00:03:54.520><c> assumed</c><00:03:54.800><c> that's</c><00:03:55.040><c> 5</c><00:03:55.280><c> ns.</c><00:03:56.240><c> It's</c>
+
+00:03:56.390 --> 00:03:56.400 align:start position:0%
+And I've just assumed that's 5 ns. It's
+ 
+
+00:03:56.400 --> 00:03:58.190 align:start position:0%
+And I've just assumed that's 5 ns. It's
+not<00:03:56.680><c> not</c><00:03:56.960><c> nothing</c><00:03:57.280><c> to</c><00:03:57.360><c> do</c><00:03:57.480><c> with</c><00:03:57.600><c> the</c><00:03:57.720><c> inputs,</c>
+
+00:03:58.190 --> 00:03:58.200 align:start position:0%
+not not nothing to do with the inputs,
+ 
+
+00:03:58.200 --> 00:03:59.910 align:start position:0%
+not not nothing to do with the inputs,
+it's<00:03:58.360><c> just</c><00:03:58.560><c> when</c><00:03:58.680><c> they</c><00:03:58.800><c> change</c><00:03:59.080><c> state.</c><00:03:59.840><c> So,</c>
+
+00:03:59.910 --> 00:03:59.920 align:start position:0%
+it's just when they change state. So,
+ 
+
+00:03:59.920 --> 00:04:01.350 align:start position:0%
+it's just when they change state. So,
+that<00:04:00.080><c> will</c><00:04:00.200><c> change</c><00:04:00.520><c> that</c><00:04:00.720><c> that</c><00:04:00.880><c> will</c><00:04:01.000><c> then</c>
+
+00:04:01.350 --> 00:04:01.360 align:start position:0%
+that will change that that will then
+ 
+
+00:04:01.360 --> 00:04:03.710 align:start position:0%
+that will change that that will then
+result<00:04:02.000><c> in</c><00:04:02.240><c> the</c><00:04:02.520><c> two</c><00:04:02.760><c> outputs</c><00:04:03.120><c> changing</c><00:04:03.560><c> as</c>
+
+00:04:03.710 --> 00:04:03.720 align:start position:0%
+result in the two outputs changing as
+ 
+
+00:04:03.720 --> 00:04:04.990 align:start position:0%
+result in the two outputs changing as
+shown<00:04:04.000><c> here.</c>
+
+00:04:04.990 --> 00:04:05.000 align:start position:0%
+shown here.
+ 
+
+00:04:05.000 --> 00:04:06.310 align:start position:0%
+shown here.
+Then<00:04:05.160><c> what</c><00:04:05.320><c> we</c><00:04:05.440><c> have</c><00:04:05.800><c> is</c><00:04:05.960><c> we</c><00:04:06.080><c> have</c><00:04:06.200><c> an</c>
+
+00:04:06.310 --> 00:04:06.320 align:start position:0%
+Then what we have is we have an
+ 
+
+00:04:06.320 --> 00:04:09.350 align:start position:0%
+Then what we have is we have an
+injection<00:04:06.920><c> of</c><00:04:07.040><c> the</c><00:04:07.200><c> input</c><00:04:07.640><c> events,</c><00:04:08.720><c> right?</c>
+
+00:04:09.350 --> 00:04:09.360 align:start position:0%
+injection of the input events, right?
+ 
+
+00:04:09.360 --> 00:04:11.590 align:start position:0%
+injection of the input events, right?
+So,<00:04:09.520><c> basically,</c><00:04:10.360><c> we</c><00:04:10.520><c> have</c><00:04:10.800><c> a</c><00:04:10.840><c> number</c><00:04:11.160><c> of</c><00:04:11.280><c> input</c>
+
+00:04:11.590 --> 00:04:11.600 align:start position:0%
+So, basically, we have a number of input
+ 
+
+00:04:11.600 --> 00:04:13.550 align:start position:0%
+So, basically, we have a number of input
+events.<00:04:12.000><c> Here</c><00:04:12.160><c> we</c><00:04:12.280><c> have</c><00:04:12.440><c> input</c><00:04:12.760><c> events</c><00:04:13.160><c> when</c><00:04:13.400><c> A</c>
+
+00:04:13.550 --> 00:04:13.560 align:start position:0%
+events. Here we have input events when A
+ 
+
+00:04:13.560 --> 00:04:15.670 align:start position:0%
+events. Here we have input events when A
+goes<00:04:13.880><c> from</c><00:04:14.080><c> 1</c><00:04:14.280><c> to</c><00:04:14.440><c> 0.</c>
+
+00:04:15.670 --> 00:04:15.680 align:start position:0%
+goes from 1 to 0.
+ 
+
+00:04:15.680 --> 00:04:17.630 align:start position:0%
+goes from 1 to 0.
+And<00:04:15.760><c> then</c><00:04:15.920><c> later</c><00:04:16.239><c> on,</c><00:04:16.600><c> we</c><00:04:16.760><c> have</c><00:04:17.079><c> two</c><00:04:17.280><c> input</c>
+
+00:04:17.630 --> 00:04:17.640 align:start position:0%
+And then later on, we have two input
+ 
+
+00:04:17.640 --> 00:04:20.150 align:start position:0%
+And then later on, we have two input
+events<00:04:18.160><c> where</c><00:04:18.440><c> A</c><00:04:18.519><c> goes</c><00:04:18.799><c> back</c><00:04:19.079><c> to</c><00:04:19.200><c> 1</c><00:04:19.560><c> and</c><00:04:19.720><c> B</c><00:04:20.000><c> goes</c>
+
+00:04:20.150 --> 00:04:20.160 align:start position:0%
+events where A goes back to 1 and B goes
+ 
+
+00:04:20.160 --> 00:04:23.470 align:start position:0%
+events where A goes back to 1 and B goes
+down<00:04:20.400><c> to</c><00:04:20.519><c> 0.</c><00:04:20.840><c> So,</c><00:04:21.400><c> we</c><00:04:21.560><c> inject</c><00:04:22.040><c> an</c><00:04:22.120><c> event</c><00:04:23.120><c> where</c>
+
+00:04:23.470 --> 00:04:23.480 align:start position:0%
+down to 0. So, we inject an event where
+ 
+
+00:04:23.480 --> 00:04:24.550 align:start position:0%
+down to 0. So, we inject an event where
+where
+
+00:04:24.550 --> 00:04:24.560 align:start position:0%
+where
+ 
+
+00:04:24.560 --> 00:04:27.350 align:start position:0%
+where
+which<00:04:25.240><c> where</c><00:04:25.720><c> the</c><00:04:26.040><c> And</c><00:04:26.160><c> it's</c><00:04:26.320><c> after</c><00:04:26.560><c> 5</c><00:04:26.840><c> ns.</c><00:04:27.320><c> It</c>
+
+00:04:27.350 --> 00:04:27.360 align:start position:0%
+which where the And it's after 5 ns. It
+ 
+
+00:04:27.360 --> 00:04:29.590 align:start position:0%
+which where the And it's after 5 ns. It
+happens<00:04:27.600><c> to</c><00:04:27.680><c> be</c><00:04:27.760><c> after</c><00:04:28.000><c> 5</c><00:04:28.280><c> ns.</c>
+
+00:04:29.590 --> 00:04:29.600 align:start position:0%
+happens to be after 5 ns.
+ 
+
+00:04:29.600 --> 00:04:31.950 align:start position:0%
+happens to be after 5 ns.
+Uh<00:04:29.760><c> where</c><00:04:29.919><c> 1</c><00:04:30.120><c> goes</c><00:04:30.320><c> to</c><00:04:30.400><c> 0.</c><00:04:30.680><c> So,</c><00:04:31.360><c> what</c><00:04:31.520><c> happens</c>
+
+00:04:31.950 --> 00:04:31.960 align:start position:0%
+Uh where 1 goes to 0. So, what happens
+ 
+
+00:04:31.960 --> 00:04:34.310 align:start position:0%
+Uh where 1 goes to 0. So, what happens
+is<00:04:32.160><c> when</c><00:04:32.320><c> we</c><00:04:32.840><c> we</c><00:04:32.960><c> we</c><00:04:33.080><c> then</c><00:04:33.240><c> execute</c><00:04:33.800><c> that</c><00:04:34.080><c> that</c>
+
+00:04:34.310 --> 00:04:34.320 align:start position:0%
+is when we we we then execute that that
+ 
+
+00:04:34.320 --> 00:04:36.350 align:start position:0%
+is when we we we then execute that that
+event<00:04:34.640><c> when</c><00:04:34.760><c> it</c><00:04:34.840><c> goes</c><00:04:35.040><c> to</c><00:04:35.160><c> 1</c><00:04:35.280><c> or</c><00:04:35.360><c> 0,</c><00:04:35.680><c> we</c><00:04:35.840><c> create</c>
+
+00:04:36.350 --> 00:04:36.360 align:start position:0%
+event when it goes to 1 or 0, we create
+ 
+
+00:04:36.360 --> 00:04:38.550 align:start position:0%
+event when it goes to 1 or 0, we create
+two<00:04:36.600><c> new</c><00:04:37.000><c> events,</c>
+
+00:04:38.550 --> 00:04:38.560 align:start position:0%
+two new events,
+ 
+
+00:04:38.560 --> 00:04:41.590 align:start position:0%
+two new events,
+right?<00:04:38.880><c> 5</c><00:04:39.160><c> ns</c><00:04:39.800><c> later</c><00:04:40.560><c> to</c><00:04:40.760><c> show</c><00:04:41.080><c> that</c><00:04:41.280><c> the</c><00:04:41.400><c> two</c>
+
+00:04:41.590 --> 00:04:41.600 align:start position:0%
+right? 5 ns later to show that the two
+ 
+
+00:04:41.600 --> 00:04:43.550 align:start position:0%
+right? 5 ns later to show that the two
+outputs<00:04:42.040><c> will</c><00:04:42.240><c> change.</c><00:04:42.720><c> And</c><00:04:42.840><c> we</c><00:04:42.960><c> add</c><00:04:43.120><c> those</c><00:04:43.400><c> to</c>
+
+00:04:43.550 --> 00:04:43.560 align:start position:0%
+outputs will change. And we add those to
+ 
+
+00:04:43.560 --> 00:04:44.950 align:start position:0%
+outputs will change. And we add those to
+the<00:04:43.680><c> list,</c>
+
+00:04:44.950 --> 00:04:44.960 align:start position:0%
+the list,
+ 
+
+00:04:44.960 --> 00:04:45.830 align:start position:0%
+the list,
+right?
+
+00:04:45.830 --> 00:04:45.840 align:start position:0%
+right?
+ 
+
+00:04:45.840 --> 00:04:47.710 align:start position:0%
+right?
+And<00:04:45.960><c> at</c><00:04:46.040><c> the</c><00:04:46.120><c> same</c><00:04:46.360><c> time,</c><00:04:46.640><c> we've</c><00:04:46.800><c> also</c><00:04:47.160><c> got</c><00:04:47.440><c> two</c>
+
+00:04:47.710 --> 00:04:47.720 align:start position:0%
+And at the same time, we've also got two
+ 
+
+00:04:47.720 --> 00:04:49.430 align:start position:0%
+And at the same time, we've also got two
+in<00:04:47.919><c> these</c><00:04:48.160><c> two</c><00:04:48.320><c> input</c><00:04:48.600><c> events</c><00:04:49.080><c> which</c><00:04:49.280><c> will</c>
+
+00:04:49.430 --> 00:04:49.440 align:start position:0%
+in these two input events which will
+ 
+
+00:04:49.440 --> 00:04:52.750 align:start position:0%
+in these two input events which will
+also<00:04:49.720><c> be</c><00:04:50.000><c> after</c><00:04:50.320><c> 5</c><00:04:50.600><c> ns</c><00:04:51.360><c> where</c><00:04:51.720><c> A</c><00:04:51.919><c> changes</c><00:04:52.400><c> 0</c><00:04:52.640><c> to</c>
+
+00:04:52.750 --> 00:04:52.760 align:start position:0%
+also be after 5 ns where A changes 0 to
+ 
+
+00:04:52.760 --> 00:04:54.070 align:start position:0%
+also be after 5 ns where A changes 0 to
+1.
+
+00:04:54.070 --> 00:04:54.080 align:start position:0%
+1.
+ 
+
+00:04:54.080 --> 00:04:56.070 align:start position:0%
+1.
+And<00:04:54.200><c> basically,</c><00:04:54.640><c> we</c><00:04:54.800><c> we</c><00:04:55.160><c> take</c><00:04:55.560><c> the</c><00:04:55.800><c> first</c>
+
+00:04:56.070 --> 00:04:56.080 align:start position:0%
+And basically, we we take the first
+ 
+
+00:04:56.080 --> 00:04:58.430 align:start position:0%
+And basically, we we take the first
+event,<00:04:57.120><c> we</c><00:04:57.520><c> work</c><00:04:57.800><c> out</c><00:04:57.960><c> how</c><00:04:58.120><c> it's</c><00:04:58.240><c> going</c><00:04:58.360><c> to</c>
+
+00:04:58.430 --> 00:04:58.440 align:start position:0%
+event, we work out how it's going to
+ 
+
+00:04:58.440 --> 00:05:00.790 align:start position:0%
+event, we work out how it's going to
+change<00:04:58.800><c> the</c><00:04:58.919><c> state</c><00:04:59.360><c> and</c><00:04:59.520><c> after</c><00:04:59.800><c> what</c><00:05:00.040><c> delay,</c>
+
+00:05:00.790 --> 00:05:00.800 align:start position:0%
+change the state and after what delay,
+ 
+
+00:05:00.800 --> 00:05:03.830 align:start position:0%
+change the state and after what delay,
+we<00:05:00.960><c> add</c><00:05:01.160><c> that</c><00:05:01.400><c> to</c><00:05:01.520><c> the</c><00:05:01.880><c> to</c><00:05:02.040><c> the</c><00:05:02.640><c> uh</c>
+
+00:05:03.830 --> 00:05:03.840 align:start position:0%
+we add that to the to the uh
+ 
+
+00:05:03.840 --> 00:05:05.750 align:start position:0%
+we add that to the to the uh
+to<00:05:03.960><c> the</c><00:05:04.080><c> list,</c><00:05:04.800><c> and</c><00:05:04.880><c> we</c><00:05:05.000><c> keep</c><00:05:05.200><c> executing</c>
+
+00:05:05.750 --> 00:05:05.760 align:start position:0%
+to the list, and we keep executing
+ 
+
+00:05:05.760 --> 00:05:07.750 align:start position:0%
+to the list, and we keep executing
+through<00:05:06.000><c> that</c><00:05:06.560><c> until</c><00:05:06.840><c> the</c><00:05:06.960><c> simulation</c><00:05:07.560><c> has</c>
+
+00:05:07.750 --> 00:05:07.760 align:start position:0%
+through that until the simulation has
+ 
+
+00:05:07.760 --> 00:05:09.710 align:start position:0%
+through that until the simulation has
+finished.<00:05:08.480><c> So,</c><00:05:08.640><c> that's</c><00:05:09.040><c> how</c><00:05:09.240><c> a</c><00:05:09.280><c> discrete</c>
+
+00:05:09.710 --> 00:05:09.720 align:start position:0%
+finished. So, that's how a discrete
+ 
+
+00:05:09.720 --> 00:05:12.110 align:start position:0%
+finished. So, that's how a discrete
+event<00:05:10.080><c> simulation</c><00:05:10.640><c> works.</c><00:05:11.640><c> And</c><00:05:11.840><c> as</c><00:05:12.000><c> I</c><00:05:12.040><c> say,</c>
+
+00:05:12.110 --> 00:05:12.120 align:start position:0%
+event simulation works. And as I say,
+ 
+
+00:05:12.120 --> 00:05:14.390 align:start position:0%
+event simulation works. And as I say,
+there<00:05:12.240><c> are</c><00:05:12.320><c> some</c><00:05:12.520><c> limitations.</c><00:05:13.880><c> In</c><00:05:14.000><c> theory,</c>
+
+00:05:14.390 --> 00:05:14.400 align:start position:0%
+there are some limitations. In theory,
+ 
+
+00:05:14.400 --> 00:05:16.470 align:start position:0%
+there are some limitations. In theory,
+events<00:05:15.080><c> can</c><00:05:15.560><c> occur</c><00:05:15.800><c> concurrently.</c><00:05:16.360><c> In</c>
+
+00:05:16.470 --> 00:05:16.480 align:start position:0%
+events can occur concurrently. In
+ 
+
+00:05:16.480 --> 00:05:18.510 align:start position:0%
+events can occur concurrently. In
+practice,<00:05:17.040><c> discrete</c><00:05:17.560><c> at</c><00:05:17.600><c> least</c><00:05:17.840><c> most</c><00:05:18.080><c> treated</c>
+
+00:05:18.510 --> 00:05:18.520 align:start position:0%
+practice, discrete at least most treated
+ 
+
+00:05:18.520 --> 00:05:19.670 align:start position:0%
+practice, discrete at least most treated
+events
+
+00:05:19.670 --> 00:05:19.680 align:start position:0%
+events
+ 
+
+00:05:19.680 --> 00:05:21.670 align:start position:0%
+events
+simulators<00:05:20.160><c> will</c><00:05:20.320><c> actually</c><00:05:20.640><c> do</c><00:05:20.760><c> them</c><00:05:21.440><c> one</c>
+
+00:05:21.670 --> 00:05:21.680 align:start position:0%
+simulators will actually do them one
+ 
+
+00:05:21.680 --> 00:05:23.510 align:start position:0%
+simulators will actually do them one
+after<00:05:21.919><c> the</c><00:05:22.080><c> other.</c>
+
+00:05:23.510 --> 00:05:23.520 align:start position:0%
+after the other.
+ 
+
+00:05:23.520 --> 00:05:25.950 align:start position:0%
+after the other.
+Um<00:05:24.240><c> so,</c><00:05:24.880><c> uh</c><00:05:25.320><c> what</c><00:05:25.480><c> about</c><00:05:25.720><c> it?</c><00:05:25.800><c> Well,</c><00:05:25.919><c> the</c>
+
+00:05:25.950 --> 00:05:25.960 align:start position:0%
+Um so, uh what about it? Well, the
+ 
+
+00:05:25.960 --> 00:05:27.430 align:start position:0%
+Um so, uh what about it? Well, the
+management<00:05:26.320><c> of</c><00:05:26.400><c> the</c><00:05:26.440><c> simulation</c><00:05:27.000><c> time,</c><00:05:27.240><c> that</c>
+
+00:05:27.430 --> 00:05:27.440 align:start position:0%
+management of the simulation time, that
+ 
+
+00:05:27.440 --> 00:05:28.990 align:start position:0%
+management of the simulation time, that
+is<00:05:27.560><c> the</c><00:05:27.680><c> ordering</c><00:05:28.000><c> of</c><00:05:28.120><c> events.</c><00:05:28.520><c> We</c><00:05:28.640><c> keep</c><00:05:28.880><c> them</c>
+
+00:05:28.990 --> 00:05:29.000 align:start position:0%
+is the ordering of events. We keep them
+ 
+
+00:05:29.000 --> 00:05:30.230 align:start position:0%
+is the ordering of events. We keep them
+in<00:05:29.120><c> the</c><00:05:29.240><c> order.</c>
+
+00:05:30.230 --> 00:05:30.240 align:start position:0%
+in the order.
+ 
+
+00:05:30.240 --> 00:05:31.590 align:start position:0%
+in the order.
+We<00:05:30.280><c> have</c><00:05:30.400><c> a</c><00:05:30.440><c> two-step</c><00:05:31.000><c> model</c><00:05:31.280><c> of</c><00:05:31.360><c> time</c>
+
+00:05:31.590 --> 00:05:31.600 align:start position:0%
+We have a two-step model of time
+ 
+
+00:05:31.600 --> 00:05:33.150 align:start position:0%
+We have a two-step model of time
+propagation.<00:05:32.280><c> We</c><00:05:32.400><c> propagate</c><00:05:32.880><c> all</c><00:05:33.040><c> the</c>
+
+00:05:33.150 --> 00:05:33.160 align:start position:0%
+propagation. We propagate all the
+ 
+
+00:05:33.160 --> 00:05:35.310 align:start position:0%
+propagation. We propagate all the
+signals<00:05:33.919><c> uh</c><00:05:34.000><c> receiving</c><00:05:34.440><c> values</c><00:05:35.000><c> at</c><00:05:35.160><c> this</c>
+
+00:05:35.310 --> 00:05:35.320 align:start position:0%
+signals uh receiving values at this
+ 
+
+00:05:35.320 --> 00:05:36.350 align:start position:0%
+signals uh receiving values at this
+time.
+
+00:05:36.350 --> 00:05:36.360 align:start position:0%
+time.
+ 
+
+00:05:36.360 --> 00:05:37.630 align:start position:0%
+time.
+And<00:05:36.400><c> then</c><00:05:36.520><c> we</c><00:05:36.640><c> evaluate</c><00:05:37.280><c> all</c><00:05:37.440><c> of</c><00:05:37.520><c> the</c>
+
+00:05:37.630 --> 00:05:37.640 align:start position:0%
+And then we evaluate all of the
+ 
+
+00:05:37.640 --> 00:05:39.150 align:start position:0%
+And then we evaluate all of the
+different<00:05:37.960><c> components</c><00:05:38.480><c> in</c><00:05:38.600><c> the</c><00:05:38.720><c> circuit</c>
+
+00:05:39.150 --> 00:05:39.160 align:start position:0%
+different components in the circuit
+ 
+
+00:05:39.160 --> 00:05:41.030 align:start position:0%
+different components in the circuit
+affected<00:05:39.640><c> by</c><00:05:39.760><c> these</c><00:05:40.000><c> inputs.</c><00:05:40.720><c> So,</c><00:05:40.880><c> you</c>
+
+00:05:41.030 --> 00:05:41.040 align:start position:0%
+affected by these inputs. So, you
+ 
+
+00:05:41.040 --> 00:05:42.750 align:start position:0%
+affected by these inputs. So, you
+evaluate<00:05:41.600><c> all</c><00:05:41.720><c> of</c><00:05:41.800><c> the</c><00:05:41.880><c> components</c><00:05:42.360><c> affected</c>
+
+00:05:42.750 --> 00:05:42.760 align:start position:0%
+evaluate all of the components affected
+ 
+
+00:05:42.760 --> 00:05:45.230 align:start position:0%
+evaluate all of the components affected
+by<00:05:42.880><c> the</c><00:05:43.040><c> inputs</c><00:05:43.800><c> and</c><00:05:43.919><c> generate</c><00:05:44.600><c> and</c><00:05:44.760><c> schedule</c>
+
+00:05:45.230 --> 00:05:45.240 align:start position:0%
+by the inputs and generate and schedule
+ 
+
+00:05:45.240 --> 00:05:47.030 align:start position:0%
+by the inputs and generate and schedule
+some<00:05:45.480><c> future</c><00:05:45.919><c> events</c>
+
+00:05:47.030 --> 00:05:47.040 align:start position:0%
+some future events
+ 
+
+00:05:47.040 --> 00:05:48.670 align:start position:0%
+some future events
+uh<00:05:47.240><c> which</c><00:05:47.480><c> basically</c><00:05:47.840><c> correspond</c><00:05:48.360><c> to</c><00:05:48.520><c> when</c>
+
+00:05:48.670 --> 00:05:48.680 align:start position:0%
+uh which basically correspond to when
+ 
+
+00:05:48.680 --> 00:05:49.910 align:start position:0%
+uh which basically correspond to when
+their<00:05:48.840><c> outputs</c><00:05:49.160><c> are</c><00:05:49.200><c> going</c><00:05:49.320><c> to</c><00:05:49.400><c> change</c><00:05:49.720><c> onto</c>
+
+00:05:49.910 --> 00:05:49.920 align:start position:0%
+their outputs are going to change onto
+ 
+
+00:05:49.920 --> 00:05:51.510 align:start position:0%
+their outputs are going to change onto
+the<00:05:50.040><c> event</c><00:05:50.400><c> list.</c><00:05:50.640><c> This</c><00:05:50.760><c> is</c><00:05:50.880><c> a</c><00:05:50.920><c> very</c><00:05:51.160><c> general</c>
+
+00:05:51.510 --> 00:05:51.520 align:start position:0%
+the event list. This is a very general
+ 
+
+00:05:51.520 --> 00:05:53.910 align:start position:0%
+the event list. This is a very general
+model<00:05:51.880><c> not</c><00:05:52.040><c> just</c><00:05:52.280><c> used</c><00:05:52.520><c> for</c><00:05:53.120><c> digital</c><00:05:53.560><c> circuit</c>
+
+00:05:53.910 --> 00:05:53.920 align:start position:0%
+model not just used for digital circuit
+ 
+
+00:05:53.920 --> 00:05:57.070 align:start position:0%
+model not just used for digital circuit
+simulation.<00:05:55.040><c> It's</c><00:05:55.200><c> suitable</c><00:05:55.520><c> for</c><00:05:55.680><c> gate</c><00:05:55.960><c> level</c>
+
+00:05:57.070 --> 00:05:57.080 align:start position:0%
+simulation. It's suitable for gate level
+ 
+
+00:05:57.080 --> 00:05:57.830 align:start position:0%
+simulation. It's suitable for gate level
+um
+
+00:05:57.830 --> 00:05:57.840 align:start position:0%
+um
+ 
+
+00:05:57.840 --> 00:05:59.470 align:start position:0%
+um
+or<00:05:57.960><c> TL</c><00:05:58.320><c> level</c><00:05:58.640><c> which</c><00:05:58.800><c> is</c><00:05:58.960><c> what</c><00:05:59.120><c> we're</c><00:05:59.280><c> going</c><00:05:59.400><c> to</c>
+
+00:05:59.470 --> 00:05:59.480 align:start position:0%
+or TL level which is what we're going to
+ 
+
+00:05:59.480 --> 00:06:02.670 align:start position:0%
+or TL level which is what we're going to
+be<00:05:59.600><c> doing</c><00:05:59.960><c> or</c><00:06:00.200><c> processor</c><00:06:00.760><c> level</c><00:06:01.080><c> simulations.</c>
+
+00:06:02.670 --> 00:06:02.680 align:start position:0%
+be doing or processor level simulations.
+ 
+
+00:06:02.680 --> 00:06:04.790 align:start position:0%
+be doing or processor level simulations.
+And<00:06:02.800><c> you</c><00:06:02.880><c> can</c><00:06:03.000><c> describe</c><00:06:03.840><c> any</c><00:06:04.120><c> at</c><00:06:04.280><c> any</c><00:06:04.480><c> level</c>
+
+00:06:04.790 --> 00:06:04.800 align:start position:0%
+And you can describe any at any level
+ 
+
+00:06:04.800 --> 00:06:06.510 align:start position:0%
+And you can describe any at any level
+you<00:06:04.880><c> can</c><00:06:05.000><c> describe</c><00:06:05.400><c> a</c><00:06:05.480><c> component</c><00:06:06.040><c> in</c><00:06:06.120><c> terms</c><00:06:06.400><c> of</c>
+
+00:06:06.510 --> 00:06:06.520 align:start position:0%
+you can describe a component in terms of
+ 
+
+00:06:06.520 --> 00:06:08.110 align:start position:0%
+you can describe a component in terms of
+its<00:06:06.640><c> input</c><00:06:06.960><c> events,</c>
+
+00:06:08.110 --> 00:06:08.120 align:start position:0%
+its input events,
+ 
+
+00:06:08.120 --> 00:06:10.270 align:start position:0%
+its input events,
+computation<00:06:08.680><c> of</c><00:06:08.800><c> output</c><00:06:09.120><c> events</c><00:06:09.440><c> from</c><00:06:09.680><c> those</c>
+
+00:06:10.270 --> 00:06:10.280 align:start position:0%
+computation of output events from those
+ 
+
+00:06:10.280 --> 00:06:14.070 align:start position:0%
+computation of output events from those
+and<00:06:10.480><c> the</c><00:06:10.560><c> propagation</c><00:06:11.280><c> delays.</c>
+
+00:06:14.070 --> 00:06:14.080 align:start position:0%
+ 
+ 
+
+00:06:14.080 --> 00:06:15.590 align:start position:0%
+ 
+Uh<00:06:14.480><c> and</c><00:06:14.760><c> there</c><00:06:14.880><c> is</c><00:06:14.960><c> some</c><00:06:15.360><c> are</c><00:06:15.440><c> some</c>
+
+00:06:15.590 --> 00:06:15.600 align:start position:0%
+Uh and there is some are some
+ 
+
+00:06:15.600 --> 00:06:17.550 align:start position:0%
+Uh and there is some are some
+trade-offs.<00:06:16.120><c> We</c><00:06:16.240><c> can</c><00:06:16.440><c> we</c><00:06:16.560><c> can</c><00:06:16.840><c> trade</c><00:06:17.160><c> off</c>
+
+00:06:17.550 --> 00:06:17.560 align:start position:0%
+trade-offs. We can we can trade off
+ 
+
+00:06:17.560 --> 00:06:20.430 align:start position:0%
+trade-offs. We can we can trade off
+accuracy<00:06:18.000><c> various</c><00:06:18.600><c> various</c><00:06:19.400><c> against</c><00:06:19.760><c> speed.</c>
+
+00:06:20.430 --> 00:06:20.440 align:start position:0%
+accuracy various various against speed.
+ 
+
+00:06:20.440 --> 00:06:22.909 align:start position:0%
+accuracy various various against speed.
+So<00:06:21.240><c> if</c><00:06:21.400><c> you</c><00:06:21.480><c> want</c><00:06:21.680><c> greater</c><00:06:22.000><c> detail,</c><00:06:22.600><c> we</c><00:06:22.760><c> would</c>
+
+00:06:22.909 --> 00:06:22.919 align:start position:0%
+So if you want greater detail, we would
+ 
+
+00:06:22.919 --> 00:06:24.790 align:start position:0%
+So if you want greater detail, we would
+generate<00:06:23.360><c> more</c><00:06:23.720><c> events.</c><00:06:24.120><c> We</c><00:06:24.200><c> might</c><00:06:24.480><c> actually</c>
+
+00:06:24.790 --> 00:06:24.800 align:start position:0%
+generate more events. We might actually
+ 
+
+00:06:24.800 --> 00:06:27.310 align:start position:0%
+generate more events. We might actually
+start<00:06:25.120><c> simulating</c><00:06:25.600><c> down</c><00:06:25.760><c> at</c><00:06:25.880><c> a</c><00:06:25.919><c> lower</c><00:06:26.240><c> level.</c>
+
+00:06:27.310 --> 00:06:27.320 align:start position:0%
+start simulating down at a lower level.
+ 
+
+00:06:27.320 --> 00:06:28.630 align:start position:0%
+start simulating down at a lower level.
+Right.<00:06:27.520><c> So</c><00:06:27.640><c> bear</c><00:06:27.800><c> in</c><00:06:27.919><c> mind</c><00:06:28.200><c> if</c><00:06:28.320><c> you're</c><00:06:28.520><c> if</c>
+
+00:06:28.630 --> 00:06:28.640 align:start position:0%
+Right. So bear in mind if you're if
+ 
+
+00:06:28.640 --> 00:06:30.870 align:start position:0%
+Right. So bear in mind if you're if
+you're<00:06:28.760><c> simulating</c><00:06:29.360><c> at</c><00:06:29.520><c> a</c><00:06:29.720><c> high</c><00:06:29.960><c> level,</c><00:06:30.760><c> you</c>
+
+00:06:30.870 --> 00:06:30.880 align:start position:0%
+you're simulating at a high level, you
+ 
+
+00:06:30.880 --> 00:06:32.790 align:start position:0%
+you're simulating at a high level, you
+might<00:06:31.120><c> ignore</c><00:06:31.600><c> the</c><00:06:31.720><c> details</c><00:06:32.200><c> of</c><00:06:32.320><c> individual</c>
+
+00:06:32.790 --> 00:06:32.800 align:start position:0%
+might ignore the details of individual
+ 
+
+00:06:32.800 --> 00:06:35.190 align:start position:0%
+might ignore the details of individual
+gates<00:06:33.360><c> and</c><00:06:33.480><c> just</c><00:06:33.720><c> treat</c><00:06:33.919><c> a</c><00:06:33.960><c> component</c><00:06:35.080><c> in</c>
+
+00:06:35.190 --> 00:06:35.200 align:start position:0%
+gates and just treat a component in
+ 
+
+00:06:35.200 --> 00:06:37.950 align:start position:0%
+gates and just treat a component in
+terms<00:06:35.560><c> of</c><00:06:35.760><c> the</c><00:06:35.880><c> delay</c><00:06:36.240><c> from</c><00:06:36.960><c> you</c><00:06:37.040><c> know</c><00:06:37.640><c> delay</c>
+
+00:06:37.950 --> 00:06:37.960 align:start position:0%
+terms of the delay from you know delay
+ 
+
+00:06:37.960 --> 00:06:39.070 align:start position:0%
+terms of the delay from you know delay
+from<00:06:38.080><c> the</c><00:06:38.160><c> input</c><00:06:38.400><c> to</c><00:06:38.480><c> output.</c><00:06:38.680><c> It</c><00:06:38.760><c> might</c><00:06:38.919><c> not</c>
+
+00:06:39.070 --> 00:06:39.080 align:start position:0%
+from the input to output. It might not
+ 
+
+00:06:39.080 --> 00:06:40.790 align:start position:0%
+from the input to output. It might not
+be<00:06:39.160><c> fully</c><00:06:39.400><c> accurate.</c><00:06:40.200><c> So</c><00:06:40.320><c> there</c><00:06:40.400><c> is</c><00:06:40.520><c> a</c><00:06:40.680><c> there</c>
+
+00:06:40.790 --> 00:06:40.800 align:start position:0%
+be fully accurate. So there is a there
+ 
+
+00:06:40.800 --> 00:06:42.710 align:start position:0%
+be fully accurate. So there is a there
+is<00:06:40.919><c> a</c><00:06:41.080><c> there</c><00:06:41.240><c> is</c><00:06:41.400><c> a</c><00:06:41.720><c> trade-off</c><00:06:42.200><c> here</c><00:06:42.360><c> between</c>
+
+00:06:42.710 --> 00:06:42.720 align:start position:0%
+is a there is a trade-off here between
+ 
+
+00:06:42.720 --> 00:06:46.070 align:start position:0%
+is a there is a trade-off here between
+detail<00:06:43.480><c> how</c><00:06:43.720><c> how</c><00:06:43.880><c> far</c><00:06:44.120><c> down</c><00:06:44.440><c> you</c><00:06:44.560><c> go</c><00:06:45.320><c> and</c><00:06:45.960><c> the</c>
+
+00:06:46.070 --> 00:06:46.080 align:start position:0%
+detail how how far down you go and the
+ 
+
+00:06:46.080 --> 00:06:47.150 align:start position:0%
+detail how how far down you go and the
+speed<00:06:46.440><c> at</c><00:06:46.520><c> which</c><00:06:46.680><c> you</c><00:06:46.760><c> can</c><00:06:46.919><c> do</c><00:06:47.080><c> the</c>
+
+00:06:47.150 --> 00:06:47.160 align:start position:0%
+speed at which you can do the
+ 
+
+00:06:47.160 --> 00:06:48.950 align:start position:0%
+speed at which you can do the
+simulation.
+
+00:06:48.950 --> 00:06:48.960 align:start position:0%
+simulation.
+ 
+
+00:06:48.960 --> 00:06:50.430 align:start position:0%
+simulation.
+Um<00:06:49.200><c> if</c><00:06:49.320><c> you've</c><00:06:49.440><c> less</c><00:06:49.680><c> detail,</c><00:06:50.160><c> you've</c><00:06:50.320><c> got</c>
+
+00:06:50.430 --> 00:06:50.440 align:start position:0%
+Um if you've less detail, you've got
+ 
+
+00:06:50.440 --> 00:06:52.110 align:start position:0%
+Um if you've less detail, you've got
+obviously<00:06:50.680><c> got</c><00:06:50.840><c> fewer</c><00:06:51.080><c> events</c><00:06:51.440><c> to</c><00:06:51.520><c> simulate</c>
+
+00:06:52.110 --> 00:06:52.120 align:start position:0%
+obviously got fewer events to simulate
+ 
+
+00:06:52.120 --> 00:06:52.870 align:start position:0%
+obviously got fewer events to simulate
+it.
+
+00:06:52.870 --> 00:06:52.880 align:start position:0%
+it.
+ 
+
+00:06:52.880 --> 00:06:53.870 align:start position:0%
+it.
+So
+
+00:06:53.870 --> 00:06:53.880 align:start position:0%
+So
+ 
+
+00:06:53.880 --> 00:06:56.070 align:start position:0%
+So
+just<00:06:54.200><c> as</c><00:06:54.360><c> I</c><00:06:54.400><c> say,</c><00:06:54.880><c> the</c><00:06:55.040><c> the</c><00:06:55.480><c> big</c><00:06:55.760><c> thing</c><00:06:55.919><c> that</c>
+
+00:06:56.070 --> 00:06:56.080 align:start position:0%
+just as I say, the the big thing that
+ 
+
+00:06:56.080 --> 00:06:57.110 align:start position:0%
+just as I say, the the big thing that
+you<00:06:56.120><c> have</c><00:06:56.280><c> to</c><00:06:56.360><c> be</c><00:06:56.440><c> aware</c><00:06:56.720><c> of</c><00:06:56.840><c> that</c><00:06:56.960><c> the</c>
+
+00:06:57.110 --> 00:06:57.120 align:start position:0%
+you have to be aware of that the
+ 
+
+00:06:57.120 --> 00:06:59.270 align:start position:0%
+you have to be aware of that the
+simulation<00:06:57.800><c> is</c><00:06:57.919><c> actually</c><00:06:58.240><c> sequential.</c><00:06:59.160><c> It</c>
+
+00:06:59.270 --> 00:06:59.280 align:start position:0%
+simulation is actually sequential. It
+ 
+
+00:06:59.280 --> 00:07:01.430 align:start position:0%
+simulation is actually sequential. It
+does<00:06:59.480><c> one</c><00:06:59.680><c> thing</c><00:06:59.880><c> at</c><00:07:00.040><c> a</c><00:07:00.080><c> time.</c>
+
+00:07:01.430 --> 00:07:01.440 align:start position:0%
+does one thing at a time.
+ 
+
+00:07:01.440 --> 00:07:03.230 align:start position:0%
+does one thing at a time.
+The<00:07:01.600><c> real</c><00:07:01.919><c> world</c><00:07:02.200><c> circuit</c><00:07:02.680><c> you've</c><00:07:02.840><c> got</c><00:07:03.080><c> is</c>
+
+00:07:03.230 --> 00:07:03.240 align:start position:0%
+The real world circuit you've got is
+ 
+
+00:07:03.240 --> 00:07:05.909 align:start position:0%
+The real world circuit you've got is
+concurrent.
+
+00:07:05.909 --> 00:07:05.919 align:start position:0%
+concurrent.
+ 
+
+00:07:05.919 --> 00:07:07.270 align:start position:0%
+concurrent.
+And<00:07:06.120><c> so</c>
+
+00:07:07.270 --> 00:07:07.280 align:start position:0%
+And so
+ 
+
+00:07:07.280 --> 00:07:10.070 align:start position:0%
+And so
+that<00:07:07.720><c> they</c><00:07:07.840><c> may</c><00:07:08.000><c> not</c><00:07:08.240><c> always</c><00:07:08.520><c> behave</c><00:07:08.880><c> the</c><00:07:09.000><c> same</c>
+
+00:07:10.070 --> 00:07:10.080 align:start position:0%
+that they may not always behave the same
+ 
+
+00:07:10.080 --> 00:07:12.030 align:start position:0%
+that they may not always behave the same
+exactly.
+
+00:07:12.030 --> 00:07:12.040 align:start position:0%
+exactly.
+ 
+
+00:07:12.040 --> 00:07:14.070 align:start position:0%
+exactly.
+If<00:07:12.320><c> we</c><00:07:12.480><c> are</c><00:07:12.600><c> using</c><00:07:13.080><c> sequential</c><00:07:13.720><c> circuit</c>
+
+00:07:14.070 --> 00:07:14.080 align:start position:0%
+If we are using sequential circuit
+ 
+
+00:07:14.080 --> 00:07:15.909 align:start position:0%
+If we are using sequential circuit
+design<00:07:14.440><c> synchronous</c><00:07:15.040><c> circuit</c><00:07:15.360><c> design</c><00:07:15.720><c> which</c>
+
+00:07:15.909 --> 00:07:15.919 align:start position:0%
+design synchronous circuit design which
+ 
+
+00:07:15.919 --> 00:07:17.230 align:start position:0%
+design synchronous circuit design which
+is<00:07:16.040><c> what</c><00:07:16.160><c> we're</c><00:07:16.240><c> going</c><00:07:16.360><c> to</c><00:07:16.440><c> be</c><00:07:16.520><c> focusing</c><00:07:17.040><c> on</c><00:07:17.160><c> in</c>
+
+00:07:17.230 --> 00:07:17.240 align:start position:0%
+is what we're going to be focusing on in
+ 
+
+00:07:17.240 --> 00:07:20.070 align:start position:0%
+is what we're going to be focusing on in
+this<00:07:17.480><c> course,</c><00:07:18.160><c> that</c><00:07:18.360><c> won't</c><00:07:18.520><c> become</c><00:07:18.840><c> an</c><00:07:18.960><c> issue</c>
+
+00:07:20.070 --> 00:07:20.080 align:start position:0%
+this course, that won't become an issue
+ 
+
+00:07:20.080 --> 00:07:22.950 align:start position:0%
+this course, that won't become an issue
+um<00:07:20.720><c> because</c><00:07:21.280><c> we're</c><00:07:21.520><c> we're</c><00:07:21.680><c> using</c><00:07:22.120><c> the</c><00:07:22.720><c> the</c>
+
+00:07:22.950 --> 00:07:22.960 align:start position:0%
+um because we're we're using the the
+ 
+
+00:07:22.960 --> 00:07:25.070 align:start position:0%
+um because we're we're using the the
+clock<00:07:23.680><c> to</c><00:07:23.840><c> control</c><00:07:24.200><c> the</c><00:07:24.320><c> timing</c><00:07:24.680><c> of</c><00:07:24.800><c> things.</c>
+
+00:07:25.070 --> 00:07:25.080 align:start position:0%
+clock to control the timing of things.
+ 
+
+00:07:25.080 --> 00:07:26.550 align:start position:0%
+clock to control the timing of things.
+But<00:07:25.240><c> if</c><00:07:25.320><c> you</c><00:07:25.440><c> were</c><00:07:25.520><c> designing</c><00:07:25.960><c> asynchronous</c>
+
+00:07:26.550 --> 00:07:26.560 align:start position:0%
+But if you were designing asynchronous
+ 
+
+00:07:26.560 --> 00:07:27.950 align:start position:0%
+But if you were designing asynchronous
+circuits,
+
+00:07:27.950 --> 00:07:27.960 align:start position:0%
+circuits,
+ 
+
+00:07:27.960 --> 00:07:29.909 align:start position:0%
+circuits,
+the<00:07:28.080><c> exact</c><00:07:28.480><c> delays</c><00:07:28.880><c> matter</c><00:07:29.320><c> and</c><00:07:29.440><c> the</c><00:07:29.560><c> exact</c>
+
+00:07:29.909 --> 00:07:29.919 align:start position:0%
+the exact delays matter and the exact
+ 
+
+00:07:29.919 --> 00:07:31.870 align:start position:0%
+the exact delays matter and the exact
+delays<00:07:30.240><c> in</c><00:07:30.320><c> a</c><00:07:30.400><c> real</c><00:07:30.840><c> in</c><00:07:30.960><c> a</c><00:07:31.000><c> real</c><00:07:31.280><c> circuit</c><00:07:31.760><c> may</c>
+
+00:07:31.870 --> 00:07:31.880 align:start position:0%
+delays in a real in a real circuit may
+ 
+
+00:07:31.880 --> 00:07:34.390 align:start position:0%
+delays in a real in a real circuit may
+be<00:07:32.080><c> may</c><00:07:32.320><c> actually</c><00:07:32.640><c> be</c><00:07:32.840><c> subject</c><00:07:33.480><c> to</c>
+
+00:07:34.390 --> 00:07:34.400 align:start position:0%
+be may actually be subject to
+ 
+
+00:07:34.400 --> 00:07:36.710 align:start position:0%
+be may actually be subject to
+a<00:07:34.520><c> variation</c><00:07:35.200><c> due</c><00:07:35.320><c> to</c><00:07:35.440><c> temperature</c><00:07:36.000><c> and</c><00:07:36.640><c> um</c>
+
+00:07:36.710 --> 00:07:36.720 align:start position:0%
+a variation due to temperature and um
+ 
+
+00:07:36.720 --> 00:07:38.430 align:start position:0%
+a variation due to temperature and um
+thing<00:07:36.960><c> which</c><00:07:37.240><c> will</c><00:07:37.360><c> affect</c><00:07:37.720><c> noise</c><00:07:38.120><c> and</c><00:07:38.360><c> and</c>
+
+00:07:38.430 --> 00:07:38.440 align:start position:0%
+thing which will affect noise and and
+ 
+
+00:07:38.440 --> 00:07:40.470 align:start position:0%
+thing which will affect noise and and
+when<00:07:38.720><c> things</c><00:07:39.000><c> transition.</c><00:07:39.520><c> So</c>
+
+00:07:40.470 --> 00:07:40.480 align:start position:0%
+when things transition. So
+ 
+
+00:07:40.480 --> 00:07:42.710 align:start position:0%
+when things transition. So
+uh<00:07:40.640><c> bear</c><00:07:40.840><c> in</c><00:07:40.960><c> mind</c><00:07:41.520><c> as</c><00:07:41.640><c> I</c><00:07:41.680><c> said</c><00:07:42.240><c> that</c><00:07:42.560><c> that</c>
+
+00:07:42.710 --> 00:07:42.720 align:start position:0%
+uh bear in mind as I said that that
+ 
+
+00:07:42.720 --> 00:07:44.350 align:start position:0%
+uh bear in mind as I said that that
+there's<00:07:42.920><c> not</c><00:07:43.080><c> exactly</c><00:07:43.600><c> the</c><00:07:43.720><c> same</c><00:07:43.960><c> as</c><00:07:44.080><c> the</c><00:07:44.120><c> real</c>
+
+00:07:44.350 --> 00:07:44.360 align:start position:0%
+there's not exactly the same as the real
+ 
+
+00:07:44.360 --> 00:07:45.350 align:start position:0%
+there's not exactly the same as the real
+world.
+
+00:07:45.350 --> 00:07:45.360 align:start position:0%
+world.
+ 
+
+00:07:45.360 --> 00:07:46.710 align:start position:0%
+world.
+So,<00:07:45.400><c> that's</c><00:07:45.880><c> really</c><00:07:46.160><c> it.</c><00:07:46.360><c> That's</c><00:07:46.520><c> all</c><00:07:46.640><c> I</c>
+
+00:07:46.710 --> 00:07:46.720 align:start position:0%
+So, that's really it. That's all I
+ 
+
+00:07:46.720 --> 00:07:49.950 align:start position:0%
+So, that's really it. That's all I
+wanted<00:07:46.920><c> to</c><00:07:47.000><c> cover</c><00:07:47.360><c> on</c><00:07:47.800><c> how</c><00:07:48.040><c> simulations</c><00:07:48.840><c> work</c>
+
+00:07:49.950 --> 00:07:49.960 align:start position:0%
+wanted to cover on how simulations work
+ 
+
+00:07:49.960 --> 00:07:53.070 align:start position:0%
+wanted to cover on how simulations work
+uh,<00:07:50.240><c> for</c><00:07:50.480><c> digital</c><00:07:50.840><c> systems.</c>
+
+00:07:53.070 --> 00:07:53.080 align:start position:0%
+uh, for digital systems.
+ 
+
+00:07:53.080 --> 00:07:55.070 align:start position:0%
+uh, for digital systems.
+These<00:07:53.320><c> videos</c><00:07:53.800><c> are</c><00:07:53.920><c> supported</c><00:07:54.440><c> by</c><00:07:54.600><c> Arden</c><00:07:54.920><c> Oak</c>
+
+00:07:55.070 --> 00:07:55.080 align:start position:0%
+These videos are supported by Arden Oak
+ 
+
+00:07:55.080 --> 00:07:57.310 align:start position:0%
+These videos are supported by Arden Oak
+Consulting<00:07:55.600><c> Limited,</c><00:07:56.520><c> a</c><00:07:56.600><c> UK-based</c>
+
+00:07:57.310 --> 00:07:57.320 align:start position:0%
+Consulting Limited, a UK-based
+ 
+
+00:07:57.320 --> 00:07:58.470 align:start position:0%
+Consulting Limited, a UK-based
+management<00:07:57.720><c> training</c><00:07:58.040><c> and</c><00:07:58.160><c> business</c>
+
+00:07:58.470 --> 00:07:58.480 align:start position:0%
+management training and business
+ 
+
+00:07:58.480 --> 00:08:00.150 align:start position:0%
+management training and business
+coaching<00:07:58.920><c> firm.</c>
+
+00:08:00.150 --> 00:08:00.160 align:start position:0%
+coaching firm.
+ 
+
+00:08:00.160 --> 00:08:01.750 align:start position:0%
+coaching firm.
+It<00:08:00.240><c> provides</c><00:08:00.640><c> specialist</c><00:08:01.120><c> communication</c><00:08:01.680><c> and</c>
+
+00:08:01.750 --> 00:08:01.760 align:start position:0%
+It provides specialist communication and
+ 
+
+00:08:01.760 --> 00:08:02.910 align:start position:0%
+It provides specialist communication and
+management<00:08:02.120><c> skills</c><00:08:02.400><c> training</c><00:08:02.720><c> for</c><00:08:02.800><c> the</c>
+
+00:08:02.910 --> 00:08:02.920 align:start position:0%
+management skills training for the
+ 
+
+00:08:02.920 --> 00:08:07.040 align:start position:0%
+management skills training for the
+manufacturing<00:08:03.640><c> and</c><00:08:03.880><c> engineering</c><00:08:04.360><c> sectors.</c>
+

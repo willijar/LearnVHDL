@@ -1,0 +1,3224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:06.040 --> 00:00:08.830 align:start position:0%
+ 
+Hello.<00:00:06.720><c> My</c><00:00:06.920><c> name</c><00:00:07.240><c> is</c><00:00:07.400><c> John</c><00:00:07.640><c> Williams,</c><00:00:08.600><c> and</c><00:00:08.760><c> I</c>
+
+00:00:08.830 --> 00:00:08.840 align:start position:0%
+Hello. My name is John Williams, and I
+ 
+
+00:00:08.840 --> 00:00:11.150 align:start position:0%
+Hello. My name is John Williams, and I
+have<00:00:09.040><c> about</c><00:00:09.320><c> 30</c><00:00:09.640><c> years</c><00:00:09.920><c> experience</c><00:00:11.000><c> in</c>
+
+00:00:11.150 --> 00:00:11.160 align:start position:0%
+have about 30 years experience in
+ 
+
+00:00:11.160 --> 00:00:13.110 align:start position:0%
+have about 30 years experience in
+teaching<00:00:11.840><c> various</c><00:00:12.200><c> electronic</c><00:00:12.680><c> engineering</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+teaching various electronic engineering
+ 
+
+00:00:13.120 --> 00:00:15.550 align:start position:0%
+teaching various electronic engineering
+courses<00:00:13.760><c> in</c><00:00:13.920><c> higher</c><00:00:14.200><c> education.</c>
+
+00:00:15.550 --> 00:00:15.560 align:start position:0%
+courses in higher education.
+ 
+
+00:00:15.560 --> 00:00:17.670 align:start position:0%
+courses in higher education.
+And<00:00:15.680><c> I</c><00:00:15.760><c> want</c><00:00:15.920><c> to</c><00:00:16.000><c> tell</c><00:00:16.200><c> you</c><00:00:16.360><c> about</c><00:00:16.680><c> this</c><00:00:17.360><c> course</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+And I want to tell you about this course
+ 
+
+00:00:17.680 --> 00:00:19.630 align:start position:0%
+And I want to tell you about this course
+which<00:00:17.880><c> I'm</c><00:00:18.000><c> making</c><00:00:18.280><c> available</c><00:00:18.680><c> online</c>
+
+00:00:19.630 --> 00:00:19.640 align:start position:0%
+which I'm making available online
+ 
+
+00:00:19.640 --> 00:00:22.510 align:start position:0%
+which I'm making available online
+introducing<00:00:20.520><c> the</c><00:00:21.160><c> design</c><00:00:21.800><c> of</c><00:00:22.120><c> digital</c>
+
+00:00:22.510 --> 00:00:22.520 align:start position:0%
+introducing the design of digital
+ 
+
+00:00:22.520 --> 00:00:25.270 align:start position:0%
+introducing the design of digital
+circuits<00:00:23.120><c> using</c><00:00:23.400><c> VHDL.</c>
+
+00:00:25.270 --> 00:00:25.280 align:start position:0%
+circuits using VHDL.
+ 
+
+00:00:25.280 --> 00:00:27.590 align:start position:0%
+circuits using VHDL.
+So,<00:00:25.560><c> this</c><00:00:25.760><c> is</c><00:00:25.880><c> a</c><00:00:25.920><c> course</c><00:00:26.240><c> of</c><00:00:26.360><c> videos</c><00:00:27.160><c> together</c>
+
+00:00:27.590 --> 00:00:27.600 align:start position:0%
+So, this is a course of videos together
+ 
+
+00:00:27.600 --> 00:00:29.590 align:start position:0%
+So, this is a course of videos together
+with<00:00:27.800><c> a</c><00:00:27.840><c> set</c><00:00:28.080><c> of</c><00:00:28.200><c> practical</c><00:00:28.720><c> exercises</c><00:00:29.400><c> which</c>
+
+00:00:29.590 --> 00:00:29.600 align:start position:0%
+with a set of practical exercises which
+ 
+
+00:00:29.600 --> 00:00:32.190 align:start position:0%
+with a set of practical exercises which
+you<00:00:29.680><c> can</c><00:00:29.840><c> carry</c><00:00:30.200><c> out</c><00:00:30.400><c> in</c><00:00:30.520><c> parallel.</c>
+
+00:00:32.190 --> 00:00:32.200 align:start position:0%
+you can carry out in parallel.
+ 
+
+00:00:32.200 --> 00:00:34.870 align:start position:0%
+you can carry out in parallel.
+The<00:00:32.360><c> idea</c><00:00:33.200><c> is</c><00:00:33.360><c> to</c><00:00:33.480><c> introduce</c><00:00:34.000><c> the</c><00:00:34.080><c> design</c><00:00:34.640><c> of</c>
+
+00:00:34.870 --> 00:00:34.880 align:start position:0%
+The idea is to introduce the design of
+ 
+
+00:00:34.880 --> 00:00:37.990 align:start position:0%
+The idea is to introduce the design of
+synchronous<00:00:35.360><c> digital</c><00:00:35.760><c> circuits</c><00:00:36.560><c> using</c><00:00:36.880><c> VHDL</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+synchronous digital circuits using VHDL
+ 
+
+00:00:38.000 --> 00:00:40.150 align:start position:0%
+synchronous digital circuits using VHDL
+and<00:00:38.160><c> the</c><00:00:38.320><c> FPGA</c><00:00:39.160><c> field</c><00:00:39.400><c> programmable</c><00:00:39.920><c> gate</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+and the FPGA field programmable gate
+ 
+
+00:00:40.160 --> 00:00:41.430 align:start position:0%
+and the FPGA field programmable gate
+array
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+array
+ 
+
+00:00:41.440 --> 00:00:43.350 align:start position:0%
+array
+design<00:00:41.920><c> flow.</c>
+
+00:00:43.350 --> 00:00:43.360 align:start position:0%
+design flow.
+ 
+
+00:00:43.360 --> 00:00:45.270 align:start position:0%
+design flow.
+It's<00:00:43.400><c> intended</c><00:00:44.080><c> for</c><00:00:44.440><c> both</c><00:00:44.680><c> undergraduate</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+It's intended for both undergraduate
+ 
+
+00:00:45.280 --> 00:00:46.550 align:start position:0%
+It's intended for both undergraduate
+students<00:00:45.720><c> who</c><00:00:45.840><c> what</c><00:00:46.040><c> might</c><00:00:46.240><c> want</c><00:00:46.440><c> to</c>
+
+00:00:46.550 --> 00:00:46.560 align:start position:0%
+students who what might want to
+ 
+
+00:00:46.560 --> 00:00:48.110 align:start position:0%
+students who what might want to
+supplement<00:00:47.000><c> their</c><00:00:47.080><c> studies,</c><00:00:47.480><c> but</c><00:00:47.640><c> also</c><00:00:47.960><c> for</c>
+
+00:00:48.110 --> 00:00:48.120 align:start position:0%
+supplement their studies, but also for
+ 
+
+00:00:48.120 --> 00:00:50.550 align:start position:0%
+supplement their studies, but also for
+independent<00:00:48.720><c> learners</c><00:00:49.560><c> who</c><00:00:49.680><c> already</c><00:00:49.920><c> know</c>
+
+00:00:50.550 --> 00:00:50.560 align:start position:0%
+independent learners who already know
+ 
+
+00:00:50.560 --> 00:00:52.710 align:start position:0%
+independent learners who already know
+some<00:00:50.880><c> basic</c><00:00:51.240><c> digital</c><00:00:51.560><c> electronics,</c><00:00:52.480><c> but</c><00:00:52.640><c> are</c>
+
+00:00:52.710 --> 00:00:52.720 align:start position:0%
+some basic digital electronics, but are
+ 
+
+00:00:52.720 --> 00:00:54.430 align:start position:0%
+some basic digital electronics, but are
+new<00:00:53.040><c> to</c><00:00:53.160><c> hardware</c><00:00:53.520><c> description</c><00:00:54.080><c> language</c>
+
+00:00:54.430 --> 00:00:54.440 align:start position:0%
+new to hardware description language
+ 
+
+00:00:54.440 --> 00:00:57.470 align:start position:0%
+new to hardware description language
+approach.
+
+00:00:57.470 --> 00:00:57.480 align:start position:0%
+ 
+ 
+
+00:00:57.480 --> 00:00:59.910 align:start position:0%
+ 
+The<00:00:57.560><c> videos</c><00:00:58.160><c> will</c><00:00:58.320><c> start</c><00:00:58.840><c> with</c><00:00:59.000><c> the</c><00:00:59.080><c> basics</c><00:00:59.600><c> of</c>
+
+00:00:59.910 --> 00:00:59.920 align:start position:0%
+The videos will start with the basics of
+ 
+
+00:00:59.920 --> 00:01:01.950 align:start position:0%
+The videos will start with the basics of
+VHDL,<00:01:01.040><c> the</c><00:01:01.160><c> the</c><00:01:01.280><c> hardware</c><00:01:01.520><c> description</c>
+
+00:01:01.950 --> 00:01:01.960 align:start position:0%
+VHDL, the the hardware description
+ 
+
+00:01:01.960 --> 00:01:03.670 align:start position:0%
+VHDL, the the hardware description
+language<00:01:02.240><c> we're</c><00:01:02.320><c> going</c><00:01:02.440><c> to</c><00:01:02.520><c> be</c><00:01:02.600><c> using,</c>
+
+00:01:03.670 --> 00:01:03.680 align:start position:0%
+language we're going to be using,
+ 
+
+00:01:03.680 --> 00:01:05.509 align:start position:0%
+language we're going to be using,
+focusing<00:01:04.199><c> on</c><00:01:04.400><c> synthesis.</c><00:01:05.000><c> What</c><00:01:05.160><c> I</c><00:01:05.199><c> mean</c><00:01:05.400><c> by</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+focusing on synthesis. What I mean by
+ 
+
+00:01:05.519 --> 00:01:07.790 align:start position:0%
+focusing on synthesis. What I mean by
+that<00:01:05.840><c> is</c><00:01:05.960><c> is</c><00:01:06.360><c> using</c><00:01:06.680><c> it</c><00:01:06.840><c> to</c><00:01:06.920><c> design</c><00:01:07.320><c> hardware</c>
+
+00:01:07.790 --> 00:01:07.800 align:start position:0%
+that is is using it to design hardware
+ 
+
+00:01:07.800 --> 00:01:09.870 align:start position:0%
+that is is using it to design hardware
+rather<00:01:08.080><c> than</c><00:01:08.200><c> just</c><00:01:08.440><c> simulation.</c><00:01:09.600><c> And</c><00:01:09.720><c> then</c>
+
+00:01:09.870 --> 00:01:09.880 align:start position:0%
+rather than just simulation. And then
+ 
+
+00:01:09.880 --> 00:01:11.750 align:start position:0%
+rather than just simulation. And then
+we're<00:01:10.000><c> also</c><00:01:10.280><c> going</c><00:01:10.400><c> to</c><00:01:10.560><c> cover</c><00:01:10.880><c> the</c><00:01:10.960><c> design</c><00:01:11.520><c> of</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+we're also going to cover the design of
+ 
+
+00:01:11.760 --> 00:01:13.110 align:start position:0%
+we're also going to cover the design of
+synchronous<00:01:12.280><c> circuits,</c><00:01:12.760><c> digital</c>
+
+00:01:13.110 --> 00:01:13.120 align:start position:0%
+synchronous circuits, digital
+ 
+
+00:01:13.120 --> 00:01:14.790 align:start position:0%
+synchronous circuits, digital
+synchronous<00:01:13.600><c> circuits.</c>
+
+00:01:14.790 --> 00:01:14.800 align:start position:0%
+synchronous circuits.
+ 
+
+00:01:14.800 --> 00:01:17.550 align:start position:0%
+synchronous circuits.
+And<00:01:15.160><c> state</c><00:01:15.400><c> machines.</c>
+
+00:01:17.550 --> 00:01:17.560 align:start position:0%
+And state machines.
+ 
+
+00:01:17.560 --> 00:01:19.910 align:start position:0%
+And state machines.
+The<00:01:17.800><c> practical</c><00:01:18.280><c> exercises</c><00:01:19.040><c> begin</c><00:01:19.520><c> with</c><00:01:19.720><c> some</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+The practical exercises begin with some
+ 
+
+00:01:19.920 --> 00:01:22.430 align:start position:0%
+The practical exercises begin with some
+simple<00:01:20.240><c> combinational</c><00:01:20.920><c> logic</c>
+
+00:01:22.430 --> 00:01:22.440 align:start position:0%
+simple combinational logic
+ 
+
+00:01:22.440 --> 00:01:24.950 align:start position:0%
+simple combinational logic
+just<00:01:22.640><c> to</c><00:01:22.720><c> get</c><00:01:22.880><c> you</c><00:01:23.000><c> used</c><00:01:23.240><c> to</c><00:01:23.360><c> using</c><00:01:23.680><c> VHDL</c><00:01:24.800><c> and</c>
+
+00:01:24.950 --> 00:01:24.960 align:start position:0%
+just to get you used to using VHDL and
+ 
+
+00:01:24.960 --> 00:01:26.630 align:start position:0%
+just to get you used to using VHDL and
+build<00:01:25.200><c> towards</c><00:01:25.560><c> a</c><00:01:25.600><c> complete</c><00:01:26.080><c> stopwatch</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+build towards a complete stopwatch
+ 
+
+00:01:26.640 --> 00:01:28.630 align:start position:0%
+build towards a complete stopwatch
+design<00:01:27.440><c> with</c><00:01:27.600><c> a</c><00:01:27.640><c> state</c><00:01:27.920><c> machine</c><00:01:28.240><c> with</c><00:01:28.360><c> a</c><00:01:28.400><c> state</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+design with a state machine with a state
+ 
+
+00:01:28.640 --> 00:01:30.630 align:start position:0%
+design with a state machine with a state
+machine<00:01:28.920><c> at</c><00:01:29.040><c> the</c><00:01:29.160><c> end.</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+machine at the end.
+ 
+
+00:01:30.640 --> 00:01:32.990 align:start position:0%
+machine at the end.
+So,<00:01:30.840><c> by</c><00:01:31.000><c> the</c><00:01:31.160><c> end</c><00:01:31.320><c> of</c><00:01:31.440><c> the</c><00:01:31.520><c> course,</c><00:01:32.600><c> you</c><00:01:32.760><c> should</c>
+
+00:01:32.990 --> 00:01:33.000 align:start position:0%
+So, by the end of the course, you should
+ 
+
+00:01:33.000 --> 00:01:35.750 align:start position:0%
+So, by the end of the course, you should
+be<00:01:33.160><c> able</c><00:01:33.440><c> to</c><00:01:34.120><c> read</c><00:01:34.400><c> and</c><00:01:34.520><c> write</c>
+
+00:01:35.750 --> 00:01:35.760 align:start position:0%
+be able to read and write
+ 
+
+00:01:35.760 --> 00:01:38.870 align:start position:0%
+be able to read and write
+simple<00:01:36.440><c> synthesizable</c><00:01:37.360><c> VHDL.</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+simple synthesizable VHDL.
+ 
+
+00:01:38.880 --> 00:01:40.870 align:start position:0%
+simple synthesizable VHDL.
+You<00:01:39.080><c> should</c><00:01:39.200><c> be</c><00:01:39.240><c> able</c><00:01:39.360><c> to</c><00:01:39.480><c> design</c><00:01:40.160><c> and</c><00:01:40.400><c> test</c>
+
+00:01:40.870 --> 00:01:40.880 align:start position:0%
+You should be able to design and test
+ 
+
+00:01:40.880 --> 00:01:43.030 align:start position:0%
+You should be able to design and test
+combinational<00:01:41.600><c> and</c><00:01:41.760><c> sequential</c><00:01:42.360><c> circuits</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+combinational and sequential circuits
+ 
+
+00:01:43.040 --> 00:01:45.110 align:start position:0%
+combinational and sequential circuits
+using<00:01:43.360><c> VHDL.</c>
+
+00:01:45.110 --> 00:01:45.120 align:start position:0%
+using VHDL.
+ 
+
+00:01:45.120 --> 00:01:46.950 align:start position:0%
+using VHDL.
+You<00:01:45.240><c> should</c><00:01:45.440><c> be</c><00:01:45.600><c> able</c><00:01:45.960><c> to</c><00:01:46.120><c> use</c><00:01:46.600><c> a</c><00:01:46.680><c> state</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+You should be able to use a state
+ 
+
+00:01:46.960 --> 00:01:48.790 align:start position:0%
+You should be able to use a state
+machine<00:01:47.240><c> approach</c><00:01:47.680><c> to</c><00:01:47.800><c> describe</c><00:01:48.320><c> synchronous</c>
+
+00:01:48.790 --> 00:01:48.800 align:start position:0%
+machine approach to describe synchronous
+ 
+
+00:01:48.800 --> 00:01:51.870 align:start position:0%
+machine approach to describe synchronous
+behavior<00:01:49.240><c> in</c><00:01:49.360><c> digital</c><00:01:49.720><c> circuits.</c>
+
+00:01:51.870 --> 00:01:51.880 align:start position:0%
+behavior in digital circuits.
+ 
+
+00:01:51.880 --> 00:01:54.870 align:start position:0%
+behavior in digital circuits.
+Write<00:01:52.600><c> simple</c><00:01:52.960><c> test</c><00:01:53.240><c> benches.</c><00:01:54.200><c> This</c><00:01:54.440><c> course</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+Write simple test benches. This course
+ 
+
+00:01:54.880 --> 00:01:56.990 align:start position:0%
+Write simple test benches. This course
+doesn't<00:01:55.240><c> go</c><00:01:55.400><c> very</c><00:01:56.080><c> It's</c><00:01:56.200><c> not</c><00:01:56.400><c> very</c><00:01:56.600><c> advanced</c>
+
+00:01:56.990 --> 00:01:57.000 align:start position:0%
+doesn't go very It's not very advanced
+ 
+
+00:01:57.000 --> 00:01:58.550 align:start position:0%
+doesn't go very It's not very advanced
+in<00:01:57.080><c> terms</c><00:01:57.400><c> of</c><00:01:57.520><c> testing.</c>
+
+00:01:58.550 --> 00:01:58.560 align:start position:0%
+in terms of testing.
+ 
+
+00:01:58.560 --> 00:02:00.190 align:start position:0%
+in terms of testing.
+Um<00:01:58.680><c> I</c><00:01:58.760><c> do</c><00:01:58.920><c> provide</c><00:01:59.280><c> you</c><00:01:59.360><c> with</c><00:01:59.480><c> a</c><00:01:59.520><c> lot</c><00:01:59.680><c> of</c><00:01:59.800><c> tests</c>
+
+00:02:00.190 --> 00:02:00.200 align:start position:0%
+Um I do provide you with a lot of tests
+ 
+
+00:02:00.200 --> 00:02:01.830 align:start position:0%
+Um I do provide you with a lot of tests
+rather<00:02:00.440><c> than</c><00:02:00.560><c> get</c><00:02:00.760><c> you</c><00:02:00.840><c> to</c><00:02:01.000><c> write</c><00:02:01.200><c> them</c><00:02:01.360><c> all,</c>
+
+00:02:01.830 --> 00:02:01.840 align:start position:0%
+rather than get you to write them all,
+ 
+
+00:02:01.840 --> 00:02:03.430 align:start position:0%
+rather than get you to write them all,
+but<00:02:02.000><c> you</c><00:02:02.080><c> will</c><00:02:02.200><c> do</c><00:02:02.360><c> some</c><00:02:02.560><c> test</c><00:02:02.840><c> benching</c><00:02:03.240><c> and</c>
+
+00:02:03.430 --> 00:02:03.440 align:start position:0%
+but you will do some test benching and
+ 
+
+00:02:03.440 --> 00:02:04.950 align:start position:0%
+but you will do some test benching and
+and<00:02:03.560><c> test</c><00:02:03.680><c> benches.</c><00:02:04.360><c> And</c><00:02:04.479><c> also</c><00:02:04.680><c> to</c><00:02:04.800><c> use</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+and test benches. And also to use
+ 
+
+00:02:04.960 --> 00:02:07.510 align:start position:0%
+and test benches. And also to use
+simulation<00:02:05.479><c> to</c><00:02:05.600><c> check</c><00:02:05.840><c> a</c><00:02:05.880><c> design.</c>
+
+00:02:07.510 --> 00:02:07.520 align:start position:0%
+simulation to check a design.
+ 
+
+00:02:07.520 --> 00:02:09.710 align:start position:0%
+simulation to check a design.
+Uh<00:02:08.000><c> and</c><00:02:08.119><c> you'll</c><00:02:08.320><c> be</c><00:02:08.399><c> able</c><00:02:08.600><c> to</c><00:02:08.720><c> synthesize</c><00:02:09.520><c> and</c>
+
+00:02:09.710 --> 00:02:09.720 align:start position:0%
+Uh and you'll be able to synthesize and
+ 
+
+00:02:09.720 --> 00:02:12.110 align:start position:0%
+Uh and you'll be able to synthesize and
+implement<00:02:10.200><c> a</c><00:02:10.240><c> design</c><00:02:10.759><c> on</c><00:02:10.880><c> a</c><00:02:11.160><c> FPGA,</c><00:02:11.840><c> a</c><00:02:11.920><c> field</c>
+
+00:02:12.110 --> 00:02:12.120 align:start position:0%
+implement a design on a FPGA, a field
+ 
+
+00:02:12.120 --> 00:02:14.430 align:start position:0%
+implement a design on a FPGA, a field
+programmable<00:02:12.600><c> gate</c><00:02:12.800><c> array.</c>
+
+00:02:14.430 --> 00:02:14.440 align:start position:0%
+programmable gate array.
+ 
+
+00:02:14.440 --> 00:02:16.790 align:start position:0%
+programmable gate array.
+Now,<00:02:15.080><c> prior</c><00:02:15.360><c> knowledge,</c><00:02:16.120><c> uh</c><00:02:16.240><c> I</c><00:02:16.320><c> do</c><00:02:16.480><c> assume</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+Now, prior knowledge, uh I do assume
+ 
+
+00:02:16.800 --> 00:02:18.510 align:start position:0%
+Now, prior knowledge, uh I do assume
+that<00:02:16.959><c> you</c><00:02:17.040><c> already</c><00:02:17.280><c> have</c><00:02:17.400><c> some</c><00:02:17.640><c> knowledge</c><00:02:18.200><c> of</c>
+
+00:02:18.510 --> 00:02:18.520 align:start position:0%
+that you already have some knowledge of
+ 
+
+00:02:18.520 --> 00:02:20.910 align:start position:0%
+that you already have some knowledge of
+basic<00:02:18.920><c> digital</c><00:02:19.320><c> logic</c><00:02:19.680><c> concepts</c><00:02:20.440><c> such</c><00:02:20.800><c> as</c>
+
+00:02:20.910 --> 00:02:20.920 align:start position:0%
+basic digital logic concepts such as
+ 
+
+00:02:20.920 --> 00:02:22.710 align:start position:0%
+basic digital logic concepts such as
+different<00:02:21.200><c> types</c><00:02:21.480><c> of</c><00:02:21.600><c> gates</c><00:02:22.080><c> and</c><00:02:22.360><c> Boolean</c>
+
+00:02:22.710 --> 00:02:22.720 align:start position:0%
+different types of gates and Boolean
+ 
+
+00:02:22.720 --> 00:02:25.630 align:start position:0%
+different types of gates and Boolean
+logic<00:02:23.200><c> and</c><00:02:23.480><c> or</c><00:02:23.720><c> not</c><00:02:24.040><c> XOR</c><00:02:24.560><c> truth</c><00:02:24.840><c> tables</c><00:02:25.280><c> and</c><00:02:25.440><c> so</c>
+
+00:02:25.630 --> 00:02:25.640 align:start position:0%
+logic and or not XOR truth tables and so
+ 
+
+00:02:25.640 --> 00:02:26.790 align:start position:0%
+logic and or not XOR truth tables and so
+on.
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+on.
+ 
+
+00:02:26.800 --> 00:02:28.310 align:start position:0%
+on.
+Um<00:02:27.000><c> so</c><00:02:27.120><c> the</c><00:02:27.240><c> sort</c><00:02:27.440><c> of</c><00:02:27.520><c> thing</c><00:02:27.720><c> you</c><00:02:27.800><c> might</c><00:02:28.040><c> cover</c>
+
+00:02:28.310 --> 00:02:28.320 align:start position:0%
+Um so the sort of thing you might cover
+ 
+
+00:02:28.320 --> 00:02:29.949 align:start position:0%
+Um so the sort of thing you might cover
+in<00:02:28.440><c> the</c><00:02:28.520><c> first</c><00:02:28.880><c> year</c><00:02:29.120><c> of</c><00:02:29.320><c> an</c><00:02:29.480><c> electronic</c>
+
+00:02:29.949 --> 00:02:29.959 align:start position:0%
+in the first year of an electronic
+ 
+
+00:02:29.959 --> 00:02:31.630 align:start position:0%
+in the first year of an electronic
+engineering<00:02:30.400><c> degree.</c>
+
+00:02:31.630 --> 00:02:31.640 align:start position:0%
+engineering degree.
+ 
+
+00:02:31.640 --> 00:02:33.550 align:start position:0%
+engineering degree.
+Um<00:02:32.200><c> I</c><00:02:32.320><c> also</c><00:02:32.720><c> I'm</c><00:02:32.800><c> going</c><00:02:32.920><c> to</c><00:02:33.040><c> assume</c><00:02:33.400><c> that</c>
+
+00:02:33.550 --> 00:02:33.560 align:start position:0%
+Um I also I'm going to assume that
+ 
+
+00:02:33.560 --> 00:02:34.949 align:start position:0%
+Um I also I'm going to assume that
+you've<00:02:33.680><c> come</c><00:02:33.880><c> across</c><00:02:34.280><c> some</c><00:02:34.480><c> simple</c>
+
+00:02:34.949 --> 00:02:34.959 align:start position:0%
+you've come across some simple
+ 
+
+00:02:34.959 --> 00:02:36.870 align:start position:0%
+you've come across some simple
+sequential<00:02:35.560><c> logic</c><00:02:35.920><c> concepts</c><00:02:36.480><c> such</c><00:02:36.720><c> as</c>
+
+00:02:36.870 --> 00:02:36.880 align:start position:0%
+sequential logic concepts such as
+ 
+
+00:02:36.880 --> 00:02:39.270 align:start position:0%
+sequential logic concepts such as
+clocks,<00:02:37.959><c> uh</c><00:02:38.120><c> flip-flops,</c><00:02:38.760><c> particularly</c><00:02:39.160><c> the</c>
+
+00:02:39.270 --> 00:02:39.280 align:start position:0%
+clocks, uh flip-flops, particularly the
+ 
+
+00:02:39.280 --> 00:02:40.710 align:start position:0%
+clocks, uh flip-flops, particularly the
+D-type<00:02:39.720><c> flip-flop</c><00:02:40.200><c> you</c><00:02:40.320><c> might</c><00:02:40.440><c> have</c><00:02:40.560><c> come</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+D-type flip-flop you might have come
+ 
+
+00:02:40.720 --> 00:02:44.990 align:start position:0%
+D-type flip-flop you might have come
+across,<00:02:41.560><c> and</c><00:02:42.440><c> uh</c><00:02:42.520><c> using</c><00:02:42.880><c> those</c><00:02:43.120><c> as</c><00:02:43.240><c> registers.</c>
+
+00:02:44.990 --> 00:02:45.000 align:start position:0%
+across, and uh using those as registers.
+ 
+
+00:02:45.000 --> 00:02:47.470 align:start position:0%
+across, and uh using those as registers.
+Um<00:02:45.800><c> we</c><00:02:45.959><c> will</c><00:02:46.120><c> be</c><00:02:46.280><c> using</c><00:02:46.720><c> essentially</c><00:02:47.160><c> Visual</c>
+
+00:02:47.470 --> 00:02:47.480 align:start position:0%
+Um we will be using essentially Visual
+ 
+
+00:02:47.480 --> 00:02:49.630 align:start position:0%
+Um we will be using essentially Visual
+Studio<00:02:47.840><c> Code</c><00:02:48.120><c> as</c><00:02:48.240><c> a</c><00:02:48.320><c> text</c><00:02:48.680><c> editor</c><00:02:49.200><c> and</c>
+
+00:02:49.630 --> 00:02:49.640 align:start position:0%
+Studio Code as a text editor and
+ 
+
+00:02:49.640 --> 00:02:51.190 align:start position:0%
+Studio Code as a text editor and
+potentially<00:02:50.120><c> the</c><00:02:50.240><c> terminal</c><00:02:50.680><c> as</c><00:02:50.800><c> well.</c><00:02:51.040><c> So</c>
+
+00:02:51.190 --> 00:02:51.200 align:start position:0%
+potentially the terminal as well. So
+ 
+
+00:02:51.200 --> 00:02:52.670 align:start position:0%
+potentially the terminal as well. So
+you'll<00:02:51.360><c> need</c><00:02:51.600><c> some</c><00:02:51.840><c> basic</c><00:02:52.200><c> knowledge</c><00:02:52.560><c> of</c>
+
+00:02:52.670 --> 00:02:52.680 align:start position:0%
+you'll need some basic knowledge of
+ 
+
+00:02:52.680 --> 00:02:53.710 align:start position:0%
+you'll need some basic knowledge of
+that.
+
+00:02:53.710 --> 00:02:53.720 align:start position:0%
+that.
+ 
+
+00:02:53.720 --> 00:02:56.186 align:start position:0%
+that.
+Uh<00:02:53.800><c> not</c><00:02:54.040><c> too</c><00:02:54.200><c> much.</c>
+
+00:02:56.186 --> 00:02:56.196 align:start position:0%
+Uh not too much.
+ 
+
+00:02:56.196 --> 00:02:57.110 align:start position:0%
+Uh not too much.
+&gt;&gt; [snorts]
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:02:57.120 --> 00:02:59.710 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Um<00:02:57.320><c> you</c><00:02:57.440><c> do</c><00:02:57.600><c> not</c><00:02:58.000><c> need</c><00:02:58.760><c> prior</c><00:02:59.080><c> experience</c><00:02:59.600><c> of</c>
+
+00:02:59.710 --> 00:02:59.720 align:start position:0%
+&gt;&gt; Um you do not need prior experience of
+ 
+
+00:02:59.720 --> 00:03:02.270 align:start position:0%
+&gt;&gt; Um you do not need prior experience of
+VHDL.<00:03:00.519><c> So</c><00:03:00.720><c> this</c><00:03:00.920><c> is</c><00:03:01.440><c> this</c><00:03:01.640><c> is</c><00:03:01.720><c> starting</c><00:03:02.120><c> from</c>
+
+00:03:02.270 --> 00:03:02.280 align:start position:0%
+VHDL. So this is this is starting from
+ 
+
+00:03:02.280 --> 00:03:04.550 align:start position:0%
+VHDL. So this is this is starting from
+that<00:03:02.440><c> you</c><00:03:02.560><c> know</c><00:03:02.720><c> nothing</c><00:03:03.080><c> about</c><00:03:03.519><c> VHDL</c><00:03:04.360><c> as</c><00:03:04.519><c> a</c>
+
+00:03:04.550 --> 00:03:04.560 align:start position:0%
+that you know nothing about VHDL as a
+ 
+
+00:03:04.560 --> 00:03:06.110 align:start position:0%
+that you know nothing about VHDL as a
+hardware<00:03:04.880><c> description</c><00:03:05.440><c> or</c><00:03:05.680><c> any</c><00:03:05.840><c> hardware</c>
+
+00:03:06.110 --> 00:03:06.120 align:start position:0%
+hardware description or any hardware
+ 
+
+00:03:06.120 --> 00:03:08.509 align:start position:0%
+hardware description or any hardware
+description<00:03:06.600><c> language.</c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+description language.
+ 
+
+00:03:08.519 --> 00:03:11.470 align:start position:0%
+description language.
+So,<00:03:08.880><c> strategic</c><00:03:09.360><c> goals.</c><00:03:10.080><c> Um</c>
+
+00:03:11.470 --> 00:03:11.480 align:start position:0%
+So, strategic goals. Um
+ 
+
+00:03:11.480 --> 00:03:14.150 align:start position:0%
+So, strategic goals. Um
+well,<00:03:12.239><c> at</c><00:03:12.560><c> the</c><00:03:12.680><c> end</c><00:03:12.840><c> of</c><00:03:12.920><c> this</c><00:03:13.200><c> you</c><00:03:13.320><c> should</c><00:03:13.519><c> be</c>
+
+00:03:14.150 --> 00:03:14.160 align:start position:0%
+well, at the end of this you should be
+ 
+
+00:03:14.160 --> 00:03:16.430 align:start position:0%
+well, at the end of this you should be
+confident<00:03:15.360><c> in</c><00:03:15.480><c> designing,</c><00:03:15.959><c> testing,</c><00:03:16.360><c> and</c>
+
+00:03:16.430 --> 00:03:16.440 align:start position:0%
+confident in designing, testing, and
+ 
+
+00:03:16.440 --> 00:03:18.949 align:start position:0%
+confident in designing, testing, and
+debugging<00:03:17.160><c> debugging</c><00:03:17.959><c> sequential</c><00:03:18.519><c> digital</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+debugging debugging sequential digital
+ 
+
+00:03:18.959 --> 00:03:20.710 align:start position:0%
+debugging debugging sequential digital
+circuits<00:03:19.400><c> to</c><00:03:19.560><c> accomplish</c><00:03:20.200><c> some</c><00:03:20.400><c> useful</c>
+
+00:03:20.710 --> 00:03:20.720 align:start position:0%
+circuits to accomplish some useful
+ 
+
+00:03:20.720 --> 00:03:22.270 align:start position:0%
+circuits to accomplish some useful
+goals.
+
+00:03:22.270 --> 00:03:22.280 align:start position:0%
+goals.
+ 
+
+00:03:22.280 --> 00:03:24.470 align:start position:0%
+goals.
+You<00:03:22.440><c> will</c><00:03:22.640><c> cover</c><00:03:22.880><c> the</c><00:03:23.000><c> basics</c><00:03:23.720><c> of</c><00:03:24.000><c> design</c>
+
+00:03:24.470 --> 00:03:24.480 align:start position:0%
+You will cover the basics of design
+ 
+
+00:03:24.480 --> 00:03:26.350 align:start position:0%
+You will cover the basics of design
+using<00:03:24.760><c> a</c><00:03:24.840><c> hardware</c><00:03:25.160><c> description</c><00:03:25.680><c> language</c>
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+using a hardware description language
+ 
+
+00:03:26.360 --> 00:03:28.310 align:start position:0%
+using a hardware description language
+and<00:03:26.560><c> concepts,</c><00:03:27.440><c> and</c><00:03:27.600><c> this</c><00:03:27.760><c> is</c><00:03:27.880><c> more</c><00:03:28.000><c> about</c><00:03:28.239><c> the</c>
+
+00:03:28.310 --> 00:03:28.320 align:start position:0%
+and concepts, and this is more about the
+ 
+
+00:03:28.320 --> 00:03:30.710 align:start position:0%
+and concepts, and this is more about the
+concepts<00:03:28.880><c> and</c><00:03:29.000><c> specific</c><00:03:29.480><c> languages</c><00:03:30.280><c> central</c>
+
+00:03:30.710 --> 00:03:30.720 align:start position:0%
+concepts and specific languages central
+ 
+
+00:03:30.720 --> 00:03:32.790 align:start position:0%
+concepts and specific languages central
+to<00:03:30.840><c> understanding</c><00:03:31.519><c> sequential</c><00:03:32.040><c> logic</c><00:03:32.320><c> design</c>
+
+00:03:32.790 --> 00:03:32.800 align:start position:0%
+to understanding sequential logic design
+ 
+
+00:03:32.800 --> 00:03:34.470 align:start position:0%
+to understanding sequential logic design
+and<00:03:32.959><c> state</c><00:03:33.239><c> machines.</c>
+
+00:03:34.470 --> 00:03:34.480 align:start position:0%
+and state machines.
+ 
+
+00:03:34.480 --> 00:03:36.390 align:start position:0%
+and state machines.
+It<00:03:34.680><c> should</c><00:03:34.920><c> therefore</c><00:03:35.280><c> prepare</c><00:03:35.680><c> you</c><00:03:36.040><c> for</c>
+
+00:03:36.390 --> 00:03:36.400 align:start position:0%
+It should therefore prepare you for
+ 
+
+00:03:36.400 --> 00:03:37.949 align:start position:0%
+It should therefore prepare you for
+subsequent<00:03:36.880><c> studies</c><00:03:37.320><c> if</c><00:03:37.440><c> you're</c><00:03:37.600><c> doing</c><00:03:37.920><c> a</c>
+
+00:03:37.949 --> 00:03:37.959 align:start position:0%
+subsequent studies if you're doing a
+ 
+
+00:03:37.959 --> 00:03:39.670 align:start position:0%
+subsequent studies if you're doing a
+degree<00:03:38.320><c> or</c><00:03:38.440><c> something</c><00:03:38.760><c> like</c><00:03:38.920><c> that</c><00:03:39.200><c> in</c><00:03:39.320><c> digit</c>
+
+00:03:39.670 --> 00:03:39.680 align:start position:0%
+degree or something like that in digit
+ 
+
+00:03:39.680 --> 00:03:41.430 align:start position:0%
+degree or something like that in digit
+more<00:03:39.880><c> advanced</c><00:03:40.280><c> digital</c><00:03:40.640><c> system</c><00:03:41.000><c> design,</c>
+
+00:03:41.430 --> 00:03:41.440 align:start position:0%
+more advanced digital system design,
+ 
+
+00:03:41.440 --> 00:03:43.270 align:start position:0%
+more advanced digital system design,
+perhaps<00:03:41.920><c> using</c><00:03:42.200><c> more</c><00:03:42.360><c> advanced</c><00:03:42.800><c> techniques</c>
+
+00:03:43.270 --> 00:03:43.280 align:start position:0%
+perhaps using more advanced techniques
+ 
+
+00:03:43.280 --> 00:03:47.150 align:start position:0%
+perhaps using more advanced techniques
+dealing<00:03:44.040><c> perhaps</c><00:03:45.080><c> uh</c><00:03:45.560><c> with</c><00:03:46.040><c> unreliable</c><00:03:47.080><c> uh</c>
+
+00:03:47.150 --> 00:03:47.160 align:start position:0%
+dealing perhaps uh with unreliable uh
+ 
+
+00:03:47.160 --> 00:03:48.949 align:start position:0%
+dealing perhaps uh with unreliable uh
+inputs<00:03:47.560><c> and</c><00:03:47.640><c> things</c><00:03:47.840><c> like</c><00:03:47.959><c> that.</c><00:03:48.720><c> It</c><00:03:48.840><c> should</c>
+
+00:03:48.949 --> 00:03:48.959 align:start position:0%
+inputs and things like that. It should
+ 
+
+00:03:48.959 --> 00:03:51.110 align:start position:0%
+inputs and things like that. It should
+help<00:03:49.200><c> you</c><00:03:49.320><c> feel</c><00:03:49.560><c> cons-</c><00:03:50.040><c> confident</c><00:03:50.959><c> in</c>
+
+00:03:51.110 --> 00:03:51.120 align:start position:0%
+help you feel cons- confident in
+ 
+
+00:03:51.120 --> 00:03:53.590 align:start position:0%
+help you feel cons- confident in
+understanding<00:03:51.840><c> sequential</c><00:03:52.720><c> digital</c><00:03:53.160><c> logic</c>
+
+00:03:53.590 --> 00:03:53.600 align:start position:0%
+understanding sequential digital logic
+ 
+
+00:03:53.600 --> 00:03:55.710 align:start position:0%
+understanding sequential digital logic
+and<00:03:53.760><c> the</c><00:03:53.840><c> state</c><00:03:54.120><c> machine</c><00:03:54.400><c> approach.</c>
+
+00:03:55.710 --> 00:03:55.720 align:start position:0%
+and the state machine approach.
+ 
+
+00:03:55.720 --> 00:03:57.270 align:start position:0%
+and the state machine approach.
+You<00:03:55.840><c> should</c><00:03:56.040><c> know</c><00:03:56.280><c> how</c><00:03:56.440><c> digital</c><00:03:56.800><c> circuits</c><00:03:57.120><c> can</c>
+
+00:03:57.270 --> 00:03:57.280 align:start position:0%
+You should know how digital circuits can
+ 
+
+00:03:57.280 --> 00:04:00.910 align:start position:0%
+You should know how digital circuits can
+be<00:03:57.400><c> used</c><00:03:57.680><c> to</c><00:03:57.760><c> tax</c><00:03:58.200><c> tackle</c><00:03:58.840><c> complex</c><00:03:59.360><c> problems.</c>
+
+00:04:00.910 --> 00:04:00.920 align:start position:0%
+be used to tax tackle complex problems.
+ 
+
+00:04:00.920 --> 00:04:02.830 align:start position:0%
+be used to tax tackle complex problems.
+And<00:04:01.160><c> and</c><00:04:01.320><c> hopefully</c><00:04:01.640><c> then</c><00:04:02.160><c> if</c><00:04:02.360><c> you're</c><00:04:02.520><c> looking</c>
+
+00:04:02.830 --> 00:04:02.840 align:start position:0%
+And and hopefully then if you're looking
+ 
+
+00:04:02.840 --> 00:04:04.350 align:start position:0%
+And and hopefully then if you're looking
+for<00:04:03.000><c> your</c><00:04:03.120><c> career,</c><00:04:03.560><c> help</c><00:04:03.800><c> you</c><00:04:03.880><c> position</c><00:04:04.280><c> you</c>
+
+00:04:04.350 --> 00:04:04.360 align:start position:0%
+for your career, help you position you
+ 
+
+00:04:04.360 --> 00:04:06.390 align:start position:0%
+for your career, help you position you
+for<00:04:04.480><c> placements,</c><00:04:05.080><c> projects,</c><00:04:05.680><c> and</c><00:04:05.840><c> employment</c>
+
+00:04:06.390 --> 00:04:06.400 align:start position:0%
+for placements, projects, and employment
+ 
+
+00:04:06.400 --> 00:04:08.910 align:start position:0%
+for placements, projects, and employment
+in<00:04:06.520><c> the</c><00:04:06.640><c> future.</c>
+
+00:04:08.910 --> 00:04:08.920 align:start position:0%
+in the future.
+ 
+
+00:04:08.920 --> 00:04:11.230 align:start position:0%
+in the future.
+So,<00:04:09.640><c> um</c><00:04:09.760><c> the</c><00:04:09.840><c> first</c><00:04:10.320><c> question</c><00:04:10.680><c> I</c><00:04:10.760><c> suppose</c><00:04:11.120><c> for</c>
+
+00:04:11.230 --> 00:04:11.240 align:start position:0%
+So, um the first question I suppose for
+ 
+
+00:04:11.240 --> 00:04:12.510 align:start position:0%
+So, um the first question I suppose for
+the<00:04:11.320><c> first</c><00:04:11.720><c> thing</c><00:04:11.920><c> I</c><00:04:11.959><c> might</c><00:04:12.120><c> want</c><00:04:12.240><c> to</c><00:04:12.320><c> tell</c><00:04:12.440><c> us</c>
+
+00:04:12.510 --> 00:04:12.520 align:start position:0%
+the first thing I might want to tell us
+ 
+
+00:04:12.520 --> 00:04:14.150 align:start position:0%
+the first thing I might want to tell us
+say<00:04:12.720><c> is</c><00:04:12.840><c> well,</c><00:04:13.000><c> why</c><00:04:13.320><c> would</c><00:04:13.560><c> you</c><00:04:13.640><c> want</c><00:04:13.840><c> to</c><00:04:13.959><c> learn</c>
+
+00:04:14.150 --> 00:04:14.160 align:start position:0%
+say is well, why would you want to learn
+ 
+
+00:04:14.160 --> 00:04:17.349 align:start position:0%
+say is well, why would you want to learn
+a<00:04:14.320><c> hardware</c><00:04:14.760><c> description</c><00:04:15.320><c> language</c><00:04:15.680><c> today?</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+a hardware description language today?
+ 
+
+00:04:17.359 --> 00:04:19.470 align:start position:0%
+a hardware description language today?
+So,<00:04:17.600><c> we'll</c><00:04:17.760><c> start</c><00:04:18.000><c> with</c><00:04:18.120><c> applications.</c>
+
+00:04:19.470 --> 00:04:19.480 align:start position:0%
+So, we'll start with applications.
+ 
+
+00:04:19.480 --> 00:04:20.990 align:start position:0%
+So, we'll start with applications.
+Uh<00:04:19.600><c> we're</c><00:04:19.720><c> using</c><00:04:20.040><c> a</c><00:04:20.120><c> field</c><00:04:20.359><c> programmable</c>
+
+00:04:20.990 --> 00:04:21.000 align:start position:0%
+Uh we're using a field programmable
+ 
+
+00:04:21.000 --> 00:04:23.590 align:start position:0%
+Uh we're using a field programmable
+gateway<00:04:21.600><c> as</c><00:04:21.720><c> a</c><00:04:21.799><c> product</c><00:04:22.160><c> typing</c><00:04:22.480><c> device.</c><00:04:23.320><c> And</c>
+
+00:04:23.590 --> 00:04:23.600 align:start position:0%
+gateway as a product typing device. And
+ 
+
+00:04:23.600 --> 00:04:24.950 align:start position:0%
+gateway as a product typing device. And
+of<00:04:23.720><c> course,</c><00:04:24.040><c> you</c><00:04:24.160><c> need</c><00:04:24.320><c> to</c><00:04:24.400><c> use</c><00:04:24.560><c> a</c><00:04:24.640><c> hardware</c>
+
+00:04:24.950 --> 00:04:24.960 align:start position:0%
+of course, you need to use a hardware
+ 
+
+00:04:24.960 --> 00:04:26.710 align:start position:0%
+of course, you need to use a hardware
+description<00:04:25.560><c> language</c><00:04:25.919><c> to</c><00:04:26.000><c> program</c><00:04:26.440><c> those.</c>
+
+00:04:26.710 --> 00:04:26.720 align:start position:0%
+description language to program those.
+ 
+
+00:04:26.720 --> 00:04:28.710 align:start position:0%
+description language to program those.
+So,<00:04:26.840><c> if</c><00:04:27.240><c> So,</c><00:04:27.480><c> applications</c><00:04:28.120><c> are</c><00:04:28.200><c> FPGA</c>
+
+00:04:28.710 --> 00:04:28.720 align:start position:0%
+So, if So, applications are FPGA
+ 
+
+00:04:28.720 --> 00:04:31.150 align:start position:0%
+So, if So, applications are FPGA
+prototyping<00:04:29.360><c> and</c><00:04:29.480><c> acceleration.</c><00:04:30.480><c> FPGAs</c><00:04:31.040><c> are</c>
+
+00:04:31.150 --> 00:04:31.160 align:start position:0%
+prototyping and acceleration. FPGAs are
+ 
+
+00:04:31.160 --> 00:04:33.909 align:start position:0%
+prototyping and acceleration. FPGAs are
+often<00:04:31.560><c> used</c><00:04:31.840><c> to</c><00:04:31.919><c> prototype</c><00:04:32.400><c> designs</c><00:04:33.560><c> before</c>
+
+00:04:33.909 --> 00:04:33.919 align:start position:0%
+often used to prototype designs before
+ 
+
+00:04:33.919 --> 00:04:36.390 align:start position:0%
+often used to prototype designs before
+you<00:04:34.200><c> tape</c><00:04:34.480><c> them</c><00:04:34.680><c> out</c><00:04:35.040><c> for</c><00:04:35.320><c> a</c>
+
+00:04:36.390 --> 00:04:36.400 align:start position:0%
+you tape them out for a
+ 
+
+00:04:36.400 --> 00:04:38.710 align:start position:0%
+you tape them out for a
+application-specific<00:04:37.480><c> circuit.</c><00:04:38.600><c> But,</c>
+
+00:04:38.710 --> 00:04:38.720 align:start position:0%
+application-specific circuit. But,
+ 
+
+00:04:38.720 --> 00:04:40.909 align:start position:0%
+application-specific circuit. But,
+they're<00:04:38.880><c> also</c><00:04:39.240><c> used</c><00:04:39.840><c> in</c><00:04:39.960><c> some</c>
+
+00:04:40.909 --> 00:04:40.919 align:start position:0%
+they're also used in some
+ 
+
+00:04:40.919 --> 00:04:42.710 align:start position:0%
+they're also used in some
+as<00:04:41.080><c> accelerators,</c>
+
+00:04:42.710 --> 00:04:42.720 align:start position:0%
+as accelerators,
+ 
+
+00:04:42.720 --> 00:04:45.950 align:start position:0%
+as accelerators,
+for<00:04:42.880><c> example,</c><00:04:43.400><c> for</c><00:04:43.600><c> AI,</c><00:04:44.600><c> crypto,</c><00:04:45.400><c> and</c><00:04:45.640><c> signal</c>
+
+00:04:45.950 --> 00:04:45.960 align:start position:0%
+for example, for AI, crypto, and signal
+ 
+
+00:04:45.960 --> 00:04:47.950 align:start position:0%
+for example, for AI, crypto, and signal
+processing<00:04:46.560><c> in</c><00:04:46.680><c> particular.</c>
+
+00:04:47.950 --> 00:04:47.960 align:start position:0%
+processing in particular.
+ 
+
+00:04:47.960 --> 00:04:49.390 align:start position:0%
+processing in particular.
+Um<00:04:48.120><c> so,</c><00:04:48.320><c> you</c><00:04:48.480><c> if</c><00:04:48.600><c> you're</c><00:04:48.720><c> doing</c><00:04:48.960><c> those</c><00:04:49.120><c> kind</c><00:04:49.280><c> of</c>
+
+00:04:49.390 --> 00:04:49.400 align:start position:0%
+Um so, you if you're doing those kind of
+ 
+
+00:04:49.400 --> 00:04:52.150 align:start position:0%
+Um so, you if you're doing those kind of
+applications,<00:04:50.320><c> you</c><00:04:50.640><c> might</c><00:04:50.880><c> well</c><00:04:51.120><c> need</c><00:04:51.440><c> to</c><00:04:51.960><c> use</c>
+
+00:04:52.150 --> 00:04:52.160 align:start position:0%
+applications, you might well need to use
+ 
+
+00:04:52.160 --> 00:04:54.350 align:start position:0%
+applications, you might well need to use
+a<00:04:52.200><c> hardware</c><00:04:52.520><c> description</c><00:04:53.040><c> language.</c>
+
+00:04:54.350 --> 00:04:54.360 align:start position:0%
+a hardware description language.
+ 
+
+00:04:54.360 --> 00:04:55.630 align:start position:0%
+a hardware description language.
+A<00:04:54.440><c> hardware</c><00:04:54.680><c> description</c><00:04:55.120><c> language</c><00:04:55.400><c> isn't</c>
+
+00:04:55.630 --> 00:04:55.640 align:start position:0%
+A hardware description language isn't
+ 
+
+00:04:55.640 --> 00:04:57.310 align:start position:0%
+A hardware description language isn't
+just<00:04:55.840><c> for</c><00:04:56.000><c> FPGAs,</c><00:04:56.720><c> although</c><00:04:56.960><c> that's</c><00:04:57.200><c> what</c>
+
+00:04:57.310 --> 00:04:57.320 align:start position:0%
+just for FPGAs, although that's what
+ 
+
+00:04:57.320 --> 00:04:58.990 align:start position:0%
+just for FPGAs, although that's what
+we're<00:04:57.440><c> using</c><00:04:57.680><c> in</c><00:04:57.800><c> this</c><00:04:57.960><c> course.</c>
+
+00:04:58.990 --> 00:04:59.000 align:start position:0%
+we're using in this course.
+ 
+
+00:04:59.000 --> 00:05:00.870 align:start position:0%
+we're using in this course.
+Uh<00:04:59.320><c> you</c><00:04:59.480><c> can</c><00:04:59.600><c> then</c><00:04:59.800><c> take</c><00:05:00.040><c> the</c><00:05:00.120><c> designs</c><00:05:00.560><c> and</c><00:05:00.680><c> use</c>
+
+00:05:00.870 --> 00:05:00.880 align:start position:0%
+Uh you can then take the designs and use
+ 
+
+00:05:00.880 --> 00:05:03.670 align:start position:0%
+Uh you can then take the designs and use
+them<00:05:01.080><c> in</c><00:05:01.280><c> in</c><00:05:01.440><c> application-specific</c>
+
+00:05:03.670 --> 00:05:03.680 align:start position:0%
+them in in application-specific
+ 
+
+00:05:03.680 --> 00:05:05.230 align:start position:0%
+them in in application-specific
+designs<00:05:04.200><c> for</c><00:05:04.320><c> digital</c><00:05:04.680><c> circuits</c><00:05:05.120><c> for</c>
+
+00:05:05.230 --> 00:05:05.240 align:start position:0%
+designs for digital circuits for
+ 
+
+00:05:05.240 --> 00:05:07.590 align:start position:0%
+designs for digital circuits for
+obviously<00:05:05.640><c> consumer</c><00:05:06.120><c> goods,</c><00:05:06.880><c> automotive,</c>
+
+00:05:07.590 --> 00:05:07.600 align:start position:0%
+obviously consumer goods, automotive,
+ 
+
+00:05:07.600 --> 00:05:10.550 align:start position:0%
+obviously consumer goods, automotive,
+aerospace,<00:05:08.280><c> and</c><00:05:08.480><c> telecom</c><00:05:08.919><c> products.</c>
+
+00:05:10.550 --> 00:05:10.560 align:start position:0%
+aerospace, and telecom products.
+ 
+
+00:05:10.560 --> 00:05:13.630 align:start position:0%
+aerospace, and telecom products.
+Um<00:05:11.240><c> and</c><00:05:11.960><c> I'll</c><00:05:12.160><c> help</c><00:05:12.400><c> you</c><00:05:12.520><c> understand</c><00:05:13.160><c> embedded</c>
+
+00:05:13.630 --> 00:05:13.640 align:start position:0%
+Um and I'll help you understand embedded
+ 
+
+00:05:13.640 --> 00:05:15.350 align:start position:0%
+Um and I'll help you understand embedded
+system<00:05:13.960><c> on</c><00:05:14.080><c> chips</c><00:05:14.480><c> where</c><00:05:14.640><c> you</c><00:05:14.760><c> might</c><00:05:15.000><c> use</c><00:05:15.160><c> this</c>
+
+00:05:15.350 --> 00:05:15.360 align:start position:0%
+system on chips where you might use this
+ 
+
+00:05:15.360 --> 00:05:17.990 align:start position:0%
+system on chips where you might use this
+approach,<00:05:15.880><c> Internet</c><00:05:16.280><c> of</c><00:05:16.360><c> Thing</c><00:05:16.640><c> devices,</c><00:05:17.360><c> and</c>
+
+00:05:17.990 --> 00:05:18.000 align:start position:0%
+approach, Internet of Thing devices, and
+ 
+
+00:05:18.000 --> 00:05:19.630 align:start position:0%
+approach, Internet of Thing devices, and
+high-performance<00:05:18.680><c> network</c><00:05:19.120><c> hardware</c><00:05:19.520><c> where</c>
+
+00:05:19.630 --> 00:05:19.640 align:start position:0%
+high-performance network hardware where
+ 
+
+00:05:19.640 --> 00:05:22.590 align:start position:0%
+high-performance network hardware where
+they<00:05:19.760><c> might</c><00:05:19.960><c> well</c><00:05:20.200><c> use</c><00:05:20.720><c> um</c><00:05:21.080><c> FPGAs</c><00:05:21.680><c> as</c><00:05:21.840><c> well.</c>
+
+00:05:22.590 --> 00:05:22.600 align:start position:0%
+they might well use um FPGAs as well.
+ 
+
+00:05:22.600 --> 00:05:24.230 align:start position:0%
+they might well use um FPGAs as well.
+And<00:05:22.720><c> also</c><00:05:23.000><c> custom</c><00:05:23.400><c> hardware</c><00:05:23.840><c> for</c><00:05:24.000><c> data</c>
+
+00:05:24.230 --> 00:05:24.240 align:start position:0%
+And also custom hardware for data
+ 
+
+00:05:24.240 --> 00:05:26.550 align:start position:0%
+And also custom hardware for data
+centers,<00:05:24.880><c> high-performance</c><00:05:25.560><c> computing,</c><00:05:26.280><c> and</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+centers, high-performance computing, and
+ 
+
+00:05:26.560 --> 00:05:28.030 align:start position:0%
+centers, high-performance computing, and
+edge<00:05:26.800><c> computing.</c>
+
+00:05:28.030 --> 00:05:28.040 align:start position:0%
+edge computing.
+ 
+
+00:05:28.040 --> 00:05:29.310 align:start position:0%
+edge computing.
+On<00:05:28.120><c> this,</c><00:05:28.400><c> we're</c><00:05:28.520><c> going</c><00:05:28.640><c> to</c><00:05:28.720><c> be</c><00:05:28.840><c> using</c><00:05:29.160><c> this</c>
+
+00:05:29.310 --> 00:05:29.320 align:start position:0%
+On this, we're going to be using this
+ 
+
+00:05:29.320 --> 00:05:31.790 align:start position:0%
+On this, we're going to be using this
+FPGA<00:05:30.360><c> development</c><00:05:30.840><c> board</c><00:05:31.120><c> for</c><00:05:31.240><c> the</c><00:05:31.320><c> practical</c>
+
+00:05:31.790 --> 00:05:31.800 align:start position:0%
+FPGA development board for the practical
+ 
+
+00:05:31.800 --> 00:05:33.750 align:start position:0%
+FPGA development board for the practical
+work,<00:05:32.320><c> and</c><00:05:32.440><c> they</c><00:05:32.600><c> are</c><00:05:32.720><c> ideal</c><00:05:33.120><c> for</c><00:05:33.280><c> hands-on</c>
+
+00:05:33.750 --> 00:05:33.760 align:start position:0%
+work, and they are ideal for hands-on
+ 
+
+00:05:33.760 --> 00:05:35.190 align:start position:0%
+work, and they are ideal for hands-on
+learning.
+
+00:05:35.190 --> 00:05:35.200 align:start position:0%
+learning.
+ 
+
+00:05:35.200 --> 00:05:36.990 align:start position:0%
+learning.
+Although<00:05:35.360><c> these</c><00:05:35.560><c> are</c><00:05:35.640><c> fairly</c><00:05:36.160><c> simple</c><00:05:36.480><c> devices</c>
+
+00:05:36.990 --> 00:05:37.000 align:start position:0%
+Although these are fairly simple devices
+ 
+
+00:05:37.000 --> 00:05:38.830 align:start position:0%
+Although these are fairly simple devices
+compared<00:05:37.320><c> to</c><00:05:37.440><c> some</c><00:05:37.640><c> that</c><00:05:37.800><c> you</c><00:05:37.919><c> can</c><00:05:38.040><c> get,</c><00:05:38.720><c> all</c>
+
+00:05:38.830 --> 00:05:38.840 align:start position:0%
+compared to some that you can get, all
+ 
+
+00:05:38.840 --> 00:05:40.670 align:start position:0%
+compared to some that you can get, all
+the<00:05:38.960><c> basic</c><00:05:39.320><c> principles</c><00:05:40.040><c> can</c><00:05:40.200><c> be</c><00:05:40.320><c> covered</c>
+
+00:05:40.670 --> 00:05:40.680 align:start position:0%
+the basic principles can be covered
+ 
+
+00:05:40.680 --> 00:05:42.070 align:start position:0%
+the basic principles can be covered
+using<00:05:40.960><c> these.</c>
+
+00:05:42.070 --> 00:05:42.080 align:start position:0%
+using these.
+ 
+
+00:05:42.080 --> 00:05:44.550 align:start position:0%
+using these.
+So,<00:05:42.240><c> there</c><00:05:42.440><c> are</c><00:05:42.560><c> career</c><00:05:42.840><c> opportunities</c><00:05:43.840><c> um</c><00:05:44.360><c> if</c>
+
+00:05:44.550 --> 00:05:44.560 align:start position:0%
+So, there are career opportunities um if
+ 
+
+00:05:44.560 --> 00:05:46.310 align:start position:0%
+So, there are career opportunities um if
+you<00:05:44.720><c> if</c><00:05:44.880><c> you</c><00:05:45.040><c> know</c><00:05:45.400><c> a</c><00:05:45.440><c> hardware</c><00:05:45.760><c> description</c>
+
+00:05:46.310 --> 00:05:46.320 align:start position:0%
+you if you know a hardware description
+ 
+
+00:05:46.320 --> 00:05:49.710 align:start position:0%
+you if you know a hardware description
+language.<00:05:46.960><c> Obviously,</c><00:05:47.960><c> F</c><00:05:48.680><c> FPGA</c><00:05:49.280><c> and</c><00:05:49.440><c> ASIC</c>
+
+00:05:49.710 --> 00:05:49.720 align:start position:0%
+language. Obviously, F FPGA and ASIC
+ 
+
+00:05:49.720 --> 00:05:52.590 align:start position:0%
+language. Obviously, F FPGA and ASIC
+design<00:05:50.120><c> engineer</c><00:05:50.600><c> is</c><00:05:50.720><c> an</c><00:05:50.840><c> obvious</c><00:05:51.160><c> one</c><00:05:51.960><c> and</c><00:05:52.560><c> a</c>
+
+00:05:52.590 --> 00:05:52.600 align:start position:0%
+design engineer is an obvious one and a
+ 
+
+00:05:52.600 --> 00:05:54.590 align:start position:0%
+design engineer is an obvious one and a
+register<00:05:53.000><c> transfer</c><00:05:53.360><c> language</c><00:05:53.720><c> engineer,</c><00:05:54.160><c> so</c>
+
+00:05:54.590 --> 00:05:54.600 align:start position:0%
+register transfer language engineer, so
+ 
+
+00:05:54.600 --> 00:05:56.310 align:start position:0%
+register transfer language engineer, so
+doing<00:05:54.840><c> the</c><00:05:54.920><c> designs.</c>
+
+00:05:56.310 --> 00:05:56.320 align:start position:0%
+doing the designs.
+ 
+
+00:05:56.320 --> 00:05:58.310 align:start position:0%
+doing the designs.
+Um<00:05:56.960><c> there</c><00:05:57.120><c> are</c><00:05:57.200><c> also</c>
+
+00:05:58.310 --> 00:05:58.320 align:start position:0%
+Um there are also
+ 
+
+00:05:58.320 --> 00:05:59.630 align:start position:0%
+Um there are also
+uh<00:05:58.560><c> plenty</c><00:05:58.840><c> of</c><00:05:58.960><c> jobs.</c><00:05:59.280><c> Indeed,</c><00:05:59.480><c> there's</c><00:05:59.600><c> a</c>
+
+00:05:59.630 --> 00:05:59.640 align:start position:0%
+uh plenty of jobs. Indeed, there's a
+ 
+
+00:05:59.640 --> 00:06:01.470 align:start position:0%
+uh plenty of jobs. Indeed, there's a
+real<00:05:59.840><c> shortage</c><00:06:00.240><c> of</c><00:06:00.320><c> people</c><00:06:00.600><c> at</c><00:06:00.680><c> the</c><00:06:00.760><c> moment</c>
+
+00:06:01.470 --> 00:06:01.480 align:start position:0%
+real shortage of people at the moment
+ 
+
+00:06:01.480 --> 00:06:03.670 align:start position:0%
+real shortage of people at the moment
+who<00:06:01.680><c> can</c><00:06:01.840><c> do</c><00:06:02.000><c> verification</c><00:06:02.720><c> of</c><00:06:02.840><c> designs,</c><00:06:03.480><c> so</c><00:06:03.640><c> a</c>
+
+00:06:03.670 --> 00:06:03.680 align:start position:0%
+who can do verification of designs, so a
+ 
+
+00:06:03.680 --> 00:06:05.550 align:start position:0%
+who can do verification of designs, so a
+verification<00:06:04.360><c> engineer.</c><00:06:05.200><c> Those</c><00:06:05.400><c> are</c>
+
+00:06:05.550 --> 00:06:05.560 align:start position:0%
+verification engineer. Those are
+ 
+
+00:06:05.560 --> 00:06:07.670 align:start position:0%
+verification engineer. Those are
+typically<00:06:06.040><c> done</c><00:06:06.400><c> using</c><00:06:06.680><c> SystemVerilog</c><00:06:07.520><c> and</c>
+
+00:06:07.670 --> 00:06:07.680 align:start position:0%
+typically done using SystemVerilog and
+ 
+
+00:06:07.680 --> 00:06:08.750 align:start position:0%
+typically done using SystemVerilog and
+UVM.
+
+00:06:08.750 --> 00:06:08.760 align:start position:0%
+UVM.
+ 
+
+00:06:08.760 --> 00:06:09.990 align:start position:0%
+UVM.
+Um
+
+00:06:09.990 --> 00:06:10.000 align:start position:0%
+Um
+ 
+
+00:06:10.000 --> 00:06:12.470 align:start position:0%
+Um
+uh<00:06:10.480><c> and</c><00:06:10.680><c> using</c><00:06:10.960><c> an</c><00:06:11.040><c> EDA</c><00:06:11.400><c> tool.</c>
+
+00:06:12.470 --> 00:06:12.480 align:start position:0%
+uh and using an EDA tool.
+ 
+
+00:06:12.480 --> 00:06:14.470 align:start position:0%
+uh and using an EDA tool.
+Um<00:06:12.920><c> also,</c><00:06:13.280><c> there</c><00:06:13.440><c> are</c><00:06:13.560><c> career</c><00:06:13.840><c> opportunities</c>
+
+00:06:14.470 --> 00:06:14.480 align:start position:0%
+Um also, there are career opportunities
+ 
+
+00:06:14.480 --> 00:06:15.630 align:start position:0%
+Um also, there are career opportunities
+with<00:06:14.600><c> this</c><00:06:14.800><c> knowledge</c><00:06:15.080><c> which</c><00:06:15.200><c> will</c><00:06:15.280><c> help</c><00:06:15.520><c> you</c>
+
+00:06:15.630 --> 00:06:15.640 align:start position:0%
+with this knowledge which will help you
+ 
+
+00:06:15.640 --> 00:06:17.630 align:start position:0%
+with this knowledge which will help you
+in<00:06:15.760><c> terms</c><00:06:16.080><c> of</c><00:06:16.200><c> embedded</c><00:06:16.720><c> and</c><00:06:16.880><c> firmer</c>
+
+00:06:17.630 --> 00:06:17.640 align:start position:0%
+in terms of embedded and firmer
+ 
+
+00:06:17.640 --> 00:06:20.310 align:start position:0%
+in terms of embedded and firmer
+engineering<00:06:18.800><c> um</c><00:06:19.080><c> on</c><00:06:19.560><c> particularly</c><00:06:19.919><c> on</c><00:06:20.000><c> system</c>
+
+00:06:20.310 --> 00:06:20.320 align:start position:0%
+engineering um on particularly on system
+ 
+
+00:06:20.320 --> 00:06:22.390 align:start position:0%
+engineering um on particularly on system
+on<00:06:20.440><c> chips</c><00:06:20.720><c> using</c><00:06:20.960><c> microprocessors</c><00:06:22.160><c> and</c>
+
+00:06:22.390 --> 00:06:22.400 align:start position:0%
+on chips using microprocessors and
+ 
+
+00:06:22.400 --> 00:06:25.030 align:start position:0%
+on chips using microprocessors and
+hardware<00:06:22.919><c> software</c><00:06:23.760><c> co-design</c><00:06:24.760><c> where</c><00:06:24.919><c> you're</c>
+
+00:06:25.030 --> 00:06:25.040 align:start position:0%
+hardware software co-design where you're
+ 
+
+00:06:25.040 --> 00:06:26.630 align:start position:0%
+hardware software co-design where you're
+looking<00:06:25.400><c> at</c><00:06:25.520><c> the</c><00:06:25.600><c> boundaries</c><00:06:26.240><c> between</c><00:06:26.560><c> the</c>
+
+00:06:26.630 --> 00:06:26.640 align:start position:0%
+looking at the boundaries between the
+ 
+
+00:06:26.640 --> 00:06:28.670 align:start position:0%
+looking at the boundaries between the
+hardware<00:06:27.040><c> and</c><00:06:27.160><c> software</c><00:06:27.680><c> and</c><00:06:27.880><c> the</c><00:06:27.960><c> trade-offs</c>
+
+00:06:28.670 --> 00:06:28.680 align:start position:0%
+hardware and software and the trade-offs
+ 
+
+00:06:28.680 --> 00:06:30.190 align:start position:0%
+hardware and software and the trade-offs
+of<00:06:28.919><c> where</c><00:06:29.080><c> you</c><00:06:29.200><c> put</c><00:06:29.440><c> different</c><00:06:29.720><c> parts</c><00:06:30.000><c> of</c><00:06:30.120><c> the</c>
+
+00:06:30.190 --> 00:06:30.200 align:start position:0%
+of where you put different parts of the
+ 
+
+00:06:30.200 --> 00:06:31.310 align:start position:0%
+of where you put different parts of the
+design.
+
+00:06:31.310 --> 00:06:31.320 align:start position:0%
+design.
+ 
+
+00:06:31.320 --> 00:06:32.950 align:start position:0%
+design.
+So,<00:06:31.480><c> there</c><00:06:31.640><c> are</c><00:06:31.800><c> roles</c><00:06:32.160><c> in</c><00:06:32.280><c> semiconductor</c>
+
+00:06:32.950 --> 00:06:32.960 align:start position:0%
+So, there are roles in semiconductor
+ 
+
+00:06:32.960 --> 00:06:36.070 align:start position:0%
+So, there are roles in semiconductor
+startups,<00:06:33.960><c> uh</c><00:06:34.080><c> research</c><00:06:34.600><c> labs</c><00:06:34.880><c> in</c><00:06:35.000><c> industry.</c>
+
+00:06:36.070 --> 00:06:36.080 align:start position:0%
+startups, uh research labs in industry.
+ 
+
+00:06:36.080 --> 00:06:39.030 align:start position:0%
+startups, uh research labs in industry.
+Um<00:06:36.280><c> specific</c><00:06:36.800><c> roles</c><00:06:37.040><c> for</c><00:06:37.200><c> FPGAs</c><00:06:38.320><c> um</c>
+
+00:06:39.030 --> 00:06:39.040 align:start position:0%
+Um specific roles for FPGAs um
+ 
+
+00:06:39.040 --> 00:06:41.590 align:start position:0%
+Um specific roles for FPGAs um
+in<00:06:39.360><c> in</c><00:06:39.480><c> the</c><00:06:39.560><c> UK</c><00:06:39.960><c> at</c><00:06:40.120><c> least,</c><00:06:40.360><c> there</c><00:06:40.600><c> are</c><00:06:40.720><c> jobs,</c>
+
+00:06:41.590 --> 00:06:41.600 align:start position:0%
+in in the UK at least, there are jobs,
+ 
+
+00:06:41.600 --> 00:06:44.990 align:start position:0%
+in in the UK at least, there are jobs,
+for<00:06:41.720><c> example,</c><00:06:42.560><c> uh</c><00:06:42.840><c> at</c><00:06:43.000><c> Rolls-Royce,</c><00:06:44.400><c> um</c>
+
+00:06:44.990 --> 00:06:45.000 align:start position:0%
+for example, uh at Rolls-Royce, um
+ 
+
+00:06:45.000 --> 00:06:47.670 align:start position:0%
+for example, uh at Rolls-Royce, um
+British<00:06:45.919><c> British</c><00:06:46.600><c> um</c>
+
+00:06:47.670 --> 00:06:47.680 align:start position:0%
+British British um
+ 
+
+00:06:47.680 --> 00:06:54.630 align:start position:0%
+British British um
+aerospace.
+
+00:06:54.630 --> 00:06:54.640 align:start position:0%
+ 
+ 
+
+00:06:54.640 --> 00:06:56.470 align:start position:0%
+ 
+So,<00:06:55.000><c> learning</c><00:06:55.480><c> each</c><00:06:55.760><c> hardware</c><00:06:56.120><c> description</c>
+
+00:06:56.470 --> 00:06:56.480 align:start position:0%
+So, learning each hardware description
+ 
+
+00:06:56.480 --> 00:06:58.630 align:start position:0%
+So, learning each hardware description
+language<00:06:56.720><c> develops</c><00:06:57.120><c> practical</c><00:06:57.600><c> skills</c><00:06:58.440><c> in</c>
+
+00:06:58.630 --> 00:06:58.640 align:start position:0%
+language develops practical skills in
+ 
+
+00:06:58.640 --> 00:07:00.790 align:start position:0%
+language develops practical skills in
+RTL<00:06:59.040><c> design,</c><00:06:59.520><c> simulation,</c><00:07:00.120><c> synthesis,</c>
+
+00:07:00.790 --> 00:07:00.800 align:start position:0%
+RTL design, simulation, synthesis,
+ 
+
+00:07:00.800 --> 00:07:02.710 align:start position:0%
+RTL design, simulation, synthesis,
+timing<00:07:01.160><c> closure,</c><00:07:01.520><c> and</c><00:07:01.640><c> verification.</c><00:07:02.640><c> And</c>
+
+00:07:02.710 --> 00:07:02.720 align:start position:0%
+timing closure, and verification. And
+ 
+
+00:07:02.720 --> 00:07:03.950 align:start position:0%
+timing closure, and verification. And
+these<00:07:02.880><c> are</c><00:07:02.960><c> all</c><00:07:03.120><c> skills</c><00:07:03.480><c> that</c><00:07:03.600><c> are</c><00:07:03.680><c> highly</c>
+
+00:07:03.950 --> 00:07:03.960 align:start position:0%
+these are all skills that are highly
+ 
+
+00:07:03.960 --> 00:07:06.950 align:start position:0%
+these are all skills that are highly
+sought<00:07:04.320><c> after</c><00:07:04.640><c> in</c><00:07:04.760><c> industry.</c>
+
+00:07:06.950 --> 00:07:06.960 align:start position:0%
+sought after in industry.
+ 
+
+00:07:06.960 --> 00:07:09.750 align:start position:0%
+sought after in industry.
+So,<00:07:07.360><c> I</c><00:07:07.480><c> am</c><00:07:07.600><c> using</c><00:07:07.919><c> VHDL</c><00:07:08.600><c> in</c><00:07:08.680><c> this</c><00:07:08.880><c> course</c><00:07:09.520><c> and</c>
+
+00:07:09.750 --> 00:07:09.760 align:start position:0%
+So, I am using VHDL in this course and
+ 
+
+00:07:09.760 --> 00:07:11.909 align:start position:0%
+So, I am using VHDL in this course and
+so<00:07:09.960><c> why</c><00:07:10.200><c> use</c><00:07:10.520><c> VHDL?</c><00:07:11.360><c> And</c><00:07:11.649><c> [clears throat]</c>
+
+00:07:11.909 --> 00:07:11.919 align:start position:0%
+so why use VHDL? And [clears throat]
+ 
+
+00:07:11.919 --> 00:07:13.909 align:start position:0%
+so why use VHDL? And [clears throat]
+main<00:07:12.400><c> main</c><00:07:12.560><c> alternative</c><00:07:13.000><c> is</c><00:07:13.120><c> Verilog.</c><00:07:13.800><c> So,</c>
+
+00:07:13.909 --> 00:07:13.919 align:start position:0%
+main main alternative is Verilog. So,
+ 
+
+00:07:13.919 --> 00:07:16.790 align:start position:0%
+main main alternative is Verilog. So,
+I've<00:07:14.040><c> put</c><00:07:14.240><c> a</c><00:07:14.280><c> note</c><00:07:14.600><c> Verilog.</c><00:07:15.680><c> So,</c><00:07:16.520><c> main</c>
+
+00:07:16.790 --> 00:07:16.800 align:start position:0%
+I've put a note Verilog. So, main
+ 
+
+00:07:16.800 --> 00:07:19.310 align:start position:0%
+I've put a note Verilog. So, main
+reasons<00:07:17.120><c> I'm</c><00:07:17.320><c> using</c><00:07:17.560><c> it</c><00:07:17.680><c> are</c><00:07:17.800><c> educational.</c>
+
+00:07:19.310 --> 00:07:19.320 align:start position:0%
+reasons I'm using it are educational.
+ 
+
+00:07:19.320 --> 00:07:21.230 align:start position:0%
+reasons I'm using it are educational.
+The<00:07:19.400><c> first</c><00:07:19.720><c> thing</c><00:07:19.919><c> with</c><00:07:20.320><c> uh</c><00:07:20.400><c> VHDL</c><00:07:21.000><c> is</c><00:07:21.120><c> it</c>
+
+00:07:21.230 --> 00:07:21.240 align:start position:0%
+The first thing with uh VHDL is it
+ 
+
+00:07:21.240 --> 00:07:23.990 align:start position:0%
+The first thing with uh VHDL is it
+enforces<00:07:21.960><c> hardware</c><00:07:22.480><c> awareness</c><00:07:23.360><c> uh</c><00:07:23.680><c> for</c><00:07:23.840><c> you</c>
+
+00:07:23.990 --> 00:07:24.000 align:start position:0%
+enforces hardware awareness uh for you
+ 
+
+00:07:24.000 --> 00:07:26.550 align:start position:0%
+enforces hardware awareness uh for you
+as<00:07:24.240><c> as</c><00:07:24.440><c> a</c><00:07:24.560><c> when</c><00:07:24.760><c> you</c><00:07:24.840><c> starting</c><00:07:25.280><c> out.</c><00:07:25.840><c> So,</c><00:07:25.960><c> VHDL</c>
+
+00:07:26.550 --> 00:07:26.560 align:start position:0%
+as as a when you starting out. So, VHDL
+ 
+
+00:07:26.560 --> 00:07:28.750 align:start position:0%
+as as a when you starting out. So, VHDL
+prevents<00:07:27.320><c> you</c><00:07:27.480><c> as</c><00:07:27.600><c> a</c><00:07:27.680><c> student</c><00:07:28.160><c> from</c><00:07:28.360><c> treating</c>
+
+00:07:28.750 --> 00:07:28.760 align:start position:0%
+prevents you as a student from treating
+ 
+
+00:07:28.760 --> 00:07:30.670 align:start position:0%
+prevents you as a student from treating
+the<00:07:28.840><c> hardware</c><00:07:29.160><c> description</c><00:07:29.760><c> like</c><00:07:29.960><c> a</c><00:07:30.040><c> standard</c>
+
+00:07:30.670 --> 00:07:30.680 align:start position:0%
+the hardware description like a standard
+ 
+
+00:07:30.680 --> 00:07:32.510 align:start position:0%
+the hardware description like a standard
+software<00:07:31.080><c> programming.</c>
+
+00:07:32.510 --> 00:07:32.520 align:start position:0%
+software programming.
+ 
+
+00:07:32.520 --> 00:07:34.190 align:start position:0%
+software programming.
+Unfortunately,<00:07:33.040><c> Verilog</c><00:07:33.520><c> is</c><00:07:33.640><c> much</c><00:07:33.840><c> closer</c><00:07:34.080><c> to</c>
+
+00:07:34.190 --> 00:07:34.200 align:start position:0%
+Unfortunately, Verilog is much closer to
+ 
+
+00:07:34.200 --> 00:07:36.590 align:start position:0%
+Unfortunately, Verilog is much closer to
+us<00:07:34.640><c> programming</c><00:07:35.120><c> language</c><00:07:35.680><c> and</c><00:07:36.160><c> it</c><00:07:36.320><c> I</c><00:07:36.400><c> think</c>
+
+00:07:36.590 --> 00:07:36.600 align:start position:0%
+us programming language and it I think
+ 
+
+00:07:36.600 --> 00:07:39.190 align:start position:0%
+us programming language and it I think
+it<00:07:36.680><c> can</c><00:07:36.840><c> be</c><00:07:36.960><c> confusing</c><00:07:37.520><c> when</c><00:07:37.640><c> you</c><00:07:37.760><c> start</c><00:07:38.160><c> out.</c>
+
+00:07:39.190 --> 00:07:39.200 align:start position:0%
+it can be confusing when you start out.
+ 
+
+00:07:39.200 --> 00:07:41.430 align:start position:0%
+it can be confusing when you start out.
+So,<00:07:39.280><c> that's</c><00:07:39.919><c> that's</c><00:07:40.120><c> the</c><00:07:40.240><c> first</c><00:07:40.560><c> point.</c><00:07:41.320><c> The</c>
+
+00:07:41.430 --> 00:07:41.440 align:start position:0%
+So, that's that's the first point. The
+ 
+
+00:07:41.440 --> 00:07:44.030 align:start position:0%
+So, that's that's the first point. The
+second<00:07:41.800><c> point</c><00:07:42.200><c> is</c><00:07:42.680><c> uh</c><00:07:42.840><c> VHDL</c><00:07:43.520><c> has</c><00:07:43.680><c> a</c><00:07:43.760><c> very</c>
+
+00:07:44.030 --> 00:07:44.040 align:start position:0%
+second point is uh VHDL has a very
+ 
+
+00:07:44.040 --> 00:07:46.430 align:start position:0%
+second point is uh VHDL has a very
+strongly<00:07:44.680><c> typed</c><00:07:45.240><c> safety.</c>
+
+00:07:46.430 --> 00:07:46.440 align:start position:0%
+strongly typed safety.
+ 
+
+00:07:46.440 --> 00:07:48.270 align:start position:0%
+strongly typed safety.
+It<00:07:46.800><c> requires</c><00:07:47.200><c> explicit</c><00:07:47.800><c> data</c><00:07:48.040><c> type</c>
+
+00:07:48.270 --> 00:07:48.280 align:start position:0%
+It requires explicit data type
+ 
+
+00:07:48.280 --> 00:07:50.550 align:start position:0%
+It requires explicit data type
+conversions<00:07:49.200><c> and</c><00:07:49.320><c> that</c><00:07:49.480><c> prevents</c>
+
+00:07:50.550 --> 00:07:50.560 align:start position:0%
+conversions and that prevents
+ 
+
+00:07:50.560 --> 00:07:52.950 align:start position:0%
+conversions and that prevents
+accidental<00:07:51.160><c> design</c><00:07:51.600><c> errors.</c><00:07:52.080><c> And</c><00:07:52.200><c> again,</c><00:07:52.560><c> I</c><00:07:52.760><c> I</c>
+
+00:07:52.950 --> 00:07:52.960 align:start position:0%
+accidental design errors. And again, I I
+ 
+
+00:07:52.960 --> 00:07:56.230 align:start position:0%
+accidental design errors. And again, I I
+consider<00:07:53.560><c> strongly</c><00:07:54.040><c> typed</c><00:07:55.040><c> safety</c><00:07:56.120><c> an</c>
+
+00:07:56.230 --> 00:07:56.240 align:start position:0%
+consider strongly typed safety an
+ 
+
+00:07:56.240 --> 00:07:58.550 align:start position:0%
+consider strongly typed safety an
+important<00:07:56.760><c> especially</c><00:07:57.320><c> for</c><00:07:57.440><c> beginners.</c>
+
+00:07:58.550 --> 00:07:58.560 align:start position:0%
+important especially for beginners.
+ 
+
+00:07:58.560 --> 00:08:00.670 align:start position:0%
+important especially for beginners.
+Where<00:07:58.960><c> when</c><00:07:59.120><c> things</c><00:07:59.360><c> don't</c><00:07:59.640><c> work</c><00:08:00.040><c> and</c><00:08:00.360><c> without</c>
+
+00:08:00.670 --> 00:08:00.680 align:start position:0%
+Where when things don't work and without
+ 
+
+00:08:00.680 --> 00:08:02.630 align:start position:0%
+Where when things don't work and without
+experience,<00:08:01.640><c> they</c><00:08:01.840><c> they</c><00:08:01.960><c> don't</c><00:08:02.200><c> always</c><00:08:02.440><c> know</c>
+
+00:08:02.630 --> 00:08:02.640 align:start position:0%
+experience, they they don't always know
+ 
+
+00:08:02.640 --> 00:08:04.710 align:start position:0%
+experience, they they don't always know
+where<00:08:02.800><c> to</c><00:08:02.960><c> look</c><00:08:03.600><c> and</c><00:08:03.720><c> this</c><00:08:03.880><c> will</c><00:08:04.000><c> catch</c><00:08:04.440><c> many</c>
+
+00:08:04.710 --> 00:08:04.720 align:start position:0%
+where to look and this will catch many
+ 
+
+00:08:04.720 --> 00:08:06.590 align:start position:0%
+where to look and this will catch many
+errors<00:08:05.160><c> before</c><00:08:05.560><c> it</c><00:08:05.680><c> gets</c><00:08:05.880><c> to</c><00:08:05.960><c> that</c><00:08:06.160><c> stage</c><00:08:06.520><c> and</c>
+
+00:08:06.590 --> 00:08:06.600 align:start position:0%
+errors before it gets to that stage and
+ 
+
+00:08:06.600 --> 00:08:09.350 align:start position:0%
+errors before it gets to that stage and
+give<00:08:06.760><c> you</c><00:08:06.840><c> useful</c><00:08:07.320><c> useful</c><00:08:07.600><c> messages.</c><00:08:08.720><c> VHDL</c><00:08:09.240><c> is</c>
+
+00:08:09.350 --> 00:08:09.360 align:start position:0%
+give you useful useful messages. VHDL is
+ 
+
+00:08:09.360 --> 00:08:12.950 align:start position:0%
+give you useful useful messages. VHDL is
+deterministic<00:08:10.160><c> has</c><00:08:10.360><c> guaranteed</c><00:08:11.280><c> behavior</c>
+
+00:08:12.950 --> 00:08:12.960 align:start position:0%
+deterministic has guaranteed behavior
+ 
+
+00:08:12.960 --> 00:08:16.110 align:start position:0%
+deterministic has guaranteed behavior
+with<00:08:13.320><c> strict</c><00:08:14.080><c> simulation</c><00:08:14.720><c> semantics</c><00:08:15.800><c> meaning</c>
+
+00:08:16.110 --> 00:08:16.120 align:start position:0%
+with strict simulation semantics meaning
+ 
+
+00:08:16.120 --> 00:08:17.909 align:start position:0%
+with strict simulation semantics meaning
+that<00:08:16.240><c> the</c><00:08:16.360><c> code</c><00:08:16.640><c> behaves</c><00:08:16.960><c> identically</c><00:08:17.520><c> across</c>
+
+00:08:17.909 --> 00:08:17.919 align:start position:0%
+that the code behaves identically across
+ 
+
+00:08:17.919 --> 00:08:20.190 align:start position:0%
+that the code behaves identically across
+different<00:08:18.280><c> software</c><00:08:18.760><c> tools.</c>
+
+00:08:20.190 --> 00:08:20.200 align:start position:0%
+different software tools.
+ 
+
+00:08:20.200 --> 00:08:21.909 align:start position:0%
+different software tools.
+Again,<00:08:20.600><c> very</c><00:08:20.840><c> useful.</c>
+
+00:08:21.909 --> 00:08:21.919 align:start position:0%
+Again, very useful.
+ 
+
+00:08:21.919 --> 00:08:24.750 align:start position:0%
+Again, very useful.
+VHDL<00:08:22.880><c> forces</c><00:08:23.400><c> students</c><00:08:24.160><c> to</c><00:08:24.280><c> deliberately</c>
+
+00:08:24.750 --> 00:08:24.760 align:start position:0%
+VHDL forces students to deliberately
+ 
+
+00:08:24.760 --> 00:08:26.350 align:start position:0%
+VHDL forces students to deliberately
+choose<00:08:25.040><c> between</c><00:08:25.400><c> wires,</c><00:08:25.760><c> registers,</c><00:08:26.240><c> and</c>
+
+00:08:26.350 --> 00:08:26.360 align:start position:0%
+choose between wires, registers, and
+ 
+
+00:08:26.360 --> 00:08:28.270 align:start position:0%
+choose between wires, registers, and
+buses.<00:08:26.880><c> So,</c><00:08:27.000><c> you</c><00:08:27.120><c> have</c><00:08:27.280><c> to</c><00:08:27.360><c> be</c><00:08:27.480><c> explicit</c><00:08:28.120><c> and</c>
+
+00:08:28.270 --> 00:08:28.280 align:start position:0%
+buses. So, you have to be explicit and
+ 
+
+00:08:28.280 --> 00:08:30.190 align:start position:0%
+buses. So, you have to be explicit and
+think<00:08:28.480><c> about</c><00:08:28.720><c> your</c><00:08:28.840><c> design.</c><00:08:29.640><c> So,</c><00:08:29.760><c> explicit</c>
+
+00:08:30.190 --> 00:08:30.200 align:start position:0%
+think about your design. So, explicit
+ 
+
+00:08:30.200 --> 00:08:33.029 align:start position:0%
+think about your design. So, explicit
+resource<00:08:30.640><c> allocation.</c><00:08:31.760><c> And</c><00:08:31.960><c> also,</c><00:08:32.440><c> I</c><00:08:32.880><c> think</c>
+
+00:08:33.029 --> 00:08:33.039 align:start position:0%
+resource allocation. And also, I think
+ 
+
+00:08:33.039 --> 00:08:34.630 align:start position:0%
+resource allocation. And also, I think
+it<00:08:33.120><c> has</c><00:08:33.320><c> much</c><00:08:33.560><c> clearer</c><00:08:33.919><c> concurrency</c>
+
+00:08:34.630 --> 00:08:34.640 align:start position:0%
+it has much clearer concurrency
+ 
+
+00:08:34.640 --> 00:08:36.190 align:start position:0%
+it has much clearer concurrency
+concepts.<00:08:35.200><c> So,</c><00:08:35.320><c> we're</c><00:08:35.440><c> designing</c><00:08:35.800><c> hardware</c>
+
+00:08:36.190 --> 00:08:36.200 align:start position:0%
+concepts. So, we're designing hardware
+ 
+
+00:08:36.200 --> 00:08:38.350 align:start position:0%
+concepts. So, we're designing hardware
+here,<00:08:36.360><c> not</c><00:08:36.599><c> software.</c><00:08:37.640><c> So,</c><00:08:37.719><c> in</c><00:08:37.800><c> software,</c><00:08:38.240><c> we</c>
+
+00:08:38.350 --> 00:08:38.360 align:start position:0%
+here, not software. So, in software, we
+ 
+
+00:08:38.360 --> 00:08:40.070 align:start position:0%
+here, not software. So, in software, we
+think<00:08:38.599><c> of</c><00:08:38.919><c> doing</c><00:08:39.200><c> one</c><00:08:39.400><c> step</c><00:08:39.640><c> at</c><00:08:39.719><c> a</c><00:08:39.760><c> time.</c>
+
+00:08:40.070 --> 00:08:40.080 align:start position:0%
+think of doing one step at a time.
+ 
+
+00:08:40.080 --> 00:08:41.589 align:start position:0%
+think of doing one step at a time.
+Hardware,<00:08:40.599><c> we</c><00:08:40.719><c> can</c><00:08:40.880><c> have</c><00:08:41.039><c> lots</c><00:08:41.280><c> of</c><00:08:41.360><c> things</c>
+
+00:08:41.589 --> 00:08:41.599 align:start position:0%
+Hardware, we can have lots of things
+ 
+
+00:08:41.599 --> 00:08:44.470 align:start position:0%
+Hardware, we can have lots of things
+going<00:08:41.840><c> in</c><00:08:41.960><c> parallel</c><00:08:42.919><c> and</c><00:08:43.039><c> the</c><00:08:43.120><c> syntax</c><00:08:43.880><c> of</c><00:08:43.960><c> VHDL</c>
+
+00:08:44.470 --> 00:08:44.480 align:start position:0%
+going in parallel and the syntax of VHDL
+ 
+
+00:08:44.480 --> 00:08:46.230 align:start position:0%
+going in parallel and the syntax of VHDL
+has<00:08:44.720><c> clearly</c><00:08:45.000><c> separates</c><00:08:45.600><c> the</c><00:08:45.720><c> parallel</c>
+
+00:08:46.230 --> 00:08:46.240 align:start position:0%
+has clearly separates the parallel
+ 
+
+00:08:46.240 --> 00:08:48.910 align:start position:0%
+has clearly separates the parallel
+hardware<00:08:46.640><c> blocks</c><00:08:47.240><c> from</c><00:08:47.760><c> sequential</c><00:08:48.400><c> process</c>
+
+00:08:48.910 --> 00:08:48.920 align:start position:0%
+hardware blocks from sequential process
+ 
+
+00:08:48.920 --> 00:08:51.270 align:start position:0%
+hardware blocks from sequential process
+loops.
+
+00:08:51.270 --> 00:08:51.280 align:start position:0%
+loops.
+ 
+
+00:08:51.280 --> 00:08:52.270 align:start position:0%
+loops.
+So,<00:08:51.400><c> those</c><00:08:51.600><c> are</c><00:08:51.680><c> the</c><00:08:51.760><c> educational</c>
+
+00:08:52.270 --> 00:08:52.280 align:start position:0%
+So, those are the educational
+ 
+
+00:08:52.280 --> 00:08:53.670 align:start position:0%
+So, those are the educational
+advantages.<00:08:52.760><c> There</c><00:08:52.880><c> are</c><00:08:53.040><c> some</c><00:08:53.240><c> technical</c>
+
+00:08:53.670 --> 00:08:53.680 align:start position:0%
+advantages. There are some technical
+ 
+
+00:08:53.680 --> 00:08:55.550 align:start position:0%
+advantages. There are some technical
+advantages.<00:08:54.200><c> The</c><00:08:54.280><c> strong</c><00:08:54.560><c> typing</c><00:08:55.120><c> is</c><00:08:55.280><c> very</c>
+
+00:08:55.550 --> 00:08:55.560 align:start position:0%
+advantages. The strong typing is very
+ 
+
+00:08:55.560 --> 00:08:57.710 align:start position:0%
+advantages. The strong typing is very
+much<00:08:55.839><c> a</c><00:08:55.880><c> technical</c><00:08:56.360><c> advantage.</c><00:08:56.920><c> It</c><00:08:57.200><c> obviously</c>
+
+00:08:57.710 --> 00:08:57.720 align:start position:0%
+much a technical advantage. It obviously
+ 
+
+00:08:57.720 --> 00:08:59.950 align:start position:0%
+much a technical advantage. It obviously
+stops<00:08:58.160><c> typing</c><00:08:58.600><c> with</c><00:08:58.800><c> mismatch</c><00:08:59.320><c> errors.</c><00:08:59.839><c> It</c>
+
+00:08:59.950 --> 00:08:59.960 align:start position:0%
+stops typing with mismatch errors. It
+ 
+
+00:08:59.960 --> 00:09:03.110 align:start position:0%
+stops typing with mismatch errors. It
+requires<00:09:00.360><c> explicit</c><00:09:01.560><c> declarations</c><00:09:02.839><c> so</c><00:09:02.960><c> that</c>
+
+00:09:03.110 --> 00:09:03.120 align:start position:0%
+requires explicit declarations so that
+ 
+
+00:09:03.120 --> 00:09:05.430 align:start position:0%
+requires explicit declarations so that
+so<00:09:03.320><c> it</c><00:09:03.720><c> prevents</c><00:09:04.040><c> those</c><00:09:04.280><c> during</c><00:09:04.560><c> compilation</c>
+
+00:09:05.430 --> 00:09:05.440 align:start position:0%
+so it prevents those during compilation
+ 
+
+00:09:05.440 --> 00:09:07.790 align:start position:0%
+so it prevents those during compilation
+rather<00:09:05.680><c> than</c><00:09:05.880><c> hiding</c><00:09:06.280><c> them</c><00:09:07.040><c> or</c><00:09:07.240><c> failing</c><00:09:07.560><c> later</c>
+
+00:09:07.790 --> 00:09:07.800 align:start position:0%
+rather than hiding them or failing later
+ 
+
+00:09:07.800 --> 00:09:10.070 align:start position:0%
+rather than hiding them or failing later
+in<00:09:07.920><c> hardware</c><00:09:08.320><c> where</c><00:09:08.440><c> they're</c><00:09:08.600><c> much</c><00:09:09.280><c> much</c>
+
+00:09:10.070 --> 00:09:10.080 align:start position:0%
+in hardware where they're much much
+ 
+
+00:09:10.080 --> 00:09:12.816 align:start position:0%
+in hardware where they're much much
+harder<00:09:10.800><c> to</c><00:09:10.960><c> diagnose</c><00:09:11.920><c> and</c><00:09:12.040><c> fix.</c>
+
+00:09:12.816 --> 00:09:12.826 align:start position:0%
+harder to diagnose and fix.
+ 
+
+00:09:12.826 --> 00:09:13.310 align:start position:0%
+harder to diagnose and fix.
+&gt;&gt; [snorts]
+
+00:09:13.310 --> 00:09:13.320 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:09:13.320 --> 00:09:15.630 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; The<00:09:13.640><c> deterministic</c><00:09:14.280><c> execution</c><00:09:14.880><c> is</c><00:09:15.080><c> also</c>
+
+00:09:15.630 --> 00:09:15.640 align:start position:0%
+&gt;&gt; The deterministic execution is also
+ 
+
+00:09:15.640 --> 00:09:17.990 align:start position:0%
+&gt;&gt; The deterministic execution is also
+something<00:09:16.160><c> is</c><00:09:16.280><c> strictly</c><00:09:16.560><c> deterministic.</c>
+
+00:09:17.990 --> 00:09:18.000 align:start position:0%
+something is strictly deterministic.
+ 
+
+00:09:18.000 --> 00:09:19.710 align:start position:0%
+something is strictly deterministic.
+Is<00:09:18.360><c> also</c><00:09:18.640><c> something</c><00:09:19.040><c> which</c><00:09:19.200><c> I</c><00:09:19.280><c> consider</c><00:09:19.640><c> a</c>
+
+00:09:19.710 --> 00:09:19.720 align:start position:0%
+Is also something which I consider a
+ 
+
+00:09:19.720 --> 00:09:21.630 align:start position:0%
+Is also something which I consider a
+technical<00:09:20.160><c> advantage</c>
+
+00:09:21.630 --> 00:09:21.640 align:start position:0%
+technical advantage
+ 
+
+00:09:21.640 --> 00:09:24.030 align:start position:0%
+technical advantage
+and<00:09:21.760><c> it</c><00:09:21.880><c> avoids</c><00:09:22.440><c> unexpected</c><00:09:23.080><c> simulation</c><00:09:23.800><c> race</c>
+
+00:09:24.030 --> 00:09:24.040 align:start position:0%
+and it avoids unexpected simulation race
+ 
+
+00:09:24.040 --> 00:09:25.430 align:start position:0%
+and it avoids unexpected simulation race
+conditions.
+
+00:09:25.430 --> 00:09:25.440 align:start position:0%
+conditions.
+ 
+
+00:09:25.440 --> 00:09:27.350 align:start position:0%
+conditions.
+These<00:09:25.839><c> were</c><00:09:26.040><c> common</c><00:09:26.400><c> in</c><00:09:26.520><c> older</c><00:09:26.760><c> Verilog.</c><00:09:27.240><c> So,</c>
+
+00:09:27.350 --> 00:09:27.360 align:start position:0%
+These were common in older Verilog. So,
+ 
+
+00:09:27.360 --> 00:09:29.190 align:start position:0%
+These were common in older Verilog. So,
+Verilog<00:09:27.760><c> the</c><00:09:27.880><c> language</c><00:09:28.280><c> is</c><00:09:28.440><c> not</c><00:09:28.720><c> does</c><00:09:28.920><c> not</c>
+
+00:09:29.190 --> 00:09:29.200 align:start position:0%
+Verilog the language is not does not
+ 
+
+00:09:29.200 --> 00:09:30.350 align:start position:0%
+Verilog the language is not does not
+guarantee
+
+00:09:30.350 --> 00:09:30.360 align:start position:0%
+guarantee
+ 
+
+00:09:30.360 --> 00:09:32.430 align:start position:0%
+guarantee
+is<00:09:30.480><c> not</c><00:09:30.680><c> strictly</c><00:09:30.960><c> deterministic.</c><00:09:32.040><c> Modern</c>
+
+00:09:32.430 --> 00:09:32.440 align:start position:0%
+is not strictly deterministic. Modern
+ 
+
+00:09:32.440 --> 00:09:33.910 align:start position:0%
+is not strictly deterministic. Modern
+implementations<00:09:33.120><c> are</c><00:09:33.520><c> and</c><00:09:33.640><c> it's</c><00:09:33.720><c> not</c><00:09:33.880><c> a</c>
+
+00:09:33.910 --> 00:09:33.920 align:start position:0%
+implementations are and it's not a
+ 
+
+00:09:33.920 --> 00:09:35.990 align:start position:0%
+implementations are and it's not a
+problem.<00:09:34.960><c> But</c><00:09:35.080><c> just</c><00:09:35.280><c> to</c><00:09:35.360><c> be</c><00:09:35.440><c> aware</c><00:09:35.800><c> that</c>
+
+00:09:35.990 --> 00:09:36.000 align:start position:0%
+problem. But just to be aware that
+ 
+
+00:09:36.000 --> 00:09:37.910 align:start position:0%
+problem. But just to be aware that
+Verilog<00:09:36.400><c> as</c><00:09:36.520><c> a</c><00:09:36.720><c> language</c><00:09:37.320><c> does</c><00:09:37.560><c> have</c><00:09:37.720><c> this</c>
+
+00:09:37.910 --> 00:09:37.920 align:start position:0%
+Verilog as a language does have this
+ 
+
+00:09:37.920 --> 00:09:40.750 align:start position:0%
+Verilog as a language does have this
+issue.<00:09:38.920><c> And</c><00:09:39.280><c> it</c><00:09:39.440><c> is</c><00:09:39.560><c> also</c><00:09:39.880><c> considered</c><00:09:40.440><c> better</c>
+
+00:09:40.750 --> 00:09:40.760 align:start position:0%
+issue. And it is also considered better
+ 
+
+00:09:40.760 --> 00:09:42.590 align:start position:0%
+issue. And it is also considered better
+for<00:09:40.920><c> larger</c><00:09:41.240><c> projects</c><00:09:41.800><c> in</c><00:09:41.880><c> terms</c><00:09:42.160><c> of</c><00:09:42.280><c> how</c><00:09:42.440><c> it</c>
+
+00:09:42.590 --> 00:09:42.600 align:start position:0%
+for larger projects in terms of how it
+ 
+
+00:09:42.600 --> 00:09:44.550 align:start position:0%
+for larger projects in terms of how it
+hands<00:09:43.080><c> handles</c><00:09:43.520><c> complex</c><00:09:43.960><c> packages,</c>
+
+00:09:44.550 --> 00:09:44.560 align:start position:0%
+hands handles complex packages,
+ 
+
+00:09:44.560 --> 00:09:46.430 align:start position:0%
+hands handles complex packages,
+unconstrained<00:09:45.200><c> records,</c>
+
+00:09:46.430 --> 00:09:46.440 align:start position:0%
+unconstrained records,
+ 
+
+00:09:46.440 --> 00:09:48.430 align:start position:0%
+unconstrained records,
+and<00:09:46.600><c> you</c><00:09:46.680><c> can</c><00:09:46.840><c> use</c><00:09:47.000><c> distinct</c><00:09:47.400><c> logic</c><00:09:47.720><c> libraries</c>
+
+00:09:48.430 --> 00:09:48.440 align:start position:0%
+and you can use distinct logic libraries
+ 
+
+00:09:48.440 --> 00:09:50.590 align:start position:0%
+and you can use distinct logic libraries
+clearly.<00:09:48.800><c> So,</c><00:09:49.440><c> it</c><00:09:49.560><c> is</c><00:09:49.680><c> considered</c><00:09:50.160><c> better</c><00:09:50.440><c> for</c>
+
+00:09:50.590 --> 00:09:50.600 align:start position:0%
+clearly. So, it is considered better for
+ 
+
+00:09:50.600 --> 00:09:52.390 align:start position:0%
+clearly. So, it is considered better for
+large<00:09:50.920><c> projects.</c>
+
+00:09:52.390 --> 00:09:52.400 align:start position:0%
+large projects.
+ 
+
+00:09:52.400 --> 00:09:54.390 align:start position:0%
+large projects.
+And<00:09:52.600><c> in</c><00:09:52.680><c> terms</c><00:09:53.040><c> of</c><00:09:53.600><c> career</c><00:09:53.920><c> and</c><00:09:54.040><c> industry</c>
+
+00:09:54.390 --> 00:09:54.400 align:start position:0%
+And in terms of career and industry
+ 
+
+00:09:54.400 --> 00:09:55.590 align:start position:0%
+And in terms of career and industry
+reasons,
+
+00:09:55.590 --> 00:09:55.600 align:start position:0%
+reasons,
+ 
+
+00:09:55.600 --> 00:09:58.750 align:start position:0%
+reasons,
+defense<00:09:55.960><c> and</c><00:09:56.080><c> aerospace</c><00:09:56.800><c> use</c><00:09:57.120><c> VHDL</c><00:09:57.720><c> a</c><00:09:57.760><c> lot</c><00:09:58.640><c> in</c>
+
+00:09:58.750 --> 00:09:58.760 align:start position:0%
+defense and aerospace use VHDL a lot in
+ 
+
+00:09:58.760 --> 00:10:00.870 align:start position:0%
+defense and aerospace use VHDL a lot in
+the<00:09:58.840><c> UK</c><00:09:59.520><c> particularly.</c>
+
+00:10:00.870 --> 00:10:00.880 align:start position:0%
+the UK particularly.
+ 
+
+00:10:00.880 --> 00:10:02.190 align:start position:0%
+the UK particularly.
+So,<00:10:01.000><c> it</c><00:10:01.080><c> remains</c><00:10:01.360><c> a</c><00:10:01.400><c> core</c><00:10:01.640><c> requirement</c><00:10:02.120><c> for</c>
+
+00:10:02.190 --> 00:10:02.200 align:start position:0%
+So, it remains a core requirement for
+ 
+
+00:10:02.200 --> 00:10:05.390 align:start position:0%
+So, it remains a core requirement for
+military<00:10:02.720><c> avionics,</c><00:10:03.800><c> space</c><00:10:04.120><c> industry,</c><00:10:05.160><c> and</c>
+
+00:10:05.390 --> 00:10:05.400 align:start position:0%
+military avionics, space industry, and
+ 
+
+00:10:05.400 --> 00:10:07.670 align:start position:0%
+military avionics, space industry, and
+government<00:10:05.840><c> contractor</c><00:10:06.400><c> projects.</c>
+
+00:10:07.670 --> 00:10:07.680 align:start position:0%
+government contractor projects.
+ 
+
+00:10:07.680 --> 00:10:09.950 align:start position:0%
+government contractor projects.
+In<00:10:07.880><c> terms</c><00:10:08.200><c> of</c><00:10:08.400><c> regional</c><00:10:08.760><c> demand,</c><00:10:09.200><c> VHDL</c><00:10:09.840><c> is</c>
+
+00:10:09.950 --> 00:10:09.960 align:start position:0%
+In terms of regional demand, VHDL is
+ 
+
+00:10:09.960 --> 00:10:12.430 align:start position:0%
+In terms of regional demand, VHDL is
+more<00:10:10.160><c> commonly</c><00:10:10.600><c> used</c><00:10:10.880><c> in</c><00:10:11.040><c> Europe</c><00:10:11.680><c> across</c>
+
+00:10:12.430 --> 00:10:12.440 align:start position:0%
+more commonly used in Europe across
+ 
+
+00:10:12.440 --> 00:10:14.150 align:start position:0%
+more commonly used in Europe across
+European<00:10:12.960><c> engineering</c><00:10:13.400><c> firms</c><00:10:14.040><c> and</c>
+
+00:10:14.150 --> 00:10:14.160 align:start position:0%
+European engineering firms and
+ 
+
+00:10:14.160 --> 00:10:15.990 align:start position:0%
+European engineering firms and
+universities.<00:10:15.080><c> Whereas</c>
+
+00:10:15.990 --> 00:10:16.000 align:start position:0%
+universities. Whereas
+ 
+
+00:10:16.000 --> 00:10:17.910 align:start position:0%
+universities. Whereas
+in<00:10:16.160><c> Asia</c><00:10:16.400><c> and</c><00:10:16.520><c> America,</c><00:10:17.040><c> I</c><00:10:17.080><c> would</c><00:10:17.240><c> say</c><00:10:17.440><c> Verilog</c>
+
+00:10:17.910 --> 00:10:17.920 align:start position:0%
+in Asia and America, I would say Verilog
+ 
+
+00:10:17.920 --> 00:10:21.630 align:start position:0%
+in Asia and America, I would say Verilog
+is<00:10:18.240><c> is</c><00:10:18.440><c> more</c><00:10:18.640><c> commonly</c><00:10:19.080><c> used.</c>
+
+00:10:21.630 --> 00:10:21.640 align:start position:0%
+is is more commonly used.
+ 
+
+00:10:21.640 --> 00:10:23.510 align:start position:0%
+is is more commonly used.
+Um<00:10:22.320><c> so,</c><00:10:22.680><c> there</c><00:10:22.840><c> are</c><00:10:22.960><c> some</c><00:10:23.120><c> practical</c>
+
+00:10:23.510 --> 00:10:23.520 align:start position:0%
+Um so, there are some practical
+ 
+
+00:10:23.520 --> 00:10:24.870 align:start position:0%
+Um so, there are some practical
+exercises<00:10:24.040><c> that</c><00:10:24.160><c> go</c><00:10:24.280><c> along</c><00:10:24.560><c> with</c><00:10:24.680><c> this</c>
+
+00:10:24.870 --> 00:10:24.880 align:start position:0%
+exercises that go along with this
+ 
+
+00:10:24.880 --> 00:10:27.150 align:start position:0%
+exercises that go along with this
+course.<00:10:25.640><c> Um</c><00:10:25.680><c> we're</c><00:10:25.800><c> going</c><00:10:25.920><c> to</c><00:10:25.960><c> be</c><00:10:26.040><c> using</c><00:10:26.880><c> this</c>
+
+00:10:27.150 --> 00:10:27.160 align:start position:0%
+course. Um we're going to be using this
+ 
+
+00:10:27.160 --> 00:10:30.630 align:start position:0%
+course. Um we're going to be using this
+Basis<00:10:27.560><c> 3</c><00:10:27.920><c> Artix-7</c><00:10:28.880><c> FPGA</c><00:10:29.480><c> board.</c><00:10:30.200><c> You</c><00:10:30.400><c> could</c>
+
+00:10:30.630 --> 00:10:30.640 align:start position:0%
+Basis 3 Artix-7 FPGA board. You could
+ 
+
+00:10:30.640 --> 00:10:33.310 align:start position:0%
+Basis 3 Artix-7 FPGA board. You could
+use<00:10:30.800><c> an</c><00:10:30.880><c> equivalent</c><00:10:31.400><c> board</c><00:10:31.720><c> provided</c><00:10:32.360><c> it's</c><00:10:33.240><c> a</c>
+
+00:10:33.310 --> 00:10:33.320 align:start position:0%
+use an equivalent board provided it's a
+ 
+
+00:10:33.320 --> 00:10:35.870 align:start position:0%
+use an equivalent board provided it's a
+similar<00:10:33.680><c> kind</c><00:10:33.960><c> of</c><00:10:34.040><c> FPGA.</c><00:10:35.360><c> But</c><00:10:35.480><c> you</c><00:10:35.600><c> would</c><00:10:35.720><c> have</c>
+
+00:10:35.870 --> 00:10:35.880 align:start position:0%
+similar kind of FPGA. But you would have
+ 
+
+00:10:35.880 --> 00:10:37.590 align:start position:0%
+similar kind of FPGA. But you would have
+to<00:10:36.000><c> make</c><00:10:36.160><c> some</c><00:10:36.360><c> changes</c><00:10:36.800><c> to</c><00:10:36.880><c> configuration</c>
+
+00:10:37.590 --> 00:10:37.600 align:start position:0%
+to make some changes to configuration
+ 
+
+00:10:37.600 --> 00:10:39.550 align:start position:0%
+to make some changes to configuration
+files<00:10:37.880><c> if</c><00:10:38.040><c> you</c><00:10:38.160><c> do</c><00:10:38.360><c> that.</c>
+
+00:10:39.550 --> 00:10:39.560 align:start position:0%
+files if you do that.
+ 
+
+00:10:39.560 --> 00:10:41.310 align:start position:0%
+files if you do that.
+You<00:10:39.680><c> will</c><00:10:39.880><c> need</c><00:10:40.160><c> to</c><00:10:40.280><c> install</c><00:10:40.720><c> Microsoft</c>
+
+00:10:41.310 --> 00:10:41.320 align:start position:0%
+You will need to install Microsoft
+ 
+
+00:10:41.320 --> 00:10:43.070 align:start position:0%
+You will need to install Microsoft
+Visual<00:10:41.640><c> Studio</c><00:10:42.040><c> Code,</c><00:10:42.480><c> which</c><00:10:42.720><c> I'm</c><00:10:42.839><c> going</c><00:10:42.960><c> to</c>
+
+00:10:43.070 --> 00:10:43.080 align:start position:0%
+Visual Studio Code, which I'm going to
+ 
+
+00:10:43.080 --> 00:10:44.670 align:start position:0%
+Visual Studio Code, which I'm going to
+use<00:10:43.280><c> as</c><00:10:43.400><c> the</c><00:10:43.520><c> interface.</c><00:10:44.240><c> It's</c><00:10:44.400><c> obviously</c>
+
+00:10:44.670 --> 00:10:44.680 align:start position:0%
+use as the interface. It's obviously
+ 
+
+00:10:44.680 --> 00:10:46.482 align:start position:0%
+use as the interface. It's obviously
+available<00:10:45.040><c> from</c><00:10:45.160><c> Microsoft.</c>
+
+00:10:46.482 --> 00:10:46.492 align:start position:0%
+available from Microsoft.
+ 
+
+00:10:46.492 --> 00:10:46.590 align:start position:0%
+available from Microsoft.
+&gt;&gt; [snorts]
+
+00:10:46.590 --> 00:10:46.600 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:10:46.600 --> 00:10:48.430 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Uh<00:10:46.960><c> there</c><00:10:47.120><c> is</c><00:10:47.400><c> my</c><00:10:47.640><c> template</c><00:10:48.200><c> for</c><00:10:48.320><c> the</c>
+
+00:10:48.430 --> 00:10:48.440 align:start position:0%
+&gt;&gt; Uh there is my template for the
+ 
+
+00:10:48.440 --> 00:10:50.829 align:start position:0%
+&gt;&gt; Uh there is my template for the
+exercises.<00:10:49.200><c> So,</c><00:10:49.320><c> this</c><00:10:49.560><c> learn</c><00:10:49.800><c> VHDL</c><00:10:50.720><c> is</c>
+
+00:10:50.829 --> 00:10:50.839 align:start position:0%
+exercises. So, this learn VHDL is
+ 
+
+00:10:50.839 --> 00:10:52.750 align:start position:0%
+exercises. So, this learn VHDL is
+available<00:10:51.320><c> on</c><00:10:51.480><c> GitHub.</c>
+
+00:10:52.750 --> 00:10:52.760 align:start position:0%
+available on GitHub.
+ 
+
+00:10:52.760 --> 00:10:54.190 align:start position:0%
+available on GitHub.
+Um<00:10:52.839><c> if</c><00:10:52.960><c> you're</c><00:10:53.080><c> already</c><00:10:53.400><c> using</c><00:10:53.720><c> Git,</c><00:10:54.120><c> I</c>
+
+00:10:54.190 --> 00:10:54.200 align:start position:0%
+Um if you're already using Git, I
+ 
+
+00:10:54.200 --> 00:10:56.350 align:start position:0%
+Um if you're already using Git, I
+suggest<00:10:54.640><c> you</c><00:10:54.760><c> clone</c><00:10:55.040><c> it</c><00:10:55.280><c> using</c><00:10:55.600><c> Git.</c><00:10:56.240><c> If</c>
+
+00:10:56.350 --> 00:10:56.360 align:start position:0%
+suggest you clone it using Git. If
+ 
+
+00:10:56.360 --> 00:10:58.470 align:start position:0%
+suggest you clone it using Git. If
+you're<00:10:56.480><c> not,</c><00:10:56.920><c> I</c><00:10:57.000><c> suggest</c><00:10:57.440><c> you</c><00:10:57.480><c> install</c><00:10:57.880><c> Git.</c>
+
+00:10:58.470 --> 00:10:58.480 align:start position:0%
+you're not, I suggest you install Git.
+ 
+
+00:10:58.480 --> 00:11:00.190 align:start position:0%
+you're not, I suggest you install Git.
+You<00:10:58.600><c> can</c><00:10:58.839><c> just</c><00:10:59.080><c> download</c><00:10:59.520><c> it</c><00:10:59.640><c> and</c><00:10:59.720><c> extract</c><00:11:00.120><c> it</c>
+
+00:11:00.190 --> 00:11:00.200 align:start position:0%
+You can just download it and extract it
+ 
+
+00:11:00.200 --> 00:11:02.430 align:start position:0%
+You can just download it and extract it
+as<00:11:00.320><c> an</c><00:11:00.440><c> archive</c><00:11:00.920><c> from</c><00:11:01.120><c> there</c><00:11:01.800><c> um</c><00:11:02.000><c> if</c><00:11:02.160><c> you</c><00:11:02.240><c> don't</c>
+
+00:11:02.430 --> 00:11:02.440 align:start position:0%
+as an archive from there um if you don't
+ 
+
+00:11:02.440 --> 00:11:04.750 align:start position:0%
+as an archive from there um if you don't
+want<00:11:02.640><c> to</c><00:11:02.720><c> use</c><00:11:02.920><c> Git</c><00:11:03.680><c> for</c><00:11:03.839><c> version</c><00:11:04.160><c> management.</c>
+
+00:11:04.750 --> 00:11:04.760 align:start position:0%
+want to use Git for version management.
+ 
+
+00:11:04.760 --> 00:11:06.590 align:start position:0%
+want to use Git for version management.
+But<00:11:04.920><c> I</c><00:11:05.000><c> really</c><00:11:05.600><c> strongly</c><00:11:05.960><c> advise</c><00:11:06.400><c> using</c>
+
+00:11:06.590 --> 00:11:06.600 align:start position:0%
+But I really strongly advise using
+ 
+
+00:11:06.600 --> 00:11:08.270 align:start position:0%
+But I really strongly advise using
+version<00:11:06.920><c> management.</c>
+
+00:11:08.270 --> 00:11:08.280 align:start position:0%
+version management.
+ 
+
+00:11:08.280 --> 00:11:11.070 align:start position:0%
+version management.
+And<00:11:08.400><c> we're</c><00:11:08.520><c> using</c><00:11:08.920><c> AMD</c><00:11:09.800><c> Vivado</c><00:11:10.240><c> Design</c><00:11:10.720><c> Suite.</c>
+
+00:11:11.070 --> 00:11:11.080 align:start position:0%
+And we're using AMD Vivado Design Suite.
+ 
+
+00:11:11.080 --> 00:11:13.270 align:start position:0%
+And we're using AMD Vivado Design Suite.
+So,<00:11:11.200><c> that</c><00:11:11.400><c> is</c><00:11:11.720><c> a</c><00:11:11.800><c> commercial</c><00:11:12.320><c> tool.</c><00:11:13.000><c> We</c><00:11:13.120><c> have</c>
+
+00:11:13.270 --> 00:11:13.280 align:start position:0%
+So, that is a commercial tool. We have
+ 
+
+00:11:13.280 --> 00:11:14.950 align:start position:0%
+So, that is a commercial tool. We have
+to<00:11:13.360><c> use</c><00:11:13.520><c> a</c><00:11:13.560><c> commercial</c><00:11:14.080><c> proprietary</c><00:11:14.680><c> tool</c>
+
+00:11:14.950 --> 00:11:14.960 align:start position:0%
+to use a commercial proprietary tool
+ 
+
+00:11:14.960 --> 00:11:16.670 align:start position:0%
+to use a commercial proprietary tool
+because<00:11:15.320><c> of</c><00:11:15.440><c> course</c><00:11:15.720><c> the</c><00:11:15.880><c> FPGA</c><00:11:16.480><c> is</c><00:11:16.640><c> a</c>
+
+00:11:16.670 --> 00:11:16.680 align:start position:0%
+because of course the FPGA is a
+ 
+
+00:11:16.680 --> 00:11:18.790 align:start position:0%
+because of course the FPGA is a
+proprietary<00:11:17.160><c> device.</c>
+
+00:11:18.790 --> 00:11:18.800 align:start position:0%
+proprietary device.
+ 
+
+00:11:18.800 --> 00:11:21.270 align:start position:0%
+proprietary device.
+Um<00:11:19.320><c> so,</c><00:11:19.480><c> we're</c><00:11:19.600><c> using</c><00:11:19.839><c> their</c><00:11:20.000><c> design</c><00:11:20.400><c> suite.</c>
+
+00:11:21.270 --> 00:11:21.280 align:start position:0%
+Um so, we're using their design suite.
+ 
+
+00:11:21.280 --> 00:11:23.590 align:start position:0%
+Um so, we're using their design suite.
+Um<00:11:21.920><c> but</c><00:11:22.080><c> we</c><00:11:22.200><c> are</c><00:11:22.280><c> using</c><00:11:22.640><c> it</c><00:11:22.880><c> with</c><00:11:23.080><c> Microsoft</c>
+
+00:11:23.590 --> 00:11:23.600 align:start position:0%
+Um but we are using it with Microsoft
+ 
+
+00:11:23.600 --> 00:11:25.550 align:start position:0%
+Um but we are using it with Microsoft
+Visual<00:11:23.920><c> Studio</c><00:11:24.280><c> Code</c><00:11:24.520><c> as</c><00:11:24.640><c> the</c><00:11:24.760><c> interface</c>
+
+00:11:25.550 --> 00:11:25.560 align:start position:0%
+Visual Studio Code as the interface
+ 
+
+00:11:25.560 --> 00:11:27.390 align:start position:0%
+Visual Studio Code as the interface
+rather<00:11:25.839><c> than</c><00:11:26.000><c> using</c><00:11:26.280><c> the</c><00:11:26.400><c> GUI.</c>
+
+00:11:27.390 --> 00:11:27.400 align:start position:0%
+rather than using the GUI.
+ 
+
+00:11:27.400 --> 00:11:29.990 align:start position:0%
+rather than using the GUI.
+So,<00:11:27.720><c> just</c><00:11:27.960><c> to</c><00:11:28.040><c> be</c><00:11:28.160><c> aware</c><00:11:28.440><c> this</c><00:11:28.960><c> is</c><00:11:29.560><c> commercial</c>
+
+00:11:29.990 --> 00:11:30.000 align:start position:0%
+So, just to be aware this is commercial
+ 
+
+00:11:30.000 --> 00:11:31.750 align:start position:0%
+So, just to be aware this is commercial
+software,<00:11:30.520><c> but</c><00:11:30.680><c> there</c><00:11:30.800><c> is</c><00:11:30.920><c> a</c><00:11:31.000><c> free</c><00:11:31.240><c> basic</c>
+
+00:11:31.750 --> 00:11:31.760 align:start position:0%
+software, but there is a free basic
+ 
+
+00:11:31.760 --> 00:11:34.190 align:start position:0%
+software, but there is a free basic
+license<00:11:32.600><c> available.</c><00:11:33.320><c> So,</c><00:11:33.480><c> when</c><00:11:33.680><c> you</c><00:11:33.760><c> go</c><00:11:33.920><c> to</c>
+
+00:11:34.190 --> 00:11:34.200 align:start position:0%
+license available. So, when you go to
+ 
+
+00:11:34.200 --> 00:11:36.790 align:start position:0%
+license available. So, when you go to
+their<00:11:34.400><c> website</c><00:11:35.520><c> and</c><00:11:35.960><c> to</c><00:11:36.080><c> install</c><00:11:36.520><c> it,</c><00:11:36.640><c> make</c>
+
+00:11:36.790 --> 00:11:36.800 align:start position:0%
+their website and to install it, make
+ 
+
+00:11:36.800 --> 00:11:38.950 align:start position:0%
+their website and to install it, make
+sure<00:11:37.000><c> you</c><00:11:37.120><c> select</c><00:11:37.480><c> the</c><00:11:37.600><c> free</c><00:11:37.800><c> basic</c><00:11:38.200><c> version.</c>
+
+00:11:38.950 --> 00:11:38.960 align:start position:0%
+sure you select the free basic version.
+ 
+
+00:11:38.960 --> 00:11:40.670 align:start position:0%
+sure you select the free basic version.
+You<00:11:39.160><c> also</c><00:11:39.480><c> need</c><00:11:39.680><c> to</c><00:11:39.800><c> make</c><00:11:40.080><c> make</c><00:11:40.280><c> sure</c><00:11:40.520><c> you</c>
+
+00:11:40.670 --> 00:11:40.680 align:start position:0%
+You also need to make make sure you
+ 
+
+00:11:40.680 --> 00:11:43.430 align:start position:0%
+You also need to make make sure you
+select<00:11:41.800><c> Arctic</c><00:11:42.200><c> 7</c><00:11:42.520><c> support</c><00:11:42.960><c> for</c><00:11:43.080><c> this</c><00:11:43.360><c> the</c>
+
+00:11:43.430 --> 00:11:43.440 align:start position:0%
+select Arctic 7 support for this the
+ 
+
+00:11:43.440 --> 00:11:45.190 align:start position:0%
+select Arctic 7 support for this the
+support<00:11:43.800><c> for</c><00:11:43.880><c> this</c><00:11:44.040><c> particular</c>
+
+00:11:45.190 --> 00:11:45.200 align:start position:0%
+support for this particular
+ 
+
+00:11:45.200 --> 00:11:47.230 align:start position:0%
+support for this particular
+chip.<00:11:46.120><c> And</c><00:11:46.240><c> the</c><00:11:46.360><c> other</c><00:11:46.520><c> thing</c><00:11:46.720><c> you'll</c><00:11:46.880><c> have</c><00:11:47.120><c> to</c>
+
+00:11:47.230 --> 00:11:47.240 align:start position:0%
+chip. And the other thing you'll have to
+ 
+
+00:11:47.240 --> 00:11:48.550 align:start position:0%
+chip. And the other thing you'll have to
+do<00:11:47.440><c> when</c><00:11:47.600><c> you're</c><00:11:47.720><c> do</c><00:11:47.880><c> if</c><00:11:48.000><c> you</c><00:11:48.160><c> go</c><00:11:48.400><c> up</c><00:11:48.480><c> and</c>
+
+00:11:48.550 --> 00:11:48.560 align:start position:0%
+do when you're do if you go up and
+ 
+
+00:11:48.560 --> 00:11:50.310 align:start position:0%
+do when you're do if you go up and
+install<00:11:48.960><c> this</c><00:11:49.200><c> is</c><00:11:49.320><c> keep</c><00:11:49.560><c> a</c><00:11:49.600><c> record</c><00:11:50.040><c> of</c><00:11:50.120><c> where</c>
+
+00:11:50.310 --> 00:11:50.320 align:start position:0%
+install this is keep a record of where
+ 
+
+00:11:50.320 --> 00:11:51.710 align:start position:0%
+install this is keep a record of where
+you've<00:11:50.480><c> installed</c><00:11:50.960><c> it.</c><00:11:51.160><c> You</c><00:11:51.320><c> have</c><00:11:51.480><c> to</c>
+
+00:11:51.710 --> 00:11:51.720 align:start position:0%
+you've installed it. You have to
+ 
+
+00:11:51.720 --> 00:11:53.910 align:start position:0%
+you've installed it. You have to
+installation<00:11:52.400><c> directory</c><00:11:53.200><c> cuz</c><00:11:53.400><c> you're</c><00:11:53.640><c> later</c>
+
+00:11:53.910 --> 00:11:53.920 align:start position:0%
+installation directory cuz you're later
+ 
+
+00:11:53.920 --> 00:11:55.270 align:start position:0%
+installation directory cuz you're later
+going<00:11:54.080><c> to</c><00:11:54.160><c> have</c><00:11:54.400><c> to</c><00:11:54.520><c> up</c>
+
+00:11:55.270 --> 00:11:55.280 align:start position:0%
+going to have to up
+ 
+
+00:11:55.280 --> 00:11:56.950 align:start position:0%
+going to have to up
+put<00:11:55.480><c> that</c><00:11:55.680><c> into</c><00:11:55.920><c> one</c><00:11:56.080><c> of</c><00:11:56.160><c> the</c><00:11:56.280><c> configuration</c>
+
+00:11:56.950 --> 00:11:56.960 align:start position:0%
+put that into one of the configuration
+ 
+
+00:11:56.960 --> 00:11:58.750 align:start position:0%
+put that into one of the configuration
+files.
+
+00:11:58.750 --> 00:11:58.760 align:start position:0%
+files.
+ 
+
+00:11:58.760 --> 00:12:01.230 align:start position:0%
+files.
+Um<00:11:59.400><c> I've</c><00:11:59.560><c> designed</c><00:12:00.000><c> this</c><00:12:00.240><c> and</c><00:12:00.400><c> tested</c><00:12:00.880><c> it</c><00:12:01.080><c> on</c>
+
+00:12:01.230 --> 00:12:01.240 align:start position:0%
+Um I've designed this and tested it on
+ 
+
+00:12:01.240 --> 00:12:04.070 align:start position:0%
+Um I've designed this and tested it on
+both<00:12:01.920><c> Windows</c><00:12:02.400><c> or</c><00:12:02.560><c> Linux</c><00:12:03.080><c> and</c><00:12:03.280><c> Linux.</c>
+
+00:12:04.070 --> 00:12:04.080 align:start position:0%
+both Windows or Linux and Linux.
+ 
+
+00:12:04.080 --> 00:12:07.390 align:start position:0%
+both Windows or Linux and Linux.
+Provided<00:12:05.240><c> Vivado</c><00:12:06.080><c> works,</c><00:12:06.560><c> the</c><00:12:06.680><c> design</c><00:12:07.080><c> suite</c>
+
+00:12:07.390 --> 00:12:07.400 align:start position:0%
+Provided Vivado works, the design suite
+ 
+
+00:12:07.400 --> 00:12:09.910 align:start position:0%
+Provided Vivado works, the design suite
+will<00:12:07.600><c> work</c><00:12:08.000><c> on</c><00:12:08.400><c> the</c><00:12:08.640><c> operating</c><00:12:09.040><c> system.</c><00:12:09.720><c> This</c>
+
+00:12:09.910 --> 00:12:09.920 align:start position:0%
+will work on the operating system. This
+ 
+
+00:12:09.920 --> 00:12:11.990 align:start position:0%
+will work on the operating system. This
+should<00:12:10.160><c> work.</c>
+
+00:12:11.990 --> 00:12:12.000 align:start position:0%
+should work.
+ 
+
+00:12:12.000 --> 00:12:13.750 align:start position:0%
+should work.
+Uh<00:12:12.200><c> the</c><00:12:12.320><c> links</c><00:12:12.800><c> for</c><00:12:12.920><c> these</c><00:12:13.160><c> various</c><00:12:13.520><c> things</c>
+
+00:12:13.750 --> 00:12:13.760 align:start position:0%
+Uh the links for these various things
+ 
+
+00:12:13.760 --> 00:12:15.150 align:start position:0%
+Uh the links for these various things
+are<00:12:13.840><c> here</c><00:12:14.200><c> and</c><00:12:14.360><c> I</c><00:12:14.400><c> will</c><00:12:14.560><c> provide</c><00:12:14.880><c> them</c><00:12:15.000><c> in</c><00:12:15.120><c> the</c>
+
+00:12:15.150 --> 00:12:15.160 align:start position:0%
+are here and I will provide them in the
+ 
+
+00:12:15.160 --> 00:12:19.150 align:start position:0%
+are here and I will provide them in the
+description<00:12:15.760><c> below</c><00:12:16.680><c> for</c><00:12:16.840><c> this</c><00:12:17.040><c> video.</c>
+
+00:12:19.150 --> 00:12:19.160 align:start position:0%
+description below for this video.
+ 
+
+00:12:19.160 --> 00:12:20.710 align:start position:0%
+description below for this video.
+So,<00:12:19.200><c> this</c><00:12:19.360><c> is</c><00:12:19.600><c> this</c><00:12:19.760><c> is</c><00:12:19.880><c> about</c><00:12:20.120><c> as</c><00:12:20.240><c> minimum</c><00:12:20.600><c> as</c>
+
+00:12:20.710 --> 00:12:20.720 align:start position:0%
+So, this is this is about as minimum as
+ 
+
+00:12:20.720 --> 00:12:22.710 align:start position:0%
+So, this is this is about as minimum as
+I<00:12:20.800><c> can</c><00:12:21.000><c> make</c><00:12:21.600><c> if</c><00:12:21.720><c> you're</c><00:12:21.800><c> going</c><00:12:21.920><c> to</c>
+
+00:12:22.710 --> 00:12:22.720 align:start position:0%
+I can make if you're going to
+ 
+
+00:12:22.720 --> 00:12:25.910 align:start position:0%
+I can make if you're going to
+work<00:12:22.960><c> with</c><00:12:23.080><c> FPGAs.</c>
+
+00:12:25.910 --> 00:12:25.920 align:start position:0%
+work with FPGAs.
+ 
+
+00:12:25.920 --> 00:12:28.150 align:start position:0%
+work with FPGAs.
+Um<00:12:26.240><c> in</c><00:12:26.320><c> terms</c><00:12:26.640><c> of</c><00:12:27.120><c> the</c><00:12:27.240><c> course</c><00:12:27.520><c> is</c><00:12:27.760><c> designed</c><00:12:28.120><c> to</c>
+
+00:12:28.150 --> 00:12:28.160 align:start position:0%
+Um in terms of the course is designed to
+ 
+
+00:12:28.160 --> 00:12:29.830 align:start position:0%
+Um in terms of the course is designed to
+be<00:12:28.280><c> self-contained.</c><00:12:29.040><c> You</c><00:12:29.120><c> don't</c><00:12:29.360><c> need</c><00:12:29.520><c> to</c><00:12:29.640><c> get</c>
+
+00:12:29.830 --> 00:12:29.840 align:start position:0%
+be self-contained. You don't need to get
+ 
+
+00:12:29.840 --> 00:12:32.030 align:start position:0%
+be self-contained. You don't need to get
+textbooks,<00:12:30.440><c> but</c><00:12:30.600><c> I</c><00:12:30.680><c> have</c><00:12:30.880><c> here</c><00:12:31.560><c> a</c><00:12:31.640><c> list</c><00:12:31.960><c> of</c>
+
+00:12:32.030 --> 00:12:32.040 align:start position:0%
+textbooks, but I have here a list of
+ 
+
+00:12:32.040 --> 00:12:34.230 align:start position:0%
+textbooks, but I have here a list of
+textbooks<00:12:32.560><c> that</c><00:12:32.720><c> might</c><00:12:32.880><c> be</c><00:12:33.000><c> useful</c><00:12:33.360><c> to</c><00:12:33.520><c> you.</c>
+
+00:12:34.230 --> 00:12:34.240 align:start position:0%
+textbooks that might be useful to you.
+ 
+
+00:12:34.240 --> 00:12:36.270 align:start position:0%
+textbooks that might be useful to you.
+Uh<00:12:34.320><c> the</c><00:12:34.440><c> top</c><00:12:34.760><c> one</c><00:12:34.920><c> I</c><00:12:35.000><c> mentioned</c><00:12:35.480><c> Mano</c><00:12:35.800><c> and</c><00:12:35.920><c> Kime</c>
+
+00:12:36.270 --> 00:12:36.280 align:start position:0%
+Uh the top one I mentioned Mano and Kime
+ 
+
+00:12:36.280 --> 00:12:37.870 align:start position:0%
+Uh the top one I mentioned Mano and Kime
+Logic<00:12:36.640><c> and</c><00:12:36.720><c> Computer</c><00:12:37.000><c> Design</c><00:12:37.320><c> Fundamentals.</c>
+
+00:12:37.870 --> 00:12:37.880 align:start position:0%
+Logic and Computer Design Fundamentals.
+ 
+
+00:12:37.880 --> 00:12:39.790 align:start position:0%
+Logic and Computer Design Fundamentals.
+I<00:12:38.000><c> only</c><00:12:38.280><c> mention</c><00:12:38.720><c> that</c><00:12:39.000><c> because</c><00:12:39.280><c> it's</c><00:12:39.400><c> a</c><00:12:39.480><c> very</c>
+
+00:12:39.790 --> 00:12:39.800 align:start position:0%
+I only mention that because it's a very
+ 
+
+00:12:39.800 --> 00:12:42.670 align:start position:0%
+I only mention that because it's a very
+widely<00:12:40.440><c> used</c><00:12:40.880><c> beginner's</c><00:12:41.360><c> textbook</c><00:12:42.080><c> in</c><00:12:42.320><c> UK</c>
+
+00:12:42.670 --> 00:12:42.680 align:start position:0%
+widely used beginner's textbook in UK
+ 
+
+00:12:42.680 --> 00:12:44.310 align:start position:0%
+widely used beginner's textbook in UK
+university<00:12:43.240><c> courses.</c><00:12:43.800><c> You</c><00:12:43.880><c> might</c><00:12:44.040><c> already</c>
+
+00:12:44.310 --> 00:12:44.320 align:start position:0%
+university courses. You might already
+ 
+
+00:12:44.320 --> 00:12:46.710 align:start position:0%
+university courses. You might already
+have<00:12:44.520><c> a</c><00:12:44.600><c> copy.</c><00:12:45.560><c> And</c><00:12:45.680><c> it</c><00:12:45.760><c> does</c><00:12:46.000><c> it</c><00:12:46.120><c> does</c><00:12:46.360><c> start</c>
+
+00:12:46.710 --> 00:12:46.720 align:start position:0%
+have a copy. And it does it does start
+ 
+
+00:12:46.720 --> 00:12:48.630 align:start position:0%
+have a copy. And it does it does start
+out<00:12:46.920><c> with</c><00:12:47.080><c> some</c><00:12:47.280><c> basics.</c>
+
+00:12:48.630 --> 00:12:48.640 align:start position:0%
+out with some basics.
+ 
+
+00:12:48.640 --> 00:12:51.350 align:start position:0%
+out with some basics.
+However,<00:12:49.080><c> it</c><00:12:49.200><c> isn't</c><00:12:49.480><c> sufficient</c><00:12:50.080><c> really.</c><00:12:50.760><c> Um</c>
+
+00:12:51.350 --> 00:12:51.360 align:start position:0%
+However, it isn't sufficient really. Um
+ 
+
+00:12:51.360 --> 00:12:52.550 align:start position:0%
+However, it isn't sufficient really. Um
+this<00:12:51.520><c> course</c><00:12:51.760><c> will</c><00:12:51.880><c> go</c><00:12:52.040><c> beyond</c><00:12:52.400><c> what's</c>
+
+00:12:52.550 --> 00:12:52.560 align:start position:0%
+this course will go beyond what's
+ 
+
+00:12:52.560 --> 00:12:54.790 align:start position:0%
+this course will go beyond what's
+covered<00:12:52.839><c> in</c><00:12:52.920><c> that</c><00:12:53.160><c> book.</c>
+
+00:12:54.790 --> 00:12:54.800 align:start position:0%
+covered in that book.
+ 
+
+00:12:54.800 --> 00:12:56.829 align:start position:0%
+covered in that book.
+The<00:12:54.920><c> book</c><00:12:55.200><c> I</c><00:12:55.400><c> I</c><00:12:55.520><c> most</c><00:12:55.880><c> recommend</c><00:12:56.360><c> is</c><00:12:56.680><c> the</c>
+
+00:12:56.829 --> 00:12:56.839 align:start position:0%
+The book I I most recommend is the
+ 
+
+00:12:56.839 --> 00:12:58.430 align:start position:0%
+The book I I most recommend is the
+second<00:12:57.200><c> one,</c><00:12:57.440><c> does</c><00:12:57.640><c> it</c><00:12:57.720><c> digital</c><00:12:58.000><c> design</c><00:12:58.320><c> with</c>
+
+00:12:58.430 --> 00:12:58.440 align:start position:0%
+second one, does it digital design with
+ 
+
+00:12:58.440 --> 00:13:00.790 align:start position:0%
+second one, does it digital design with
+VHDL<00:12:58.920><c> by</c><00:12:59.040><c> Max</c><00:12:59.280><c> Mlinkski.</c><00:13:00.240><c> Unfortunately,</c>
+
+00:13:00.790 --> 00:13:00.800 align:start position:0%
+VHDL by Max Mlinkski. Unfortunately,
+ 
+
+00:13:00.800 --> 00:13:02.630 align:start position:0%
+VHDL by Max Mlinkski. Unfortunately,
+it's<00:13:00.920><c> out</c><00:13:01.040><c> of</c><00:13:01.120><c> print.</c>
+
+00:13:02.630 --> 00:13:02.640 align:start position:0%
+it's out of print.
+ 
+
+00:13:02.640 --> 00:13:03.510 align:start position:0%
+it's out of print.
+So,<00:13:02.720><c> you'll</c><00:13:02.839><c> have</c><00:13:02.960><c> to</c><00:13:03.080><c> try</c><00:13:03.240><c> and</c><00:13:03.360><c> get</c><00:13:03.480><c> a</c>
+
+00:13:03.510 --> 00:13:03.520 align:start position:0%
+So, you'll have to try and get a
+ 
+
+00:13:03.520 --> 00:13:05.343 align:start position:0%
+So, you'll have to try and get a
+second-hand<00:13:04.120><c> copy</c><00:13:05.000><c> um</c>
+
+00:13:05.343 --> 00:13:05.353 align:start position:0%
+second-hand copy um
+ 
+
+00:13:05.353 --> 00:13:05.670 align:start position:0%
+second-hand copy um
+&gt;&gt; [clears throat]
+
+00:13:05.670 --> 00:13:05.680 align:start position:0%
+&gt;&gt; [clears throat]
+ 
+
+00:13:05.680 --> 00:13:08.670 align:start position:0%
+&gt;&gt; [clears throat]
+&gt;&gt; if<00:13:05.760><c> you</c><00:13:05.880><c> want</c><00:13:06.160><c> it.</c><00:13:06.640><c> Rushton</c><00:13:07.720><c> VHDL</c><00:13:08.200><c> for</c><00:13:08.320><c> Logical</c>
+
+00:13:08.670 --> 00:13:08.680 align:start position:0%
+&gt;&gt; if you want it. Rushton VHDL for Logical
+ 
+
+00:13:08.680 --> 00:13:10.390 align:start position:0%
+&gt;&gt; if you want it. Rushton VHDL for Logical
+Synthesis<00:13:09.360><c> and</c><00:13:09.600><c> Peter</c><00:13:09.880><c> Ashenden</c><00:13:10.320><c> The</c>
+
+00:13:10.390 --> 00:13:10.400 align:start position:0%
+Synthesis and Peter Ashenden The
+ 
+
+00:13:10.400 --> 00:13:11.870 align:start position:0%
+Synthesis and Peter Ashenden The
+Student's<00:13:10.760><c> Guide</c><00:13:10.960><c> to</c><00:13:11.040><c> VHDL</c><00:13:11.480><c> are</c><00:13:11.600><c> also</c>
+
+00:13:11.870 --> 00:13:11.880 align:start position:0%
+Student's Guide to VHDL are also
+ 
+
+00:13:11.880 --> 00:13:16.070 align:start position:0%
+Student's Guide to VHDL are also
+commonly<00:13:12.320><c> used</c><00:13:12.640><c> textbooks</c><00:13:13.680><c> in</c><00:13:13.800><c> this</c><00:13:14.000><c> area.</c><00:13:15.000><c> Um</c>
+
+00:13:16.070 --> 00:13:16.080 align:start position:0%
+commonly used textbooks in this area. Um
+ 
+
+00:13:16.080 --> 00:13:17.470 align:start position:0%
+commonly used textbooks in this area. Um
+and<00:13:16.200><c> then</c><00:13:16.480><c> and</c><00:13:16.600><c> then</c>
+
+00:13:17.470 --> 00:13:17.480 align:start position:0%
+and then and then
+ 
+
+00:13:17.480 --> 00:13:19.710 align:start position:0%
+and then and then
+um<00:13:17.720><c> and</c><00:13:17.839><c> as</c><00:13:18.040><c> is</c><00:13:18.160><c> Contemporary</c><00:13:18.600><c> Logic</c><00:13:18.880><c> Design.</c>
+
+00:13:19.710 --> 00:13:19.720 align:start position:0%
+um and as is Contemporary Logic Design.
+ 
+
+00:13:19.720 --> 00:13:21.719 align:start position:0%
+um and as is Contemporary Logic Design.
+None<00:13:20.000><c> of</c><00:13:20.080><c> these</c><00:13:20.280><c> are</c><00:13:20.400><c> essential.</c>
+
+00:13:21.719 --> 00:13:21.729 align:start position:0%
+None of these are essential.
+ 
+
+00:13:21.729 --> 00:13:22.670 align:start position:0%
+None of these are essential.
+&gt;&gt; [clears throat]
+
+00:13:22.670 --> 00:13:22.680 align:start position:0%
+&gt;&gt; [clears throat]
+ 
+
+00:13:22.680 --> 00:13:23.950 align:start position:0%
+&gt;&gt; [clears throat]
+&gt;&gt; You'll<00:13:22.880><c> notice</c><00:13:23.160><c> they're</c><00:13:23.320><c> all</c><00:13:23.520><c> published</c>
+
+00:13:23.950 --> 00:13:23.960 align:start position:0%
+&gt;&gt; You'll notice they're all published
+ 
+
+00:13:23.960 --> 00:13:25.630 align:start position:0%
+&gt;&gt; You'll notice they're all published
+quite<00:13:24.200><c> a</c><00:13:24.240><c> long</c><00:13:24.480><c> time</c><00:13:24.760><c> ago.</c>
+
+00:13:25.630 --> 00:13:25.640 align:start position:0%
+quite a long time ago.
+ 
+
+00:13:25.640 --> 00:13:28.270 align:start position:0%
+quite a long time ago.
+Uh<00:13:25.800><c> VHDL</c><00:13:26.320><c> has</c><00:13:26.480><c> not</c><00:13:26.720><c> changed</c><00:13:27.160><c> much.</c><00:13:27.880><c> Just</c><00:13:28.160><c> so</c>
+
+00:13:28.270 --> 00:13:28.280 align:start position:0%
+Uh VHDL has not changed much. Just so
+ 
+
+00:13:28.280 --> 00:13:30.350 align:start position:0%
+Uh VHDL has not changed much. Just so
+you're<00:13:28.400><c> aware</c><00:13:28.920><c> in</c><00:13:29.040><c> the</c><00:13:29.160><c> exercises</c><00:13:29.880><c> I'm</c><00:13:30.080><c> using</c>
+
+00:13:30.350 --> 00:13:30.360 align:start position:0%
+you're aware in the exercises I'm using
+ 
+
+00:13:30.360 --> 00:13:34.150 align:start position:0%
+you're aware in the exercises I'm using
+VHDL<00:13:31.080><c> 2008.</c><00:13:32.480><c> That</c><00:13:32.680><c> is</c><00:13:32.880><c> the</c><00:13:33.000><c> most</c><00:13:33.280><c> recent</c>
+
+00:13:34.150 --> 00:13:34.160 align:start position:0%
+VHDL 2008. That is the most recent
+ 
+
+00:13:34.160 --> 00:13:37.110 align:start position:0%
+VHDL 2008. That is the most recent
+version<00:13:34.520><c> of</c><00:13:34.600><c> VHDL</c><00:13:35.880><c> which</c><00:13:36.160><c> is</c><00:13:36.440><c> most</c><00:13:36.760><c> widely</c>
+
+00:13:37.110 --> 00:13:37.120 align:start position:0%
+version of VHDL which is most widely
+ 
+
+00:13:37.120 --> 00:13:39.630 align:start position:0%
+version of VHDL which is most widely
+used<00:13:38.080><c> and</c><00:13:38.240><c> there</c><00:13:38.360><c> are</c><00:13:38.480><c> more</c><00:13:38.720><c> recent</c><00:13:39.080><c> versions</c>
+
+00:13:39.630 --> 00:13:39.640 align:start position:0%
+used and there are more recent versions
+ 
+
+00:13:39.640 --> 00:13:42.310 align:start position:0%
+used and there are more recent versions
+but<00:13:39.840><c> not</c><00:13:40.080><c> all</c><00:13:40.320><c> tools</c><00:13:40.800><c> not</c><00:13:41.040><c> all</c><00:13:41.280><c> libraries</c>
+
+00:13:42.310 --> 00:13:42.320 align:start position:0%
+but not all tools not all libraries
+ 
+
+00:13:42.320 --> 00:13:44.630 align:start position:0%
+but not all tools not all libraries
+fully<00:13:42.560><c> supported.</c><00:13:43.440><c> So</c><00:13:43.680><c> I'm</c><00:13:43.880><c> using</c><00:13:44.280><c> the</c><00:13:44.400><c> most</c>
+
+00:13:44.630 --> 00:13:44.640 align:start position:0%
+fully supported. So I'm using the most
+ 
+
+00:13:44.640 --> 00:13:46.950 align:start position:0%
+fully supported. So I'm using the most
+widely<00:13:44.920><c> supported</c><00:13:45.840><c> most</c><00:13:46.080><c> recent</c><00:13:46.480><c> version</c><00:13:46.840><c> of</c>
+
+00:13:46.950 --> 00:13:46.960 align:start position:0%
+widely supported most recent version of
+ 
+
+00:13:46.960 --> 00:13:49.630 align:start position:0%
+widely supported most recent version of
+VHDL<00:13:47.600><c> VHDL</c><00:13:48.160><c> 2008.</c>
+
+00:13:49.630 --> 00:13:49.640 align:start position:0%
+VHDL VHDL 2008.
+ 
+
+00:13:49.640 --> 00:13:51.230 align:start position:0%
+VHDL VHDL 2008.
+Finally<00:13:50.200><c> I</c><00:13:50.240><c> have</c><00:13:50.440><c> a</c><00:13:50.480><c> bit</c><00:13:50.640><c> of</c><00:13:50.760><c> warning</c><00:13:51.040><c> here</c>
+
+00:13:51.230 --> 00:13:51.240 align:start position:0%
+Finally I have a bit of warning here
+ 
+
+00:13:51.240 --> 00:13:54.590 align:start position:0%
+Finally I have a bit of warning here
+about<00:13:51.960><c> online</c><00:13:52.360><c> materials.</c><00:13:53.480><c> My</c><00:13:53.720><c> experience</c>
+
+00:13:54.590 --> 00:13:54.600 align:start position:0%
+about online materials. My experience
+ 
+
+00:13:54.600 --> 00:13:56.910 align:start position:0%
+about online materials. My experience
+many<00:13:55.040><c> online</c><00:13:55.440><c> materials</c><00:13:56.040><c> on</c><00:13:56.160><c> VHDL</c><00:13:56.640><c> have</c><00:13:56.760><c> been</c>
+
+00:13:56.910 --> 00:13:56.920 align:start position:0%
+many online materials on VHDL have been
+ 
+
+00:13:56.920 --> 00:13:59.230 align:start position:0%
+many online materials on VHDL have been
+written<00:13:57.200><c> by</c><00:13:57.320><c> non-experts</c><00:13:58.240><c> or</c><00:13:58.400><c> even</c><00:13:58.880><c> perhaps</c>
+
+00:13:59.230 --> 00:13:59.240 align:start position:0%
+written by non-experts or even perhaps
+ 
+
+00:13:59.240 --> 00:14:00.870 align:start position:0%
+written by non-experts or even perhaps
+by<00:13:59.400><c> students</c>
+
+00:14:00.870 --> 00:14:00.880 align:start position:0%
+by students
+ 
+
+00:14:00.880 --> 00:14:03.390 align:start position:0%
+by students
+and<00:14:01.040><c> often</c><00:14:01.560><c> won't</c><00:14:01.800><c> synthesize</c><00:14:02.400><c> properly</c><00:14:03.280><c> for</c>
+
+00:14:03.390 --> 00:14:03.400 align:start position:0%
+and often won't synthesize properly for
+ 
+
+00:14:03.400 --> 00:14:05.790 align:start position:0%
+and often won't synthesize properly for
+an<00:14:03.520><c> FPGA</c><00:14:04.560><c> or</c><00:14:04.720><c> are</c><00:14:04.840><c> poorly</c><00:14:05.160><c> designed</c><00:14:05.600><c> with</c><00:14:05.720><c> a</c>
+
+00:14:05.790 --> 00:14:05.800 align:start position:0%
+an FPGA or are poorly designed with a
+ 
+
+00:14:05.800 --> 00:14:08.310 align:start position:0%
+an FPGA or are poorly designed with a
+bad<00:14:06.160><c> timing</c><00:14:06.520><c> characteristics.</c><00:14:07.880><c> So</c><00:14:08.000><c> just</c><00:14:08.240><c> to</c>
+
+00:14:08.310 --> 00:14:08.320 align:start position:0%
+bad timing characteristics. So just to
+ 
+
+00:14:08.320 --> 00:14:10.110 align:start position:0%
+bad timing characteristics. So just to
+be<00:14:08.400><c> aware</c><00:14:08.680><c> of</c><00:14:08.800><c> that.</c>
+
+00:14:10.110 --> 00:14:10.120 align:start position:0%
+be aware of that.
+ 
+
+00:14:10.120 --> 00:14:12.830 align:start position:0%
+be aware of that.
+Anyway<00:14:10.320><c> that's</c><00:14:10.560><c> it</c><00:14:10.840><c> for</c><00:14:10.960><c> this</c><00:14:11.120><c> video.</c>
+
+00:14:12.830 --> 00:14:12.840 align:start position:0%
+Anyway that's it for this video.
+ 
+
+00:14:12.840 --> 00:14:14.870 align:start position:0%
+Anyway that's it for this video.
+These<00:14:13.080><c> videos</c><00:14:13.600><c> are</c><00:14:13.720><c> supported</c><00:14:14.200><c> by</c><00:14:14.400><c> Arden</c><00:14:14.720><c> Note</c>
+
+00:14:14.870 --> 00:14:14.880 align:start position:0%
+These videos are supported by Arden Note
+ 
+
+00:14:14.880 --> 00:14:17.510 align:start position:0%
+These videos are supported by Arden Note
+Consulting<00:14:15.440><c> Limited</c><00:14:16.320><c> a</c><00:14:16.400><c> UK</c><00:14:16.800><c> based</c><00:14:17.120><c> management</c>
+
+00:14:17.510 --> 00:14:17.520 align:start position:0%
+Consulting Limited a UK based management
+ 
+
+00:14:17.520 --> 00:14:19.910 align:start position:0%
+Consulting Limited a UK based management
+training<00:14:17.840><c> and</c><00:14:17.960><c> business</c><00:14:18.280><c> coaching</c><00:14:18.680><c> firm.</c>
+
+00:14:19.910 --> 00:14:19.920 align:start position:0%
+training and business coaching firm.
+ 
+
+00:14:19.920 --> 00:14:21.550 align:start position:0%
+training and business coaching firm.
+It<00:14:20.040><c> provides</c><00:14:20.440><c> specialist</c><00:14:20.920><c> communication</c><00:14:21.440><c> and</c>
+
+00:14:21.550 --> 00:14:21.560 align:start position:0%
+It provides specialist communication and
+ 
+
+00:14:21.560 --> 00:14:22.710 align:start position:0%
+It provides specialist communication and
+management<00:14:21.920><c> skills</c><00:14:22.200><c> training</c><00:14:22.520><c> for</c><00:14:22.640><c> the</c>
+
+00:14:22.710 --> 00:14:22.720 align:start position:0%
+management skills training for the
+ 
+
+00:14:22.720 --> 00:14:26.840 align:start position:0%
+management skills training for the
+manufacturing<00:14:23.440><c> and</c><00:14:23.680><c> engineering</c><00:14:24.160><c> sectors.</c>
+
