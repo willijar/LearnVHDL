@@ -91,4 +91,4 @@ the simulation output and in the waveform viewer.
 
 - suggest at most one, only when a student needs a different
 explanation or visual, and say why it helps
-- use the caption files in the directory `.claude`/`captions` to provide guidance to the specific video and time stamp. The caption filename matches the video filename.
+- use the caption files in the directory `.claude/agents/captions` to provide guidance to the specific video and time stamp. The caption filename matches the video filename.
