@@ -23,6 +23,7 @@ includes:
           timer_testbench: counter.vhd timer.vhd timer_testbench.vhd
           stopwatch_ssm_testbench: stopwatch_ssm.vhd stopwatch_ssm_testbench.vhd
           and_gate.bit: and_gate.vhd
+          and_gate_testbench: and_gate.vhd and_gate_testbench.vhd
           full_adder.bit: full_adder.vhd
           fourcounter.bit: debounce.vhd clk_prescaler.vhd counter.vhd fourcounter.vhd
           display_testbench: display.vhd display_testbench.vhd
