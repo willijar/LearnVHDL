@@ -9,3 +9,4 @@ xsim.dir
 *.pb
 .claude/agent-memory-local/
 .claude/settings.local.json
+sim_result.txt

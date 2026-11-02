@@ -29,10 +29,17 @@
         "hooks": [
           {
             "type": "command",
+            "shell": "bash",
+            "asyncRewake": true,
+            "timeout": 30,
+            "command": "[ \"$OS\" = \"Windows_NT\" ] && exit 0; sh \"$CLAUDE_PROJECT_DIR/.claude/hooks/sim-passed.sh\""
+          },
+          {
+            "type": "command",
             "shell": "powershell",
             "asyncRewake": true,
             "timeout": 30,
-            "command": "& \"$env:CLAUDE_PROJECT_DIR\\.claude\\hooks\\sim-passed.ps1\""
+            "command": "if ($env:OS -ne 'Windows_NT') { exit 0 }; powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"$env:CLAUDE_PROJECT_DIR\\.claude\\hooks\\sim-passed.ps1\"; exit $LASTEXITCODE"
           }
         ]
       }
