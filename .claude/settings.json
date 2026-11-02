@@ -1,4 +1,25 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
-  "agent": "tutor-agent"
+  "agent": "tutor-agent",
+  "permissions": {
+    "allow": [
+      "Edit(/.claude/agent-memory-local/**)"
+    ],
+    "deny": [
+      "Edit(**/*.vhd)",
+      "Edit(**/*.vhdl)",
+      "Edit(**/*.xdc)",
+      "Edit(**/*.yml)",
+      "Edit(**/Makefile)",
+      "Edit(**/*.mk)",
+      "Edit(**/*.tcl)",
+      "Edit(**/*.ps1)",
+      "Edit(/CLAUDE.md)",
+      "Edit(/.gitignore)",
+      "Edit(/.github/**)",
+      "Edit(/.vscode/**)",
+      "Edit(/.claude/agents/**)",
+      "Edit(/.claude/settings.json)"
+    ]
+  }
 }
