@@ -101,7 +101,10 @@ tasks:
       - task: vivado-run
         vars: 
           exec: xsim
-          args: "{{.top}} -nolog -t {{.TCL_TMP}}"
+          args: "{{.top}} -log {{.LOGDIR}}/{{.top}}_sim.log -t {{.TCL_TMP}}"
+      # record which simulation just finished, for the Claude tutor's code-review hook
+      - cmd: echo {{.top}} > sim_result.txt
+        silent: true
 
   sim:*:
     desc: Run a simulation for named top level, producing top level entity waveform

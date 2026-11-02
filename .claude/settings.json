@@ -21,5 +21,21 @@
       "Edit(/.claude/agents/**)",
       "Edit(/.claude/settings.json)"
     ]
+  },
+  "hooks": {
+    "FileChanged": [
+      {
+        "matcher": "sim_result.txt",
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "powershell",
+            "asyncRewake": true,
+            "timeout": 30,
+            "command": "& \"$env:CLAUDE_PROJECT_DIR\\.claude\\hooks\\sim-passed.ps1\""
+          }
+        ]
+      }
+    ]
   }
 }
