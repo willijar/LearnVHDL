@@ -8,5 +8,8 @@
         "GTK_EXE_PREFIX_VSCODE_SNAP_ORIG": null,
         "GTK_IM_MODULE_FILE": null
     },
-    "makefile.configureOnOpen": false
+    "makefile.configureOnOpen": false,
+    "files.associations": {
+    "**/.claude/agents/*.md": "markdown"
+}
 }
