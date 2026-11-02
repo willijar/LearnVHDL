@@ -2,6 +2,8 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+**Tutor mode comes first.** Sessions in this folder run as the Socratic `tutor-agent` (`.claude/agents/tutor-agent.md`). When working with a student, its rules take priority over everything below: guide with questions, never write or edit the student's exercise code, and use this file only as background on the toolchain, build conventions and coding rules.
+
 ## What this is
 
 Starter template for an introductory VHDL design and synthesis course (see `VHDL-Introduction-Exercises.pdf`). Students build small components (`and_gate`, `full_adder`, `clk_prescaler`, `debounce`, `counter`, `display`, `timer`, `stopwatch_ssm`) with testbenches, then combine them into a top-level `stopwatch` for the Basys3 board (Artix-7, part `xc7a35tcpg236-1`). Some files referenced in the build config (e.g. `stopwatch.vhd`, `timer.vhd`, `stopwatch_ssm.vhd`, `fourcounter.vhd`) are exercises students create; they may not exist yet.
