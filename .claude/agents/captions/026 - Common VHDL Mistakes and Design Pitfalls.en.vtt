@@ -1,0 +1,1544 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.800 --> 00:00:06.390 align:start position:0%
+ 
+In<00:00:02.880><c> this</c><00:00:03.080><c> very</c><00:00:03.440><c> short</c><00:00:04.680><c> video,</c><00:00:05.560><c> I</c><00:00:05.640><c> want</c><00:00:05.880><c> to</c>
+
+00:00:06.390 --> 00:00:06.400 align:start position:0%
+In this very short video, I want to
+ 
+
+00:00:06.400 --> 00:00:08.870 align:start position:0%
+In this very short video, I want to
+mention<00:00:07.000><c> some</c><00:00:07.280><c> of</c><00:00:07.400><c> the</c><00:00:07.520><c> very</c><00:00:07.840><c> common</c><00:00:08.280><c> mistakes</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+mention some of the very common mistakes
+ 
+
+00:00:08.880 --> 00:00:10.790 align:start position:0%
+mention some of the very common mistakes
+I<00:00:09.000><c> see</c><00:00:09.240><c> students</c><00:00:09.720><c> making</c><00:00:10.160><c> in</c><00:00:10.440><c> when</c><00:00:10.640><c> they're</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+I see students making in when they're
+ 
+
+00:00:10.800 --> 00:00:14.270 align:start position:0%
+I see students making in when they're
+doing<00:00:11.120><c> their</c><00:00:11.240><c> VHDL.</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+ 
+ 
+
+00:00:14.280 --> 00:00:15.710 align:start position:0%
+ 
+And<00:00:14.480><c> so</c><00:00:14.560><c> these</c><00:00:14.720><c> are</c><00:00:14.800><c> really</c><00:00:15.040><c> the</c><00:00:15.160><c> things</c><00:00:15.480><c> that</c>
+
+00:00:15.710 --> 00:00:15.720 align:start position:0%
+And so these are really the things that
+ 
+
+00:00:15.720 --> 00:00:17.350 align:start position:0%
+And so these are really the things that
+commonly<00:00:16.120><c> catch</c><00:00:16.440><c> students</c><00:00:16.880><c> out</c><00:00:17.120><c> when</c><00:00:17.240><c> they're</c>
+
+00:00:17.350 --> 00:00:17.360 align:start position:0%
+commonly catch students out when they're
+ 
+
+00:00:17.360 --> 00:00:19.350 align:start position:0%
+commonly catch students out when they're
+doing<00:00:17.560><c> their</c><00:00:17.680><c> designs.</c><00:00:18.840><c> Now,</c><00:00:19.080><c> in</c><00:00:19.200><c> this</c>
+
+00:00:19.350 --> 00:00:19.360 align:start position:0%
+doing their designs. Now, in this
+ 
+
+00:00:19.360 --> 00:00:21.150 align:start position:0%
+doing their designs. Now, in this
+introductory<00:00:19.840><c> course</c><00:00:20.120><c> I</c><00:00:20.240><c> focused</c><00:00:20.720><c> on</c><00:00:20.840><c> using</c>
+
+00:00:21.150 --> 00:00:21.160 align:start position:0%
+introductory course I focused on using
+ 
+
+00:00:21.160 --> 00:00:22.990 align:start position:0%
+introductory course I focused on using
+signals<00:00:21.680><c> to</c><00:00:21.800><c> try</c><00:00:22.040><c> and</c><00:00:22.160><c> avoid</c><00:00:22.480><c> this</c><00:00:22.680><c> first</c>
+
+00:00:22.990 --> 00:00:23.000 align:start position:0%
+signals to try and avoid this first
+ 
+
+00:00:23.000 --> 00:00:25.030 align:start position:0%
+signals to try and avoid this first
+error,<00:00:23.240><c> which</c><00:00:23.440><c> is</c><00:00:23.560><c> forgetting</c>
+
+00:00:25.030 --> 00:00:25.040 align:start position:0%
+error, which is forgetting
+ 
+
+00:00:25.040 --> 00:00:26.790 align:start position:0%
+error, which is forgetting
+the<00:00:25.160><c> difference</c><00:00:25.600><c> between</c><00:00:25.920><c> a</c><00:00:25.960><c> signal</c><00:00:26.600><c> and</c><00:00:26.760><c> a</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+the difference between a signal and a
+ 
+
+00:00:26.800 --> 00:00:28.870 align:start position:0%
+the difference between a signal and a
+variable<00:00:27.240><c> in</c><00:00:27.360><c> VHDL.</c><00:00:28.000><c> They</c><00:00:28.120><c> have</c><00:00:28.320><c> different</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+variable in VHDL. They have different
+ 
+
+00:00:28.880 --> 00:00:30.775 align:start position:0%
+variable in VHDL. They have different
+update<00:00:29.360><c> semantics.</c>
+
+00:00:30.775 --> 00:00:30.785 align:start position:0%
+update semantics.
+ 
+
+00:00:30.785 --> 00:00:31.230 align:start position:0%
+update semantics.
+&gt;&gt; [snorts]
+
+00:00:31.230 --> 00:00:31.240 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:00:31.240 --> 00:00:33.630 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; So,<00:00:32.040><c> when</c><00:00:32.200><c> we</c><00:00:32.439><c> inside</c><00:00:32.800><c> a</c><00:00:32.840><c> process.</c><00:00:33.360><c> So,</c><00:00:33.480><c> in</c><00:00:33.560><c> a</c>
+
+00:00:33.630 --> 00:00:33.640 align:start position:0%
+&gt;&gt; So, when we inside a process. So, in a
+ 
+
+00:00:33.640 --> 00:00:36.030 align:start position:0%
+&gt;&gt; So, when we inside a process. So, in a
+process,<00:00:34.680><c> a</c><00:00:34.720><c> signal</c><00:00:35.040><c> is</c><00:00:35.160><c> updated</c><00:00:35.720><c> when</c><00:00:35.880><c> the</c>
+
+00:00:36.030 --> 00:00:36.040 align:start position:0%
+process, a signal is updated when the
+ 
+
+00:00:36.040 --> 00:00:38.790 align:start position:0%
+process, a signal is updated when the
+process<00:00:36.960><c> is</c><00:00:37.080><c> suspends.</c><00:00:38.080><c> So,</c><00:00:38.240><c> when</c><00:00:38.360><c> we</c><00:00:38.440><c> define</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+process is suspends. So, when we define
+ 
+
+00:00:38.800 --> 00:00:41.990 align:start position:0%
+process is suspends. So, when we define
+a<00:00:38.840><c> signal</c><00:00:39.240><c> S</c><00:00:39.680><c> as</c><00:00:39.840><c> I</c><00:00:39.920><c> say</c><00:00:40.120><c> a</c><00:00:40.160><c> standard</c><00:00:40.640><c> logic,</c>
+
+00:00:41.990 --> 00:00:42.000 align:start position:0%
+a signal S as I say a standard logic,
+ 
+
+00:00:42.000 --> 00:00:44.390 align:start position:0%
+a signal S as I say a standard logic,
+um<00:00:42.680><c> that</c><00:00:42.920><c> will</c><00:00:43.080><c> be</c><00:00:43.240><c> updated</c><00:00:43.640><c> on</c><00:00:43.760><c> a</c><00:00:43.800><c> process.</c><00:00:44.280><c> If</c>
+
+00:00:44.390 --> 00:00:44.400 align:start position:0%
+um that will be updated on a process. If
+ 
+
+00:00:44.400 --> 00:00:47.190 align:start position:0%
+um that will be updated on a process. If
+we<00:00:44.520><c> use</c><00:00:44.720><c> a</c><00:00:44.760><c> variable</c><00:00:45.240><c> in</c><00:00:45.360><c> a</c><00:00:45.400><c> process,</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+we use a variable in a process,
+ 
+
+00:00:47.200 --> 00:00:49.190 align:start position:0%
+we use a variable in a process,
+then<00:00:47.640><c> it</c><00:00:47.800><c> might</c><00:00:48.040><c> be</c><00:00:48.160><c> updated</c><00:00:48.600><c> immediately</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+then it might be updated immediately
+ 
+
+00:00:49.200 --> 00:00:51.990 align:start position:0%
+then it might be updated immediately
+inside<00:00:49.640><c> the</c><00:00:49.760><c> process,</c><00:00:50.760><c> right?</c><00:00:51.480><c> So,</c><00:00:51.600><c> when</c><00:00:51.720><c> we</c>
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+inside the process, right? So, when we
+ 
+
+00:00:52.000 --> 00:00:53.950 align:start position:0%
+inside the process, right? So, when we
+we<00:00:52.200><c> we</c><00:00:52.360><c> assign</c><00:00:52.720><c> a</c><00:00:52.760><c> value</c><00:00:53.080><c> to</c><00:00:53.200><c> a</c><00:00:53.280><c> variable,</c><00:00:53.800><c> it's</c>
+
+00:00:53.950 --> 00:00:53.960 align:start position:0%
+we we assign a value to a variable, it's
+ 
+
+00:00:53.960 --> 00:00:56.150 align:start position:0%
+we we assign a value to a variable, it's
+updated<00:00:54.320><c> immediately,</c><00:00:55.280><c> but</c><00:00:55.440><c> if</c><00:00:55.680><c> we</c><00:00:55.800><c> assign</c><00:00:56.080><c> a</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+updated immediately, but if we assign a
+ 
+
+00:00:56.160 --> 00:00:58.270 align:start position:0%
+updated immediately, but if we assign a
+value<00:00:56.520><c> to</c><00:00:56.720><c> a</c><00:00:56.760><c> signal,</c><00:00:57.400><c> it's</c><00:00:57.600><c> updated</c><00:00:58.080><c> at</c><00:00:58.160><c> the</c>
+
+00:00:58.270 --> 00:00:58.280 align:start position:0%
+value to a signal, it's updated at the
+ 
+
+00:00:58.280 --> 00:01:02.110 align:start position:0%
+value to a signal, it's updated at the
+end.<00:00:58.440><c> So,</c><00:00:58.520><c> they</c><00:00:58.600><c> have</c><00:00:58.760><c> different</c><00:00:59.120><c> semantics.</c>
+
+00:01:02.110 --> 00:01:02.120 align:start position:0%
+ 
+ 
+
+00:01:02.120 --> 00:01:04.189 align:start position:0%
+ 
+Um<00:01:02.640><c> another</c><00:01:03.000><c> common</c><00:01:03.280><c> mistake</c><00:01:03.720><c> is</c><00:01:04.040><c> that</c>
+
+00:01:04.189 --> 00:01:04.199 align:start position:0%
+Um another common mistake is that
+ 
+
+00:01:04.199 --> 00:01:05.750 align:start position:0%
+Um another common mistake is that
+students<00:01:04.600><c> will</c><00:01:04.720><c> make</c><00:01:04.960><c> is</c><00:01:05.080><c> they</c><00:01:05.199><c> use</c><00:01:05.440><c> their</c><00:01:05.600><c> own</c>
+
+00:01:05.750 --> 00:01:05.760 align:start position:0%
+students will make is they use their own
+ 
+
+00:01:05.760 --> 00:01:07.430 align:start position:0%
+students will make is they use their own
+kinds<00:01:06.040><c> of</c><00:01:06.160><c> signal</c><00:01:06.480><c> assignments.</c><00:01:07.040><c> So,</c><00:01:07.160><c> one</c><00:01:07.320><c> of</c>
+
+00:01:07.430 --> 00:01:07.440 align:start position:0%
+kinds of signal assignments. So, one of
+ 
+
+00:01:07.440 --> 00:01:09.150 align:start position:0%
+kinds of signal assignments. So, one of
+the<00:01:07.560><c> reasons</c><00:01:07.920><c> we</c><00:01:08.040><c> have</c><00:01:08.280><c> two</c><00:01:08.480><c> types</c><00:01:08.760><c> of</c><00:01:08.880><c> signal</c>
+
+00:01:09.150 --> 00:01:09.160 align:start position:0%
+the reasons we have two types of signal
+ 
+
+00:01:09.160 --> 00:01:12.310 align:start position:0%
+the reasons we have two types of signal
+assignment<00:01:09.640><c> in</c><00:01:09.760><c> VHDL</c><00:01:10.880><c> is</c><00:01:11.000><c> to</c><00:01:11.120><c> try</c><00:01:11.280><c> and</c><00:01:11.400><c> avoid</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+assignment in VHDL is to try and avoid
+ 
+
+00:01:12.320 --> 00:01:14.830 align:start position:0%
+assignment in VHDL is to try and avoid
+and<00:01:12.440><c> make</c><00:01:12.920><c> that</c><00:01:13.160><c> first</c><00:01:13.480><c> error.</c><00:01:14.080><c> So,</c><00:01:14.240><c> signal</c><00:01:14.680><c> we</c>
+
+00:01:14.830 --> 00:01:14.840 align:start position:0%
+and make that first error. So, signal we
+ 
+
+00:01:14.840 --> 00:01:17.110 align:start position:0%
+and make that first error. So, signal we
+use<00:01:15.120><c> this</c><00:01:15.320><c> less</c><00:01:15.520><c> than</c><00:01:15.640><c> or</c><00:01:15.760><c> equal</c><00:01:16.680><c> um</c><00:01:16.840><c> type</c>
+
+00:01:17.110 --> 00:01:17.120 align:start position:0%
+use this less than or equal um type
+ 
+
+00:01:17.120 --> 00:01:19.630 align:start position:0%
+use this less than or equal um type
+symbol<00:01:17.520><c> for</c><00:01:17.720><c> signal</c><00:01:18.040><c> assignment.</c><00:01:19.240><c> Uh</c><00:01:19.360><c> this</c><00:01:19.520><c> is</c>
+
+00:01:19.630 --> 00:01:19.640 align:start position:0%
+symbol for signal assignment. Uh this is
+ 
+
+00:01:19.640 --> 00:01:21.510 align:start position:0%
+symbol for signal assignment. Uh this is
+a<00:01:19.680><c> simulation</c><00:01:20.320><c> only</c><00:01:20.560><c> example</c><00:01:21.160><c> where</c><00:01:21.320><c> we're</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+a simulation only example where we're
+ 
+
+00:01:21.520 --> 00:01:24.510 align:start position:0%
+a simulation only example where we're
+assigning<00:01:22.360><c> the</c><00:01:22.480><c> value</c><00:01:22.960><c> D</c><00:01:23.360><c> to</c><00:01:23.520><c> Q</c><00:01:24.040><c> after</c><00:01:24.320><c> 1</c>
+
+00:01:24.510 --> 00:01:24.520 align:start position:0%
+assigning the value D to Q after 1
+ 
+
+00:01:24.520 --> 00:01:26.230 align:start position:0%
+assigning the value D to Q after 1
+nanosecond.<00:01:25.160><c> So,</c><00:01:25.280><c> this</c><00:01:25.480><c> has</c><00:01:25.600><c> got</c><00:01:25.720><c> a</c><00:01:25.800><c> delay</c><00:01:26.120><c> in</c>
+
+00:01:26.230 --> 00:01:26.240 align:start position:0%
+nanosecond. So, this has got a delay in
+ 
+
+00:01:26.240 --> 00:01:28.150 align:start position:0%
+nanosecond. So, this has got a delay in
+it.<00:01:26.640><c> Um</c><00:01:26.880><c> so,</c><00:01:27.160><c> clearly</c><00:01:27.480><c> simulation</c><00:01:28.000><c> only.</c>
+
+00:01:28.150 --> 00:01:28.160 align:start position:0%
+it. Um so, clearly simulation only.
+ 
+
+00:01:28.160 --> 00:01:30.190 align:start position:0%
+it. Um so, clearly simulation only.
+That's<00:01:28.360><c> a</c><00:01:28.400><c> signal</c><00:01:28.720><c> assignment.</c><00:01:29.800><c> Variable</c>
+
+00:01:30.190 --> 00:01:30.200 align:start position:0%
+That's a signal assignment. Variable
+ 
+
+00:01:30.200 --> 00:01:32.070 align:start position:0%
+That's a signal assignment. Variable
+assignment<00:01:30.760><c> we</c><00:01:30.880><c> use</c><00:01:31.120><c> the</c><00:01:31.240><c> colon</c><00:01:31.560><c> equal</c>
+
+00:01:32.070 --> 00:01:32.080 align:start position:0%
+assignment we use the colon equal
+ 
+
+00:01:32.080 --> 00:01:34.990 align:start position:0%
+assignment we use the colon equal
+symbol.<00:01:33.160><c> Um</c><00:01:33.800><c> as</c><00:01:33.920><c> I</c><00:01:33.960><c> said,</c><00:01:34.200><c> this</c><00:01:34.360><c> would</c><00:01:34.520><c> cause</c><00:01:34.800><c> V</c>
+
+00:01:34.990 --> 00:01:35.000 align:start position:0%
+symbol. Um as I said, this would cause V
+ 
+
+00:01:35.000 --> 00:01:36.750 align:start position:0%
+symbol. Um as I said, this would cause V
+to<00:01:35.120><c> be</c><00:01:35.200><c> updated</c><00:01:35.600><c> immediately.</c>
+
+00:01:36.750 --> 00:01:36.760 align:start position:0%
+to be updated immediately.
+ 
+
+00:01:36.760 --> 00:01:38.310 align:start position:0%
+to be updated immediately.
+If<00:01:36.840><c> this</c><00:01:36.960><c> was</c><00:01:37.120><c> in</c><00:01:37.200><c> a</c><00:01:37.280><c> process,</c><00:01:37.960><c> well,</c><00:01:38.120><c> this</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+If this was in a process, well, this
+ 
+
+00:01:38.320 --> 00:01:39.670 align:start position:0%
+If this was in a process, well, this
+would<00:01:38.640><c> uh</c>
+
+00:01:39.670 --> 00:01:39.680 align:start position:0%
+would uh
+ 
+
+00:01:39.680 --> 00:01:42.870 align:start position:0%
+would uh
+would<00:01:39.960><c> update</c><00:01:40.440><c> D</c><00:01:40.720><c> after</c><00:01:41.080><c> an</c><00:01:41.480><c> an</c><00:01:41.600><c> um</c><00:01:42.000><c> an</c><00:01:42.120><c> ano-</c><00:01:42.480><c> um</c>
+
+00:01:42.870 --> 00:01:42.880 align:start position:0%
+would update D after an an um an ano- um
+ 
+
+00:01:42.880 --> 00:01:44.750 align:start position:0%
+would update D after an an um an ano- um
+1<00:01:43.160><c> nanosecond.</c><00:01:43.840><c> So,</c>
+
+00:01:44.750 --> 00:01:44.760 align:start position:0%
+1 nanosecond. So,
+ 
+
+00:01:44.760 --> 00:01:47.790 align:start position:0%
+1 nanosecond. So,
+uh<00:01:44.960><c> another</c><00:01:45.240><c> common</c><00:01:45.520><c> error</c><00:01:45.800><c> that</c><00:01:46.680><c> have</c><00:01:47.240><c> in</c><00:01:47.600><c> is</c>
+
+00:01:47.790 --> 00:01:47.800 align:start position:0%
+uh another common error that have in is
+ 
+
+00:01:47.800 --> 00:01:49.710 align:start position:0%
+uh another common error that have in is
+sensitivity<00:01:48.360><c> list</c>
+
+00:01:49.710 --> 00:01:49.720 align:start position:0%
+sensitivity list
+ 
+
+00:01:49.720 --> 00:01:50.910 align:start position:0%
+sensitivity list
+errors,<00:01:50.000><c> particularly</c><00:01:50.400><c> in</c><00:01:50.480><c> conditional</c>
+
+00:01:50.910 --> 00:01:50.920 align:start position:0%
+errors, particularly in conditional
+ 
+
+00:01:50.920 --> 00:01:54.550 align:start position:0%
+errors, particularly in conditional
+processes.<00:01:51.800><c> S-</c><00:01:52.280><c> Often,</c><00:01:53.200><c> students</c><00:01:53.640><c> will</c><00:01:53.760><c> miss</c>
+
+00:01:54.550 --> 00:01:54.560 align:start position:0%
+processes. S- Often, students will miss
+ 
+
+00:01:54.560 --> 00:01:59.110 align:start position:0%
+processes. S- Often, students will miss
+or<00:01:54.760><c> forget</c><00:01:55.200><c> to</c><00:01:55.320><c> mention</c><00:01:56.240><c> the</c><00:01:56.400><c> signals.</c>
+
+00:01:59.110 --> 00:01:59.120 align:start position:0%
+ 
+ 
+
+00:01:59.120 --> 00:02:00.070 align:start position:0%
+ 
+So,
+
+00:02:00.070 --> 00:02:00.080 align:start position:0%
+So,
+ 
+
+00:02:00.080 --> 00:02:02.510 align:start position:0%
+So,
+here<00:02:00.480><c> I</c><00:02:00.560><c> have</c><00:02:00.720><c> a</c><00:02:00.800><c> process</c>
+
+00:02:02.510 --> 00:02:02.520 align:start position:0%
+here I have a process
+ 
+
+00:02:02.520 --> 00:02:03.990 align:start position:0%
+here I have a process
+and<00:02:02.680><c> I've</c><00:02:02.840><c> listed</c><00:02:03.240><c> two</c><00:02:03.440><c> signals</c><00:02:03.840><c> in</c><00:02:03.920><c> the</c>
+
+00:02:03.990 --> 00:02:04.000 align:start position:0%
+and I've listed two signals in the
+ 
+
+00:02:04.000 --> 00:02:06.350 align:start position:0%
+and I've listed two signals in the
+sensitivity<00:02:04.479><c> list</c><00:02:04.800><c> A</c><00:02:04.920><c> and</c><00:02:05.080><c> B,</c><00:02:05.800><c> and</c><00:02:05.920><c> inside</c>
+
+00:02:06.350 --> 00:02:06.360 align:start position:0%
+sensitivity list A and B, and inside
+ 
+
+00:02:06.360 --> 00:02:09.070 align:start position:0%
+sensitivity list A and B, and inside
+this<00:02:06.560><c> I've</c><00:02:06.720><c> got</c><00:02:06.880><c> an</c><00:02:07.000><c> assignment</c><00:02:07.560><c> which</c><00:02:07.720><c> the</c><00:02:08.160><c> Y</c>
+
+00:02:09.070 --> 00:02:09.080 align:start position:0%
+this I've got an assignment which the Y
+ 
+
+00:02:09.080 --> 00:02:12.390 align:start position:0%
+this I've got an assignment which the Y
+signal<00:02:09.479><c> Y</c><00:02:09.759><c> is</c><00:02:09.920><c> assigned</c><00:02:10.399><c> to</c><00:02:10.600><c> A</c><00:02:10.840><c> and</c><00:02:11.080><c> B</c><00:02:11.280><c> and</c><00:02:11.480><c> C.</c>
+
+00:02:12.390 --> 00:02:12.400 align:start position:0%
+signal Y is assigned to A and B and C.
+ 
+
+00:02:12.400 --> 00:02:13.611 align:start position:0%
+signal Y is assigned to A and B and C.
+Now,
+
+00:02:13.611 --> 00:02:13.621 align:start position:0%
+Now,
+ 
+
+00:02:13.621 --> 00:02:13.670 align:start position:0%
+Now,
+&gt;&gt; [clears throat]
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+&gt;&gt; [clears throat]
+ 
+
+00:02:13.680 --> 00:02:15.949 align:start position:0%
+&gt;&gt; [clears throat]
+&gt;&gt; with<00:02:13.800><c> this</c><00:02:13.959><c> particular</c><00:02:15.040><c> case,</c><00:02:15.880><c> the</c>
+
+00:02:15.949 --> 00:02:15.959 align:start position:0%
+&gt;&gt; with this particular case, the
+ 
+
+00:02:15.959 --> 00:02:17.670 align:start position:0%
+&gt;&gt; with this particular case, the
+sensitivity<00:02:16.480><c> list</c><00:02:16.680><c> only</c><00:02:16.920><c> mentions</c><00:02:17.360><c> two</c><00:02:17.560><c> of</c>
+
+00:02:17.670 --> 00:02:17.680 align:start position:0%
+sensitivity list only mentions two of
+ 
+
+00:02:17.680 --> 00:02:19.230 align:start position:0%
+sensitivity list only mentions two of
+these.
+
+00:02:19.230 --> 00:02:19.240 align:start position:0%
+these.
+ 
+
+00:02:19.240 --> 00:02:22.910 align:start position:0%
+these.
+So,<00:02:19.440><c> C</c><00:02:19.720><c> changes,</c><00:02:20.920><c> this</c><00:02:21.520><c> Y</c><00:02:21.760><c> doesn't</c><00:02:22.080><c> change,</c>
+
+00:02:22.910 --> 00:02:22.920 align:start position:0%
+So, C changes, this Y doesn't change,
+ 
+
+00:02:22.920 --> 00:02:23.990 align:start position:0%
+So, C changes, this Y doesn't change,
+okay?
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+okay?
+ 
+
+00:02:24.000 --> 00:02:26.990 align:start position:0%
+okay?
+We<00:02:24.080><c> would</c><00:02:24.240><c> have</c><00:02:24.480><c> to</c><00:02:24.600><c> mention</c><00:02:25.040><c> C</c><00:02:25.240><c> here,</c><00:02:25.520><c> or</c><00:02:25.800><c> or</c>
+
+00:02:26.990 --> 00:02:27.000 align:start position:0%
+We would have to mention C here, or or
+ 
+
+00:02:27.000 --> 00:02:29.030 align:start position:0%
+We would have to mention C here, or or
+list<00:02:27.240><c> no</c><00:02:27.480><c> no</c><00:02:27.840><c> no</c><00:02:28.120><c> signals</c><00:02:28.480><c> at</c><00:02:28.640><c> all.</c><00:02:28.760><c> So,</c><00:02:28.880><c> this</c>
+
+00:02:29.030 --> 00:02:29.040 align:start position:0%
+list no no no signals at all. So, this
+ 
+
+00:02:29.040 --> 00:02:31.310 align:start position:0%
+list no no no signals at all. So, this
+is<00:02:29.120><c> a</c><00:02:29.160><c> pure</c><00:02:29.400><c> combinational</c><00:02:29.959><c> process.</c>
+
+00:02:31.310 --> 00:02:31.320 align:start position:0%
+is a pure combinational process.
+ 
+
+00:02:31.320 --> 00:02:34.110 align:start position:0%
+is a pure combinational process.
+But,<00:02:31.480><c> Y</c><00:02:31.720><c> is</c><00:02:31.880><c> only</c><00:02:32.120><c> updated</c><00:02:32.680><c> if</c><00:02:32.880><c> A</c><00:02:33.000><c> or</c><00:02:33.160><c> B</c><00:02:33.400><c> change.</c>
+
+00:02:34.110 --> 00:02:34.120 align:start position:0%
+But, Y is only updated if A or B change.
+ 
+
+00:02:34.120 --> 00:02:36.310 align:start position:0%
+But, Y is only updated if A or B change.
+Now,<00:02:34.280><c> the</c><00:02:34.800><c> the</c><00:02:34.880><c> result</c><00:02:35.480><c> depends</c><00:02:35.880><c> on</c><00:02:35.959><c> all</c><00:02:36.120><c> three</c>
+
+00:02:36.310 --> 00:02:36.320 align:start position:0%
+Now, the the result depends on all three
+ 
+
+00:02:36.320 --> 00:02:38.150 align:start position:0%
+Now, the the result depends on all three
+signals.
+
+00:02:38.150 --> 00:02:38.160 align:start position:0%
+signals.
+ 
+
+00:02:38.160 --> 00:02:39.630 align:start position:0%
+signals.
+But,<00:02:38.320><c> only</c><00:02:38.600><c> A</c><00:02:38.760><c> and</c><00:02:38.920><c> B</c><00:02:39.120><c> will</c><00:02:39.280><c> cause</c><00:02:39.480><c> it</c><00:02:39.560><c> to</c>
+
+00:02:39.630 --> 00:02:39.640 align:start position:0%
+But, only A and B will cause it to
+ 
+
+00:02:39.640 --> 00:02:40.990 align:start position:0%
+But, only A and B will cause it to
+change.<00:02:39.920><c> That's</c><00:02:40.120><c> another</c><00:02:40.400><c> very</c><00:02:40.680><c> common</c>
+
+00:02:40.990 --> 00:02:41.000 align:start position:0%
+change. That's another very common
+ 
+
+00:02:41.000 --> 00:02:43.741 align:start position:0%
+change. That's another very common
+error.
+
+00:02:43.741 --> 00:02:43.751 align:start position:0%
+ 
+ 
+
+00:02:43.751 --> 00:02:43.870 align:start position:0%
+ 
+&gt;&gt; [snorts]
+
+00:02:43.870 --> 00:02:43.880 align:start position:0%
+&gt;&gt; [snorts]
+ 
+
+00:02:43.880 --> 00:02:46.070 align:start position:0%
+&gt;&gt; [snorts]
+&gt;&gt; Uh<00:02:44.400><c> another</c><00:02:44.680><c> one,</c><00:02:45.000><c> and</c><00:02:45.120><c> again</c><00:02:45.440><c> a</c><00:02:45.480><c> very</c><00:02:45.760><c> common</c>
+
+00:02:46.070 --> 00:02:46.080 align:start position:0%
+&gt;&gt; Uh another one, and again a very common
+ 
+
+00:02:46.080 --> 00:02:47.990 align:start position:0%
+&gt;&gt; Uh another one, and again a very common
+one,<00:02:46.240><c> is</c><00:02:46.360><c> what's</c><00:02:46.560><c> called</c><00:02:46.800><c> inadvertent</c><00:02:47.560><c> latch</c>
+
+00:02:47.990 --> 00:02:48.000 align:start position:0%
+one, is what's called inadvertent latch
+ 
+
+00:02:48.000 --> 00:02:50.949 align:start position:0%
+one, is what's called inadvertent latch
+inference.<00:02:49.160><c> And</c><00:02:49.280><c> this</c><00:02:49.520><c> is</c><00:02:49.959><c> in</c><00:02:50.080><c> a</c><00:02:50.160><c> process</c><00:02:50.720><c> not</c>
+
+00:02:50.949 --> 00:02:50.959 align:start position:0%
+inference. And this is in a process not
+ 
+
+00:02:50.959 --> 00:02:54.590 align:start position:0%
+inference. And this is in a process not
+assigning<00:02:51.440><c> outputs</c><00:02:51.920><c> in</c><00:02:52.040><c> all</c><00:02:52.200><c> branches.</c>
+
+00:02:54.590 --> 00:02:54.600 align:start position:0%
+assigning outputs in all branches.
+ 
+
+00:02:54.600 --> 00:02:56.470 align:start position:0%
+assigning outputs in all branches.
+So,<00:02:54.720><c> here</c><00:02:54.880><c> we</c><00:02:54.959><c> have</c><00:02:55.120><c> a</c><00:02:55.160><c> process</c><00:02:55.760><c> sensitive</c><00:02:56.360><c> to</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+So, here we have a process sensitive to
+ 
+
+00:02:56.480 --> 00:02:59.550 align:start position:0%
+So, here we have a process sensitive to
+A<00:02:56.640><c> and</c><00:02:56.840><c> B,</c><00:02:57.520><c> and</c><00:02:57.720><c> we've</c><00:02:57.880><c> got</c><00:02:58.240><c> another</c>
+
+00:02:59.550 --> 00:02:59.560 align:start position:0%
+A and B, and we've got another
+ 
+
+00:02:59.560 --> 00:03:00.910 align:start position:0%
+A and B, and we've got another
+two<00:02:59.760><c> signals,</c><00:03:00.200><c> and</c><00:03:00.320><c> we've</c><00:03:00.440><c> got</c><00:03:00.640><c> another</c>
+
+00:03:00.910 --> 00:03:00.920 align:start position:0%
+two signals, and we've got another
+ 
+
+00:03:00.920 --> 00:03:03.949 align:start position:0%
+two signals, and we've got another
+signal<00:03:01.280><c> Y,</c><00:03:02.080><c> and</c><00:03:02.320><c> which</c><00:03:02.519><c> is</c><00:03:02.640><c> changing.</c><00:03:03.680><c> Now,</c>
+
+00:03:03.949 --> 00:03:03.959 align:start position:0%
+signal Y, and which is changing. Now,
+ 
+
+00:03:03.959 --> 00:03:06.270 align:start position:0%
+signal Y, and which is changing. Now,
+here<00:03:04.480><c> you'll</c><00:03:04.640><c> notice</c><00:03:05.080><c> I've</c><00:03:05.239><c> written</c><00:03:05.560><c> if</c><00:03:05.800><c> A</c><00:03:06.080><c> is</c>
+
+00:03:06.270 --> 00:03:06.280 align:start position:0%
+here you'll notice I've written if A is
+ 
+
+00:03:06.280 --> 00:03:07.670 align:start position:0%
+here you'll notice I've written if A is
+equal<00:03:06.519><c> to</c><00:03:06.640><c> 1,</c>
+
+00:03:07.670 --> 00:03:07.680 align:start position:0%
+equal to 1,
+ 
+
+00:03:07.680 --> 00:03:08.270 align:start position:0%
+equal to 1,
+uh
+
+00:03:08.270 --> 00:03:08.280 align:start position:0%
+uh
+ 
+
+00:03:08.280 --> 00:03:11.252 align:start position:0%
+uh
+then<00:03:08.600><c> Y</c><00:03:08.959><c> is</c><00:03:09.160><c> assigned</c><00:03:09.519><c> the</c><00:03:09.600><c> value</c><00:03:09.880><c> 1</c><00:03:10.200><c> end</c><00:03:10.440><c> if.</c>
+
+00:03:11.252 --> 00:03:11.262 align:start position:0%
+then Y is assigned the value 1 end if.
+ 
+
+00:03:11.262 --> 00:03:12.229 align:start position:0%
+then Y is assigned the value 1 end if.
+&gt;&gt; [gasps]
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+&gt;&gt; [gasps]
+ 
+
+00:03:12.239 --> 00:03:14.509 align:start position:0%
+&gt;&gt; [gasps]
+&gt;&gt; If<00:03:12.400><c> A</c><00:03:12.480><c> isn't</c><00:03:12.800><c> equal</c><00:03:13.000><c> to</c><00:03:13.120><c> 1,</c><00:03:13.600><c> if</c><00:03:13.720><c> A</c><00:03:13.840><c> is</c><00:03:13.959><c> 0,</c><00:03:14.400><c> we</c>
+
+00:03:14.509 --> 00:03:14.519 align:start position:0%
+&gt;&gt; If A isn't equal to 1, if A is 0, we
+ 
+
+00:03:14.519 --> 00:03:17.509 align:start position:0%
+&gt;&gt; If A isn't equal to 1, if A is 0, we
+don't<00:03:14.720><c> assign</c><00:03:15.040><c> a</c><00:03:15.080><c> value</c><00:03:15.400><c> to</c><00:03:15.560><c> Y.</c>
+
+00:03:17.509 --> 00:03:17.519 align:start position:0%
+don't assign a value to Y.
+ 
+
+00:03:17.519 --> 00:03:19.150 align:start position:0%
+don't assign a value to Y.
+What's<00:03:17.760><c> going</c><00:03:17.880><c> to</c><00:03:18.000><c> What</c><00:03:18.200><c> has</c><00:03:18.400><c> to</c><00:03:18.519><c> happen</c><00:03:18.880><c> is</c>
+
+00:03:19.150 --> 00:03:19.160 align:start position:0%
+What's going to What has to happen is
+ 
+
+00:03:19.160 --> 00:03:21.190 align:start position:0%
+What's going to What has to happen is
+well,<00:03:19.440><c> that</c><00:03:19.680><c> means</c><00:03:20.080><c> that</c><00:03:20.280><c> the</c><00:03:20.360><c> circuit</c><00:03:20.880><c> has</c><00:03:21.080><c> to</c>
+
+00:03:21.190 --> 00:03:21.200 align:start position:0%
+well, that means that the circuit has to
+ 
+
+00:03:21.200 --> 00:03:24.390 align:start position:0%
+well, that means that the circuit has to
+remember<00:03:21.720><c> a</c><00:03:21.760><c> value</c><00:03:22.120><c> of</c><00:03:22.280><c> Y.</c><00:03:23.160><c> Right?</c><00:03:23.440><c> So,</c><00:03:23.600><c> if</c><00:03:23.720><c> A</c>
+
+00:03:24.390 --> 00:03:24.400 align:start position:0%
+remember a value of Y. Right? So, if A
+ 
+
+00:03:24.400 --> 00:03:27.870 align:start position:0%
+remember a value of Y. Right? So, if A
+if<00:03:24.720><c> if</c><00:03:24.920><c> A</c><00:03:25.560><c> say</c><00:03:25.760><c> was</c><00:03:25.959><c> set</c><00:03:26.200><c> to</c><00:03:26.320><c> 0,</c><00:03:27.200><c> it</c><00:03:27.320><c> has</c><00:03:27.519><c> to</c><00:03:27.600><c> hold</c>
+
+00:03:27.870 --> 00:03:27.880 align:start position:0%
+if if A say was set to 0, it has to hold
+ 
+
+00:03:27.880 --> 00:03:29.990 align:start position:0%
+if if A say was set to 0, it has to hold
+the<00:03:28.000><c> value</c><00:03:28.360><c> somewhere.</c><00:03:29.080><c> It</c><00:03:29.200><c> has</c><00:03:29.400><c> to</c><00:03:29.519><c> infer</c><00:03:29.920><c> a</c>
+
+00:03:29.990 --> 00:03:30.000 align:start position:0%
+the value somewhere. It has to infer a
+ 
+
+00:03:30.000 --> 00:03:31.190 align:start position:0%
+the value somewhere. It has to infer a
+latch.
+
+00:03:31.190 --> 00:03:31.200 align:start position:0%
+latch.
+ 
+
+00:03:31.200 --> 00:03:34.229 align:start position:0%
+latch.
+Now,<00:03:31.640><c> typically</c><00:03:32.400><c> if</c><00:03:32.560><c> we</c><00:03:32.680><c> use</c><00:03:33.239><c> the</c><00:03:33.440><c> AMD</c><00:03:33.920><c> tools,</c>
+
+00:03:34.229 --> 00:03:34.239 align:start position:0%
+Now, typically if we use the AMD tools,
+ 
+
+00:03:34.239 --> 00:03:35.990 align:start position:0%
+Now, typically if we use the AMD tools,
+if<00:03:34.360><c> we</c><00:03:34.440><c> use</c><00:03:34.640><c> the</c><00:03:34.760><c> Verilog</c><00:03:35.239><c> tools,</c><00:03:35.640><c> they</c><00:03:35.760><c> should</c>
+
+00:03:35.990 --> 00:03:36.000 align:start position:0%
+if we use the Verilog tools, they should
+ 
+
+00:03:36.000 --> 00:03:37.630 align:start position:0%
+if we use the Verilog tools, they should
+give<00:03:36.160><c> a</c><00:03:36.239><c> warning</c><00:03:36.600><c> about</c><00:03:36.800><c> inferred</c><00:03:37.200><c> latches.</c>
+
+00:03:37.630 --> 00:03:37.640 align:start position:0%
+give a warning about inferred latches.
+ 
+
+00:03:37.640 --> 00:03:39.750 align:start position:0%
+give a warning about inferred latches.
+If<00:03:37.800><c> you</c><00:03:37.880><c> have</c><00:03:38.080><c> a</c><00:03:38.120><c> look</c><00:03:38.320><c> inside</c><00:03:38.800><c> the</c><00:03:39.200><c> messages,</c>
+
+00:03:39.750 --> 00:03:39.760 align:start position:0%
+If you have a look inside the messages,
+ 
+
+00:03:39.760 --> 00:03:41.350 align:start position:0%
+If you have a look inside the messages,
+you'll<00:03:39.920><c> find</c><00:03:40.160><c> a</c><00:03:40.239><c> warning.</c>
+
+00:03:41.350 --> 00:03:41.360 align:start position:0%
+you'll find a warning.
+ 
+
+00:03:41.360 --> 00:03:43.670 align:start position:0%
+you'll find a warning.
+This<00:03:41.519><c> is</c><00:03:41.640><c> typically</c><00:03:42.080><c> not</c><00:03:42.320><c> what</c><00:03:42.480><c> you</c><00:03:42.600><c> want,</c><00:03:43.320><c> and</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+This is typically not what you want, and
+ 
+
+00:03:43.680 --> 00:03:45.870 align:start position:0%
+This is typically not what you want, and
+typically<00:03:44.120><c> this</c><00:03:44.320><c> will</c><00:03:44.440><c> give</c><00:03:44.640><c> rise</c><00:03:45.080><c> to</c><00:03:45.400><c> timing</c>
+
+00:03:45.870 --> 00:03:45.880 align:start position:0%
+typically this will give rise to timing
+ 
+
+00:03:45.880 --> 00:03:48.949 align:start position:0%
+typically this will give rise to timing
+issues<00:03:46.440><c> in</c><00:03:46.600><c> your</c><00:03:46.720><c> circuit.</c><00:03:47.800><c> So,</c><00:03:48.080><c> when</c><00:03:48.280><c> you're</c>
+
+00:03:48.949 --> 00:03:48.959 align:start position:0%
+issues in your circuit. So, when you're
+ 
+
+00:03:48.959 --> 00:03:51.710 align:start position:0%
+issues in your circuit. So, when you're
+doing<00:03:49.239><c> conditional</c><00:03:49.720><c> branches,</c><00:03:50.600><c> make</c><00:03:50.880><c> sure</c>
+
+00:03:51.710 --> 00:03:51.720 align:start position:0%
+doing conditional branches, make sure
+ 
+
+00:03:51.720 --> 00:03:53.590 align:start position:0%
+doing conditional branches, make sure
+that<00:03:52.160><c> all</c><00:03:52.400><c> signals</c><00:03:52.880><c> that</c><00:03:53.080><c> are</c><00:03:53.160><c> assigned</c><00:03:53.560><c> a</c>
+
+00:03:53.590 --> 00:03:53.600 align:start position:0%
+that all signals that are assigned a
+ 
+
+00:03:53.600 --> 00:03:55.910 align:start position:0%
+that all signals that are assigned a
+value<00:03:54.080><c> are</c><00:03:54.280><c> always</c><00:03:54.600><c> assigned</c><00:03:55.000><c> a</c><00:03:55.040><c> value,</c>
+
+00:03:55.910 --> 00:03:55.920 align:start position:0%
+value are always assigned a value,
+ 
+
+00:03:55.920 --> 00:03:58.470 align:start position:0%
+value are always assigned a value,
+right?<00:03:56.240><c> No</c><00:03:56.320><c> matter</c><00:03:56.640><c> what</c><00:03:56.920><c> happens</c><00:03:57.320><c> inside</c><00:03:57.760><c> it.</c>
+
+00:03:58.470 --> 00:03:58.480 align:start position:0%
+right? No matter what happens inside it.
+ 
+
+00:03:58.480 --> 00:03:59.950 align:start position:0%
+right? No matter what happens inside it.
+So,<00:03:58.600><c> how</c><00:03:58.720><c> might</c><00:03:58.920><c> we</c><00:03:59.040><c> do</c><00:03:59.200><c> that?</c><00:03:59.400><c> We</c><00:03:59.520><c> might</c><00:03:59.800><c> have</c>
+
+00:03:59.950 --> 00:03:59.960 align:start position:0%
+So, how might we do that? We might have
+ 
+
+00:03:59.960 --> 00:04:02.230 align:start position:0%
+So, how might we do that? We might have
+an<00:04:00.080><c> else</c><00:04:00.400><c> statement,</c><00:04:01.280><c> might</c><00:04:01.560><c> so</c><00:04:01.880><c> and</c><00:04:02.000><c> then</c>
+
+00:04:02.230 --> 00:04:02.240 align:start position:0%
+an else statement, might so and then
+ 
+
+00:04:02.240 --> 00:04:04.590 align:start position:0%
+an else statement, might so and then
+else<00:04:02.520><c> Y</c><00:04:02.880><c> is</c><00:04:03.040><c> assigned</c><00:04:03.800><c> the</c><00:04:03.920><c> other</c><00:04:04.120><c> value,</c><00:04:04.480><c> I</c>
+
+00:04:04.590 --> 00:04:04.600 align:start position:0%
+else Y is assigned the other value, I
+ 
+
+00:04:04.600 --> 00:04:05.830 align:start position:0%
+else Y is assigned the other value, I
+assume.
+
+00:04:05.830 --> 00:04:05.840 align:start position:0%
+assume.
+ 
+
+00:04:05.840 --> 00:04:07.870 align:start position:0%
+assume.
+That<00:04:05.960><c> would</c><00:04:06.120><c> do</c><00:04:06.240><c> it.</c><00:04:07.000><c> Another</c><00:04:07.360><c> approach</c><00:04:07.760><c> I</c>
+
+00:04:07.870 --> 00:04:07.880 align:start position:0%
+That would do it. Another approach I
+ 
+
+00:04:07.880 --> 00:04:10.550 align:start position:0%
+That would do it. Another approach I
+take<00:04:08.200><c> quite</c><00:04:08.520><c> often</c><00:04:08.840><c> when</c><00:04:08.959><c> we</c><00:04:09.040><c> have</c><00:04:09.360><c> say</c><00:04:09.760><c> in</c>
+
+00:04:10.550 --> 00:04:10.560 align:start position:0%
+take quite often when we have say in
+ 
+
+00:04:10.560 --> 00:04:12.150 align:start position:0%
+take quite often when we have say in
+when<00:04:10.760><c> doing</c><00:04:11.000><c> state</c><00:04:11.240><c> machines</c><00:04:11.720><c> where</c><00:04:11.840><c> I</c><00:04:11.920><c> have</c><00:04:12.080><c> a</c>
+
+00:04:12.150 --> 00:04:12.160 align:start position:0%
+when doing state machines where I have a
+ 
+
+00:04:12.160 --> 00:04:14.150 align:start position:0%
+when doing state machines where I have a
+long<00:04:12.520><c> case</c><00:04:12.840><c> statement</c><00:04:13.280><c> and</c><00:04:13.400><c> then</c><00:04:13.520><c> I</c><00:04:13.560><c> only</c><00:04:14.080><c> I</c>
+
+00:04:14.150 --> 00:04:14.160 align:start position:0%
+long case statement and then I only I
+ 
+
+00:04:14.160 --> 00:04:16.470 align:start position:0%
+long case statement and then I only I
+only<00:04:14.360><c> want</c><00:04:14.520><c> to</c><00:04:14.600><c> change</c><00:04:15.200><c> one</c><00:04:15.440><c> signal</c>
+
+00:04:16.470 --> 00:04:16.480 align:start position:0%
+only want to change one signal
+ 
+
+00:04:16.480 --> 00:04:18.870 align:start position:0%
+only want to change one signal
+depending<00:04:16.920><c> on</c><00:04:17.000><c> the</c><00:04:17.079><c> particular</c><00:04:17.560><c> state.</c>
+
+00:04:18.870 --> 00:04:18.880 align:start position:0%
+depending on the particular state.
+ 
+
+00:04:18.880 --> 00:04:21.229 align:start position:0%
+depending on the particular state.
+I<00:04:19.160><c> would</c><00:04:19.320><c> actually</c><00:04:19.600><c> assign</c>
+
+00:04:21.229 --> 00:04:21.239 align:start position:0%
+I would actually assign
+ 
+
+00:04:21.239 --> 00:04:22.670 align:start position:0%
+I would actually assign
+default<00:04:21.720><c> values</c><00:04:22.080><c> at</c><00:04:22.160><c> the</c><00:04:22.240><c> beginning</c><00:04:22.520><c> of</c><00:04:22.600><c> the</c>
+
+00:04:22.670 --> 00:04:22.680 align:start position:0%
+default values at the beginning of the
+ 
+
+00:04:22.680 --> 00:04:25.550 align:start position:0%
+default values at the beginning of the
+process<00:04:23.520><c> for</c><00:04:23.720><c> all</c><00:04:23.880><c> of</c><00:04:24.000><c> the</c><00:04:24.120><c> signals.</c>
+
+00:04:25.550 --> 00:04:25.560 align:start position:0%
+process for all of the signals.
+ 
+
+00:04:25.560 --> 00:04:27.630 align:start position:0%
+process for all of the signals.
+And<00:04:25.640><c> then</c><00:04:25.840><c> in</c><00:04:26.040><c> in</c><00:04:26.200><c> my</c><00:04:26.400><c> design,</c><00:04:27.080><c> that</c><00:04:27.280><c> means</c>
+
+00:04:27.630 --> 00:04:27.640 align:start position:0%
+And then in in my design, that means
+ 
+
+00:04:27.640 --> 00:04:28.990 align:start position:0%
+And then in in my design, that means
+that<00:04:27.800><c> those</c><00:04:28.000><c> are</c><00:04:28.080><c> the</c><00:04:28.160><c> default</c><00:04:28.560><c> values.</c><00:04:28.880><c> Then</c>
+
+00:04:28.990 --> 00:04:29.000 align:start position:0%
+that those are the default values. Then
+ 
+
+00:04:29.000 --> 00:04:31.070 align:start position:0%
+that those are the default values. Then
+in<00:04:29.080><c> my</c><00:04:29.200><c> design</c><00:04:29.640><c> later</c><00:04:29.960><c> on</c><00:04:30.480><c> down</c><00:04:30.760><c> down</c><00:04:30.880><c> in</c><00:04:31.000><c> the</c>
+
+00:04:31.070 --> 00:04:31.080 align:start position:0%
+in my design later on down down in the
+ 
+
+00:04:31.080 --> 00:04:33.790 align:start position:0%
+in my design later on down down in the
+process,<00:04:32.040><c> I</c><00:04:32.160><c> would</c><00:04:32.320><c> then</c><00:04:32.520><c> assert</c><00:04:32.960><c> the</c><00:04:33.040><c> values</c>
+
+00:04:33.790 --> 00:04:33.800 align:start position:0%
+process, I would then assert the values
+ 
+
+00:04:33.800 --> 00:04:35.950 align:start position:0%
+process, I would then assert the values
+that<00:04:33.960><c> I</c><00:04:34.040><c> want</c><00:04:34.280><c> to</c><00:04:34.800><c> I</c><00:04:34.880><c> actually</c><00:04:35.280><c> wanted</c><00:04:35.680><c> to</c>
+
+00:04:35.950 --> 00:04:35.960 align:start position:0%
+that I want to I actually wanted to
+ 
+
+00:04:35.960 --> 00:04:37.270 align:start position:0%
+that I want to I actually wanted to
+assert<00:04:36.360><c> for.</c>
+
+00:04:37.270 --> 00:04:37.280 align:start position:0%
+assert for.
+ 
+
+00:04:37.280 --> 00:04:38.790 align:start position:0%
+assert for.
+And<00:04:37.600><c> at</c><00:04:37.680><c> the</c><00:04:37.800><c> end</c><00:04:37.960><c> of</c><00:04:38.040><c> the</c><00:04:38.120><c> process,</c><00:04:38.680><c> of</c>
+
+00:04:38.790 --> 00:04:38.800 align:start position:0%
+And at the end of the process, of
+ 
+
+00:04:38.800 --> 00:04:40.350 align:start position:0%
+And at the end of the process, of
+course,<00:04:39.080><c> the</c><00:04:39.200><c> actual</c><00:04:39.560><c> value</c><00:04:39.880><c> given</c><00:04:40.160><c> to</c><00:04:40.320><c> a</c>
+
+00:04:40.350 --> 00:04:40.360 align:start position:0%
+course, the actual value given to a
+ 
+
+00:04:40.360 --> 00:04:42.990 align:start position:0%
+course, the actual value given to a
+signal<00:04:40.800><c> is</c><00:04:41.000><c> the</c><00:04:41.080><c> last</c><00:04:41.360><c> assignment.</c><00:04:42.520><c> So,</c><00:04:42.840><c> if</c>
+
+00:04:42.990 --> 00:04:43.000 align:start position:0%
+signal is the last assignment. So, if
+ 
+
+00:04:43.000 --> 00:04:44.790 align:start position:0%
+signal is the last assignment. So, if
+it's<00:04:43.120><c> not</c><00:04:43.320><c> assigned</c><00:04:43.680><c> one</c><00:04:43.840><c> in</c><00:04:44.000><c> in</c><00:04:44.200><c> the</c>
+
+00:04:44.790 --> 00:04:44.800 align:start position:0%
+it's not assigned one in in the
+ 
+
+00:04:44.800 --> 00:04:46.390 align:start position:0%
+it's not assigned one in in the
+conditional<00:04:45.240><c> statement,</c><00:04:45.680><c> a</c><00:04:45.720><c> case</c><00:04:46.000><c> statement,</c>
+
+00:04:46.390 --> 00:04:46.400 align:start position:0%
+conditional statement, a case statement,
+ 
+
+00:04:46.400 --> 00:04:47.830 align:start position:0%
+conditional statement, a case statement,
+or<00:04:46.480><c> an</c><00:04:46.600><c> if</c><00:04:46.720><c> statement,</c><00:04:47.360><c> it's</c><00:04:47.440><c> going</c><00:04:47.560><c> to</c><00:04:47.640><c> take</c>
+
+00:04:47.830 --> 00:04:47.840 align:start position:0%
+or an if statement, it's going to take
+ 
+
+00:04:47.840 --> 00:04:49.710 align:start position:0%
+or an if statement, it's going to take
+the<00:04:47.919><c> default</c><00:04:48.360><c> value</c><00:04:48.760><c> I</c><00:04:49.080><c> assigned</c><00:04:49.560><c> at</c><00:04:49.640><c> the</c>
+
+00:04:49.710 --> 00:04:49.720 align:start position:0%
+the default value I assigned at the
+ 
+
+00:04:49.720 --> 00:04:51.630 align:start position:0%
+the default value I assigned at the
+beginning.
+
+00:04:51.630 --> 00:04:51.640 align:start position:0%
+beginning.
+ 
+
+00:04:51.640 --> 00:04:54.990 align:start position:0%
+beginning.
+Another<00:04:52.640><c> common</c><00:04:52.919><c> mistake</c><00:04:53.840><c> is</c><00:04:54.520><c> in</c><00:04:54.680><c> doing</c>
+
+00:04:54.990 --> 00:04:55.000 align:start position:0%
+Another common mistake is in doing
+ 
+
+00:04:55.000 --> 00:04:57.270 align:start position:0%
+Another common mistake is in doing
+synthesizable<00:04:55.720><c> designs</c><00:04:56.200><c> is</c>
+
+00:04:57.270 --> 00:04:57.280 align:start position:0%
+synthesizable designs is
+ 
+
+00:04:57.280 --> 00:05:00.150 align:start position:0%
+synthesizable designs is
+quite<00:04:57.520><c> often</c><00:04:57.960><c> students</c><00:04:58.480><c> forget</c><00:04:59.400><c> that</c><00:04:59.680><c> some</c>
+
+00:05:00.150 --> 00:05:00.160 align:start position:0%
+quite often students forget that some
+ 
+
+00:05:00.160 --> 00:05:02.870 align:start position:0%
+quite often students forget that some
+kinds<00:05:00.560><c> of</c><00:05:00.680><c> things</c><00:05:00.919><c> can't</c><00:05:01.160><c> be</c><00:05:01.280><c> done</c><00:05:01.560><c> synthesis.</c>
+
+00:05:02.870 --> 00:05:02.880 align:start position:0%
+kinds of things can't be done synthesis.
+ 
+
+00:05:02.880 --> 00:05:04.550 align:start position:0%
+kinds of things can't be done synthesis.
+So,<00:05:03.000><c> for</c><00:05:03.200><c> example,</c><00:05:03.800><c> you</c><00:05:03.880><c> can't</c><00:05:04.200><c> use</c><00:05:04.440><c> the</c>
+
+00:05:04.550 --> 00:05:04.560 align:start position:0%
+So, for example, you can't use the
+ 
+
+00:05:04.560 --> 00:05:07.190 align:start position:0%
+So, for example, you can't use the
+timing<00:05:05.560><c> things</c><00:05:05.800><c> like</c><00:05:06.040><c> after</c>
+
+00:05:07.190 --> 00:05:07.200 align:start position:0%
+timing things like after
+ 
+
+00:05:07.200 --> 00:05:09.590 align:start position:0%
+timing things like after
+statements.<00:05:08.280><c> Those</c><00:05:08.520><c> kind</c><00:05:08.760><c> of</c><00:05:08.840><c> statements</c><00:05:09.200><c> are</c>
+
+00:05:09.590 --> 00:05:09.600 align:start position:0%
+statements. Those kind of statements are
+ 
+
+00:05:09.600 --> 00:05:11.790 align:start position:0%
+statements. Those kind of statements are
+are<00:05:09.760><c> simulation</c><00:05:10.400><c> only.</c>
+
+00:05:11.790 --> 00:05:11.800 align:start position:0%
+are simulation only.
+ 
+
+00:05:11.800 --> 00:05:14.390 align:start position:0%
+are simulation only.
+You<00:05:12.160><c> can't</c><00:05:12.600><c> do</c><00:05:13.000><c> real</c><00:05:13.280><c> math</c>
+
+00:05:14.390 --> 00:05:14.400 align:start position:0%
+You can't do real math
+ 
+
+00:05:14.400 --> 00:05:17.590 align:start position:0%
+You can't do real math
+in<00:05:15.120><c> your</c><00:05:15.240><c> calculation</c><00:05:15.919><c> using</c><00:05:16.280><c> real</c><00:05:16.480><c> numbers.</c>
+
+00:05:17.590 --> 00:05:17.600 align:start position:0%
+in your calculation using real numbers.
+ 
+
+00:05:17.600 --> 00:05:19.270 align:start position:0%
+in your calculation using real numbers.
+If<00:05:17.960><c> you</c><00:05:18.080><c> want</c><00:05:18.240><c> to</c><00:05:18.360><c> use</c><00:05:18.600><c> real</c><00:05:18.800><c> numbers</c><00:05:19.080><c> in</c><00:05:19.160><c> your</c>
+
+00:05:19.270 --> 00:05:19.280 align:start position:0%
+If you want to use real numbers in your
+ 
+
+00:05:19.280 --> 00:05:21.150 align:start position:0%
+If you want to use real numbers in your
+hardware<00:05:19.640><c> design,</c><00:05:20.000><c> there</c><00:05:20.120><c> is</c><00:05:20.240><c> an</c><00:05:20.360><c> IEEE</c>
+
+00:05:21.150 --> 00:05:21.160 align:start position:0%
+hardware design, there is an IEEE
+ 
+
+00:05:21.160 --> 00:05:23.430 align:start position:0%
+hardware design, there is an IEEE
+library<00:05:21.760><c> and</c><00:05:21.880><c> an</c><00:05:22.000><c> IEEE</c><00:05:22.480><c> type</c><00:05:23.000><c> and</c><00:05:23.120><c> then</c><00:05:23.280><c> you're</c>
+
+00:05:23.430 --> 00:05:23.440 align:start position:0%
+library and an IEEE type and then you're
+ 
+
+00:05:23.440 --> 00:05:24.950 align:start position:0%
+library and an IEEE type and then you're
+actually<00:05:23.720><c> designing</c><00:05:24.160><c> it</c><00:05:24.240><c> in</c><00:05:24.360><c> hardware,</c><00:05:24.800><c> but</c>
+
+00:05:24.950 --> 00:05:24.960 align:start position:0%
+actually designing it in hardware, but
+ 
+
+00:05:24.960 --> 00:05:26.550 align:start position:0%
+actually designing it in hardware, but
+you<00:05:25.040><c> can't</c><00:05:25.280><c> use</c><00:05:25.440><c> the</c><00:05:25.560><c> real</c><00:05:25.760><c> math</c><00:05:26.040><c> functions</c><00:05:26.480><c> in</c>
+
+00:05:26.550 --> 00:05:26.560 align:start position:0%
+you can't use the real math functions in
+ 
+
+00:05:26.560 --> 00:05:28.070 align:start position:0%
+you can't use the real math functions in
+VHDL.
+
+00:05:28.070 --> 00:05:28.080 align:start position:0%
+VHDL.
+ 
+
+00:05:28.080 --> 00:05:30.350 align:start position:0%
+VHDL.
+You<00:05:28.320><c> can't</c><00:05:28.600><c> also</c><00:05:28.960><c> use</c><00:05:29.240><c> recursion</c><00:05:30.200><c> and</c>
+
+00:05:30.350 --> 00:05:30.360 align:start position:0%
+You can't also use recursion and
+ 
+
+00:05:30.360 --> 00:05:32.150 align:start position:0%
+You can't also use recursion and
+recursive<00:05:30.840><c> procedures.</c>
+
+00:05:32.150 --> 00:05:32.160 align:start position:0%
+recursive procedures.
+ 
+
+00:05:32.160 --> 00:05:33.830 align:start position:0%
+recursive procedures.
+And
+
+00:05:33.830 --> 00:05:33.840 align:start position:0%
+And
+ 
+
+00:05:33.840 --> 00:05:36.310 align:start position:0%
+And
+And<00:05:34.040><c> finally,</c><00:05:34.440><c> you</c><00:05:34.600><c> can't</c><00:05:34.960><c> use</c><00:05:35.280><c> file</c><00:05:35.680><c> IO</c><00:05:36.120><c> in</c>
+
+00:05:36.310 --> 00:05:36.320 align:start position:0%
+And finally, you can't use file IO in
+ 
+
+00:05:36.320 --> 00:05:38.830 align:start position:0%
+And finally, you can't use file IO in
+the<00:05:36.440><c> synthesized</c><00:05:37.080><c> design.</c><00:05:37.919><c> Now,</c><00:05:38.080><c> you</c><00:05:38.240><c> can</c><00:05:38.600><c> use</c>
+
+00:05:38.830 --> 00:05:38.840 align:start position:0%
+the synthesized design. Now, you can use
+ 
+
+00:05:38.840 --> 00:05:41.030 align:start position:0%
+the synthesized design. Now, you can use
+it<00:05:39.000><c> just</c><00:05:39.240><c> just</c><00:05:39.800><c> the</c><00:05:40.000><c> caveat</c><00:05:40.520><c> to</c><00:05:40.640><c> that,</c><00:05:40.919><c> you</c>
+
+00:05:41.030 --> 00:05:41.040 align:start position:0%
+it just just the caveat to that, you
+ 
+
+00:05:41.040 --> 00:05:43.150 align:start position:0%
+it just just the caveat to that, you
+could<00:05:41.320><c> use</c><00:05:41.520><c> it</c><00:05:41.680><c> for</c><00:05:41.840><c> example</c><00:05:42.320><c> to</c><00:05:42.480><c> initialize</c><00:05:43.120><c> a</c>
+
+00:05:43.150 --> 00:05:43.160 align:start position:0%
+could use it for example to initialize a
+ 
+
+00:05:43.160 --> 00:05:45.230 align:start position:0%
+could use it for example to initialize a
+value<00:05:43.520><c> that's</c><00:05:43.720><c> used</c><00:05:44.000><c> in</c><00:05:44.080><c> the</c><00:05:44.160><c> hardware.</c><00:05:45.160><c> An</c>
+
+00:05:45.230 --> 00:05:45.240 align:start position:0%
+value that's used in the hardware. An
+ 
+
+00:05:45.240 --> 00:05:49.270 align:start position:0%
+value that's used in the hardware. An
+example<00:05:45.720><c> might</c><00:05:46.040><c> be</c><00:05:46.800><c> for</c><00:05:47.440><c> that</c><00:05:47.720><c> you</c><00:05:47.880><c> have</c><00:05:49.000><c> let's</c>
+
+00:05:49.270 --> 00:05:49.280 align:start position:0%
+example might be for that you have let's
+ 
+
+00:05:49.280 --> 00:05:51.550 align:start position:0%
+example might be for that you have let's
+say<00:05:49.440><c> a</c><00:05:49.520><c> program</c><00:05:50.240><c> and</c><00:05:50.400><c> it's</c><00:05:50.520><c> a</c><00:05:50.600><c> bit</c><00:05:50.840><c> file.</c><00:05:51.360><c> It's</c>
+
+00:05:51.550 --> 00:05:51.560 align:start position:0%
+say a program and it's a bit file. It's
+ 
+
+00:05:51.560 --> 00:05:53.190 align:start position:0%
+say a program and it's a bit file. It's
+a<00:05:51.600><c> set</c><00:05:51.840><c> of</c><00:05:51.920><c> bits</c><00:05:52.240><c> that</c><00:05:52.400><c> you</c><00:05:52.480><c> want</c><00:05:52.640><c> to</c><00:05:52.680><c> load</c><00:05:52.880><c> into</c>
+
+00:05:53.190 --> 00:05:53.200 align:start position:0%
+a set of bits that you want to load into
+ 
+
+00:05:53.200 --> 00:05:55.550 align:start position:0%
+a set of bits that you want to load into
+RAM<00:05:53.560><c> in</c><00:05:53.680><c> your</c><00:05:53.800><c> final</c><00:05:54.120><c> design.</c><00:05:55.160><c> You</c><00:05:55.280><c> can</c>
+
+00:05:55.550 --> 00:05:55.560 align:start position:0%
+RAM in your final design. You can
+ 
+
+00:05:55.560 --> 00:05:57.710 align:start position:0%
+RAM in your final design. You can
+actually<00:05:56.560><c> set</c><00:05:56.800><c> it</c><00:05:56.960><c> up</c><00:05:57.120><c> that</c><00:05:57.280><c> that</c><00:05:57.440><c> will</c><00:05:57.560><c> be</c>
+
+00:05:57.710 --> 00:05:57.720 align:start position:0%
+actually set it up that that will be
+ 
+
+00:05:57.720 --> 00:06:01.830 align:start position:0%
+actually set it up that that will be
+read<00:05:58.600><c> and</c><00:05:58.920><c> used</c><00:05:59.200><c> to</c><00:05:59.320><c> initialize</c><00:06:00.800><c> let's</c><00:06:01.080><c> say</c><00:06:01.760><c> a</c>
+
+00:06:01.830 --> 00:06:01.840 align:start position:0%
+read and used to initialize let's say a
+ 
+
+00:06:01.840 --> 00:06:05.070 align:start position:0%
+read and used to initialize let's say a
+vector<00:06:02.440><c> of</c><00:06:03.360><c> bytes</c><00:06:03.720><c> and</c><00:06:03.880><c> words.</c>
+
+00:06:05.070 --> 00:06:05.080 align:start position:0%
+vector of bytes and words.
+ 
+
+00:06:05.080 --> 00:06:07.350 align:start position:0%
+vector of bytes and words.
+And<00:06:05.320><c> so</c><00:06:05.400><c> you</c><00:06:05.480><c> can</c><00:06:05.640><c> use</c><00:06:06.120><c> file</c><00:06:06.440><c> IO</c><00:06:06.680><c> to</c><00:06:06.840><c> do</c><00:06:07.040><c> that.</c>
+
+00:06:07.350 --> 00:06:07.360 align:start position:0%
+And so you can use file IO to do that.
+ 
+
+00:06:07.360 --> 00:06:08.910 align:start position:0%
+And so you can use file IO to do that.
+What<00:06:07.520><c> you</c><00:06:07.640><c> can't</c><00:06:07.920><c> have</c><00:06:08.200><c> is</c><00:06:08.320><c> your</c><00:06:08.440><c> hardware</c>
+
+00:06:08.910 --> 00:06:08.920 align:start position:0%
+What you can't have is your hardware
+ 
+
+00:06:08.920 --> 00:06:11.270 align:start position:0%
+What you can't have is your hardware
+trying<00:06:09.200><c> to</c><00:06:09.320><c> read</c><00:06:09.440><c> a</c><00:06:09.520><c> file.</c>
+
+00:06:11.270 --> 00:06:11.280 align:start position:0%
+trying to read a file.
+ 
+
+00:06:11.280 --> 00:06:13.030 align:start position:0%
+trying to read a file.
+And<00:06:11.720><c> the</c><00:06:11.840><c> other</c><00:06:12.080><c> thing</c><00:06:12.320><c> is</c>
+
+00:06:13.030 --> 00:06:13.040 align:start position:0%
+And the other thing is
+ 
+
+00:06:13.040 --> 00:06:15.030 align:start position:0%
+And the other thing is
+common<00:06:13.320><c> mistake</c><00:06:13.760><c> is</c><00:06:14.000><c> using</c><00:06:14.360><c> standard</c><00:06:14.720><c> logic</c>
+
+00:06:15.030 --> 00:06:15.040 align:start position:0%
+common mistake is using standard logic
+ 
+
+00:06:15.040 --> 00:06:17.270 align:start position:0%
+common mistake is using standard logic
+vector<00:06:15.640><c> with</c><00:06:15.840><c> arithmetic</c><00:06:16.560><c> without</c><00:06:16.920><c> using</c><00:06:17.200><c> the</c>
+
+00:06:17.270 --> 00:06:17.280 align:start position:0%
+vector with arithmetic without using the
+ 
+
+00:06:17.280 --> 00:06:19.390 align:start position:0%
+vector with arithmetic without using the
+numeric<00:06:17.720><c> standard</c><00:06:18.160><c> and</c><00:06:18.240><c> using</c><00:06:18.840><c> signed</c><00:06:19.280><c> and</c>
+
+00:06:19.390 --> 00:06:19.400 align:start position:0%
+numeric standard and using signed and
+ 
+
+00:06:19.400 --> 00:06:22.190 align:start position:0%
+numeric standard and using signed and
+unsigned.<00:06:20.280><c> So</c><00:06:20.440><c> again,</c><00:06:21.440><c> you</c><00:06:21.520><c> know,</c><00:06:21.640><c> do</c><00:06:21.840><c> use</c><00:06:22.120><c> the</c>
+
+00:06:22.190 --> 00:06:22.200 align:start position:0%
+unsigned. So again, you know, do use the
+ 
+
+00:06:22.200 --> 00:06:24.590 align:start position:0%
+unsigned. So again, you know, do use the
+appropriate<00:06:22.720><c> types,</c><00:06:23.080><c> the</c><00:06:23.200><c> numeric</c><00:06:23.640><c> types.</c><00:06:24.520><c> I</c>
+
+00:06:24.590 --> 00:06:24.600 align:start position:0%
+appropriate types, the numeric types. I
+ 
+
+00:06:24.600 --> 00:06:27.350 align:start position:0%
+appropriate types, the numeric types. I
+should<00:06:24.800><c> also</c><00:06:25.120><c> say</c><00:06:25.400><c> that</c><00:06:25.760><c> you</c><00:06:25.880><c> should</c><00:06:26.160><c> always</c>
+
+00:06:27.350 --> 00:06:27.360 align:start position:0%
+should also say that you should always
+ 
+
+00:06:27.360 --> 00:06:29.630 align:start position:0%
+should also say that you should always
+in<00:06:27.600><c> in</c><00:06:27.960><c> use</c><00:06:28.320><c> standard</c><00:06:28.680><c> logic</c><00:06:29.040><c> vector</c><00:06:29.520><c> and</c>
+
+00:06:29.630 --> 00:06:29.640 align:start position:0%
+in in use standard logic vector and
+ 
+
+00:06:29.640 --> 00:06:31.510 align:start position:0%
+in in use standard logic vector and
+standard<00:06:30.160><c> logic</c><00:06:30.440><c> and</c><00:06:30.560><c> standard</c><00:06:30.880><c> logic</c><00:06:31.200><c> vector</c>
+
+00:06:31.510 --> 00:06:31.520 align:start position:0%
+standard logic and standard logic vector
+ 
+
+00:06:31.520 --> 00:06:33.190 align:start position:0%
+standard logic and standard logic vector
+in<00:06:31.640><c> hardware</c><00:06:32.000><c> designs</c>
+
+00:06:33.190 --> 00:06:33.200 align:start position:0%
+in hardware designs
+ 
+
+00:06:33.200 --> 00:06:35.670 align:start position:0%
+in hardware designs
+as<00:06:33.680><c> those</c><00:06:33.919><c> types</c><00:06:34.440><c> rather</c><00:06:34.720><c> than</c><00:06:35.040><c> say</c><00:06:35.280><c> bit</c>
+
+00:06:35.670 --> 00:06:35.680 align:start position:0%
+as those types rather than say bit
+ 
+
+00:06:35.680 --> 00:06:38.270 align:start position:0%
+as those types rather than say bit
+types,<00:06:36.240><c> the</c><00:06:36.360><c> inbuilt</c><00:06:36.720><c> types</c><00:06:37.000><c> in</c><00:06:37.080><c> VHDL,</c><00:06:38.120><c> as</c>
+
+00:06:38.270 --> 00:06:38.280 align:start position:0%
+types, the inbuilt types in VHDL, as
+ 
+
+00:06:38.280 --> 00:06:39.390 align:start position:0%
+types, the inbuilt types in VHDL, as
+these
+
+00:06:39.390 --> 00:06:39.400 align:start position:0%
+these
+ 
+
+00:06:39.400 --> 00:06:41.670 align:start position:0%
+these
+map<00:06:39.840><c> more</c><00:06:40.040><c> closely</c><00:06:40.600><c> to</c><00:06:40.760><c> hard</c><00:06:41.040><c> how</c><00:06:41.240><c> hardware</c>
+
+00:06:41.670 --> 00:06:41.680 align:start position:0%
+map more closely to hard how hardware
+ 
+
+00:06:41.680 --> 00:06:44.390 align:start position:0%
+map more closely to hard how hardware
+works<00:06:42.640><c> and</c><00:06:42.760><c> will</c><00:06:42.880><c> behave</c><00:06:43.560><c> more</c><00:06:43.760><c> appropriately</c>
+
+00:06:44.390 --> 00:06:44.400 align:start position:0%
+works and will behave more appropriately
+ 
+
+00:06:44.400 --> 00:06:46.270 align:start position:0%
+works and will behave more appropriately
+for<00:06:44.560><c> hardware</c><00:06:44.960><c> designs.</c>
+
+00:06:46.270 --> 00:06:46.280 align:start position:0%
+for hardware designs.
+ 
+
+00:06:46.280 --> 00:06:47.909 align:start position:0%
+for hardware designs.
+So<00:06:46.400><c> that</c><00:06:46.520><c> was</c><00:06:46.640><c> just</c><00:06:46.840><c> a</c><00:06:46.880><c> list</c><00:06:47.120><c> of</c><00:06:47.240><c> very</c><00:06:47.520><c> common</c>
+
+00:06:47.909 --> 00:06:47.919 align:start position:0%
+So that was just a list of very common
+ 
+
+00:06:47.919 --> 00:06:51.590 align:start position:0%
+So that was just a list of very common
+mistakes<00:06:48.480><c> that</c><00:06:48.640><c> I</c><00:06:48.680><c> wanted</c><00:06:49.040><c> to</c><00:06:49.120><c> give.</c>
+
+00:06:51.590 --> 00:06:51.600 align:start position:0%
+ 
+ 
+
+00:06:51.600 --> 00:06:53.670 align:start position:0%
+ 
+These<00:06:51.880><c> videos</c><00:06:52.360><c> are</c><00:06:52.480><c> supported</c><00:06:53.000><c> by</c><00:06:53.200><c> Arden</c><00:06:53.520><c> Oak</c>
+
+00:06:53.670 --> 00:06:53.680 align:start position:0%
+These videos are supported by Arden Oak
+ 
+
+00:06:53.680 --> 00:06:55.909 align:start position:0%
+These videos are supported by Arden Oak
+Consulting<00:06:54.200><c> Limited,</c><00:06:55.080><c> a</c><00:06:55.200><c> UK-based</c>
+
+00:06:55.909 --> 00:06:55.919 align:start position:0%
+Consulting Limited, a UK-based
+ 
+
+00:06:55.919 --> 00:06:57.030 align:start position:0%
+Consulting Limited, a UK-based
+management<00:06:56.280><c> training</c><00:06:56.600><c> and</c><00:06:56.720><c> business</c>
+
+00:06:57.030 --> 00:06:57.040 align:start position:0%
+management training and business
+ 
+
+00:06:57.040 --> 00:06:58.670 align:start position:0%
+management training and business
+coaching<00:06:57.480><c> firm.</c>
+
+00:06:58.670 --> 00:06:58.680 align:start position:0%
+coaching firm.
+ 
+
+00:06:58.680 --> 00:07:00.350 align:start position:0%
+coaching firm.
+It<00:06:58.800><c> provides</c><00:06:59.200><c> specialist</c><00:06:59.680><c> communication</c><00:07:00.240><c> and</c>
+
+00:07:00.350 --> 00:07:00.360 align:start position:0%
+It provides specialist communication and
+ 
+
+00:07:00.360 --> 00:07:01.470 align:start position:0%
+It provides specialist communication and
+management<00:07:00.720><c> skills</c><00:07:00.960><c> training</c><00:07:01.280><c> for</c><00:07:01.400><c> the</c>
+
+00:07:01.470 --> 00:07:01.480 align:start position:0%
+management skills training for the
+ 
+
+00:07:01.480 --> 00:07:05.600 align:start position:0%
+management skills training for the
+manufacturing<00:07:02.200><c> and</c><00:07:02.440><c> engineering</c><00:07:02.919><c> sectors.</c>
+
