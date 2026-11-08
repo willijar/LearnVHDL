@@ -1,66 +1,144 @@
-# Introduction to VHDL Design and Synthesis
+<!-- LTeX: language=en-US -->
 
-This repository provides the starting template for students
-to complete the practical exercises for
-an Introduction to VHDL Design and Synthesis course.
+# Learn VHDL and FPGA Design: a free course with videos, exercises and an AI tutor
 
-The primary aim of the practical exercises is to enable you to
-design and implement digital circuits using VHDL.
+A free, hands-on introduction to **synchronous digital design using VHDL** and the **FPGA design flow**, built around
+the Digilent Basys 3 (AMD Artix-7) board and AMD Vivado.
 
-You will do this by implementing and testing separate components as
-you go along and then combining them at the end to produce a finished
-complete working system. As you go through the individual exercises
-the amount of additional hints and support provided here decreases, and
-you will be expected to be able to find things out for yourself.
+The course has three parts that work together:
 
-As part of this process your will gain familiarity with:
+* **Video lectures** on YouTube: [watch the playlist](PLAYLIST_URL)
+* **A practical workbook**, [VHDL-Introduction-Exercises.pdf](VHDL-Introduction-Exercises.pdf), with exercises that
+  start from a single logic gate and build up to a complete stopwatch on the FPGA
+* **This repository**, which holds the exercise templates, testbenches, constraints files and build scripts, plus an
+  optional Socratic AI tutor that helps you learn without writing your code for you
 
-* using a text editor (Visual Studio Code) to edit and save your source files;
-* the VHDL tool chain;
-* writing a simple test-bench and using test benches and simulations to test your digital
-  designs;
-* using synthesis tools to generate bit files to program an FPGA.
+It is written by Dr John A.R. Williams, who has taught electronic engineering in higher education for more than 30
+years.
 
-The exercises require that you have installed [AMD Vivado Design Suite](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html)
-and [Microsoft Visual Studio Code](https://code.visualstudio.com/download) and that you are
-using the [Basys3 Artix-7 FPGA Board](https://www.digikey.co.uk/en/product-highlight/d/digilent/basys3-artix-7-fpga-board).
-Other boards using an AMD FPGA and with equivalent features can be used however you will need to modify the constraints (xdc) files to map the device pins to the VHDL signals, and change the part number specified in the file "Taskfile.yml".
+## Who this course is for
 
-You may use a recent Windows or Linux system supported by the Vivado design suite.
+The course is for undergraduate students and independent learners who already know some basic digital electronics
+but are new to hardware description languages. You should already be familiar with:
 
-The advantages of using the Linux command line interface compared to using an integrated
-development environment (IDE) which you may previously have used for
-software development are:
+* logic gates (AND, OR, NOT, XOR), truth tables and Boolean algebra;
+* clocks, flip-flops and registers;
+* using a text editor and a terminal.
 
-* the command line tools are ubiquitous and widely used;
-* the tools are generally more mature - tried, tested and proven;
-* it is faster and more robust;
-* you can use many of the same tools across different types of
-  projects - you don't have to learn a different set of editor
-  commands for every programming environment;
-* it is easier to automate many tasks;
-* it is therefore more efficient for larger complex systems.
+You do not need any previous experience of VHDL.
 
-Many of these skills are transferable to writing software code and so this
-practical should be considered as general training to developing
-software as well as hardware.
+## What you will learn
 
-Both a Taskfile and a more traditional Makefile (Linux only) are provided to automate the analyzing, testing and synthesis of your designs and to hide many of the complex details of the Vivado tool-chain can be hidden allowing a focus on VHDL design in this course.
+By the end of the course you should be able to:
 
-The more modern Taskfile provides better integration with VS Code via the Task extension which provides a list of the key tasks in the Explorer window,
-and supports both Linux and Windows consistently and is now preferred, however Make is potentially more powerful and flexible.
+* read and write simple synthesizable VHDL;
+* design and test combinational and sequential circuits;
+* describe synchronous behaviour using a state-machine approach;
+* write testbenches and use simulation to check a design;
+* synthesize a design and run it on an FPGA.
 
-While the Vivado GUI IDE supports more advanced features such as live
-debugging, and optimizing and visualizing timing and power handling
-these are not needed in this introductory course. The proprietary Vivado
-GUI is not designed for beginners and is very complex to learn to use.
+You build and test each component separately (an AND gate, a full adder, a clock prescaler, a debouncer, counters,
+a seven-segment display driver, a timer and a state machine) and then combine them into a working stopwatch on the
+Basys 3 board. The hints in the workbook become fewer as you go, so that by the end you are finding things out for
+yourself.
 
-I recommend committing and pushing your work onto GitHub
-regularly, at least at the end of every practical session but also
-every time you have completed one of the tasks.
+## The video lectures
 
-To do this:
+The lectures are designed to be watched alongside the workbook. Topics include:
 
-* Go to the "Source Control" panel in Visual Studio Code.
-* Select the changed files you want to push from the changes list
-      (I suggest selecting all) and the "Commit and Sync" Option.
+**Getting started**
+
+* Introduction to Digital Design Using VHDL
+* The Need for Hardware Description Languages
+* Combinational Logic: Principles, Minimisation, and Implementation
+* VHDL Fundamentals: From Signals to Synthesizable Hardware
+* Setting up VS Code, Vivado and the Basys 3 Development Board for VHDL Practical Exercises
+* Exercises Part 1: Introduction to VHDL Simulation and Synthesis
+* Using AI for Feedback While Studying VHDL Design
+
+**VHDL modelling and simulation**
+
+* Process Modelling in VHDL: Describing Behaviour
+* Structural Modelling in VHDL: Building Systems from Connected Components
+* Stopwatch Case Study: From VHDL Design to FPGA Implementation
+* Inside the FPGA: Architecture, Logic Resources, and Design Principles
+* Simulating Digital Hardware: Events, Timing, and Verification
+* VHDL for Simulation: Testbenches, Timing, and Automated Verification
+* IEEE Numeric Types: Signed, Unsigned, and Conversion
+* Reusable VHDL Designs with Generics and Attributes
+
+**Sequential logic and state machines**
+
+* Sequential Logic: States, Feedback, and Timing Hazards
+* Introduction to Synchronous Sequential Logic
+* SoC and FPGA Workflow
+* Moore Models: Specification and Sequential System Design
+* Implementing Moore Machines with Sequential Logic Systems
+* Mealy Models: Responsive Sequential-System Design
+* Finite State Machines and Algorithmic State Machine Design
+* Implementation of a Sequential State Machine in VHDL
+* Timing Analysis of Finite State Machines
+* Common VHDL Mistakes and Design Pitfalls
+
+## What you need
+
+* [AMD Vivado Design Suite](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html)
+* [Microsoft Visual Studio Code](https://code.visualstudio.com/download)
+* [Task](https://taskfile.dev), which runs the build scripts
+* A [Basys 3 Artix-7 FPGA board](https://www.digikey.co.uk/en/product-highlight/d/digilent/basys3-artix-7-fpga-board)
+* A recent Windows or Linux system supported by Vivado
+
+Other boards with an AMD FPGA and similar features will work. You will need to change the pin mappings in the
+constraints (`.xdc`) files and the part number in `Taskfile.yml`.
+
+## Getting started
+
+1. Clone this repository to get your own working copy, for example with "Clone Git Repository" in Visual Studio Code.
+2. Open the top folder of the repository in Visual Studio Code.
+3. Set up your tools by following section 1.5 of the [workbook](VHDL-Introduction-Exercises.pdf) and the setup video.
+4. Work through the exercises in the workbook in order.
+
+Common commands, run from the repository folder:
+
+| Command | What it does |
+| --- | --- |
+| `task counter_testbench` | Simulate a testbench and open the waveform viewer |
+| `task VHDL:analyze:counter.vhd` | Check the syntax of one file |
+| `task stopwatch.bit` | Synthesize a design into a bitstream |
+| `task program_stopwatch` | Program the Basys 3 board |
+| `task VHDL:clean-all` | Remove generated files |
+
+The Taskfile hides most of the detail of the Vivado tool chain, so that you can concentrate on VHDL design. It
+integrates with VS Code through the Task extension, and works the same way on Windows and Linux. A traditional
+`Makefile` is also provided for Linux users.
+
+You do not need the Vivado GUI for this course. It supports advanced features such as live debugging and timing and
+power analysis, but those are beyond an introductory course, and the GUI is complex for beginners. Working with the
+command line tools also builds skills that carry over to software development: the tools are widely used, mature,
+fast, easy to automate, and the same across many kinds of project.
+
+## The AI tutor (optional)
+
+This repository includes a Socratic VHDL tutor that runs in [Claude Code](https://code.claude.com/docs/en/vs-code)
+inside Visual Studio Code. It is set up to help you learn rather than do the work for you. It knows the exercises,
+the coding rules and the build commands. It can look at your files and run the simulator, then asks you questions
+and gives hints in stages, but it will not write your solution. It can also point you to the part of a video that
+explains an idea you are stuck on.
+
+The tutor needs a paid Claude plan or a Claude Console account with API credit. None of the exercises depend on it.
+Section 1.8 of the workbook explains how to set it up and use it. Like any AI, it can be wrong, so check what it
+tells you against the workbook, the simulator and your own reasoning.
+
+## Saving your work
+
+Commit and push your work to GitHub regularly, at least at the end of every practical session and each time you
+finish an exercise. In Visual Studio Code:
+
+* Go to the "Source Control" panel.
+* Select the changed files you want to push (I suggest selecting all) and choose "Commit and Sync".
+
+## Licence
+
+The code in this repository is licensed under the GNU General Public License, version 3 or later (see
+[LICENCE.md](LICENCE.md)). The workbook is licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
