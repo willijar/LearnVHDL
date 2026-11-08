@@ -52,7 +52,7 @@ The lectures are designed to be watched alongside the workbook. Topics include:
 * The Need for Hardware Description Languages
 * Combinational Logic: Principles, Minimisation, and Implementation
 * VHDL Fundamentals: From Signals to Synthesizable Hardware
-* Setting up VS Code, Vivado and the Basys 3 Development Board
+* Setting up VS Code, Vivado and the Basys 3 Development Board for VHDL Practical Exercises
 * Exercises Part 1: Introduction to VHDL Simulation and Synthesis
 * Using AI for Feedback While Studying VHDL Design
 
@@ -95,7 +95,7 @@ constraints (`.xdc`) files and the part number in `Taskfile.yml`.
 
 1. Clone this repository to get your own working copy, for example with "Clone Git Repository" in Visual Studio Code.
 2. Open the top folder of the repository in Visual Studio Code.
-3. Follow section 1.5 of the [workbook](VHDL-Introduction-Exercises.pdf) and the setup video to check your tools.
+3. Set up your tools by following section 1.5 of the [workbook](VHDL-Introduction-Exercises.pdf) and the setup video.
 4. Work through the exercises in the workbook in order.
 
 Common commands, run from the repository folder:
