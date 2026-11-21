@@ -7,7 +7,7 @@ the Digilent Basys 3 (AMD Artix-7) board and AMD Vivado.
 
 The course has three parts that work together:
 
-* **Video lectures** on YouTube: [watch the playlist](PLAYLIST_URL)
+* **Video lectures** on YouTube: [watch the playlist](https://www.youtube.com/playlist?list=PLf6PA61YyUO8)
 * **A practical workbook**, [VHDL-Introduction-Exercises.pdf](VHDL-Introduction-Exercises.pdf), with exercises that
   start from a single logic gate and build up to a complete stopwatch on the FPGA
 * **This repository**, which holds the exercise templates, testbenches, constraints files and build scripts, plus an
