@@ -139,6 +139,13 @@ finish an exercise. In Visual Studio Code:
 
 ## Licence
 
-The code in this repository is licensed under the GNU General Public License, version 3 or later (see
-[LICENCE.md](LICENCE.md)). The workbook is licensed under the
+Copyright &copy; 2020 Dr John A.R. Williams.
+
+The code in this repository is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version. It is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See [LICENSE](LICENSE) for the full
+text of the GNU General Public License.
+
+The workbook is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
