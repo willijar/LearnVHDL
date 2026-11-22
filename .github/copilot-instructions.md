@@ -35,15 +35,15 @@
 - Wherever possible use active high signals
 - Avoid magic numbers; use named constants instead
 - A signal should be assigned in only one process or one concurrent assignment
-- For unclocked processes, never assign to a signal more than once.
-- For clocked processes, never assign a signal outside of the reset or clock edge statements.
+- For unclocked processes, assign every output on every path, for example by assigning a default value at the start of the process.
+- For clocked processes, only assign signals inside the clock edge branch, or in the reset branch if the reset is asynchronous.
 - In a synchronous design, only one clock and one edge of the clock should be used.
 - Three processes are recommended for a finite state machine: next-state decoding, output decoding and registering state bits and outputs.
 - Always explicitly define behaviour for all states and outputs in a finite state machine. 
 - Try to create exclusive conditional cases, rather than overlapping ones. 
 - Always make explicit all cases (with else or when others conditions).
 - Use rising_edge() and falling_edge() functions for clock edge detection
-- Wherever possible use synchronous resets
+- Wherever possible use synchronous resets. The exception is the counter exercise, which requires an asynchronous reset for teaching purposes.
 
 ## Documentation
 - Provide clear and concise documentation for all modules, functions, and classes
