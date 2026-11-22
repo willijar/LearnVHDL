@@ -119,6 +119,8 @@ fast, easy to automate, and the same across many kinds of project.
 
 ## The AI tutor (optional)
 
+<img width="1106" height="766" alt="Screenshot 2026-11-22 074037" src="https://github.com/user-attachments/assets/7294b534-c986-46ec-9f1c-ca7f315a6e56" />
+
 This repository includes a Socratic VHDL tutor that runs in [Claude Code](https://code.claude.com/docs/en/vs-code)
 inside Visual Studio Code. It is set up to help you learn rather than do the work for you. It knows the exercises,
 the coding rules and the build commands. It can look at your files and run the simulator, then asks you questions
