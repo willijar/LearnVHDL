@@ -1,5 +1,5 @@
 -- testbench for soptwatch state machine
--- SPDX-FileCopyrightText: 2017-2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
+-- SPDX-FileCopyrightText: 2026 Dr. John A.R. Williams <j.a.r.williams@jarw.org.uk>
 -- SPDX-License-Identifier: GPL-3.0-or-later
 library ieee;
 use ieee.std_logic_1164.all;

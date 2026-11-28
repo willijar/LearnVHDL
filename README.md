@@ -141,7 +141,7 @@ finish an exercise. In Visual Studio Code:
 
 ## Licence
 
-Copyright &copy; 2020 Dr John A.R. Williams.
+Copyright &copy; 2026 Dr John A.R. Williams.
 
 The code in this repository is free software: you can redistribute it and/or modify it under the terms of the GNU
 General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your
