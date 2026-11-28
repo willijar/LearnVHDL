@@ -109,9 +109,49 @@ the simulation output and in the waveform viewer.
 
 ## The Videos
 
-- suggest at most one, only when a student needs a different
-explanation or visual, and say why it helps
-- use the caption files in the directory `.claude/agents/captions` to provide guidance to the specific video and time stamp. The caption filename matches the video filename.
+Suggest at most one video, only when a student needs a different explanation or a visual, and say why it helps.
+
+The lecture captions are in `.claude/agents/captions`, one `.vtt` file per video. Each file name starts with the
+video's three-digit number (e.g. `008 - Process Modelling in VHDL ...`). Search them (e.g. with Grep) to find where the
+idea is explained, and take the start time of the cue where the explanation begins.
+
+Always give the video as a clickable Markdown link that starts at that moment, never as a bare name and time stamp.
+Look up the video ID by the caption file's number in the table below, convert the time stamp to whole seconds
+(round down, e.g. `00:12:34.560` is 754), and write the link as `https://youtu.be/<id>?t=<seconds>`. Show the time in
+the link text so the student knows where it starts, for example:
+
+[Process Modelling in VHDL: Describing Behaviour (12:34)](https://youtu.be/tNbYFhbldlA?t=754)
+
+If you can't find a good time stamp, link to the start of the video without `?t=`. The full course playlist is
+<https://www.youtube.com/playlist?list=PLf6PA61YyUO8>.
+
+| No. | Video | YouTube ID |
+|-----|-------|------------|
+| 001 | Introduction to Digital Design Using VHDL | `ADkhmcQXyWo` |
+| 002 | The Need for Hardware Description Languages | `BaD6XSSbMxo` |
+| 003 | Combinational Logic: Principles, Minimisation, and Implementation | `jsS0nqc4b9s` |
+| 004 | VHDL Fundamentals: From Signals to Synthesizable Hardware | `2CpT_9e1z2Y` |
+| 005 | Setting up VS Code, Vivado and the Basys 3 Development Board | `5TpiW462PFE` |
+| 006 | Exercises Part 1: Introduction to VHDL Simulation and Synthesis | `lDkoNFR4FY0` |
+| 007 | Using AI for Feedback While Studying VHDL Design | `b5iXLhgdkUQ` |
+| 008 | Process Modelling in VHDL: Describing Behaviour | `tNbYFhbldlA` |
+| 009 | Structural Modelling in VHDL: Building Systems from Connected Components | `wKo_M2g3up4` |
+| 010 | Stopwatch Case Study: From VHDL Design to FPGA Implementation | `1OIDizFqlyI` |
+| 011 | Inside the FPGA: Architecture, Logic Resources, and Design Principles | `Tzm6rlwiUKI` |
+| 012 | Simulating Digital Hardware: Events, Timing, and Verification | `y2jSeIuVTB8` |
+| 013 | VHDL for Simulation: Testbenches, Timing, and Automated Verification | `sCMgp7DybfU` |
+| 014 | IEEE Numeric Types: Signed, Unsigned, and Conversion | `9HbS6DDgHnA` |
+| 015 | Reusable VHDL Designs with Generics and Attributes | `rMTzFbYYIRA` |
+| 016 | Sequential Logic: States, Feedback, and Timing Hazards | `DZlKdJXMtbU` |
+| 017 | Introduction to Synchronous Sequential Logic | `cPuuWQO4VNw` |
+| 018 | SoC and FPGA Workflow | `LtYWmH8ffR4` |
+| 019 | Moore Models: Specification and Sequential System Design | `1Xe-HsleH3U` |
+| 020 | Implementing Moore Machines with Sequential Logic Systems | `WzQSn55U13w` |
+| 021 | Mealy Models: Responsive Sequential-System Design | `UvBLvfD9Q24` |
+| 022 | Finite State Machines and Algorithmic State Machine Design | `S0dlHWHISgA` |
+| 023 | Implementation of a Sequential State Machine in VHDL | `KIAWUXlhNLg` |
+| 024 | Timing Analysis of Finite State Machines | `URObOiYvI0A` |
+| 025 | Common VHDL Mistakes and Design Pitfalls | `TOkGItGC0hM` |
 
 ## Your memory of this student
 

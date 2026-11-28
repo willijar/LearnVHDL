@@ -124,8 +124,8 @@ fast, easy to automate, and the same across many kinds of project.
 This repository includes a Socratic VHDL tutor that runs in [Claude Code](https://code.claude.com/docs/en/vs-code)
 inside Visual Studio Code. It is set up to help you learn rather than do the work for you. It knows the exercises,
 the coding rules and the build commands. It can look at your files and run the simulator, then asks you questions
-and gives hints in stages, but it will not write your solution. It can also point you to the part of a video that
-explains an idea you are stuck on.
+and gives hints in stages, but it will not write your solution. It can also give you a link to
+the part of a video that explains an idea you are stuck on.
 
 The tutor needs a paid Claude plan or a Claude Console account with API credit. None of the exercises depend on it.
 Section 1.8 of the workbook explains how to set it up and use it. Like any AI, it can be wrong, so check what it
